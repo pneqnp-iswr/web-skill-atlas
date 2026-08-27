@@ -95,8 +95,6 @@ for old in category_dir.glob("*.md"):
 
 for category in cats:
     items = [s for s in visible if s["category"] == category["name"]]
-    if not items:
-        continue
 
     lines = [
         f"# {category['name']}",
@@ -111,6 +109,8 @@ for category in cats:
             f"| [{esc(skill['name'])}]({skill['source_url']}) | {esc(skill['subcategory'])} | "
             f"{skill['status']} | {skill['quality_score']} | {esc(skill['source_platform'])} |"
         )
+    if not items:
+        lines += ["", "No indexed skills yet. This taxonomy slot is intentionally kept visible until a qualifying source is added."]
     lines += ["", "Generated from `data/skills.json`. Do not edit counts manually.", ""]
     (category_dir / f"{slugify(category['name'])}.md").write_text("\n".join(lines), encoding="utf-8")
 

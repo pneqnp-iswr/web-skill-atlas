@@ -1,7 +1,10 @@
 # E-commerce
 
-1 indexed skills.
+0 indexed skills. [Back to the atlas](../README.md#categories).
 
-| Skill | Subcategory | Description | Score |
-|---|---|---|---:|
-| [Stripe Docs Skill](https://github.com/stripe/ai/blob/main/providers/claude/plugin/skills/stripe-docs/SKILL.md) | Payments | Use Stripe documentation as a structured agent skill for Stripe integration work. | 89 |
+| Skill | Subcategory | Status | Score | Source |
+|---|---|---|---:|---|
+
+No indexed skills yet. This taxonomy slot is intentionally kept visible until a qualifying source is added.
+
+Generated from `data/skills.json`. Do not edit counts manually.
