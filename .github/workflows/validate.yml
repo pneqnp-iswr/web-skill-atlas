@@ -1,0 +1,21 @@
+name: validate
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-dev.txt
+      - run: python scripts/validate.py
+      - run: python scripts/deduplicate.py
+      - run: python scripts/generate.py
+      - run: git diff --exit-code
+      - name: Basic secret pattern check
+        run: |
+          ! git grep -nE '(sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16})' -- ':!*.yml' ':!*.md'

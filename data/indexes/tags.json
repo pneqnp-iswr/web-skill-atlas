@@ -1,0 +1,132 @@
+{
+  "a11y": [
+    "accessibility-lead"
+  ],
+  "aeo": [
+    "seo-audit"
+  ],
+  "agents": [
+    "anthropic-mcp-builder"
+  ],
+  "anti-slop": [
+    "anthropic-frontend-design",
+    "design-taste-frontend",
+    "non-ai-design-skill-pack"
+  ],
+  "api": [
+    "anthropic-mcp-builder"
+  ],
+  "asvs": [
+    "owasp-security-guidance"
+  ],
+  "chinese": [
+    "design-analysis",
+    "frontend-code-review",
+    "frontend-production-shadcn",
+    "frontend-rules-generator",
+    "react-development-skill",
+    "vue-development-skill"
+  ],
+  "components": [
+    "shadcn-official-skill"
+  ],
+  "dark-mode": [
+    "ui-design-skill"
+  ],
+  "data-grid": [
+    "react-declarative-skill"
+  ],
+  "debugging": [
+    "disciplined-bug-diagnosis"
+  ],
+  "design": [
+    "anthropic-frontend-design"
+  ],
+  "design-quality": [
+    "add-interface-delight",
+    "add-purposeful-ui-motion",
+    "audit-frontend-quality",
+    "clarify-ux-copy",
+    "colorize-monochromatic-ui",
+    "critique-ui",
+    "distill-interface-complexity",
+    "extract-design-system",
+    "fix-spacing-rhythm-and-layout",
+    "harden-frontend-edge-cases",
+    "improve-onboarding-and-empty-states",
+    "improve-typography-hierarchy",
+    "make-bland-ui-bolder",
+    "make-overstimulating-ui-quieter",
+    "polish-ui-before-shipping",
+    "shape-ui-before-coding"
+  ],
+  "design-system": [
+    "shadcn-official-skill"
+  ],
+  "forms": [
+    "react-declarative-skill"
+  ],
+  "frontend": [
+    "anthropic-frontend-design"
+  ],
+  "frontend-design": [
+    "design-taste-frontend"
+  ],
+  "geo": [
+    "seo-audit"
+  ],
+  "impeccable": [
+    "add-interface-delight",
+    "add-purposeful-ui-motion",
+    "audit-frontend-quality",
+    "clarify-ux-copy",
+    "colorize-monochromatic-ui",
+    "critique-ui",
+    "distill-interface-complexity",
+    "extract-design-system",
+    "fix-spacing-rhythm-and-layout",
+    "harden-frontend-edge-cases",
+    "improve-onboarding-and-empty-states",
+    "improve-typography-hierarchy",
+    "make-bland-ui-bolder",
+    "make-overstimulating-ui-quieter",
+    "polish-ui-before-shipping",
+    "shape-ui-before-coding"
+  ],
+  "indexes": [
+    "supabase-postgres-best-practices"
+  ],
+  "korean": [
+    "non-ai-design-skill-pack"
+  ],
+  "mcp": [
+    "anthropic-mcp-builder"
+  ],
+  "postgresql": [
+    "supabase-postgres-best-practices"
+  ],
+  "regression": [
+    "disciplined-bug-diagnosis"
+  ],
+  "responsive": [
+    "ui-design-skill"
+  ],
+  "rls": [
+    "supabase-postgres-best-practices"
+  ],
+  "secure-coding": [
+    "owasp-security-guidance"
+  ],
+  "seo": [
+    "seo-audit"
+  ],
+  "shadcn": [
+    "frontend-production-shadcn"
+  ],
+  "tailwind": [
+    "shadcn-official-skill"
+  ],
+  "web": [
+    "accessibility-lead"
+  ]
+}

@@ -1,0 +1,8 @@
+Web Skill Atlas
+Canonical dataset: data/skills.json
+Taxonomy: data/categories.json
+Sources: data/sources.json
+Methodology: docs/methodology.md
+Scores: docs/quality-scoring.md
+Generated category pages: categories/*.md
+For machine use prefer data/index.min.json or data/skills.json.

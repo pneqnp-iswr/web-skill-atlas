@@ -1,0 +1,1102 @@
+{
+  "a11y": [
+    "semantic-html-accessibility-audit",
+    "keyboard-interaction-audit",
+    "focus-management-review"
+  ],
+  "ab-test-setup": [
+    "a-b-test-setup"
+  ],
+  "access-protected-vercel-deployment": [
+    "access-protected-vercel-deployment"
+  ],
+  "accessibility-testing": [
+    "accessibility-testing"
+  ],
+  "adapt": [
+    "impeccable-adapt"
+  ],
+  "advanced": [
+    "advanced-event-handler-refs",
+    "advanced-init-once",
+    "advanced-use-latest"
+  ],
+  "advanced-types": [
+    "typescript-advanced-types"
+  ],
+  "ai-gateway": [
+    "ai-gateway"
+  ],
+  "ai-sdk": [
+    "ai-sdk"
+  ],
+  "analytics-tracking": [
+    "analytics-tracking"
+  ],
+  "angular": [
+    "angular-best-practices",
+    "angular-component",
+    "angular-context-engineering",
+    "angular-ecosystem-developer",
+    "angular-migration",
+    "angular-signals"
+  ],
+  "angular-best-practices": [
+    "angular-best-practices"
+  ],
+  "angular-component": [
+    "angular-component"
+  ],
+  "angular-context-engineering": [
+    "angular-context-engineering"
+  ],
+  "angular-ecosystem-developer": [
+    "angular-ecosystem-developer"
+  ],
+  "angular-migration": [
+    "angular-migration"
+  ],
+  "angular-signals": [
+    "angular-signals"
+  ],
+  "animate": [
+    "impeccable-animate"
+  ],
+  "app-router-files": [
+    "next-js-app-router-files"
+  ],
+  "async": [
+    "async-api-routes",
+    "async-defer-await",
+    "async-dependencies",
+    "async-parallel",
+    "async-suspense-boundaries"
+  ],
+  "async-patterns": [
+    "next-js-async-patterns"
+  ],
+  "audit": [
+    "impeccable-audit",
+    "website-audit"
+  ],
+  "auth": [
+    "vercel-auth"
+  ],
+  "auth0": [
+    "auth0-next-js",
+    "auth0-react",
+    "auth0-react-router",
+    "auth0-remix",
+    "auth0-astro",
+    "auth0-vue",
+    "auth0-nuxt",
+    "auth0-svelte",
+    "auth0-sveltekit",
+    "auth0-angular",
+    "auth0-javascript"
+  ],
+  "auth0-angular": [
+    "auth0-angular"
+  ],
+  "auth0-astro": [
+    "auth0-astro"
+  ],
+  "auth0-js": [
+    "auth0-javascript"
+  ],
+  "auth0-nextjs": [
+    "auth0-next-js"
+  ],
+  "auth0-nuxt": [
+    "auth0-nuxt"
+  ],
+  "auth0-react": [
+    "auth0-react"
+  ],
+  "auth0-react-router": [
+    "auth0-react-router"
+  ],
+  "auth0-remix": [
+    "auth0-remix"
+  ],
+  "auth0-svelte": [
+    "auth0-svelte"
+  ],
+  "auth0-sveltekit": [
+    "auth0-sveltekit"
+  ],
+  "auth0-vue": [
+    "auth0-vue"
+  ],
+  "authentication": [
+    "clerk-testing",
+    "better-auth-best-practices"
+  ],
+  "automated-testing": [
+    "accessibility-testing"
+  ],
+  "better-auth-best-practices": [
+    "better-auth-best-practices"
+  ],
+  "better-frontend-production": [
+    "better-frontend-production"
+  ],
+  "bolder": [
+    "impeccable-bolder"
+  ],
+  "bootstrap": [
+    "bootstrap"
+  ],
+  "browser": [
+    "anthropic-webapp-testing"
+  ],
+  "browser-automation": [
+    "browser-use"
+  ],
+  "browser-compatibility": [
+    "browser-compatibility"
+  ],
+  "browser-use": [
+    "browser-use"
+  ],
+  "build-agents": [
+    "build-agents"
+  ],
+  "build-tools": [
+    "esbuild",
+    "rolldown",
+    "tsdown",
+    "vite",
+    "webpack"
+  ],
+  "bundle": [
+    "bundle-barrel-imports",
+    "bundle-conditional",
+    "bundle-defer-third-party",
+    "bundle-dynamic-imports",
+    "bundle-preload"
+  ],
+  "bundling": [
+    "next-js-bundling"
+  ],
+  "cdn-caching": [
+    "cdn-caching"
+  ],
+  "chat-sdk": [
+    "chat-sdk"
+  ],
+  "clarify": [
+    "impeccable-clarify"
+  ],
+  "cleanup": [
+    "code-cleanup"
+  ],
+  "clerk": [
+    "clerk-customization",
+    "clerk-next-js-patterns",
+    "clerk-organizations",
+    "clerk-setup"
+  ],
+  "clerk-customization": [
+    "clerk-customization"
+  ],
+  "clerk-nextjs-patterns": [
+    "clerk-next-js-patterns"
+  ],
+  "clerk-orgs": [
+    "clerk-organizations"
+  ],
+  "clerk-setup": [
+    "clerk-setup"
+  ],
+  "clerk-testing": [
+    "clerk-testing"
+  ],
+  "clerk-webhooks": [
+    "clerk-webhooks"
+  ],
+  "client": [
+    "client-event-listeners",
+    "client-localstorage-schema",
+    "client-passive-event-listeners",
+    "client-swr-dedup"
+  ],
+  "code-cleanup": [
+    "code-cleanup"
+  ],
+  "colorize": [
+    "impeccable-colorize"
+  ],
+  "content-strategy": [
+    "content-strategy",
+    "content-strategy"
+  ],
+  "conversion": [
+    "page-cro",
+    "forms-cro",
+    "signup-flow-cro",
+    "popup-cro"
+  ],
+  "convex": [
+    "convex",
+    "convex"
+  ],
+  "copywriting": [
+    "copywriting",
+    "copywriting"
+  ],
+  "create-a-backend": [
+    "create-a-backend"
+  ],
+  "critique": [
+    "impeccable-critique"
+  ],
+  "cross-browser": [
+    "browser-compatibility"
+  ],
+  "cypress": [
+    "cypress",
+    "cypress"
+  ],
+  "data-patterns": [
+    "next-js-data-patterns"
+  ],
+  "database": [
+    "supabase-postgres-best-practices"
+  ],
+  "debug-tricks": [
+    "next-js-debug-tricks"
+  ],
+  "delight": [
+    "impeccable-delight"
+  ],
+  "deployments-cicd": [
+    "deployments-cicd"
+  ],
+  "design": [
+    "anthropic-frontend-design"
+  ],
+  "design-quality": [
+    "impeccable-adapt",
+    "impeccable-animate",
+    "impeccable-audit",
+    "impeccable-bolder",
+    "impeccable-clarify",
+    "impeccable-colorize",
+    "impeccable-critique",
+    "impeccable-delight",
+    "impeccable-distill",
+    "impeccable-extract",
+    "impeccable-frontend-design",
+    "impeccable-normalize",
+    "impeccable-onboard",
+    "impeccable-optimize",
+    "impeccable-polish",
+    "impeccable-quieter",
+    "impeccable-responsive",
+    "impeccable-teach-impeccable",
+    "impeccable-typography",
+    "impeccable"
+  ],
+  "directives": [
+    "next-js-directives"
+  ],
+  "distill": [
+    "impeccable-distill"
+  ],
+  "env-vars": [
+    "env-vars"
+  ],
+  "error-handling": [
+    "next-js-error-handling"
+  ],
+  "esbuild": [
+    "esbuild"
+  ],
+  "experiments": [
+    "a-b-test-setup"
+  ],
+  "extract": [
+    "impeccable-extract"
+  ],
+  "file-conventions": [
+    "next-js-file-conventions"
+  ],
+  "focus": [
+    "focus-management-review"
+  ],
+  "font": [
+    "next-js-font"
+  ],
+  "forms-cro": [
+    "forms-cro"
+  ],
+  "frontend": [
+    "impeccable",
+    "anthropic-frontend-design"
+  ],
+  "frontend-design": [
+    "impeccable-frontend-design"
+  ],
+  "functions": [
+    "next-js-functions"
+  ],
+  "git": [
+    "github-pull-request-hygiene"
+  ],
+  "github": [
+    "github-pull-request-hygiene"
+  ],
+  "growth": [
+    "marketing-ideas"
+  ],
+  "gsap": [
+    "gsap",
+    "gsap"
+  ],
+  "headers": [
+    "web-security-header-review"
+  ],
+  "http": [
+    "rest-api-design-review"
+  ],
+  "hydration-error": [
+    "next-js-hydration-error"
+  ],
+  "i18n": [
+    "internationalization-readiness-audit",
+    "rtl-layout-audit"
+  ],
+  "image": [
+    "next-js-image"
+  ],
+  "impeccable": [
+    "impeccable-adapt",
+    "impeccable-animate",
+    "impeccable-audit",
+    "impeccable-bolder",
+    "impeccable-clarify",
+    "impeccable-colorize",
+    "impeccable-critique",
+    "impeccable-delight",
+    "impeccable-distill",
+    "impeccable-extract",
+    "impeccable-frontend-design",
+    "impeccable-normalize",
+    "impeccable-onboard",
+    "impeccable-optimize",
+    "impeccable-polish",
+    "impeccable-quieter",
+    "impeccable-responsive",
+    "impeccable-teach-impeccable",
+    "impeccable-typography"
+  ],
+  "instrumentation": [
+    "analytics-tracking"
+  ],
+  "javascript-review": [
+    "javascript-code-review"
+  ],
+  "jest": [
+    "jest",
+    "jest"
+  ],
+  "js": [
+    "js-batch-dom-css",
+    "js-cache-function-results",
+    "js-cache-property-access",
+    "js-cache-storage",
+    "js-combine-iterations",
+    "js-early-exit",
+    "js-flatmap-filter",
+    "js-hoist-regexp",
+    "js-index-maps",
+    "js-length-check-first",
+    "js-min-max-loop",
+    "js-set-map-lookups",
+    "js-tosorted-immutable"
+  ],
+  "js-code-review": [
+    "javascript-code-review"
+  ],
+  "keyboard": [
+    "keyboard-interaction-audit"
+  ],
+  "localization": [
+    "internationalization-readiness-audit"
+  ],
+  "manifest": [
+    "pwa-installability-review"
+  ],
+  "marketing-ideas": [
+    "marketing-ideas"
+  ],
+  "marketplace": [
+    "marketplace"
+  ],
+  "metadata": [
+    "next-js-metadata"
+  ],
+  "microfrontends": [
+    "microfrontends"
+  ],
+  "mobile-app-testing-testing": [
+    "mobile-app-testing"
+  ],
+  "mobile-design": [
+    "mobile-design",
+    "mobile-design"
+  ],
+  "mobile-web": [
+    "mobile-app-testing"
+  ],
+  "motion": [
+    "motion",
+    "motion"
+  ],
+  "next-cache-components": [
+    "next-cache-components"
+  ],
+  "next-forge": [
+    "next-forge"
+  ],
+  "next-js": [
+    "next-js-16",
+    "next-js-official-skill"
+  ],
+  "next-upgrade": [
+    "next-upgrade"
+  ],
+  "nextjs": [
+    "nextjs",
+    "next-js-app-router-files",
+    "next-js-async-patterns",
+    "next-js-bundling",
+    "next-js-data-patterns",
+    "next-js-debug-tricks",
+    "next-js-directives",
+    "next-js-error-handling",
+    "next-js-file-conventions",
+    "next-js-font",
+    "next-js-functions",
+    "next-js-hydration-error",
+    "next-js-image",
+    "next-js-metadata",
+    "next-js-parallel-routes",
+    "next-js-route-handlers",
+    "next-js-rsc-boundaries",
+    "next-js-runtime-selection",
+    "next-js-scripts",
+    "next-js-self-hosting",
+    "next-js-suspense-boundaries",
+    "next-js-official-skill"
+  ],
+  "nextjs-16": [
+    "next-js-16"
+  ],
+  "normalize": [
+    "impeccable-normalize"
+  ],
+  "nuxt": [
+    "nuxt-modules",
+    "nuxt-ui",
+    "nuxthub"
+  ],
+  "nuxt-auth": [
+    "nuxt-auth-utils"
+  ],
+  "nuxt-auth-utils": [
+    "nuxt-auth-utils"
+  ],
+  "nuxt-content": [
+    "nuxt-content",
+    "nuxt-content"
+  ],
+  "nuxt-modules": [
+    "nuxt-modules"
+  ],
+  "nuxt-ui": [
+    "nuxt-ui"
+  ],
+  "nuxthub": [
+    "nuxthub"
+  ],
+  "onboard": [
+    "impeccable-onboard"
+  ],
+  "onboarding": [
+    "onboarding-cro"
+  ],
+  "onboarding-cro": [
+    "onboarding-cro"
+  ],
+  "optimize": [
+    "impeccable-optimize"
+  ],
+  "page-cro": [
+    "page-cro"
+  ],
+  "parallel-routes": [
+    "next-js-parallel-routes"
+  ],
+  "performance": [
+    "advanced-event-handler-refs",
+    "advanced-init-once",
+    "advanced-use-latest",
+    "async-api-routes",
+    "async-defer-await",
+    "async-dependencies",
+    "async-parallel",
+    "async-suspense-boundaries",
+    "bundle-barrel-imports",
+    "bundle-conditional",
+    "bundle-defer-third-party",
+    "bundle-dynamic-imports",
+    "bundle-preload",
+    "client-event-listeners",
+    "client-localstorage-schema",
+    "client-passive-event-listeners",
+    "client-swr-dedup",
+    "js-batch-dom-css",
+    "js-cache-function-results",
+    "js-cache-property-access",
+    "js-cache-storage",
+    "js-combine-iterations",
+    "js-early-exit",
+    "js-flatmap-filter",
+    "js-hoist-regexp",
+    "js-index-maps",
+    "js-length-check-first",
+    "js-min-max-loop",
+    "js-set-map-lookups",
+    "js-tosorted-immutable",
+    "rendering-activity",
+    "rendering-animate-svg-wrapper",
+    "rendering-conditional-render",
+    "rendering-content-visibility",
+    "rendering-hoist-jsx",
+    "rendering-hydration-no-flicker",
+    "rendering-hydration-suppress-warning",
+    "rendering-resource-hints",
+    "rendering-script-defer-async",
+    "rendering-svg-precision",
+    "rendering-usetransition-loading",
+    "rerender-defer-reads",
+    "rerender-dependencies",
+    "rerender-derived-state-no-effect",
+    "rerender-derived-state",
+    "rerender-functional-setstate",
+    "rerender-lazy-state-init",
+    "rerender-memo-with-default-value",
+    "rerender-memo",
+    "rerender-move-effect-to-event",
+    "rerender-no-inline-components",
+    "rerender-simple-expression-in-memo",
+    "rerender-split-combined-hooks",
+    "rerender-transitions",
+    "rerender-use-deferred-value",
+    "rerender-use-ref-transient-values",
+    "server-after-nonblocking",
+    "server-auth-actions",
+    "server-cache-lru",
+    "server-cache-react",
+    "server-dedup-props",
+    "server-hoist-static-io",
+    "server-parallel-fetching",
+    "server-serialization"
+  ],
+  "playwright": [
+    "playwright-best-practices",
+    "playwright-skill",
+    "lambdatest-playwright",
+    "lambdatest-playwright"
+  ],
+  "playwright-best-practices": [
+    "playwright-best-practices"
+  ],
+  "playwright-skill": [
+    "playwright-skill"
+  ],
+  "polish": [
+    "impeccable-polish"
+  ],
+  "popup-cro": [
+    "popup-cro"
+  ],
+  "postgresql": [
+    "supabase-postgres-best-practices"
+  ],
+  "pricing": [
+    "pricing-strategy"
+  ],
+  "pricing-strategy": [
+    "pricing-strategy"
+  ],
+  "primevue": [
+    "primevue",
+    "primevue"
+  ],
+  "prisma": [
+    "prisma-client-api",
+    "prisma-database-setup",
+    "prisma-migrate-upgrade",
+    "prisma-postgres",
+    "prisma-upgrade-v6-to-v7"
+  ],
+  "prisma-client-api": [
+    "prisma-client-api"
+  ],
+  "prisma-database-setup": [
+    "prisma-database-setup"
+  ],
+  "prisma-migrate-upgrade": [
+    "prisma-migrate-upgrade"
+  ],
+  "prisma-postgres": [
+    "prisma-postgres"
+  ],
+  "prisma-upgrade-v6-v7": [
+    "prisma-upgrade-v6-to-v7"
+  ],
+  "product-marketing": [
+    "product-marketing-context"
+  ],
+  "product-marketing-context": [
+    "product-marketing-context"
+  ],
+  "production-patterns": [
+    "better-frontend-production"
+  ],
+  "programmatic-seo": [
+    "programmatic-seo",
+    "programmatic-seo"
+  ],
+  "pull-request": [
+    "github-pull-request-hygiene"
+  ],
+  "pwa": [
+    "pwa-installability-review",
+    "service-worker-offline-strategy"
+  ],
+  "quieter": [
+    "impeccable-quieter"
+  ],
+  "react": [
+    "advanced-event-handler-refs",
+    "advanced-init-once",
+    "advanced-use-latest",
+    "async-api-routes",
+    "async-defer-await",
+    "async-dependencies",
+    "async-parallel",
+    "async-suspense-boundaries",
+    "bundle-barrel-imports",
+    "bundle-conditional",
+    "bundle-defer-third-party",
+    "bundle-dynamic-imports",
+    "bundle-preload",
+    "client-event-listeners",
+    "client-localstorage-schema",
+    "client-passive-event-listeners",
+    "client-swr-dedup",
+    "js-batch-dom-css",
+    "js-cache-function-results",
+    "js-cache-property-access",
+    "js-cache-storage",
+    "js-combine-iterations",
+    "js-early-exit",
+    "js-flatmap-filter",
+    "js-hoist-regexp",
+    "js-index-maps",
+    "js-length-check-first",
+    "js-min-max-loop",
+    "js-set-map-lookups",
+    "js-tosorted-immutable",
+    "rendering-activity",
+    "rendering-animate-svg-wrapper",
+    "rendering-conditional-render",
+    "rendering-content-visibility",
+    "rendering-hoist-jsx",
+    "rendering-hydration-no-flicker",
+    "rendering-hydration-suppress-warning",
+    "rendering-resource-hints",
+    "rendering-script-defer-async",
+    "rendering-svg-precision",
+    "rendering-usetransition-loading",
+    "rerender-defer-reads",
+    "rerender-dependencies",
+    "rerender-derived-state-no-effect",
+    "rerender-derived-state",
+    "rerender-functional-setstate",
+    "rerender-lazy-state-init",
+    "rerender-memo-with-default-value",
+    "rerender-memo",
+    "rerender-move-effect-to-event",
+    "rerender-no-inline-components",
+    "rerender-simple-expression-in-memo",
+    "rerender-split-combined-hooks",
+    "rerender-transitions",
+    "rerender-use-deferred-value",
+    "rerender-use-ref-transient-values",
+    "server-after-nonblocking",
+    "server-auth-actions",
+    "server-cache-lru",
+    "server-cache-react",
+    "server-dedup-props",
+    "server-hoist-static-io",
+    "server-parallel-fetching",
+    "server-serialization",
+    "react-hooks",
+    "react-ui-patterns"
+  ],
+  "react-best-practices": [
+    "react-best-practices"
+  ],
+  "react-hooks": [
+    "react-hooks"
+  ],
+  "react-router": [
+    "react-router-framework-mode"
+  ],
+  "react-router-framework-mode": [
+    "react-router-framework-mode"
+  ],
+  "react-state-management": [
+    "react-state-management"
+  ],
+  "react-ui-patterns": [
+    "react-ui-patterns"
+  ],
+  "rendering": [
+    "rendering-activity",
+    "rendering-animate-svg-wrapper",
+    "rendering-conditional-render",
+    "rendering-content-visibility",
+    "rendering-hoist-jsx",
+    "rendering-hydration-no-flicker",
+    "rendering-hydration-suppress-warning",
+    "rendering-resource-hints",
+    "rendering-script-defer-async",
+    "rendering-svg-precision",
+    "rendering-usetransition-loading"
+  ],
+  "rerender": [
+    "rerender-defer-reads",
+    "rerender-dependencies",
+    "rerender-derived-state-no-effect",
+    "rerender-derived-state",
+    "rerender-functional-setstate",
+    "rerender-lazy-state-init",
+    "rerender-memo-with-default-value",
+    "rerender-memo",
+    "rerender-move-effect-to-event",
+    "rerender-no-inline-components",
+    "rerender-simple-expression-in-memo",
+    "rerender-split-combined-hooks",
+    "rerender-transitions",
+    "rerender-use-deferred-value",
+    "rerender-use-ref-transient-values"
+  ],
+  "responsive": [
+    "impeccable-responsive"
+  ],
+  "rest": [
+    "rest-api-design-review"
+  ],
+  "rls": [
+    "supabase-postgres-best-practices"
+  ],
+  "rolldown": [
+    "rolldown"
+  ],
+  "route-handlers": [
+    "next-js-route-handlers"
+  ],
+  "routing-middleware": [
+    "routing-middleware"
+  ],
+  "rsc-boundaries": [
+    "next-js-rsc-boundaries"
+  ],
+  "rtl": [
+    "rtl-layout-audit"
+  ],
+  "runtime-cache": [
+    "runtime-cache"
+  ],
+  "runtime-selection": [
+    "next-js-runtime-selection"
+  ],
+  "schema-markup": [
+    "schema-markup"
+  ],
+  "scripts": [
+    "next-js-scripts"
+  ],
+  "security": [
+    "web-security-header-review"
+  ],
+  "self-hosting": [
+    "next-js-self-hosting"
+  ],
+  "semantic-html": [
+    "semantic-html-accessibility-audit"
+  ],
+  "seo": [
+    "seo",
+    "seo"
+  ],
+  "seo-audit": [
+    "seo-audit",
+    "seo-audit"
+  ],
+  "server": [
+    "server-after-nonblocking",
+    "server-auth-actions",
+    "server-cache-lru",
+    "server-cache-react",
+    "server-dedup-props",
+    "server-hoist-static-io",
+    "server-parallel-fetching",
+    "server-serialization"
+  ],
+  "service-worker": [
+    "service-worker-offline-strategy"
+  ],
+  "shadcn": [
+    "shadcn"
+  ],
+  "shadcn-vue": [
+    "shadcn-vue",
+    "shadcn-vue"
+  ],
+  "signup-flow-cro": [
+    "signup-flow-cro"
+  ],
+  "software-testing": [
+    "software-testing"
+  ],
+  "state-management": [
+    "react-state-management"
+  ],
+  "structured-data": [
+    "schema-markup"
+  ],
+  "supabase": [
+    "supabase-postgres-best-practices"
+  ],
+  "suspense-boundaries": [
+    "next-js-suspense-boundaries"
+  ],
+  "svelte": [
+    "svelte-5-best-practices"
+  ],
+  "svelte-5-best-practices": [
+    "svelte-5-best-practices"
+  ],
+  "sveltekit": [
+    "sveltekit-best-practices"
+  ],
+  "sveltekit-best-practices": [
+    "sveltekit-best-practices"
+  ],
+  "tanstack": [
+    "tanstack-query",
+    "tanstack-router"
+  ],
+  "tanstack-query": [
+    "tanstack-query"
+  ],
+  "tanstack-router": [
+    "tanstack-router"
+  ],
+  "teach-impeccable": [
+    "impeccable-teach-impeccable"
+  ],
+  "testing": [
+    "anthropic-webapp-testing"
+  ],
+  "testing-strategy": [
+    "software-testing"
+  ],
+  "tsdown": [
+    "tsdown"
+  ],
+  "turbopack": [
+    "turbopack"
+  ],
+  "typescript": [
+    "typescript-drag-and-drop",
+    "typescript-advanced-types",
+    "typescript-performance",
+    "typescript-project-setup-reference"
+  ],
+  "typescript-drag-and-drop": [
+    "typescript-drag-and-drop"
+  ],
+  "typescript-performance": [
+    "typescript-performance"
+  ],
+  "typescript-project-setup-reference": [
+    "typescript-project-setup-reference"
+  ],
+  "typography": [
+    "impeccable-typography"
+  ],
+  "ui": [
+    "anthropic-frontend-design"
+  ],
+  "ui-patterns": [
+    "ui-skills"
+  ],
+  "ui-skills": [
+    "ui-skills"
+  ],
+  "ui-ux": [
+    "ui-ux-premium",
+    "ui-ux-pro-max"
+  ],
+  "ui-ux-pro-max": [
+    "ui-ux-premium",
+    "ui-ux-pro-max"
+  ],
+  "vercel": [
+    "access-protected-vercel-deployment",
+    "ai-gateway",
+    "ai-sdk",
+    "vercel-auth",
+    "bootstrap",
+    "build-agents",
+    "cdn-caching",
+    "chat-sdk",
+    "create-a-backend",
+    "deployments-cicd",
+    "env-vars",
+    "marketplace",
+    "microfrontends",
+    "next-cache-components",
+    "next-forge",
+    "next-upgrade",
+    "nextjs",
+    "react-best-practices",
+    "routing-middleware",
+    "runtime-cache",
+    "shadcn",
+    "turbopack",
+    "vercel-agent",
+    "vercel-cli",
+    "vercel-connect",
+    "vercel-firewall",
+    "vercel-functions",
+    "vercel-sandbox",
+    "vercel-services",
+    "vercel-storage",
+    "vercel-verification",
+    "vercel-workflow"
+  ],
+  "vercel-agent": [
+    "vercel-agent"
+  ],
+  "vercel-cli": [
+    "vercel-cli"
+  ],
+  "vercel-connect": [
+    "vercel-connect"
+  ],
+  "vercel-firewall": [
+    "vercel-firewall"
+  ],
+  "vercel-functions": [
+    "vercel-functions"
+  ],
+  "vercel-sandbox": [
+    "vercel-sandbox"
+  ],
+  "vercel-services": [
+    "vercel-services"
+  ],
+  "vercel-storage": [
+    "vercel-storage"
+  ],
+  "verification": [
+    "vercel-verification"
+  ],
+  "visual-regression": [
+    "visual-regression-testing"
+  ],
+  "visual-regression-testing": [
+    "visual-regression-testing"
+  ],
+  "vite": [
+    "vite"
+  ],
+  "vitest": [
+    "vitest",
+    "vitest"
+  ],
+  "vue": [
+    "vue-best-practices",
+    "vue-debug-guides",
+    "vue-development-guides",
+    "vue-jsx-best-practices",
+    "vue-options-api-best-practices",
+    "vue-testing-best-practices"
+  ],
+  "vue-best-practices": [
+    "vue-best-practices"
+  ],
+  "vue-debug-guides": [
+    "vue-debug-guides"
+  ],
+  "vue-development-guides": [
+    "vue-development-guides"
+  ],
+  "vue-jsx-best-practices": [
+    "vue-jsx-best-practices"
+  ],
+  "vue-options-api-best-practices": [
+    "vue-options-api-best-practices"
+  ],
+  "vue-testing-best-practices": [
+    "vue-testing-best-practices"
+  ],
+  "vue-ui": [
+    "vue-ui-ux"
+  ],
+  "vue-ui-ux": [
+    "vue-ui-ux"
+  ],
+  "web-animation": [
+    "web-animations"
+  ],
+  "web-animations": [
+    "web-animations"
+  ],
+  "web-design-guidelines": [
+    "web-design-guidelines"
+  ],
+  "web-guidelines": [
+    "web-design-guidelines"
+  ],
+  "web-quality": [
+    "web-quality-audit"
+  ],
+  "web-quality-audit": [
+    "web-quality-audit"
+  ],
+  "webapp": [
+    "anthropic-webapp-testing"
+  ],
+  "webhooks": [
+    "clerk-webhooks"
+  ],
+  "webpack": [
+    "webpack"
+  ],
+  "website": [
+    "website-audit"
+  ],
+  "workflow": [
+    "vercel-workflow"
+  ]
+}

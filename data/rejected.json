@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Frontend Design mirror #1",
+    "reason": "duplicate",
+    "canonical": "Anthropic Frontend Design",
+    "status": "rejected"
+  },
+  {
+    "name": "Frontend Design mirror #2",
+    "reason": "duplicate",
+    "canonical": "Anthropic Frontend Design",
+    "status": "rejected"
+  },
+  {
+    "name": "React Best Practices mirror",
+    "reason": "duplicate",
+    "canonical": "Vercel React Best Practices",
+    "status": "rejected"
+  },
+  {
+    "name": "React library listing",
+    "reason": "library-not-skill",
+    "status": "rejected"
+  },
+  {
+    "name": "Sadcn Vue",
+    "source_url": "https://github.com/unovue/shadcn-vue",
+    "reason": "duplicate",
+    "notes": "Duplicate discovery entry for canonical shadcn-vue; retained a single normalized record."
+  }
+]

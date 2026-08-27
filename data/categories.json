@@ -1,0 +1,294 @@
+[
+  {
+    "name": "Design",
+    "slug": "design",
+    "subcategories": [
+      "Color",
+      "Consistency",
+      "Design Audit",
+      "Design Critique",
+      "Design Process",
+      "Design Quality",
+      "Design Systems",
+      "Frontend Design",
+      "Minimalism",
+      "Mobile Design",
+      "Polish",
+      "Responsive Design",
+      "Typography",
+      "UI/UX",
+      "Visual Hierarchy",
+      "Visual Noise",
+      "Vue UI",
+      "Web Guidelines"
+    ]
+  },
+  {
+    "name": "Interaction",
+    "slug": "interaction",
+    "subcategories": [
+      "Animation",
+      "GSAP",
+      "Microinteractions",
+      "Motion",
+      "Web Animation"
+    ]
+  },
+  {
+    "name": "Frontend",
+    "slug": "frontend",
+    "subcategories": [
+      "Angular",
+      "Build Tools",
+      "Next.js",
+      "Next.js Migration",
+      "Nuxt",
+      "Production Patterns",
+      "React",
+      "React Router",
+      "Svelte",
+      "SvelteKit",
+      "TanStack",
+      "TypeScript",
+      "Vue"
+    ]
+  },
+  {
+    "name": "Components",
+    "slug": "components",
+    "subcategories": [
+      "Angular",
+      "Nuxt",
+      "PrimeVue",
+      "React",
+      "UI Patterns",
+      "shadcn/ui",
+      "shadcn/vue"
+    ]
+  },
+  {
+    "name": "Accessibility",
+    "slug": "accessibility",
+    "subcategories": [
+      "Automated Testing",
+      "Focus Management",
+      "Keyboard Navigation",
+      "Semantic HTML"
+    ]
+  },
+  {
+    "name": "Performance",
+    "slug": "performance",
+    "subcategories": [
+      "Async & Waterfalls",
+      "Bundle Optimization",
+      "Caching",
+      "Client Performance",
+      "Font Optimization",
+      "Frontend Performance",
+      "Image Optimization",
+      "JavaScript Performance",
+      "Next.js Caching",
+      "React Patterns",
+      "React Performance",
+      "React Re-renders",
+      "Rendering & Hydration",
+      "Server Performance",
+      "Suspense",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "SEO",
+    "slug": "seo",
+    "subcategories": [
+      "Metadata",
+      "Programmatic SEO",
+      "SEO",
+      "SEO Audit",
+      "Structured Data"
+    ]
+  },
+  {
+    "name": "Testing",
+    "slug": "testing",
+    "subcategories": [
+      "Authentication",
+      "Browser Automation",
+      "Cross-browser",
+      "Cypress",
+      "Jest",
+      "Mobile Web",
+      "Playwright",
+      "Testing Strategy",
+      "Verification",
+      "Visual Regression",
+      "Vitest",
+      "Vue",
+      "Web App Testing",
+      "Web Quality",
+      "Website Audit"
+    ]
+  },
+  {
+    "name": "Debugging",
+    "slug": "debugging",
+    "subcategories": [
+      "Hydration",
+      "Next.js Debugging",
+      "Vue"
+    ]
+  },
+  {
+    "name": "Backend",
+    "slug": "backend",
+    "subcategories": [
+      "Backend Setup",
+      "Connectivity",
+      "Functions",
+      "Routing & Middleware",
+      "Serverless Functions",
+      "Services"
+    ]
+  },
+  {
+    "name": "APIs",
+    "slug": "apis",
+    "subcategories": [
+      "AI Gateway",
+      "REST",
+      "Route Handlers",
+      "Webhooks"
+    ]
+  },
+  {
+    "name": "Databases",
+    "slug": "databases",
+    "subcategories": [
+      "Convex",
+      "PostgreSQL",
+      "Prisma",
+      "Storage"
+    ]
+  },
+  {
+    "name": "Security",
+    "slug": "security",
+    "subcategories": [
+      "Auth0",
+      "Authentication",
+      "Clerk",
+      "Headers",
+      "Nuxt Auth",
+      "Web Firewall"
+    ]
+  },
+  {
+    "name": "Deployment",
+    "slug": "deployment",
+    "subcategories": [
+      "CLI",
+      "Integrations",
+      "Nuxt",
+      "Self-hosting",
+      "Vercel"
+    ]
+  },
+  {
+    "name": "DevOps",
+    "slug": "devops",
+    "subcategories": [
+      "CI/CD",
+      "Environment Variables",
+      "Workflows"
+    ]
+  },
+  {
+    "name": "Architecture",
+    "slug": "architecture",
+    "subcategories": [
+      "Angular",
+      "Microfrontends",
+      "Next.js Architecture",
+      "Project Bootstrap",
+      "Runtime Selection",
+      "Server Components",
+      "State Management",
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "Code Quality",
+    "slug": "code-quality",
+    "subcategories": [
+      "Cleanup",
+      "JavaScript Review"
+    ]
+  },
+  {
+    "name": "Git / GitHub",
+    "slug": "git-github",
+    "subcategories": [
+      "Pull Requests"
+    ]
+  },
+  {
+    "name": "Product",
+    "slug": "product",
+    "subcategories": [
+      "Conversion",
+      "Growth",
+      "Onboarding",
+      "Pricing"
+    ]
+  },
+  {
+    "name": "Content",
+    "slug": "content",
+    "subcategories": [
+      "Content Strategy",
+      "Copywriting",
+      "Nuxt Content",
+      "Product Marketing"
+    ]
+  },
+  {
+    "name": "Analytics",
+    "slug": "analytics",
+    "subcategories": [
+      "Experiments",
+      "Instrumentation"
+    ]
+  },
+  {
+    "name": "Internationalization",
+    "slug": "internationalization",
+    "subcategories": [
+      "RTL",
+      "i18n Readiness"
+    ]
+  },
+  {
+    "name": "PWA",
+    "slug": "pwa",
+    "subcategories": [
+      "Installability",
+      "Offline"
+    ]
+  },
+  {
+    "name": "E-commerce",
+    "slug": "e-commerce",
+    "subcategories": []
+  },
+  {
+    "name": "AI Web Development",
+    "slug": "ai-web-development",
+    "subcategories": [
+      "AI SDK",
+      "Chat UI",
+      "Coding Agents",
+      "Sandboxing"
+    ]
+  }
+]

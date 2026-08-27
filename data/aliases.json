@@ -1,0 +1,12 @@
+{
+  "a11y": "accessibility",
+  "perf": "performance",
+  "next": "nextjs",
+  "tailwindcss": "tailwind",
+  "postgres": "postgresql",
+  "ts": "typescript",
+  "js": "javascript",
+  "i18n": "internationalization",
+  "rtl": "right-to-left",
+  "e2e": "end-to-end testing"
+}

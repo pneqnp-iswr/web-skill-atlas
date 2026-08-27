@@ -1,0 +1,2177 @@
+[
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API",
+    "platform": "Web",
+    "author": "MDN",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official documentation"
+    ]
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps",
+    "platform": "Web",
+    "author": "MDN",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official documentation"
+    ]
+  },
+  {
+    "url": "https://docs.github.com/en/pull-requests",
+    "platform": "GitHub",
+    "author": "GitHub Docs",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official documentation"
+    ]
+  },
+  {
+    "url": "https://github.com/LambdaTest/agent-skills",
+    "platform": "GitHub",
+    "author": "LambdaTest",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 7,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/addyosmani/web-quality-skills",
+    "platform": "GitHub",
+    "author": "addyosmani",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/antfu/skills",
+    "platform": "GitHub",
+    "author": "antfu",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 8,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+    "platform": "GitHub",
+    "author": "anthropics",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official GitHub",
+      "skills.sh"
+    ]
+  },
+  {
+    "url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
+    "platform": "GitHub",
+    "author": "anthropics",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official GitHub",
+      "skills.sh"
+    ]
+  },
+  {
+    "url": "https://github.com/ascorbic/svelte-skills",
+    "platform": "GitHub",
+    "author": "ascorbic",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 2,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/atlassian/atlassian-frontend-mirror",
+    "platform": "GitHub",
+    "author": "atlassian",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/auth0-agentic/ai-agentic-coding-recipes",
+    "platform": "GitHub",
+    "author": "auth0-agentic",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 11,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/better-auth/skills",
+    "platform": "GitHub",
+    "author": "better-auth",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/clerk/clerk-skills",
+    "platform": "GitHub",
+    "author": "clerk",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 6,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "platform": "GitHub",
+    "author": "coreyhaines31",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 16,
+    "discovered_via": [
+      "skills.sh"
+    ]
+  },
+  {
+    "url": "https://github.com/greensock/gsap-skills",
+    "platform": "GitHub",
+    "author": "greensock",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/hyf0/vue-skills",
+    "platform": "GitHub",
+    "author": "hyf0",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 7,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/ibelick/motion-skills",
+    "platform": "GitHub",
+    "author": "ibelick",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/ibelick/ui-skills",
+    "platform": "GitHub",
+    "author": "ibelick",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/kashifadha/claude-better-frontend",
+    "platform": "GitHub",
+    "author": "kashifadha",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/microsoft/playwright",
+    "platform": "GitHub",
+    "author": "microsoft",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/microsoft/typescript",
+    "platform": "GitHub",
+    "author": "microsoft",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 3,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "platform": "GitHub",
+    "author": "nextlevelbuilder",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/nuxt-content/nuxt-skills",
+    "platform": "GitHub",
+    "author": "nuxt-content",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 5,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/SKILL.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official upstream"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/adapt.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/animate.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/audit.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/bolder.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/clarify.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/colorize.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/critique.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/delight.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/distill.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/extract.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/frontend-design.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/normalize.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/onboard.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/optimize.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/polish.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/quieter.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/responsive.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/teach-impeccable.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable/blob/main/reference/typography.md",
+    "platform": "GitHub",
+    "author": "pbakaus",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/primefaces/primevue",
+    "platform": "GitHub",
+    "author": "primefaces",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/prisma/skills",
+    "platform": "GitHub",
+    "author": "prisma",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 5,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/remix-run/react-router",
+    "platform": "GitHub",
+    "author": "remix-run",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/sickn33/antigravity-awesome-skills",
+    "platform": "GitHub",
+    "author": "sickn33",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 3,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/socialfuel/js-code-review-skill",
+    "platform": "GitHub",
+    "author": "socialfuel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/squirrelscan/skills",
+    "platform": "GitHub",
+    "author": "squirrelscan",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "skills.sh"
+    ]
+  },
+  {
+    "url": "https://github.com/suntong/agents-skills-ts-codegpt",
+    "platform": "GitHub",
+    "author": "suntong",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 4,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/supabase/agent-skills/tree/main/skills/supabase-postgres-best-practices",
+    "platform": "GitHub",
+    "author": "supabase",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official GitHub",
+      "skills.sh"
+    ]
+  },
+  {
+    "url": "https://github.com/tarunom89/skills",
+    "platform": "GitHub",
+    "author": "tarunom89",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/unovue/shadcn-vue",
+    "platform": "GitHub",
+    "author": "unovue",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 2,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/use-skills/angular-skills",
+    "platform": "GitHub",
+    "author": "use-skills",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 2,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel-labs/agent-skills",
+    "platform": "GitHub",
+    "author": "vercel-labs",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel-labs/skills",
+    "platform": "GitHub",
+    "author": "vercel-labs",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/next.js",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/app-router-files.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/async-patterns.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/bundling.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/data-patterns.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/debug-tricks.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/directives.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/error-handling.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/file-conventions.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/font.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/functions.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/hydration-error.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/image.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/metadata.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/parallel-routes.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/route-handlers.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/rsc-boundaries.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/runtime-selection.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/scripts.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/self-hosting.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/suspense-boundaries.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/advanced-event-handler-refs.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/advanced-init-once.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/advanced-use-latest.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/async-api-routes.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/async-defer-await.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/async-dependencies.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/async-parallel.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/async-suspense-boundaries.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/bundle-barrel-imports.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/bundle-conditional.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/bundle-defer-third-party.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/bundle-dynamic-imports.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/bundle-preload.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/client-event-listeners.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/client-localstorage-schema.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/client-passive-event-listeners.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/client-swr-dedup.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-batch-dom-css.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-cache-function-results.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-cache-property-access.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-cache-storage.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-combine-iterations.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-early-exit.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-flatmap-filter.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-hoist-regexp.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-index-maps.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-length-check-first.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-min-max-loop.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-set-map-lookups.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-tosorted-immutable.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-activity.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-animate-svg-wrapper.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-conditional-render.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-content-visibility.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-hoist-jsx.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-hydration-no-flicker.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-hydration-suppress-warning.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-resource-hints.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-script-defer-async.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-svg-precision.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-usetransition-loading.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-defer-reads.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-dependencies.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-derived-state-no-effect.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-derived-state.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-functional-setstate.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-lazy-state-init.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-memo-with-default-value.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-memo.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-move-effect-to-event.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-no-inline-components.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-simple-expression-in-memo.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-split-combined-hooks.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-transitions.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-use-deferred-value.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rerender-use-ref-transient-values.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-after-nonblocking.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-auth-actions.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-cache-lru.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-cache-react.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-dedup-props.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-hoist-static-io.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-parallel-fetching.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-serialization.md",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/access-protected-vercel-deployment",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/ai-gateway",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/ai-sdk",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/auth",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/bootstrap",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/build-agents",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/cdn-caching",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/chat-sdk",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/create-a-backend",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/deployments-cicd",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/env-vars",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/marketplace",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/microfrontends",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/next-cache-components",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/next-forge",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/next-upgrade",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/nextjs",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/react-best-practices",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/routing-middleware",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/runtime-cache",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/shadcn",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/turbopack",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/vercel-agent",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/vercel-cli",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/vercel-connect",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/vercel-firewall",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/vercel-functions",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/vercel-sandbox",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/vercel-services",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/vercel-storage",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/verification",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills/workflow",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "verified repository tree"
+    ]
+  },
+  {
+    "url": "https://github.com/waynesutton/convexskills",
+    "platform": "GitHub",
+    "author": "waynesutton",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://github.com/wshobson/agents",
+    "platform": "GitHub",
+    "author": "wshobson",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 6,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills"
+    ]
+  },
+  {
+    "url": "https://owasp.org/www-project-secure-headers/",
+    "platform": "Web",
+    "author": "OWASP",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official documentation"
+    ]
+  },
+  {
+    "url": "https://www.rfc-editor.org/rfc/rfc9110",
+    "platform": "Web",
+    "author": "IETF",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official documentation"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/International/questions/qa-html-dir",
+    "platform": "Web",
+    "author": "W3C",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official documentation"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/International/quicktips/",
+    "platform": "Web",
+    "author": "W3C",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official documentation"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/",
+    "platform": "Web",
+    "author": "W3C",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 2,
+    "discovered_via": [
+      "official documentation"
+    ]
+  },
+  {
+    "url": "https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/",
+    "platform": "Web",
+    "author": "W3C",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official documentation"
+    ]
+  }
+]

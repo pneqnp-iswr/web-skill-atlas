@@ -1,0 +1,38 @@
+[
+  {
+    "name": "skills.sh",
+    "url": "https://skills.sh/",
+    "platform": "registry",
+    "author": "unknown",
+    "status": "researched",
+    "checked_at": "2026-08-27",
+    "notes": "Used for discovery and popularity signals; canonical upstream sources preferred."
+  },
+  {
+    "name": "Awesome Frontend Skills",
+    "url": "https://github.com/finfin/awesome-frontend-skills",
+    "platform": "GitHub collection",
+    "author": "finfin",
+    "status": "researched",
+    "checked_at": "2026-08-27",
+    "notes": "Used as a discovery map; entries not independently fetched remain partially verified."
+  },
+  {
+    "name": "Vercel Plugin Skills",
+    "url": "https://github.com/vercel/vercel-plugin/tree/main/skills",
+    "platform": "GitHub collection",
+    "author": "vercel",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Repository tree inspected directly."
+  },
+  {
+    "name": "Impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
+    "platform": "GitHub collection",
+    "author": "pbakaus",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Reference workflow tree inspected directly."
+  }
+]

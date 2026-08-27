@@ -1,0 +1,185 @@
+{
+  "AI Web Development": [
+    "anthropic-mcp-builder",
+    "anthropic-web-artifacts-builder",
+    "cloudflare-agents-sdk",
+    "frontend-rules-generator"
+  ],
+  "APIs": [
+    "audit-external-api-critical-path"
+  ],
+  "Accessibility": [
+    "accessibility-lead"
+  ],
+  "Architecture": [
+    "decouple-state-implementation",
+    "define-stable-context-interfaces",
+    "lift-shared-state"
+  ],
+  "Code Quality": [
+    "frontend-code-review",
+    "harden-frontend-edge-cases",
+    "keep-derived-state-derived",
+    "move-effect-logic-to-events",
+    "prefer-immutable-tosorted"
+  ],
+  "Components": [
+    "avoid-boolean-prop-proliferation",
+    "prefer-children-over-render-props",
+    "shadcn-official-skill",
+    "shadcn-ui-extended-audit",
+    "use-compound-components",
+    "use-explicit-component-variants",
+    "vercel-composition-patterns"
+  ],
+  "Content": [
+    "clarify-ux-copy",
+    "prisma-docs-writer"
+  ],
+  "Databases": [
+    "audit-database-region-and-pooling",
+    "audit-prisma-include-trees",
+    "supabase-agent-skill",
+    "supabase-postgres-best-practices"
+  ],
+  "Debugging": [
+    "disciplined-bug-diagnosis",
+    "prevent-hydration-flicker",
+    "use-hydration-warning-suppression-narrowly"
+  ],
+  "Deployment": [
+    "audit-function-region-misconfiguration",
+    "openai-cloudflare-deploy",
+    "vercel-deploy"
+  ],
+  "Design": [
+    "anthropic-frontend-design",
+    "audit-frontend-quality",
+    "colorize-monochromatic-ui",
+    "critique-ui",
+    "design-analysis",
+    "design-taste-frontend",
+    "distill-interface-complexity",
+    "extract-design-system",
+    "fix-spacing-rhythm-and-layout",
+    "frontend-design-router",
+    "frontend-design-with-rendered-verification",
+    "frontend-production-shadcn",
+    "improve-typography-hierarchy",
+    "make-bland-ui-bolder",
+    "make-overstimulating-ui-quieter",
+    "non-ai-design-skill-pack",
+    "polish-ui-before-shipping",
+    "shape-ui-before-coding",
+    "ui-design-skill",
+    "ui-ux-concept-implementation",
+    "ui-ux-pro-max",
+    "vercel-web-design-guidelines"
+  ],
+  "DevOps": [
+    "triage-usage-spikes"
+  ],
+  "E-commerce": [
+    "stripe-docs-skill"
+  ],
+  "Frontend": [
+    "audit-sveltekit-prerender-safety",
+    "react-19-avoid-forwardref-by-default",
+    "react-declarative-skill",
+    "react-development-skill",
+    "version-local-storage-data",
+    "vue-development-skill"
+  ],
+  "Interaction": [
+    "add-interface-delight",
+    "add-purposeful-ui-motion",
+    "animate-a-wrapper-around-svg",
+    "use-transition-loading-states",
+    "vercel-react-view-transitions"
+  ],
+  "Performance": [
+    "audit-broad-middleware-matchers",
+    "audit-cold-start-initialization",
+    "audit-core-web-vitals-client-bottlenecks",
+    "audit-dynamic-rendering-traps",
+    "audit-fast-data-transfer-payloads",
+    "audit-function-invocation-reduction",
+    "audit-heavy-ui-lazy-loading",
+    "audit-isr-revalidation",
+    "audit-large-static-assets",
+    "audit-middleware-edge-cost",
+    "audit-missing-cache-headers",
+    "audit-next-js-font-cls",
+    "audit-next-js-image-lcp",
+    "audit-next-js-route-handler-caching",
+    "audit-next-js-third-party-scripts",
+    "audit-unoptimized-images",
+    "avoid-costly-barrel-imports",
+    "avoid-derived-state-effects",
+    "avoid-sort-for-min-max",
+    "avoid-unnecessary-reactive-reads",
+    "batch-dom-and-css-changes",
+    "build-index-maps-for-repeated-searches",
+    "cache-repeated-function-results",
+    "cache-repeated-property-access",
+    "cache-storage-reads",
+    "check-cheap-conditions-before-await",
+    "check-length-before-expensive-comparison",
+    "choose-script-defer-async-correctly",
+    "combine-array-iterations",
+    "deduplicate-client-event-listeners",
+    "deduplicate-swr-requests",
+    "defer-await-until-needed",
+    "defer-third-party-code",
+    "do-not-define-components-inline",
+    "exit-early-in-hot-paths",
+    "hoist-regular-expressions",
+    "hoist-static-jsx",
+    "keep-bundles-analyzable",
+    "keep-transient-values-in-refs",
+    "lazy-initialize-expensive-state",
+    "memoize-at-useful-boundaries",
+    "minimize-server-to-client-serialization",
+    "model-async-dependencies",
+    "parallelize-independent-async-work",
+    "parallelize-nested-server-fetching",
+    "parallelize-server-fetching",
+    "preload-on-user-intent",
+    "reduce-svg-precision",
+    "schedule-non-critical-work-with-requestidlecallback",
+    "stabilize-rerender-dependencies",
+    "use-bounded-lru-caching",
+    "use-conditional-loading",
+    "use-content-visibility-for-offscreen-content",
+    "use-deferred-value-for-expensive-ui",
+    "use-dynamic-imports-for-heavy-code",
+    "use-functional-state-updates",
+    "use-map-set-for-repeated-lookups",
+    "use-passive-event-listeners",
+    "use-react-server-cache",
+    "use-resource-hints-intentionally",
+    "use-suspense-boundaries-deliberately",
+    "vercel-optimize",
+    "vercel-react-best-practices"
+  ],
+  "Product": [
+    "improve-onboarding-and-empty-states"
+  ],
+  "SEO": [
+    "seo-audit"
+  ],
+  "Security": [
+    "audit-cdn-cache-auth-safety",
+    "audit-source-maps-in-production",
+    "authenticate-server-actions",
+    "avoid-shared-mutable-module-state",
+    "owasp-security-guidance",
+    "skill-security-audit"
+  ],
+  "Testing": [
+    "anthropic-webapp-testing",
+    "openai-playwright",
+    "playwright-browser-automation",
+    "playwright-test-automation"
+  ]
+}
