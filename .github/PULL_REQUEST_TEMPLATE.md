@@ -1,16 +1,15 @@
 ## What changed?
 
-## Skill/source URL
+## Skill or source URL
 
-## Category
+## Why does it belong in the atlas?
 
-## Why should it be included?
+## Checklist
 
-## Provenance
-
-- [ ] I checked for duplicates.
-- [ ] I linked the original/canonical source when available.
-- [ ] I checked the upstream license and did not guess unknown licensing.
+- [ ] I checked for existing canonical entries and duplicates.
+- [ ] I linked the original source when available.
+- [ ] I did not guess license or provenance metadata.
 - [ ] I did not copy restricted third-party content.
 - [ ] `python scripts/validate.py` passes.
-- [ ] `python scripts/generate.py` leaves generated files consistent.
+- [ ] `python scripts/deduplicate.py` reports no unintended duplicate.
+- [ ] `python scripts/generate.py` leaves the repository clean on a second run.

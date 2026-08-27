@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Reworked repository presentation, browse flow, contribution UX, and generated README sections.
+- Consolidated duplicate validation and link-check workflows.
+- Added the repository social preview asset and exact GitHub About settings.
+
 ## 0.1.0 — 2026-08-27
 
 ### Design deep-research pass

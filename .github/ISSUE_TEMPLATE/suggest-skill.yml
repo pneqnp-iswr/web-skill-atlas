@@ -1,25 +1,43 @@
 name: Suggest a skill
-description: Propose a new skill or canonical source
-title: "skill: "
-labels: [candidate]
+about: Propose a reusable web-development skill or workflow for the atlas.
+title: "[skill] "
+labels: ["new-skill"]
 body:
   - type: input
-    id: url
-    attributes: {label: Source URL}
-    validations: {required: true}
+    id: name
+    attributes:
+      label: Skill name
+      placeholder: Example skill name
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Canonical source
+      description: Prefer the original repository, published skill file, or official documentation.
+      placeholder: https://github.com/owner/repo/...
+    validations:
+      required: true
   - type: input
     id: category
-    attributes: {label: Suggested category}
+    attributes:
+      label: Suggested category
+      placeholder: Frontend
+    validations:
+      required: true
   - type: textarea
-    id: reason
-    attributes: {label: Why it belongs in the catalog}
-    validations: {required: true}
+    id: purpose
+    attributes:
+      label: What does it help an agent do?
+      description: Describe the repeatable task or procedure, not the library or product in general.
+    validations:
+      required: true
   - type: checkboxes
     id: checks
     attributes:
       label: Checks
       options:
-        - label: I searched for duplicates.
+        - label: I checked the atlas for an existing canonical or duplicate entry.
           required: true
-        - label: This is a reusable workflow/ruleset, not merely a library.
+        - label: I linked the original source when one is available.
           required: true

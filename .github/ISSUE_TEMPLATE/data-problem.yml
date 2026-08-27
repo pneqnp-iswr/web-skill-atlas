@@ -1,18 +1,32 @@
-name: Data problem
-description: Broken link, duplicate, classification, metadata or license issue
-title: "data: "
-labels: [data]
+name: Report a data problem
+about: Report a broken source, duplicate, metadata error, taxonomy issue, or license concern.
+title: "[data] "
+labels: ["metadata"]
 body:
   - type: dropdown
-    id: kind
+    id: type
     attributes:
       label: Problem type
-      options: [Broken link, Duplicate, Incorrect classification, Metadata correction, Copyright or license, Deprecated or archived, Suggested category, Security concern]
-    validations: {required: true}
+      options:
+        - Broken or redirected source
+        - Duplicate or mirror
+        - Incorrect metadata
+        - Taxonomy or category issue
+        - License or attribution concern
+        - Other
+    validations:
+      required: true
   - type: input
-    id: skill
-    attributes: {label: Skill slug or URL}
+    id: entry
+    attributes:
+      label: Entry or source
+      placeholder: Skill slug, name, or URL
+    validations:
+      required: true
   - type: textarea
     id: evidence
-    attributes: {label: Evidence / correction}
-    validations: {required: true}
+    attributes:
+      label: What should change?
+      description: Include enough evidence to reproduce or verify the problem.
+    validations:
+      required: true

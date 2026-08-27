@@ -1,38 +1,30 @@
 # Web Skill Atlas
 
-**The open-source atlas of AI skills, agent workflows, coding prompts, and reusable instructions for building modern web apps.**
+**Source-backed, reusable AI skills for designing, building, testing, debugging, and shipping modern web applications.**
 
-![Skills](https://img.shields.io/badge/skills-363-181717?style=flat-square) ![Verified](https://img.shields.io/badge/verified-195-181717?style=flat-square) ![Categories](https://img.shields.io/badge/categories-24-181717?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-181717?style=flat-square)
+<!-- GENERATED:BADGES:START -->
+[![Skills](https://img.shields.io/badge/skills-363-181717?style=flat-square)](data/skills.json) [![Verified](https://img.shields.io/badge/verified-195-181717?style=flat-square)](docs/methodology.md) [![Categories](https://img.shields.io/badge/categories-24-181717?style=flat-square)](#browse) [![Validation](https://github.com/pneqnp-iswr/web-skill-atlas/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/pneqnp-iswr/web-skill-atlas/actions/workflows/validate.yml) [![License](https://img.shields.io/badge/license-MIT-181717?style=flat-square)](LICENSE)
+<!-- GENERATED:BADGES:END -->
 
-363 indexed skills across 24 populated categories and 174 subcategories, traced to 202 upstream sources. The dataset is built for humans browsing GitHub and for agents consuming structured metadata.
+<!-- GENERATED:STATS:START -->
+**363** skills · **195** verified · **24/25** categories populated · **174** subcategories · **202** sources · updated **2026-08-27**
+<!-- GENERATED:STATS:END -->
 
-Use the atlas to find focused guidance for UI quality, React and Next.js performance, accessibility, testing, security, APIs, databases, SEO, deployment, debugging, and the rest of the web-development lifecycle.
+Web Skill Atlas indexes reusable AI skills and agent workflows across public repositories, registries, tool ecosystems, and official documentation, then normalizes them around canonical sources.
 
-> If the atlas saves you time, star the repository and contribute the skill you expected to find but did not.
+This is not a generated prompt dump. Entries are sourced, classified, deduplicated, and linked to their public origin. The catalog is tool-independent and available as machine-readable data.
 
-## Start here
+[Browse](#browse) · [Example skills](#example-skills) · [Dataset](#dataset) · [Verification](#verification) · [Contributing](#contributing)
 
-- Browse the [category index](#categories).
-- Use [`data/skills.json`](data/skills.json) as the canonical machine-readable dataset.
-- Use [`data/index.min.json`](data/index.min.json) for a compact index.
-- Read the [methodology](docs/methodology.md) before relying on status or quality scores.
-- For agent consumption, see [`AGENTS.md`](AGENTS.md) and [`llms.txt`](llms.txt).
+If the atlas saves you time, consider starring the repository.
 
-## A few examples
+<a id="categories"></a>
 
-| Skill | Category | What it covers | Score |
-|---|---|---|---:|
-| [UI Design](https://github.com/mblode/agent-skills/blob/main/skills/ui-design/SKILL.md) | Design | Design, build, and audit web UI through explicit direction, build, audit, options, scaffold, and retrofit modes. | 94 |
-| [Advanced Event Handler Refs](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/advanced-event-handler-refs.md) | Performance | Apply the Vercel React performance rule for event handler refs. | 88 |
-| [Anthropic Webapp Testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) | Testing | Test local web applications with browser automation and inspect UI behavior. | 88 |
-| [Auth](https://github.com/vercel/vercel-plugin/tree/main/skills/auth) | Security | Implement authentication patterns in Vercel applications. | 85 |
-| [Supabase Postgres Best Practices](https://github.com/supabase/agent-skills/tree/main/skills/supabase-postgres-best-practices) | Databases | Apply Supabase PostgreSQL guidance for query performance, indexing, RLS, schema design, and locking. | 91 |
-| [Keyboard Interaction Audit](https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/) | Accessibility | Audit interactive controls and composite widgets for keyboard access and predictable focus behavior. | 82 |
-| [Access Protected Vercel Deployment](https://github.com/vercel/vercel-plugin/tree/main/skills/access-protected-vercel-deployment) | Deployment | Work with access-protected Vercel deployments. | 85 |
-| [Next.js Metadata](https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/metadata.md) | SEO | Apply the Next.js reference guidance for metadata. | 84 |
+## Browse
 
-## Categories
+Browse the generated category pages or search the full dataset directly.
 
+<!-- GENERATED:BROWSE:START -->
 | Category | Skills | Category | Skills |
 |---|---:|---|---:|
 | [Design](categories/design.md) | 132 | [Performance](categories/performance.md) | 75 |
@@ -42,109 +34,108 @@ Use the atlas to find focused guidance for UI quality, React and Next.js perform
 | [Components](categories/components.md) | 7 | [Backend](categories/backend.md) | 6 |
 | [AI Web Development](categories/ai-web-development.md) | 5 | [Deployment](categories/deployment.md) | 5 |
 | [Interaction](categories/interaction.md) | 5 | [SEO](categories/seo.md) | 5 |
-| [APIs](categories/apis.md) | 4 | [Accessibility](categories/accessibility.md) | 4 |
+| [Accessibility](categories/accessibility.md) | 4 | [APIs](categories/apis.md) | 4 |
 | [Content](categories/content.md) | 4 | [Debugging](categories/debugging.md) | 3 |
 | [DevOps](categories/devops.md) | 3 | [Analytics](categories/analytics.md) | 2 |
 | [Code Quality](categories/code-quality.md) | 2 | [Internationalization](categories/internationalization.md) | 2 |
 | [PWA](categories/pwa.md) | 2 | [Git / GitHub](categories/git-github.md) | 1 |
+| [E-commerce](categories/e-commerce.md) | 0 |  |  |
+<!-- GENERATED:BROWSE:END -->
 
-Unfilled taxonomy slots are tracked deliberately rather than hidden: `E-commerce`. See [`docs/gaps.md`](docs/gaps.md).
+## Example skills
 
-## What counts as a skill
+A small cross-section of high-quality entries already in the dataset:
 
-A skill is a reusable instruction set, rule, workflow, or agent procedure aimed at a concrete development task. A framework or library is not counted simply because it exists.
+<!-- GENERATED:EXAMPLES:START -->
+| Skill | Area | What it does |
+|---|---|---|
+| [UI Design](https://github.com/mblode/agent-skills/blob/main/skills/ui-design/SKILL.md) | Design | Design, build, and audit web UI through explicit direction, build, audit, options, scaffold, and retrofit modes. |
+| [Nextjs](https://github.com/vercel/vercel-plugin/tree/main/skills/nextjs) | Frontend | Apply current Next.js implementation guidance. |
+| [Advanced Event Handler Refs](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/advanced-event-handler-refs.md) | Performance | Apply the Vercel React performance rule for event handler refs. |
+| [Keyboard Interaction Audit](https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/) | Accessibility | Audit interactive controls and composite widgets for keyboard access and predictable focus behavior. |
+| [Anthropic Webapp Testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) | Testing | Test local web applications with browser automation and inspect UI behavior. |
+| [Auth](https://github.com/vercel/vercel-plugin/tree/main/skills/auth) | Security | Implement authentication patterns in Vercel applications. |
+| [REST API Design Review](https://www.rfc-editor.org/rfc/rfc9110) | APIs | Review resource modeling, HTTP semantics, errors, idempotency, pagination, and versioning. |
+| [Supabase Postgres Best Practices](https://github.com/supabase/agent-skills/tree/main/skills/supabase-postgres-best-practices) | Databases | Apply Supabase PostgreSQL guidance for query performance, indexing, RLS, schema design, and locking. |
+| [Access Protected Vercel Deployment](https://github.com/vercel/vercel-plugin/tree/main/skills/access-protected-vercel-deployment) | Deployment | Work with access-protected Vercel deployments. |
+<!-- GENERATED:EXAMPLES:END -->
 
-Examples that belong here:
+## What counts as a skill?
 
-- diagnosing hydration mismatches;
-- auditing keyboard navigation;
-- reducing unnecessary React re-renders;
-- reviewing a PostgreSQL schema;
-- generating Playwright smoke tests;
-- checking CSP, CORS, cookies, or exposed secrets;
-- improving visual hierarchy or responsive layout;
-- reviewing metadata, structured data, sitemap, and robots rules.
+A skill is a reusable instruction set, rule, workflow, or agent procedure for a concrete development task.
 
-Granular upstream rule files are indexed separately only when the upstream project publishes them as independently addressable guidance. Collections are not exploded into fake entries just to increase the count.
+React is not a skill; a repeatable React performance procedure can be. Figma is not a skill; a reusable design-system audit can be. Collections are not split into invented variants just to increase the count.
+
+## Dataset
+
+[`data/skills.json`](data/skills.json) is the canonical dataset. [`data/index.min.json`](data/index.min.json) is the compact index. Generated indexes by category, tag, and framework are also available in [`data/`](data/).
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/pneqnp-iswr/web-skill-atlas/main/data/skills.json \
+  | jq '.[] | select(.tags | index("nextjs")) | {name, source_url}'
+```
+
+For coding agents, [`AGENTS.md`](AGENTS.md) and [`llms.txt`](llms.txt) point to the canonical files and repository conventions.
 
 ## Verification
 
 | Status | Meaning |
 |---|---|
 | `verified` | The original source or official documentation was inspected directly. |
-| `partially-verified` | A credible discovery source points to the upstream, but deeper provenance or license review is still pending. |
-| `experimental` | Useful candidate kept visible while evidence or maturity is still limited. |
-| `deprecated` / `unavailable` / `duplicate` / `archived` | Retained for provenance but excluded from normal browsing. |
+| `partially-verified` | A credible source is known, but deeper provenance or license review is still pending. |
+| `experimental` | A useful candidate remains visible while evidence or maturity is limited. |
+| `deprecated` / `unavailable` / `duplicate` / `archived` | Retained for provenance and excluded from normal browsing. |
 
-`derived-workflow` is a type, not a claim of upstream publication. Derived workflows are built from official documentation and are labeled explicitly.
+Canonical sources are preferred over registry mirrors, curated-list copies, and social posts. Forks and mirrors are not counted as separate skills by default. `derived-workflow` is a type, not a claim that an upstream project published that exact skill.
 
-## Query the dataset
+Quality scores measure practical usefulness, specificity, reproducibility, source quality, maintenance, uniqueness, and documentation. See [`docs/quality-scoring.md`](docs/quality-scoring.md) and [`docs/methodology.md`](docs/methodology.md).
 
-The canonical file is plain JSON, so the atlas can be used without a custom CLI.
+## Contributing
+
+Found a missing skill or a bad entry? Use the [issue forms](https://github.com/pneqnp-iswr/web-skill-atlas/issues/new/choose) or open a pull request.
+
+For a new entry, provide at least:
+
+- name and concise purpose;
+- canonical source URL;
+- suggested category;
+- enough source detail to distinguish it from mirrors or nearby skills.
+
+Before opening a PR:
 
 ```bash
-# Security skills scoring 80 or higher
-jq '.[] | select(.category == "Security" and .quality_score >= 80)' data/skills.json
-
-# Every Next.js-tagged skill
-jq -r '.[] | select(.tags | index("nextjs")) | [.name, .source_url] | @tsv' data/skills.json
+python scripts/validate.py
+python scripts/deduplicate.py
+python scripts/generate.py
+git diff --exit-code
 ```
 
-Generated indexes are also available by category, tag, and framework in `data/`.
+The full contribution rules are in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+## Methodology
+
+Discovery leads come from repositories, registries, official documentation, curated collections, and publicly indexed developer-community sources. Discovery is not verification: the atlas prefers the original source and records incomplete provenance explicitly.
+
+Coverage is broad, not exhaustive. Search engines, GitHub indexing, social platforms, deleted repositories, and private or non-indexed sources all impose limits, and verification can lag behind upstream changes. See [`docs/research-log.md`](docs/research-log.md) and [`docs/gaps.md`](docs/gaps.md).
+
+<!-- GENERATED:UPDATED:START -->
+Last dataset refresh: **2026-08-27**.
+<!-- GENERATED:UPDATED:END -->
 
 ## Repository layout
 
 ```text
 .
-├── data/              # canonical dataset, indexes, sources, rejected entries
-├── categories/        # generated category pages
-├── docs/              # taxonomy, methodology, scoring, research log, gaps
-├── scripts/           # validation, generation, deduplication, link checks
-├── .github/           # CI, issue templates, pull-request template
-├── AGENTS.md
-├── llms.txt
-├── CONTRIBUTING.md
-└── README.md
+├── data/          canonical dataset, source registry, generated indexes
+├── categories/    generated category pages
+├── docs/          methodology, taxonomy, scoring, research notes
+├── scripts/       validation, generation, deduplication, link checks
+├── assets/        repository presentation assets
+└── .github/       CI, issue forms, pull-request template
 ```
 
-## Data files
-
-- [`data/skills.json`](data/skills.json) — canonical dataset.
-- [`data/skills.yaml`](data/skills.yaml) — generated YAML 1.2-compatible mirror.
-- [`data/sources.json`](data/sources.json) — upstream source registry.
-- [`data/collections.json`](data/collections.json) — registries and collections used for discovery.
-- [`data/rejected.json`](data/rejected.json) — rejected and duplicate candidates with reasons.
-- [`data/stats.json`](data/stats.json) — generated counts.
-- [`data/index.min.json`](data/index.min.json) — compact machine-readable index.
-
-## Quality scoring
-
-Quality scores are not star counts and are not a popularity contest. They measure practical usefulness, specificity, reproducibility, source quality, maintenance, uniqueness, and documentation. A score in the 70s is good; 90+ is intentionally rare.
-
-See [`docs/quality-scoring.md`](docs/quality-scoring.md) for the formula and [`docs/methodology.md`](docs/methodology.md) for inclusion, deduplication, provenance, and verification rules.
-
-## Contributing
-
-Pull requests are welcome for:
-
-- new skills or upstream sources;
-- broken or redirected links;
-- duplicate reports;
-- category and tag corrections;
-- license or provenance fixes;
-- new taxonomy proposals;
-- better descriptions or metadata.
-
-Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening a PR. CI validates required fields, slugs, categories, generated artifacts, and duplicate candidates.
-
-## Research coverage
-
-The project uses broad search, registries, curated collections, upstream repositories, official documentation, and public developer-community references for discovery. It does **not** claim to have exhaustively crawled GitHub, TikTok, Instagram, YouTube, or the entire public web.
-
-Coverage, query families, accepted/rejected candidates, and platform limitations are recorded in [`docs/research-log.md`](docs/research-log.md). Missing areas are tracked in [`docs/gaps.md`](docs/gaps.md).
-
-Last dataset refresh: **2026-08-27**.
+See [`CHANGELOG.md`](CHANGELOG.md) for dataset and repository changes.
 
 ## License
 
-Repository code and original metadata are licensed under MIT. Third-party skills remain under their upstream licenses. The atlas primarily indexes metadata and links and does not grant new rights to third-party content. See [`NOTICE`](NOTICE).
+Web Skill Atlas code and original repository metadata are licensed under MIT where applicable. Third-party skills remain subject to their original licenses; indexing a source does not grant additional rights to its content. See [`NOTICE`](NOTICE).

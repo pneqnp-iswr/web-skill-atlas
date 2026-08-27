@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#0d1117"/>
+  <defs><pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0V80" fill="none" stroke="#161b22" stroke-width="1"/></pattern></defs>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <g stroke="#30363d" stroke-width="2" fill="none">
+    <path d="M860 130L1000 95L1110 175L1185 270L1080 315L940 245L910 400L1030 455L1160 430L1190 545L995 545L1030 455"/>
+    <path d="M940 245L1080 315M1080 315L1030 455M1185 270L1160 430"/>
+  </g>
+  <g fill="#636e7b"><circle cx="860" cy="130" r="6"/><circle cx="1000" cy="95" r="6"/><circle cx="1110" cy="175" r="6"/><circle cx="1080" cy="315" r="6"/><circle cx="1185" cy="270" r="6"/><circle cx="910" cy="400" r="6"/><circle cx="1160" cy="430" r="6"/><circle cx="995" cy="545" r="6"/><circle cx="1190" cy="545" r="6"/></g>
+  <g fill="#58a6ff"><circle cx="940" cy="245" r="9"/><circle cx="1030" cy="455" r="9"/></g>
+  <text x="78" y="84" fill="#58a6ff" font-family="Arial, sans-serif" font-weight="700" font-size="16" letter-spacing="1.4">OPEN SOURCE INDEX</text>
+  <g fill="#f0f6fc" font-family="Arial, sans-serif" font-weight="700" font-size="78"><text x="78" y="180">WEB</text><text x="78" y="263">SKILL</text><text x="78" y="346">ATLAS</text></g>
+  <line x1="78" y1="397" x2="690" y2="397" stroke="#30363d" stroke-width="2"/>
+  <text x="78" y="462" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="30">Reusable AI skills for modern web development.</text>
+  <text x="78" y="526" fill="#8b949e" font-family="Arial, sans-serif" font-size="22">Source-backed · Deduplicated · Machine-readable</text>
+</svg>
