@@ -1,104 +1,5 @@
 [
   {
-    "name": "Frontend Design mirror #1",
-    "reason": "duplicate",
-    "canonical": "Anthropic Frontend Design",
-    "status": "rejected"
-  },
-  {
-    "name": "Frontend Design mirror #2",
-    "reason": "duplicate",
-    "canonical": "Anthropic Frontend Design",
-    "status": "rejected"
-  },
-  {
-    "name": "React Best Practices mirror",
-    "reason": "duplicate",
-    "canonical": "Vercel React Best Practices",
-    "status": "rejected"
-  },
-  {
-    "name": "React library listing",
-    "reason": "library-not-skill",
-    "status": "rejected"
-  },
-  {
-    "name": "Sadcn Vue",
-    "source_url": "https://github.com/unovue/shadcn-vue",
-    "reason": "duplicate",
-    "notes": "Duplicate discovery entry for canonical shadcn-vue; retained a single normalized record."
-  },
-  {
-    "name": "UI UX Pro Max (wshobson discovery label)",
-    "source_url": "https://github.com/wshobson/agents",
-    "reason": "unresolved-discovery-label",
-    "notes": "The collection label did not map to a matching upstream skill. The repository publishes separate UI design skills, which are indexed individually instead.",
-    "status": "rejected"
-  },
-  {
-    "name": "Astro Developer monorepo skill",
-    "source_url": "https://github.com/withastro/astro/blob/main/.agents/skills/astro-developer/SKILL.md",
-    "reason": "framework-maintenance-not-app-skill",
-    "notes": "The procedure is for developing inside the Astro framework monorepo rather than building ordinary Astro applications.",
-    "status": "rejected"
-  },
-  {
-    "name": "Angular .agent framework-maintainer skills",
-    "source_url": "https://github.com/angular/angular/tree/main/.agent/skills",
-    "reason": "framework-maintenance-not-app-skill",
-    "notes": "Official, but primarily Angular repository maintenance and framework implementation procedures rather than consumer frontend development.",
-    "status": "rejected"
-  },
-  {
-    "name": "Qwik .ruler monorepo skills",
-    "source_url": "https://github.com/QwikDev/qwik/tree/main/.ruler/skills",
-    "reason": "framework-maintenance-not-app-skill",
-    "notes": "Repository-internal framework workflows were kept out of the application-development dataset.",
-    "status": "rejected"
-  },
-  {
-    "name": "Agent Browser skill",
-    "source_url": "https://github.com/Vorwo/agent-browser-skill/blob/main/skill.md",
-    "reason": "browser-operation-not-frontend-coding",
-    "notes": "Headless-browser operation capability rather than a repeatable frontend engineering procedure; similar testing/browser capabilities already exist in adjacent categories.",
-    "status": "rejected"
-  },
-  {
-    "name": "PyModel React Frontend Skills pack",
-    "source_url": "https://github.com/PyModel/react-frontend-skills",
-    "reason": "provenance-ambiguous-near-duplicate",
-    "notes": "A near-identical current pack exists under Pythoughts-labs. Individual skills were not imported until upstream lineage and originality can be resolved.",
-    "status": "rejected"
-  },
-  {
-    "name": "Pythoughts React Frontend Skills pack",
-    "source_url": "https://github.com/Pythoughts-labs/react-frontend-skills",
-    "reason": "provenance-ambiguous-near-duplicate",
-    "notes": "Near-identical corpus to PyModel/react-frontend-skills; deferred rather than multiplying duplicate skills.",
-    "status": "rejected"
-  },
-  {
-    "name": "Generic Frontend Developer monolith",
-    "source_url": "https://github.com/agent-skills-hub/agent-skills-hub/blob/main/skills/frontend-developer/SKILL.md",
-    "reason": "low-uniqueness-generic-bundle",
-    "notes": "Broad React/Next/performance/accessibility bundle overlaps many more specific canonical skills and adds little unique repeatable capability.",
-    "status": "rejected"
-  },
-  {
-    "name": "Engineering Frontend Developer monolith",
-    "source_url": "https://github.com/peterhdd/agent-skills/blob/main/skills/engineering-frontend-developer/SKILL.md",
-    "reason": "low-uniqueness-generic-bundle",
-    "notes": "Broad cross-framework guide overlaps higher-provenance granular skills and was not used to inflate counts.",
-    "status": "rejected"
-  },
-  {
-    "name": "MPSQUARK Frontend Design",
-    "source_url": "https://github.com/MPSQUARK/AgentSkills/blob/main/frontend-design/SKILL.md",
-    "reason": "design-primary-out-of-scope",
-    "notes": "Aesthetics/UI-UX judgment is primary; this pass is frontend engineering rather than Design research.",
-    "status": "rejected"
-  },
-  {
     "name": "mcollina Node.js Core contributor pack",
     "source_url": "https://github.com/mcollina/skills/tree/main/skills/nodejs-core",
     "reason": "framework-maintenance-not-app-skill",
@@ -285,6 +186,7 @@
     "source_url": "https://github.com/stripe/ai/tree/main/providers",
     "reason": "adapter-copy",
     "canonical": "https://github.com/stripe/ai/tree/main/skills",
+    "candidate_count": 40,
     "status": "duplicate",
     "notes": "Retained canonical representation: https://github.com/stripe/ai/tree/main/skills."
   },
@@ -293,6 +195,7 @@
     "source_url": "https://github.com/vtex/skills/tree/main/exports/opencode",
     "reason": "adapter-copy",
     "canonical": "https://github.com/vtex/skills/tree/main/skills",
+    "candidate_count": 45,
     "status": "duplicate",
     "notes": "Retained canonical representation: https://github.com/vtex/skills/tree/main/skills."
   },
@@ -301,6 +204,7 @@
     "source_url": "https://github.com/vtex/skills/tree/main/tracks",
     "reason": "source-export-copy",
     "canonical": "https://github.com/vtex/skills/tree/main/skills",
+    "candidate_count": 45,
     "status": "duplicate",
     "notes": "Retained canonical representation: https://github.com/vtex/skills/tree/main/skills."
   },
@@ -309,6 +213,7 @@
     "source_url": "https://github.com/redis/agent-skills/tree/main/plugins/redis-development/skills",
     "reason": "adapter-copy",
     "canonical": "https://github.com/redis/agent-skills/tree/main/skills",
+    "candidate_count": 8,
     "status": "duplicate",
     "notes": "Retained canonical representation: https://github.com/redis/agent-skills/tree/main/skills."
   },
@@ -317,6 +222,7 @@
     "source_url": "https://github.com/neondatabase/agent-skills/tree/main/plugins/neon-postgres/skills",
     "reason": "adapter-copy",
     "canonical": "https://github.com/neondatabase/agent-skills/tree/main/skills",
+    "candidate_count": 7,
     "status": "duplicate",
     "notes": "Retained canonical representation: https://github.com/neondatabase/agent-skills/tree/main/skills."
   },
@@ -325,6 +231,7 @@
     "source_url": "https://github.com/litestar-org/litestar-skills/tree/main/plugins/litestar/skills",
     "reason": "adapter-copy",
     "canonical": "https://github.com/litestar-org/litestar-skills/tree/main/skills",
+    "candidate_count": 10,
     "status": "duplicate",
     "notes": "Retained canonical representation: https://github.com/litestar-org/litestar-skills/tree/main/skills."
   },
@@ -333,6 +240,7 @@
     "source_url": "https://github.com/vintasoftware/django-ai-plugins/tree/main/plugins",
     "reason": "adapter-copy",
     "canonical": "https://github.com/vintasoftware/django-ai-plugins/tree/main/skills",
+    "candidate_count": 5,
     "status": "duplicate",
     "notes": "Retained canonical representation: https://github.com/vintasoftware/django-ai-plugins/tree/main/skills."
   },
@@ -341,6 +249,7 @@
     "source_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/plugins/aws-core/skills",
     "reason": "adapter-copy",
     "canonical": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills",
+    "candidate_count": 23,
     "status": "duplicate",
     "notes": "Retained canonical representation: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills."
   },
@@ -349,6 +258,7 @@
     "source_url": "https://github.com/salvo-rs/salvo-skills/blob/main/salvo-realtime/SKILL.md",
     "reason": "semantic-umbrella-overlap",
     "canonical": "Salvo SSE and Salvo WebSocket",
+    "candidate_count": 1,
     "status": "duplicate",
     "notes": "Retained canonical representation: Salvo SSE and Salvo WebSocket."
   },
@@ -357,6 +267,7 @@
     "source_url": "https://github.com/mcollina/skills/blob/main/skills/node/SKILL.md",
     "reason": "semantic-umbrella-overlap",
     "canonical": "granular Node.js rules",
+    "candidate_count": 1,
     "status": "duplicate",
     "notes": "Retained canonical representation: granular Node.js rules."
   },
@@ -365,6 +276,7 @@
     "source_url": "https://github.com/mcollina/skills/blob/main/skills/fastify/SKILL.md",
     "reason": "semantic-umbrella-overlap",
     "canonical": "granular Fastify rules",
+    "candidate_count": 1,
     "status": "duplicate",
     "notes": "Retained canonical representation: granular Fastify rules."
   },
@@ -373,6 +285,7 @@
     "source_url": "https://github.com/litestar-org/litestar-skills/blob/main/skills/litestar/SKILL.md",
     "reason": "semantic-umbrella-overlap",
     "canonical": "granular Litestar skills",
+    "candidate_count": 1,
     "status": "duplicate",
     "notes": "Retained canonical representation: granular Litestar skills."
   },
@@ -381,6 +294,7 @@
     "source_url": "https://github.com/auth0/agent-skills/blob/main/plugins/auth0/skills/auth0/SKILL.md",
     "reason": "semantic-umbrella-overlap",
     "canonical": "granular Auth0 reference procedures",
+    "candidate_count": 1,
     "status": "duplicate",
     "notes": "Retained canonical representation: granular Auth0 reference procedures."
   },
@@ -389,6 +303,7 @@
     "source_url": "https://github.com/aws/agent-toolkit-for-aws/blob/main/skills/core-skills/aws-serverless/SKILL.md",
     "reason": "semantic-umbrella-overlap",
     "canonical": "granular AWS serverless procedures",
+    "candidate_count": 1,
     "status": "duplicate",
     "notes": "Retained canonical representation: granular AWS serverless procedures."
   },
@@ -397,6 +312,7 @@
     "source_url": "https://github.com/Kadajett/agent-nestjs-skills/blob/main/skills/nestjs-best-practices/SKILL.md",
     "reason": "near-duplicate-lower-provenance",
     "canonical": "GitHub NestJS Development Standards",
+    "candidate_count": 1,
     "status": "duplicate",
     "notes": "Retained canonical representation: GitHub NestJS Development Standards."
   },
@@ -405,6 +321,7 @@
     "source_url": "https://github.com/openai/skills/tree/main/skills/.curated/aspnet-core",
     "reason": "near-duplicate",
     "canonical": "dotnet/skills ASP.NET Core procedures",
+    "candidate_count": 1,
     "status": "duplicate",
     "notes": "Retained canonical representation: dotnet/skills ASP.NET Core procedures."
   }

@@ -3,11 +3,11 @@
 **Source-backed, reusable AI skills for designing, building, testing, debugging, and shipping modern web applications.**
 
 <!-- GENERATED:BADGES:START -->
-[![Skills](https://img.shields.io/badge/skills-399-181717?style=flat-square)](data/skills.json) [![Verified](https://img.shields.io/badge/verified-235-181717?style=flat-square)](docs/methodology.md) [![Categories](https://img.shields.io/badge/categories-24-181717?style=flat-square)](#browse) [![Validation](https://github.com/pneqnp-iswr/web-skill-atlas/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/pneqnp-iswr/web-skill-atlas/actions/workflows/validate.yml) [![License](https://img.shields.io/badge/license-MIT-181717?style=flat-square)](LICENSE)
+[![Skills](https://img.shields.io/badge/skills-658-181717?style=flat-square)](data/skills.json) [![Verified](https://img.shields.io/badge/verified-512-181717?style=flat-square)](docs/methodology.md) [![Categories](https://img.shields.io/badge/categories-24-181717?style=flat-square)](#browse) [![Validation](https://github.com/pneqnp-iswr/web-skill-atlas/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/pneqnp-iswr/web-skill-atlas/actions/workflows/validate.yml) [![License](https://img.shields.io/badge/license-MIT-181717?style=flat-square)](LICENSE)
 <!-- GENERATED:BADGES:END -->
 
 <!-- GENERATED:STATS:START -->
-**399** skills · **235** verified · **24/25** categories populated · **187** subcategories · **209** sources · updated **2026-08-27**
+**658** skills · **512** verified · **24/25** categories populated · **257** subcategories · **238** sources · updated **2026-08-27**
 <!-- GENERATED:STATS:END -->
 
 Web Skill Atlas indexes reusable AI skills and agent workflows across public repositories, registries, tool ecosystems, and official documentation, then normalizes them around canonical sources.
@@ -27,17 +27,17 @@ Browse the generated category pages or search the full dataset directly.
 <!-- GENERATED:BROWSE:START -->
 | Category | Skills | Category | Skills |
 |---|---:|---|---:|
-| [Design](categories/design.md) | 132 | [Performance](categories/performance.md) | 77 |
-| [Frontend](categories/frontend.md) | 66 | [Security](categories/security.md) | 20 |
-| [Testing](categories/testing.md) | 17 | [Architecture](categories/architecture.md) | 9 |
-| [Databases](categories/databases.md) | 8 | [Product](categories/product.md) | 8 |
-| [Components](categories/components.md) | 7 | [Backend](categories/backend.md) | 6 |
+| [Design](categories/design.md) | 132 | [Performance](categories/performance.md) | 99 |
+| [Backend](categories/backend.md) | 98 | [Frontend](categories/frontend.md) | 66 |
+| [Security](categories/security.md) | 62 | [APIs](categories/apis.md) | 45 |
+| [Architecture](categories/architecture.md) | 38 | [Testing](categories/testing.md) | 26 |
+| [Databases](categories/databases.md) | 20 | [Debugging](categories/debugging.md) | 9 |
+| [Product](categories/product.md) | 8 | [Components](categories/components.md) | 7 |
+| [Deployment](categories/deployment.md) | 6 | [DevOps](categories/devops.md) | 6 |
 | [Accessibility](categories/accessibility.md) | 5 | [AI Web Development](categories/ai-web-development.md) | 5 |
-| [Deployment](categories/deployment.md) | 5 | [Interaction](categories/interaction.md) | 5 |
-| [SEO](categories/seo.md) | 5 | [APIs](categories/apis.md) | 4 |
-| [Content](categories/content.md) | 4 | [Debugging](categories/debugging.md) | 4 |
-| [DevOps](categories/devops.md) | 3 | [Analytics](categories/analytics.md) | 2 |
-| [Code Quality](categories/code-quality.md) | 2 | [Internationalization](categories/internationalization.md) | 2 |
+| [Code Quality](categories/code-quality.md) | 5 | [Interaction](categories/interaction.md) | 5 |
+| [SEO](categories/seo.md) | 5 | [Content](categories/content.md) | 4 |
+| [Analytics](categories/analytics.md) | 2 | [Internationalization](categories/internationalization.md) | 2 |
 | [PWA](categories/pwa.md) | 2 | [Git / GitHub](categories/git-github.md) | 1 |
 <!-- GENERATED:BROWSE:END -->
 

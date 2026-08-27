@@ -1,0 +1,479 @@
+[
+  {
+    "url": "https://github.com/auth0/agent-skills",
+    "platform": "GitHub",
+    "author": "auth0",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 21,
+    "discovered_via": [
+      "official vendor skills repository",
+      "backend authentication framework search"
+    ],
+    "source_revision": "7af37fe227ec9f75f949c663799a818433e37f84"
+  },
+  {
+    "url": "https://github.com/aws/agent-toolkit-for-aws",
+    "platform": "GitHub",
+    "author": "aws",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 7,
+    "discovered_via": [
+      "official cloud organization",
+      "serverless and resilience gap search"
+    ],
+    "source_revision": "21be51827deed37cb54af45601bad19cc71582c8"
+  },
+  {
+    "url": "https://github.com/better-auth/skills",
+    "platform": "GitHub",
+    "author": "better-auth",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 6,
+    "discovered_via": [
+      "maintainer skills repository",
+      "authentication gap search"
+    ],
+    "source_revision": "17dfe3a1da1c3982de723098ba1015d67f35694c"
+  },
+  {
+    "url": "https://github.com/clerk/skills",
+    "platform": "GitHub",
+    "author": "clerk",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 8,
+    "discovered_via": [
+      "canonical-upstream tracing",
+      "official repository tree"
+    ],
+    "source_revision": "aac39ed99f183c01be1c6f7baa9883ff3f0c9d30"
+  },
+  {
+    "url": "https://github.com/cloudflare/skills",
+    "platform": "GitHub",
+    "author": "cloudflare",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 5,
+    "discovered_via": [
+      "official platform skills repository",
+      "serverless backend search"
+    ],
+    "source_revision": "f96bff754e428838818017f75817f0f9428acd48"
+  },
+  {
+    "url": "https://github.com/dash0hq/agent-skills",
+    "platform": "GitHub",
+    "author": "dash0hq",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 2,
+    "discovered_via": [
+      "official vendor skills repository",
+      "observability gap search"
+    ],
+    "source_revision": "269e4836f4597e789210e13cfbf743fb5b5a4ec3"
+  },
+  {
+    "url": "https://github.com/dodopayments/skills",
+    "platform": "GitHub",
+    "author": "dodopayments",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 6,
+    "discovered_via": [
+      "official payment skills repository",
+      "billing and webhook search"
+    ],
+    "source_revision": "d582cfb3d3475e6f1c8be219c75a3129c4def518"
+  },
+  {
+    "url": "https://github.com/dotnet/skills",
+    "platform": "GitHub",
+    "author": "dotnet",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 8,
+    "discovered_via": [
+      "official .NET organization",
+      "recursive hidden-skill search"
+    ],
+    "source_revision": "a3cb4a2a9f3ed8ee7a027000ec5961e4ffbce0a4"
+  },
+  {
+    "url": "https://github.com/elysiajs/skills",
+    "platform": "GitHub",
+    "author": "elysiajs",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official framework organization",
+      "Bun backend gap search"
+    ],
+    "source_revision": "8fd8031b83bce42e903ed0e38e6170213876c20e"
+  },
+  {
+    "url": "https://github.com/fastapi/fastapi",
+    "platform": "GitHub",
+    "author": "fastapi",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official framework repository recursive tree search"
+    ],
+    "source_revision": "49033471594ea5d99a80abdf1043231b7791ee49"
+  },
+  {
+    "url": "https://github.com/firebase/agent-skills",
+    "platform": "GitHub",
+    "author": "firebase",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 4,
+    "discovered_via": [
+      "official platform repository",
+      "backend auth and functions search"
+    ],
+    "source_revision": "a0b4e143f40c1ebe05fe5f9a4787fecd4da8f478"
+  },
+  {
+    "url": "https://github.com/github/awesome-copilot",
+    "platform": "GitHub",
+    "author": "github",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 11,
+    "discovered_via": [
+      "official GitHub collection",
+      "framework gap search",
+      "repository tree inspection"
+    ],
+    "source_revision": "634b92f887487fc61cddc2f61d77830e09e8f589"
+  },
+  {
+    "url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
+    "platform": "GitHub",
+    "author": "giuseppe-trisciuoglio",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 12,
+    "discovered_via": [
+      "Spring Boot gap search",
+      "repository tree inspection"
+    ],
+    "source_revision": "50f0b945bd81ee1dac377f609871e63b732347fa"
+  },
+  {
+    "url": "https://github.com/hookdeck/webhook-skills",
+    "platform": "GitHub",
+    "author": "hookdeck",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 13,
+    "discovered_via": [
+      "webhook failure-mode search",
+      "maintainer repository tree"
+    ],
+    "source_revision": "7e3cdbceb78d28dbc24cdba4c98698373bb29451"
+  },
+  {
+    "url": "https://github.com/igmarin/rails-agent-skills",
+    "platform": "GitHub",
+    "author": "igmarin",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 5,
+    "discovered_via": [
+      "Rails gap search",
+      "repository tree inspection"
+    ],
+    "source_revision": "2b21cddd2646cb3409beb670b47f68bd5b3a95dc"
+  },
+  {
+    "url": "https://github.com/Kotlin/kotlin-agent-skills",
+    "platform": "GitHub",
+    "author": "Kotlin",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official language organization",
+      "Kotlin backend gap search"
+    ],
+    "source_revision": "08d7ad0d74a9a5a548287b2bd4926180fab56cac"
+  },
+  {
+    "url": "https://github.com/laravel/boost",
+    "platform": "GitHub",
+    "author": "laravel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official framework repository recursive tree search"
+    ],
+    "source_revision": "613d0ebbe07252cb477933a0f26d01ec5c7ac677"
+  },
+  {
+    "url": "https://github.com/lensesio/agentic-engineering-for-apache-kafka",
+    "platform": "GitHub",
+    "author": "lensesio",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 8,
+    "discovered_via": [
+      "Kafka gap search",
+      "repository tree inspection"
+    ],
+    "source_revision": "8cee08b1681c38c1daef956ce8b3d9c515fde765"
+  },
+  {
+    "url": "https://github.com/litestar-org/litestar-skills",
+    "platform": "GitHub",
+    "author": "litestar-org",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 15,
+    "discovered_via": [
+      "official framework organization",
+      "Python backend gap search"
+    ],
+    "source_revision": "84587b4ccb97e31e34230f800d4dc2f90f6ae11d"
+  },
+  {
+    "url": "https://github.com/mcollina/skills",
+    "platform": "GitHub",
+    "author": "mcollina",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 31,
+    "discovered_via": [
+      "maintainer repository tree",
+      "skills.sh",
+      "gap-driven Node.js and Fastify search"
+    ],
+    "source_revision": "856efd268ae85482d882f3d0bed869fd020b5c06"
+  },
+  {
+    "url": "https://github.com/neondatabase/agent-skills",
+    "platform": "GitHub",
+    "author": "neondatabase",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 3,
+    "discovered_via": [
+      "official database platform repository",
+      "serverless backend search"
+    ],
+    "source_revision": "46498bcde91c2d293bfe5e23614594991e46211e"
+  },
+  {
+    "url": "https://github.com/prisma/skills",
+    "platform": "GitHub",
+    "author": "prisma",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 5,
+    "discovered_via": [
+      "canonical URL correction",
+      "repository tree inspection"
+    ],
+    "source_revision": "808913c1dac11dc425631c2454f7fcb2d5ade5ca"
+  },
+  {
+    "url": "https://github.com/redis/agent-skills",
+    "platform": "GitHub",
+    "author": "redis",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 6,
+    "discovered_via": [
+      "official database organization",
+      "cache and connection search"
+    ],
+    "source_revision": "172fb9effa139cd7432ac29a9ee81c45943e5a28"
+  },
+  {
+    "url": "https://github.com/render-oss/skills",
+    "platform": "GitHub",
+    "author": "render-oss",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 3,
+    "discovered_via": [
+      "official platform skills repository",
+      "workers and cron search"
+    ],
+    "source_revision": "3f2aa30eaadc1c2cc6bb402f8eee93f7db844218"
+  },
+  {
+    "url": "https://github.com/salvo-rs/salvo-skills",
+    "platform": "GitHub",
+    "author": "salvo-rs",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 27,
+    "discovered_via": [
+      "official framework organization",
+      "Rust backend gap search",
+      "repository tree inspection"
+    ],
+    "source_revision": "4dd929857cf46c6e4ed54c6fee044c86ffb0bebc"
+  },
+  {
+    "url": "https://github.com/samber/cc-skills-golang",
+    "platform": "GitHub",
+    "author": "samber",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 20,
+    "discovered_via": [
+      "maintainer skill repository",
+      "Go backend gap search",
+      "repository tree inspection"
+    ],
+    "source_revision": "147c0679e2442fffd45e8f2275e9417f2991e6f5"
+  },
+  {
+    "url": "https://github.com/spree/agent-skills",
+    "platform": "GitHub",
+    "author": "spree",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 8,
+    "discovered_via": [
+      "official framework organization",
+      "Rails and commerce backend search"
+    ],
+    "source_revision": "a52feb91dbbcd243a15d3012d6c7df4c4add8cd8"
+  },
+  {
+    "url": "https://github.com/stripe/ai",
+    "platform": "GitHub",
+    "author": "stripe",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 4,
+    "discovered_via": [
+      "official payment organization",
+      "recursive adapter-aware skill search"
+    ],
+    "source_revision": "1dc126b93cc62e28aff7e00e51406dfeb8ac88d5"
+  },
+  {
+    "url": "https://github.com/triggerdotdev/skills",
+    "platform": "GitHub",
+    "author": "triggerdotdev",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 6,
+    "discovered_via": [
+      "official product skills repository",
+      "background jobs and realtime search"
+    ],
+    "source_revision": "e0f9f87153d1502fd9f6298e2eb1d58cfd7f9871"
+  },
+  {
+    "url": "https://github.com/triggerdotdev/staff-engineering-skills",
+    "platform": "GitHub",
+    "author": "triggerdotdev",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 16,
+    "discovered_via": [
+      "maintainer repository search",
+      "distributed-systems failure-mode search"
+    ],
+    "source_revision": "597da099e4b7d07f53946cc393ca24ad9274d925"
+  },
+  {
+    "url": "https://github.com/vercel/vercel-plugin",
+    "platform": "GitHub",
+    "author": "vercel",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 5,
+    "discovered_via": [
+      "canonical URL correction",
+      "repository tree inspection"
+    ],
+    "source_revision": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6"
+  },
+  {
+    "url": "https://github.com/vintasoftware/django-ai-plugins",
+    "platform": "GitHub",
+    "author": "vintasoftware",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 5,
+    "discovered_via": [
+      "Django gap search",
+      "maintainer repository tree"
+    ],
+    "source_revision": "b8af2688d994747666e6a793d441365807d6772f"
+  },
+  {
+    "url": "https://github.com/vtex/skills",
+    "platform": "GitHub",
+    "author": "vtex",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 8,
+    "discovered_via": [
+      "official commerce organization",
+      "idempotency and backend-worker search"
+    ],
+    "source_revision": "2a2a31da155dc357f57661fa7f83fa9585764801"
+  },
+  {
+    "url": "https://skills.sh/",
+    "platform": "registry",
+    "author": "unknown",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 0,
+    "discovered_via": [
+      "32 executed backend query families",
+      "canonical upstream tracing"
+    ]
+  }
+]

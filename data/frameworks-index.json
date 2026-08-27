@@ -1,4 +1,39 @@
 {
+  ".NET": [
+    "asp-dotnet-core-opentelemetry-configuration",
+    "asp-dotnet-core-web-api-engineering",
+    "minimal-api-file-upload",
+    "data-driven-asp-dotnet-core-scaffolding",
+    "optimizing-ef-core-queries",
+    "dotnet-performance-analysis",
+    "dotnet-production-trace-collection",
+    "dotnet-11-system-text-json"
+  ],
+  "ASP.NET Core": [
+    "asp-dotnet-minimal-api-openapi",
+    "azure-functions-for-csharp",
+    "asp-dotnet-core-opentelemetry-configuration",
+    "asp-dotnet-core-web-api-engineering",
+    "minimal-api-file-upload",
+    "data-driven-asp-dotnet-core-scaffolding",
+    "optimizing-ef-core-queries",
+    "dotnet-performance-analysis",
+    "dotnet-production-trace-collection",
+    "dotnet-11-system-text-json",
+    "auth0-asp-dotnet-core-api-authorization"
+  ],
+  "AWS AppSync": [
+    "aws-appsync-event-api-handlers"
+  ],
+  "AWS Lambda": [
+    "aws-lambda-durable-functions",
+    "aws-step-functions",
+    "aws-lambda-api-gateway-integration",
+    "aws-lambda-timeout-diagnosis",
+    "aws-s3-upload-routing-with-step-functions",
+    "amazon-ses",
+    "aws-secrets-manager-best-practices"
+  ],
   "Angular": [
     "angular-best-practices",
     "angular-component",
@@ -11,15 +46,183 @@
     "github-copilot-web-accessibility-standards",
     "github-copilot-web-performance-standards"
   ],
+  "Apache Kafka": [
+    "kafka-perf-review",
+    "kafka-topic-audit",
+    "kafka-security-audit",
+    "kafka-python-client",
+    "kafka-connector-review",
+    "kafka-consumer-lag",
+    "kafka-dlq-review",
+    "kafka-schema-review"
+  ],
   "Astro": [
     "auth0-astro"
+  ],
+  "Auth0": [
+    "auth0-multi-tenant-authorization-pattern",
+    "auth0-authentication-rate-limiting",
+    "auth0-application-security-review",
+    "auth0-token-handling-and-rotation"
+  ],
+  "Azure Functions": [
+    "asp-dotnet-minimal-api-openapi",
+    "azure-functions-for-csharp"
+  ],
+  "Better Auth": [
+    "better-auth-implementation",
+    "better-auth-email-and-password",
+    "better-auth-organizations",
+    "better-auth-two-factor-authentication",
+    "better-auth-security-best-practices"
+  ],
+  "Bun": [
+    "elysia-backend-engineering"
+  ],
+  "Clerk": [
+    "clerk-backend-api",
+    "clerk-billing"
+  ],
+  "Cloudflare Workers": [
+    "cloudflare-agents-sdk-backend",
+    "cloudflare-email-service",
+    "cloudflare-durable-objects",
+    "cloudflare-turnstile-server-verification",
+    "cloudflare-workers-production-best-practices"
+  ],
+  "Django": [
+    "django-rest-framework-classy-views",
+    "django-celery-expert",
+    "django-expert",
+    "django-reviewer",
+    "django-safe-migration"
+  ],
+  "Django REST Framework": [
+    "django-rest-framework-classy-views",
+    "django-celery-expert",
+    "django-expert",
+    "django-reviewer",
+    "django-safe-migration"
+  ],
+  "Dodo Payments": [
+    "dodo-payments-webhook-integration",
+    "dodo-payments-subscription-integration",
+    "dodo-payments-usage-based-billing",
+    "dodo-payments-credit-based-billing",
+    "dodo-payments-refunds-and-disputes",
+    "dodo-payments-testing-and-go-live"
+  ],
+  "Elysia": [
+    "elysia-backend-engineering"
+  ],
+  "Express": [
+    "auth0-express-web-application-authentication",
+    "auth0-express-jwt-api-authorization"
+  ],
+  "FastAPI": [
+    "fastapi-application-engineering",
+    "fastapi-jwt-authorization-with-auth0"
+  ],
+  "Fastify": [
+    "fastify-authentication",
+    "fastify-configuration",
+    "fastify-content-type",
+    "fastify-cors-security",
+    "fastify-database",
+    "fastify-decorators",
+    "fastify-deployment",
+    "fastify-error-handling",
+    "fastify-hooks",
+    "fastify-http-proxy",
+    "fastify-logging",
+    "fastify-performance",
+    "fastify-plugins",
+    "fastify-routes",
+    "fastify-schemas",
+    "fastify-serialization",
+    "fastify-testing",
+    "fastify-websockets",
+    "fastify-oauth-2-1-flows",
+    "fastify-route-protection-with-auth0"
+  ],
+  "Firebase": [
+    "firebase-extension-to-cloud-functions-migration",
+    "firebase-auth-basics",
+    "firebase-data-connect",
+    "firebase-security-rules-auditor"
+  ],
+  "Flask": [
+    "auth0-flask-authentication"
   ],
   "Framer Motion": [
     "mblode-ui-animation",
     "wshobson-interaction-design"
   ],
+  "Go HTTP": [
+    "auth0-go-api-authorization"
+  ],
+  "Go standard library": [
+    "go-concurrency",
+    "go-context",
+    "go-database",
+    "go-dependency-injection",
+    "go-design-patterns",
+    "go-error-handling",
+    "go-graphql",
+    "go-grpc",
+    "go-observability",
+    "go-performance",
+    "go-project-layout",
+    "go-refactoring",
+    "go-safety",
+    "go-security",
+    "go-structs-and-interfaces",
+    "go-swagger",
+    "go-testing",
+    "go-troubleshooting",
+    "go-uber-dig-dependency-injection",
+    "go-uber-fx-application-lifecycle"
+  ],
   "HTML": [
     "huashu-design"
+  ],
+  "JPA": [
+    "kotlin-jpa-entity-mapping"
+  ],
+  "Java MVC": [
+    "auth0-java-mvc-authentication"
+  ],
+  "Kotlin": [
+    "kotlin-jpa-entity-mapping"
+  ],
+  "Laravel": [
+    "laravel-application-best-practices",
+    "auth0-laravel-api-authorization"
+  ],
+  "Litestar": [
+    "litestar-auth-guards",
+    "litestar-data-services",
+    "litestar-di",
+    "litestar-dto-openapi",
+    "litestar-email",
+    "litestar-exceptions",
+    "litestar-granian",
+    "litestar-middleware",
+    "litestar-queues",
+    "litestar-realtime",
+    "litestar-routing",
+    "litestar-saq",
+    "litestar-security",
+    "litestar-settings",
+    "litestar-testing"
+  ],
+  "Neon": [
+    "neon-ai-gateway",
+    "neon-functions",
+    "neon-object-storage"
+  ],
+  "NestJS": [
+    "nestjs-development-standards"
   ],
   "Next.js": [
     "advanced-event-handler-refs",
@@ -122,6 +325,39 @@
     "effector-ecosystem-architecture-audit",
     "effector-feature-sliced-design"
   ],
+  "Node.js": [
+    "node-js-async-patterns",
+    "node-js-caching",
+    "node-js-environment",
+    "node-js-error-handling",
+    "node-js-flaky-tests",
+    "node-js-graceful-shutdown",
+    "node-js-logging",
+    "node-js-performance",
+    "node-js-profiling",
+    "node-js-streams",
+    "node-js-stuck-processes-and-tests",
+    "node-js-testing",
+    "fastify-authentication",
+    "fastify-configuration",
+    "fastify-content-type",
+    "fastify-cors-security",
+    "fastify-database",
+    "fastify-decorators",
+    "fastify-deployment",
+    "fastify-error-handling",
+    "fastify-hooks",
+    "fastify-http-proxy",
+    "fastify-logging",
+    "fastify-performance",
+    "fastify-plugins",
+    "fastify-routes",
+    "fastify-schemas",
+    "fastify-serialization",
+    "fastify-testing",
+    "fastify-websockets",
+    "fastify-oauth-2-1-flows"
+  ],
   "Nuxt": [
     "nuxt-auth-utils",
     "nuxt-content",
@@ -131,6 +367,13 @@
     "auth0-nuxt",
     "github-web-design-reviewer",
     "create-adaptable-vue-composable"
+  ],
+  "OpenTelemetry": [
+    "opentelemetry-instrumentation",
+    "opentelemetry-semantic-conventions"
+  ],
+  "PHP": [
+    "auth0-php-api-authorization"
   ],
   "Playwright": [
     "brumley-ui-ux-audit"
@@ -244,8 +487,66 @@
     "effector-ecosystem-architecture-audit",
     "effector-feature-sliced-design"
   ],
+  "Redis": [
+    "redis-clustering",
+    "redis-connections",
+    "redis-observability",
+    "redis-search",
+    "redis-security",
+    "redis-semantic-cache"
+  ],
   "Remix": [
     "auth0-remix"
+  ],
+  "Render": [
+    "render-background-workers",
+    "render-cron-jobs",
+    "render-workflows"
+  ],
+  "Ruby on Rails": [
+    "ruby-on-rails-development-standards",
+    "rails-background-job",
+    "rails-version-api",
+    "rails-implement-authorization",
+    "rails-graphql",
+    "rails-optimize-performance",
+    "spree-api-v3",
+    "spree-checkout",
+    "spree-events-webhooks",
+    "spree-payments",
+    "spree-performance",
+    "spree-resource",
+    "spree-security",
+    "spree-testing"
+  ],
+  "Salvo": [
+    "salvo-auth",
+    "salvo-basic-app",
+    "salvo-caching",
+    "salvo-compression",
+    "salvo-concurrency-limiter",
+    "salvo-cors",
+    "salvo-csrf",
+    "salvo-data-extraction",
+    "salvo-database",
+    "salvo-error-handling",
+    "salvo-file-handling",
+    "salvo-flash",
+    "salvo-graceful-shutdown",
+    "salvo-logging",
+    "salvo-middleware",
+    "salvo-openapi",
+    "salvo-path-syntax",
+    "salvo-proxy",
+    "salvo-rate-limiter",
+    "salvo-routing",
+    "salvo-session",
+    "salvo-sse",
+    "salvo-static-files",
+    "salvo-testing",
+    "salvo-timeout",
+    "salvo-tls-acme",
+    "salvo-websocket"
   ],
   "Solid": [
     "tanstack-router-search-params",
@@ -257,6 +558,41 @@
     "tanstack-router-not-found-and-errors",
     "tanstack-router-type-safety",
     "tanstack-router-ssr-hydration"
+  ],
+  "Spree": [
+    "spree-api-v3",
+    "spree-checkout",
+    "spree-events-webhooks",
+    "spree-payments",
+    "spree-performance",
+    "spree-resource",
+    "spree-security",
+    "spree-testing"
+  ],
+  "Spring Boot": [
+    "create-spring-boot-java-project",
+    "create-spring-boot-kotlin-project",
+    "spring-boot-java-best-practices",
+    "spring-boot-kotlin-best-practices",
+    "spring-boot-actuator",
+    "spring-boot-cache",
+    "spring-boot-crud-patterns",
+    "spring-boot-dependency-injection",
+    "spring-boot-event-driven-patterns",
+    "spring-boot-openapi-documentation",
+    "spring-boot-resilience4j",
+    "spring-boot-rest-api-standards",
+    "spring-boot-saga-pattern",
+    "spring-boot-security-jwt",
+    "spring-boot-test-patterns",
+    "spring-data-jpa",
+    "auth0-spring-boot-api-authorization"
+  ],
+  "Stripe": [
+    "stripe-connect-kyc-requirements",
+    "stripe-apps",
+    "stripe-best-practices",
+    "stripe-api-and-sdk-upgrade"
   ],
   "Svelte": [
     "svelte-5-best-practices",
@@ -274,9 +610,30 @@
     "auth0-sveltekit",
     "svelte-code-writer-validation-workflow"
   ],
+  "Symfony": [
+    "symfony-development-standards"
+  ],
   "Tailwind CSS": [
     "mblode-ui-design",
     "nextlevel-ui-styling"
+  ],
+  "Trigger.dev": [
+    "trigger-authoring-chat-agent",
+    "trigger-chat-agent-advanced",
+    "trigger-cost-savings",
+    "trigger-realtime",
+    "trigger-setup",
+    "trigger-tasks"
+  ],
+  "VTEX IO": [
+    "headless-bff-architecture",
+    "headless-caching-strategy",
+    "marketplace-order-hook",
+    "marketplace-rate-limiting",
+    "payment-async-flow",
+    "payment-idempotency",
+    "vtex-io-events-and-workers",
+    "vtex-io-observability-and-operations"
   ],
   "Vue": [
     "vue-best-practices",

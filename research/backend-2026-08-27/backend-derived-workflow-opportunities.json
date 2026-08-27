@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Transactional Outbox Implementation Review",
+    "source_url": "https://microservices.io/patterns/data/transactional-outbox.html",
+    "reason": "Authoritative pattern material exists, but no sufficiently general published agent skill was verified outside project-specific implementations.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Distributed Lock Fencing Audit",
+    "source_url": "https://redis.io/docs/latest/develop/use/patterns/distributed-locks/",
+    "reason": "Distributed locking is documented, but a reusable published skill with fencing-token failure checks was not verified.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Cursor Pagination Contract Review",
+    "source_url": "https://graphql.org/learn/pagination/",
+    "reason": "Published framework skills touch pagination, but no canonical cross-stack cursor contract workflow was verified.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "RabbitMQ Retry and Dead-Letter Design",
+    "source_url": "https://www.rabbitmq.com/docs/dlx",
+    "reason": "Official documentation can ground a precise workflow; no published reusable agent skill passed verification in this pass.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Optimistic Locking Conflict Review",
+    "source_url": "https://www.postgresql.org/docs/current/mvcc.html",
+    "reason": "Concurrency references were found, but no focused cross-framework published skill for version checks and conflict recovery was verified.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Request Deadline Propagation Audit",
+    "source_url": "https://opentelemetry.io/docs/concepts/signals/traces/",
+    "reason": "Tracing and context skills exist, but no standalone cross-service deadline-budget procedure was verified.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Circuit Breaker Policy Review",
+    "source_url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/circuit-breaker.html",
+    "reason": "Framework-specific resilience guidance exists; a provider-neutral published workflow remains a gap.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Request ID Propagation Audit",
+    "source_url": "https://opentelemetry.io/docs/specs/otel/trace/api/",
+    "reason": "Logging and OpenTelemetry skills cover correlation, but a focused request-ID boundary audit was not found.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Session Rotation and Revocation Review",
+    "source_url": "https://www.rfc-editor.org/rfc/rfc9700.html",
+    "reason": "Auth skills cover tokens and sessions, but a focused provider-neutral rotation and reuse-detection workflow remains absent.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Multi-tenant Data Isolation Review",
+    "source_url": "https://owasp.org/www-project-api-security/",
+    "reason": "Provider-specific multi-tenancy guidance exists; a datastore-agnostic isolation test workflow was not verified.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Large Upload Streaming and Cleanup Audit",
+    "source_url": "https://nodejs.org/api/stream.html",
+    "reason": "Framework file-handling skills exist, but a cross-stack stream-to-storage workflow with abort cleanup and limits remains sparse.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Background Job Exactly-once Claim Audit",
+    "source_url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/competing-consumers",
+    "reason": "Accepted skills correctly emphasize at-least-once and idempotency; a focused audit for false exactly-once claims remains useful.",
+    "status": "derived-opportunity"
+  }
+]

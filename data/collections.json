@@ -43,5 +43,41 @@
     "status": "researched",
     "checked_at": "2026-08-27",
     "notes": "Registry of 67 directly addressable design-system SKILL.md files. Individual records point to their direct upstream files; representative bodies were inspected and the remaining entries are conservatively partially verified."
+  },
+  {
+    "name": "GitHub Awesome Copilot",
+    "url": "https://github.com/github/awesome-copilot",
+    "platform": "GitHub collection",
+    "author": "github",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Official collection recursively inspected; individual accepted entries point to exact skill or instruction files."
+  },
+  {
+    "name": "AWS Agent Toolkit",
+    "url": "https://github.com/aws/agent-toolkit-for-aws",
+    "platform": "GitHub collection",
+    "author": "aws",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Official AWS skill collection; canonical skill paths were separated from plugin adapter copies."
+  },
+  {
+    "name": ".NET Skills",
+    "url": "https://github.com/dotnet/skills",
+    "platform": "GitHub collection",
+    "author": "dotnet",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Official .NET skill collection; backend-relevant ASP.NET, data, diagnostics, and serialization procedures were inspected directly."
+  },
+  {
+    "name": "Cloudflare Skills",
+    "url": "https://github.com/cloudflare/skills",
+    "platform": "GitHub collection",
+    "author": "cloudflare",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Official Cloudflare skill collection; backend and application-security procedures were inspected directly."
   }
 ]

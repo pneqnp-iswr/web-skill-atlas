@@ -69,9 +69,9 @@
       "Nuxt",
       "PrimeVue",
       "React",
-      "UI Patterns",
       "shadcn/ui",
-      "shadcn/vue"
+      "shadcn/vue",
+      "UI Patterns"
     ]
   },
   {
@@ -90,14 +90,19 @@
     "slug": "performance",
     "subcategories": [
       "Async & Waterfalls",
+      "Backend Engineering",
+      "Backpressure",
       "Bundle Optimization",
       "Caching",
       "Client Performance",
+      "Data Access",
+      "Distributed Systems",
       "Font Optimization",
       "Frontend Performance",
       "Image Optimization",
       "JavaScript Performance",
       "Next.js Caching",
+      "Rate Limiting",
       "React Patterns",
       "React Performance",
       "React Re-renders",
@@ -125,6 +130,7 @@
     "slug": "testing",
     "subcategories": [
       "Authentication",
+      "Backend Testing",
       "Browser Automation",
       "Cross-browser",
       "Cypress",
@@ -145,9 +151,13 @@
     "name": "Debugging",
     "slug": "debugging",
     "subcategories": [
+      "Backend Engineering",
+      "Consumer Lag",
       "Hydration",
       "Next.js Debugging",
+      "Production Diagnostics",
       "Redux",
+      "Server-Sent Events & Realtime",
       "Vue"
     ]
   },
@@ -155,12 +165,29 @@
     "name": "Backend",
     "slug": "backend",
     "subcategories": [
+      "AI Backend Agents",
+      "API Implementation",
+      "Backend Engineering",
       "Backend Setup",
+      "Concurrency",
+      "Configuration",
       "Connectivity",
+      "Elysia",
+      "Error Handling",
+      "FastAPI",
+      "File & Object Handling",
       "Functions",
+      "Graceful Shutdown",
+      "Jobs & Queues",
+      "Laravel",
+      "Logging & Correlation",
+      "Observability",
+      "Payments & Billing",
       "Routing & Middleware",
       "Serverless Functions",
-      "Services"
+      "Services",
+      "Streaming",
+      "Timeouts & Cancellation"
     ]
   },
   {
@@ -168,18 +195,35 @@
     "slug": "apis",
     "subcategories": [
       "AI Gateway",
+      "API Gateway",
+      "API Implementation",
+      "API Versioning",
+      "Backend Engineering",
+      "GraphQL",
+      "gRPC",
+      "OpenAPI",
       "REST",
+      "REST APIs",
       "Route Handlers",
-      "Webhooks"
+      "Routing & Middleware",
+      "Schema Evolution",
+      "Server-Sent Events & Realtime",
+      "Webhooks",
+      "WebSockets"
     ]
   },
   {
     "name": "Databases",
     "slug": "databases",
     "subcategories": [
+      "Backend Engineering",
       "Convex",
+      "Data Access",
+      "File & Object Handling",
+      "ORM Mapping",
       "PostgreSQL",
       "Prisma",
+      "Safe Migrations",
       "Storage"
     ]
   },
@@ -187,11 +231,17 @@
     "name": "Security",
     "slug": "security",
     "subcategories": [
+      "Application Security",
       "Auth0",
       "Authentication",
+      "Authorization",
       "Clerk",
       "Headers",
+      "Identity Verification",
       "Nuxt Auth",
+      "Rate Limiting",
+      "TLS & Certificates",
+      "Token Lifecycle",
       "Web Firewall"
     ]
   },
@@ -199,6 +249,7 @@
     "name": "Deployment",
     "slug": "deployment",
     "subcategories": [
+      "Backend Deployment",
       "CLI",
       "Integrations",
       "Nuxt",
@@ -211,7 +262,10 @@
     "slug": "devops",
     "subcategories": [
       "CI/CD",
+      "Datastore Observability",
       "Environment Variables",
+      "Kafka Connect",
+      "Kafka Operations",
       "Workflows"
     ]
   },
@@ -220,21 +274,37 @@
     "slug": "architecture",
     "subcategories": [
       "Angular",
+      "Asynchronous Payments",
+      "Backend Engineering",
+      "Concurrency",
+      "Dependency Injection",
+      "Distributed Systems",
+      "Event-Driven Architecture",
       "Frontend Architecture",
+      "Idempotency",
       "Microfrontends",
       "Next.js Architecture",
+      "Partitioning & Sharding",
       "Project Bootstrap",
+      "Resilience",
+      "Retries & Failure Handling",
+      "Routing & Middleware",
       "Runtime Selection",
       "Server Components",
       "State Management",
-      "TypeScript"
+      "Stateful Serverless",
+      "TypeScript",
+      "Workflow Orchestration"
     ]
   },
   {
     "name": "Code Quality",
     "slug": "code-quality",
     "subcategories": [
+      "Backend Refactoring",
+      "Backend Review",
       "Cleanup",
+      "Go Safety",
       "JavaScript Review"
     ]
   },
@@ -277,8 +347,8 @@
     "name": "Internationalization",
     "slug": "internationalization",
     "subcategories": [
-      "RTL",
-      "i18n Readiness"
+      "i18n Readiness",
+      "RTL"
     ]
   },
   {

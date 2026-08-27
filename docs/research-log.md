@@ -29,3 +29,7 @@ Research is not saturated. The dataset is designed to expand through repeated ga
 ## 2026-08-27 Frontend deep research pass
 
 Deep frontend pass completed with a 600-variant query matrix and a conservative 100 concrete candidates/repository artifacts triaged. Imported only opened reusable skill/rule/instruction files, corrected canonical provenance for existing React Router, TanStack Router, Vue Debug, and Vue Testing records, and separated documentation-derived ideas into a dedicated opportunity backlog. Strongest new upstreams: reduxjs/redux-toolkit, sveltejs/ai-tools, vuejs-ai/skills, TanStack/router, github/awesome-copilot, next-safe-action/skills, and demark-pro/skills.
+
+## 2026-08-27 Backend deep research pass
+
+Deep backend pass completed with a 600-variant generated query matrix and 499 concrete candidates, duplicate adapter files, repository packs, and existing records triaged. Imported 259 exact verified skill/rule/instruction/reference files, corrected 23 canonical metadata records, and kept documentation-derived opportunities separate. Strongest source families include mcollina/skills, salvo-rs/salvo-skills, samber/cc-skills-golang, triggerdotdev/staff-engineering-skills, FastAPI, Litestar, .NET, AWS, Auth0, Hookdeck, Stripe, Redis, Cloudflare, Spring, Rails/Spree, Clerk, and Better Auth.

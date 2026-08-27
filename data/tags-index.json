@@ -1,9 +1,21 @@
 {
+  "1": [
+    "fastify-oauth-2-1-flows"
+  ],
+  "11": [
+    "dotnet-11-system-text-json"
+  ],
+  "2": [
+    "fastify-oauth-2-1-flows"
+  ],
   "404": [
     "tanstack-router-not-found-and-errors"
   ],
   "MaybeRef": [
     "create-adaptable-vue-composable"
+  ],
+  "a": [
+    "object-storage-as-a-database"
   ],
   "a11y": [
     "semantic-html-accessibility-audit",
@@ -97,16 +109,33 @@
   "accessibility-testing": [
     "accessibility-testing"
   ],
+  "acme": [
+    "salvo-tls-acme"
+  ],
+  "actuator": [
+    "spring-boot-actuator"
+  ],
   "adapt": [
     "impeccable-adapt"
   ],
   "advanced": [
     "advanced-event-handler-refs",
     "advanced-init-once",
-    "advanced-use-latest"
+    "advanced-use-latest",
+    "trigger-chat-agent-advanced"
   ],
   "advanced-types": [
     "typescript-advanced-types"
+  ],
+  "agent": [
+    "trigger-authoring-chat-agent",
+    "trigger-chat-agent-advanced"
+  ],
+  "agents": [
+    "cloudflare-agents-sdk-backend"
+  ],
+  "ai": [
+    "neon-ai-gateway"
   ],
   "ai-gateway": [
     "ai-gateway"
@@ -114,8 +143,17 @@
   "ai-sdk": [
     "ai-sdk"
   ],
+  "amazon": [
+    "amazon-ses"
+  ],
+  "analysis": [
+    "dotnet-performance-analysis"
+  ],
   "analytics-tracking": [
     "analytics-tracking"
+  ],
+  "analyzing": [
+    "dotnet-performance-analysis"
   ],
   "angular": [
     "angular-best-practices",
@@ -157,14 +195,67 @@
   "anti-patterns": [
     "hallmark-anti-ai-ui"
   ],
+  "api": [
+    "asp-dotnet-minimal-api-openapi",
+    "aws-appsync-event-api-handlers",
+    "asp-dotnet-core-web-api-engineering",
+    "minimal-api-file-upload",
+    "spring-boot-rest-api-standards",
+    "rails-version-api",
+    "spree-api-v3",
+    "clerk-backend-api",
+    "auth0-asp-dotnet-core-api-authorization",
+    "auth0-express-jwt-api-authorization",
+    "fastapi-jwt-authorization-with-auth0",
+    "fastify-route-protection-with-auth0",
+    "auth0-go-api-authorization",
+    "auth0-laravel-api-authorization",
+    "auth0-php-api-authorization",
+    "auth0-spring-boot-api-authorization",
+    "stripe-api-and-sdk-upgrade",
+    "aws-lambda-api-gateway-integration"
+  ],
+  "app": [
+    "salvo-basic-app"
+  ],
   "app-router-files": [
     "next-js-app-router-files"
   ],
+  "application": [
+    "go-uber-fx-application-lifecycle",
+    "fastapi-application-engineering",
+    "laravel-application-best-practices",
+    "auth0-express-web-application-authentication",
+    "auth0-application-security-review"
+  ],
+  "apps": [
+    "stripe-apps"
+  ],
+  "appsync": [
+    "aws-appsync-event-api-handlers"
+  ],
   "architecture": [
-    "redux-state-ownership-design"
+    "redux-state-ownership-design",
+    "headless-bff-architecture"
   ],
   "aria": [
     "github-copilot-web-accessibility-standards"
+  ],
+  "as": [
+    "object-storage-as-a-database"
+  ],
+  "asp": [
+    "asp-dotnet-minimal-api-openapi",
+    "asp-dotnet-core-opentelemetry-configuration",
+    "asp-dotnet-core-web-api-engineering",
+    "data-driven-asp-dotnet-core-scaffolding",
+    "auth0-asp-dotnet-core-api-authorization"
+  ],
+  "aspnet": [
+    "asp-dotnet-minimal-api-openapi"
+  ],
+  "aspnetcore": [
+    "auth0-asp-dotnet-core-api-authorization"
   ],
   "async": [
     "async-api-routes",
@@ -172,7 +263,9 @@
     "async-dependencies",
     "async-parallel",
     "async-suspense-boundaries",
-    "tanstack-query-dynamic-parallel-queries"
+    "tanstack-query-dynamic-parallel-queries",
+    "node-js-async-patterns",
+    "payment-async-flow"
   ],
   "async-patterns": [
     "next-js-async-patterns"
@@ -190,11 +283,25 @@
     "uxuiprinciples-ai-interface-reviewer",
     "uxuiprinciples-flow-checker",
     "uxuiprinciples-vibe-coding-advisor",
-    "effector-ecosystem-architecture-audit"
+    "effector-ecosystem-architecture-audit",
+    "kafka-topic-audit",
+    "kafka-security-audit",
+    "webhook-developer-experience-audit"
+  ],
+  "auditor": [
+    "firebase-security-rules-auditor"
   ],
   "auth": [
     "vercel-auth",
-    "tanstack-router-auth-and-guards"
+    "tanstack-router-auth-and-guards",
+    "salvo-auth",
+    "litestar-auth-guards",
+    "better-auth-implementation",
+    "better-auth-email-and-password",
+    "better-auth-organizations",
+    "better-auth-two-factor-authentication",
+    "better-auth-security-best-practices",
+    "firebase-auth-basics"
   ],
   "auth0": [
     "auth0-next-js",
@@ -207,7 +314,22 @@
     "auth0-svelte",
     "auth0-sveltekit",
     "auth0-angular",
-    "auth0-javascript"
+    "auth0-javascript",
+    "auth0-asp-dotnet-core-api-authorization",
+    "auth0-express-web-application-authentication",
+    "auth0-express-jwt-api-authorization",
+    "fastapi-jwt-authorization-with-auth0",
+    "fastify-route-protection-with-auth0",
+    "auth0-flask-authentication",
+    "auth0-go-api-authorization",
+    "auth0-java-mvc-authentication",
+    "auth0-laravel-api-authorization",
+    "auth0-php-api-authorization",
+    "auth0-spring-boot-api-authorization",
+    "auth0-multi-tenant-authorization-pattern",
+    "auth0-authentication-rate-limiting",
+    "auth0-application-security-review",
+    "auth0-token-handling-and-rotation"
   ],
   "auth0-angular": [
     "auth0-angular"
@@ -244,7 +366,27 @@
   ],
   "authentication": [
     "clerk-testing",
-    "better-auth-best-practices"
+    "better-auth-best-practices",
+    "fastify-authentication",
+    "better-auth-two-factor-authentication",
+    "auth0-express-web-application-authentication",
+    "auth0-flask-authentication",
+    "auth0-java-mvc-authentication",
+    "auth0-authentication-rate-limiting"
+  ],
+  "authoring": [
+    "trigger-authoring-chat-agent"
+  ],
+  "authorization": [
+    "rails-implement-authorization",
+    "auth0-asp-dotnet-core-api-authorization",
+    "auth0-express-jwt-api-authorization",
+    "fastapi-jwt-authorization-with-auth0",
+    "auth0-go-api-authorization",
+    "auth0-laravel-api-authorization",
+    "auth0-php-api-authorization",
+    "auth0-spring-boot-api-authorization",
+    "auth0-multi-tenant-authorization-pattern"
   ],
   "autofix": [
     "svelte-code-writer-validation-workflow"
@@ -252,14 +394,82 @@
   "automated-testing": [
     "accessibility-testing"
   ],
+  "aws": [
+    "aws-appsync-event-api-handlers",
+    "aws-sns-webhook-verification",
+    "aws-lambda-durable-functions",
+    "aws-step-functions",
+    "aws-lambda-api-gateway-integration",
+    "aws-lambda-timeout-diagnosis",
+    "aws-s3-upload-routing-with-step-functions",
+    "aws-secrets-manager-best-practices"
+  ],
+  "azure": [
+    "azure-durable-functions-for-csharp",
+    "azure-functions-for-csharp"
+  ],
+  "background": [
+    "rails-background-job",
+    "render-background-workers"
+  ],
+  "backpressure": [
+    "distributed-systems-backpressure"
+  ],
+  "based": [
+    "dodo-payments-usage-based-billing",
+    "dodo-payments-credit-based-billing"
+  ],
+  "basic": [
+    "salvo-basic-app"
+  ],
+  "basics": [
+    "firebase-auth-basics",
+    "firebase-data-connect"
+  ],
+  "batch": [
+    "distributed-systems-streams-vs-batch"
+  ],
+  "better": [
+    "better-auth-implementation",
+    "better-auth-email-and-password",
+    "better-auth-organizations",
+    "better-auth-two-factor-authentication",
+    "better-auth-security-best-practices"
+  ],
   "better-auth-best-practices": [
     "better-auth-best-practices"
   ],
   "better-frontend-production": [
     "better-frontend-production"
   ],
+  "bff": [
+    "headless-bff-architecture"
+  ],
+  "billing": [
+    "clerk-billing",
+    "dodo-payments-usage-based-billing",
+    "dodo-payments-credit-based-billing"
+  ],
   "bolder": [
     "impeccable-bolder"
+  ],
+  "boot": [
+    "create-spring-boot-java-project",
+    "create-spring-boot-kotlin-project",
+    "spring-boot-java-best-practices",
+    "spring-boot-kotlin-best-practices",
+    "spring-boot-actuator",
+    "spring-boot-cache",
+    "spring-boot-crud-patterns",
+    "spring-boot-dependency-injection",
+    "spring-boot-event-driven-patterns",
+    "spring-boot-openapi-documentation",
+    "spring-boot-resilience4j",
+    "spring-boot-rest-api-standards",
+    "spring-boot-saga-pattern",
+    "spring-boot-security-jwt",
+    "spring-boot-test-patterns",
+    "auth0-spring-boot-api-authorization"
   ],
   "bootstrap": [
     "bootstrap"
@@ -308,16 +518,43 @@
     "tanstack-router-data-loading",
     "tanstack-query-targeted-invalidation",
     "tanstack-query-optimistic-updates",
-    "tanstack-query-staletime-strategy"
+    "tanstack-query-staletime-strategy",
+    "distributed-systems-cache-invalidation",
+    "spring-boot-cache",
+    "redis-semantic-cache"
+  ],
+  "caching": [
+    "node-js-caching",
+    "salvo-caching",
+    "headless-caching-strategy"
+  ],
+  "cardinality": [
+    "distributed-systems-cardinality"
   ],
   "cdn-caching": [
     "cdn-caching"
   ],
+  "cdrf": [
+    "django-rest-framework-classy-views"
+  ],
+  "celery": [
+    "django-celery-expert"
+  ],
+  "chat": [
+    "trigger-authoring-chat-agent",
+    "trigger-chat-agent-advanced"
+  ],
   "chat-sdk": [
     "chat-sdk"
   ],
+  "checkout": [
+    "spree-checkout"
+  ],
   "clarify": [
     "impeccable-clarify"
+  ],
+  "classy": [
+    "django-rest-framework-classy-views"
   ],
   "cleanup": [
     "code-cleanup"
@@ -326,7 +563,9 @@
     "clerk-customization",
     "clerk-next-js-patterns",
     "clerk-organizations",
-    "clerk-setup"
+    "clerk-setup",
+    "clerk-backend-api",
+    "clerk-billing"
   ],
   "clerk-customization": [
     "clerk-customization"
@@ -350,10 +589,27 @@
     "client-event-listeners",
     "client-localstorage-schema",
     "client-passive-event-listeners",
-    "client-swr-dedup"
+    "client-swr-dedup",
+    "kafka-python-client"
+  ],
+  "clock": [
+    "distributed-systems-clock-skew"
+  ],
+  "cloud": [
+    "firebase-extension-to-cloud-functions-migration"
+  ],
+  "cloudflare": [
+    "cloudflare-agents-sdk-backend",
+    "cloudflare-email-service",
+    "cloudflare-durable-objects",
+    "cloudflare-turnstile-server-verification",
+    "cloudflare-workers-production-best-practices"
   ],
   "cls": [
     "github-copilot-web-performance-standards"
+  ],
+  "clustering": [
+    "redis-clustering"
   ],
   "code-cleanup": [
     "code-cleanup"
@@ -361,8 +617,17 @@
   "code-splitting": [
     "tanstack-router-code-splitting"
   ],
+  "codebase": [
+    "firebase-extension-to-cloud-functions-migration"
+  ],
   "codemod": [
     "migrate-to-modern-redux"
+  ],
+  "collect": [
+    "dotnet-production-trace-collection"
+  ],
+  "collection": [
+    "dotnet-production-trace-collection"
   ],
   "color": [
     "ui-ux-pro-max",
@@ -460,18 +725,61 @@
   "composables": [
     "create-adaptable-vue-composable"
   ],
+  "compression": [
+    "salvo-compression"
+  ],
   "computed": [
     "vue-reactivity-core-patterns"
   ],
+  "concurrency": [
+    "salvo-concurrency-limiter",
+    "go-concurrency"
+  ],
+  "conditions": [
+    "distributed-systems-race-conditions"
+  ],
+  "configuration": [
+    "fastify-configuration",
+    "asp-dotnet-core-opentelemetry-configuration"
+  ],
+  "configuring": [
+    "asp-dotnet-core-opentelemetry-configuration"
+  ],
+  "connect": [
+    "firebase-data-connect",
+    "stripe-connect-kyc-requirements"
+  ],
+  "connecting": [
+    "aws-lambda-api-gateway-integration"
+  ],
+  "connections": [
+    "redis-connections"
+  ],
+  "connector": [
+    "kafka-connector-review"
+  ],
   "consistency": [
-    "wshobson-design-system-patterns"
+    "wshobson-design-system-patterns",
+    "distributed-systems-consistency-models"
+  ],
+  "consumer": [
+    "kafka-consumer-lag"
+  ],
+  "content": [
+    "fastify-content-type"
   ],
   "content-strategy": [
     "content-strategy",
     "content-strategy"
   ],
+  "context": [
+    "go-context"
+  ],
   "contrast": [
     "wshobson-accessibility-compliance"
+  ],
+  "conventions": [
+    "opentelemetry-semantic-conventions"
   ],
   "conversion": [
     "page-cro",
@@ -495,8 +803,28 @@
     "copywriting",
     "copywriting"
   ],
+  "core": [
+    "asp-dotnet-core-opentelemetry-configuration",
+    "asp-dotnet-core-web-api-engineering",
+    "data-driven-asp-dotnet-core-scaffolding",
+    "optimizing-ef-core-queries",
+    "auth0-asp-dotnet-core-api-authorization"
+  ],
   "core-web-vitals": [
     "github-copilot-web-performance-standards"
+  ],
+  "cors": [
+    "fastify-cors-security",
+    "salvo-cors"
+  ],
+  "cost": [
+    "trigger-cost-savings"
+  ],
+  "create": [
+    "create-spring-boot-java-project",
+    "create-spring-boot-kotlin-project",
+    "data-driven-asp-dotnet-core-scaffolding",
+    "better-auth-implementation"
   ],
   "create-a-backend": [
     "create-a-backend"
@@ -504,13 +832,32 @@
   "createSlice": [
     "redux-slices-and-selectors"
   ],
+  "creating": [
+    "aws-secrets-manager-best-practices"
+  ],
+  "credit": [
+    "dodo-payments-credit-based-billing"
+  ],
   "critique": [
     "impeccable-critique",
     "huashu-design",
     "uxcraft"
   ],
+  "cron": [
+    "render-cron-jobs"
+  ],
   "cross-browser": [
     "browser-compatibility"
+  ],
+  "crud": [
+    "spring-boot-crud-patterns"
+  ],
+  "csharp": [
+    "azure-durable-functions-for-csharp",
+    "azure-functions-for-csharp"
+  ],
+  "csrf": [
+    "salvo-csrf"
   ],
   "cta": [
     "elaya-landing-page-design"
@@ -529,6 +876,13 @@
     "dashboard-design-skill",
     "arvindand-ui-ux-design"
   ],
+  "data": [
+    "salvo-data-extraction",
+    "litestar-data-services",
+    "data-driven-asp-dotnet-core-scaffolding",
+    "spring-data-jpa",
+    "firebase-data-connect"
+  ],
   "data-loading": [
     "tanstack-router-data-loading"
   ],
@@ -540,7 +894,14 @@
     "dashboard-design-skill"
   ],
   "database": [
-    "supabase-postgres-best-practices"
+    "supabase-postgres-best-practices",
+    "fastify-database",
+    "salvo-database",
+    "go-database",
+    "object-storage-as-a-database"
+  ],
+  "datadriven": [
+    "data-driven-asp-dotnet-core-scaffolding"
   ],
   "dataflow": [
     "redux-dataflow-modeling"
@@ -550,7 +911,11 @@
   ],
   "debugging": [
     "debug-redux-toolkit-apps",
-    "vue-router-infinite-redirect-guard"
+    "vue-router-infinite-redirect-guard",
+    "aws-lambda-timeout-diagnosis"
+  ],
+  "decorators": [
+    "fastify-decorators"
   ],
   "deferred": [
     "tanstack-router-data-loading"
@@ -558,11 +923,23 @@
   "delight": [
     "impeccable-delight"
   ],
+  "denormalization": [
+    "distributed-systems-denormalization"
+  ],
+  "dependency": [
+    "go-dependency-injection",
+    "go-uber-dig-dependency-injection",
+    "spring-boot-dependency-injection"
+  ],
+  "deployment": [
+    "fastify-deployment"
+  ],
   "deployments-cicd": [
     "deployments-cicd"
   ],
   "design": [
-    "anthropic-frontend-design"
+    "anthropic-frontend-design",
+    "go-design-patterns"
   ],
   "design-audit": [
     "mblode-ui-design",
@@ -709,23 +1086,107 @@
   "design-workflow": [
     "simota-atelier"
   ],
+  "developer": [
+    "webhook-developer-experience-audit"
+  ],
+  "development": [
+    "nestjs-development-standards",
+    "symfony-development-standards",
+    "ruby-on-rails-development-standards"
+  ],
+  "di": [
+    "litestar-di"
+  ],
+  "diagnosis": [
+    "aws-lambda-timeout-diagnosis"
+  ],
+  "dig": [
+    "go-uber-dig-dependency-injection"
+  ],
   "directives": [
     "next-js-directives"
+  ],
+  "disputes": [
+    "dodo-payments-refunds-and-disputes"
   ],
   "distill": [
     "impeccable-distill"
   ],
+  "distributed": [
+    "distributed-systems-backpressure",
+    "distributed-systems-cache-invalidation",
+    "distributed-systems-cardinality",
+    "distributed-systems-clock-skew",
+    "distributed-systems-consistency-models",
+    "distributed-systems-denormalization",
+    "distributed-systems-fallacies",
+    "distributed-systems-hot-partitions",
+    "distributed-systems-idempotency",
+    "distributed-systems-memory-leaks",
+    "distributed-systems-race-conditions",
+    "distributed-systems-retry-storms",
+    "distributed-systems-sharding",
+    "distributed-systems-streams-vs-batch",
+    "distributed-systems-thundering-herd"
+  ],
+  "django": [
+    "django-rest-framework-classy-views",
+    "django-celery-expert",
+    "django-expert",
+    "django-reviewer",
+    "django-safe-migration"
+  ],
+  "dlq": [
+    "kafka-dlq-review"
+  ],
   "documentation": [
-    "svelte-code-writer-validation-workflow"
+    "svelte-code-writer-validation-workflow",
+    "spring-boot-openapi-documentation"
+  ],
+  "dodo": [
+    "dodo-payments-webhook-integration",
+    "dodo-payments-subscription-integration",
+    "dodo-payments-usage-based-billing",
+    "dodo-payments-credit-based-billing",
+    "dodo-payments-refunds-and-disputes",
+    "dodo-payments-testing-and-go-live"
   ],
   "dom": [
     "vue-large-list-virtualization"
   ],
+  "dotnet": [
+    "asp-dotnet-minimal-api-openapi",
+    "asp-dotnet-core-opentelemetry-configuration",
+    "asp-dotnet-core-web-api-engineering",
+    "data-driven-asp-dotnet-core-scaffolding",
+    "dotnet-performance-analysis",
+    "dotnet-production-trace-collection",
+    "dotnet-11-system-text-json",
+    "auth0-asp-dotnet-core-api-authorization"
+  ],
+  "driven": [
+    "data-driven-asp-dotnet-core-scaffolding",
+    "spring-boot-event-driven-patterns"
+  ],
   "dtcg": [
     "figma-design-system-engineering"
   ],
+  "dto": [
+    "litestar-dto-openapi"
+  ],
+  "durable": [
+    "azure-durable-functions-for-csharp",
+    "cloudflare-durable-objects",
+    "aws-lambda-durable-functions"
+  ],
+  "dx": [
+    "webhook-developer-experience-audit"
+  ],
   "easing": [
     "mblode-ui-animation"
+  ],
+  "ef": [
+    "optimizing-ef-core-queries"
   ],
   "effector": [
     "effector-ecosystem-architecture-audit",
@@ -734,11 +1195,34 @@
   "elevation": [
     "simota-muse"
   ],
+  "elysia": [
+    "elysia-backend-engineering"
+  ],
+  "email": [
+    "litestar-email",
+    "cloudflare-email-service",
+    "better-auth-email-and-password"
+  ],
+  "emailandpassword": [
+    "better-auth-email-and-password"
+  ],
+  "entity": [
+    "kotlin-jpa-entity-mapping"
+  ],
   "entity-adapter": [
     "redux-slices-and-selectors"
   ],
   "env-vars": [
     "env-vars"
+  ],
+  "environment": [
+    "node-js-environment"
+  ],
+  "error": [
+    "node-js-error-handling",
+    "fastify-error-handling",
+    "salvo-error-handling",
+    "go-error-handling"
   ],
   "error-boundary": [
     "tanstack-router-not-found-and-errors",
@@ -753,17 +1237,78 @@
   "esbuild": [
     "esbuild"
   ],
+  "event": [
+    "aws-appsync-event-api-handlers",
+    "spring-boot-event-driven-patterns"
+  ],
+  "events": [
+    "spree-events-webhooks",
+    "vtex-io-events-and-workers"
+  ],
   "evidence": [
     "ibelick-improve-ui"
+  ],
+  "exceptions": [
+    "litestar-exceptions"
+  ],
+  "experience": [
+    "webhook-developer-experience-audit"
   ],
   "experiments": [
     "a-b-test-setup"
   ],
+  "expert": [
+    "django-rest-framework-classy-views",
+    "django-celery-expert",
+    "django-expert"
+  ],
+  "express": [
+    "auth0-express-web-application-authentication",
+    "auth0-express-jwt-api-authorization"
+  ],
+  "extension": [
+    "firebase-extension-to-cloud-functions-migration"
+  ],
   "extract": [
     "impeccable-extract"
   ],
+  "extraction": [
+    "salvo-data-extraction"
+  ],
+  "factor": [
+    "better-auth-two-factor-authentication"
+  ],
+  "fallacies": [
+    "distributed-systems-fallacies"
+  ],
   "farfetched": [
     "effector-ecosystem-architecture-audit"
+  ],
+  "fastapi": [
+    "fastapi-application-engineering",
+    "fastapi-jwt-authorization-with-auth0"
+  ],
+  "fastify": [
+    "fastify-authentication",
+    "fastify-configuration",
+    "fastify-content-type",
+    "fastify-cors-security",
+    "fastify-database",
+    "fastify-decorators",
+    "fastify-deployment",
+    "fastify-error-handling",
+    "fastify-hooks",
+    "fastify-http-proxy",
+    "fastify-logging",
+    "fastify-performance",
+    "fastify-plugins",
+    "fastify-routes",
+    "fastify-schemas",
+    "fastify-serialization",
+    "fastify-testing",
+    "fastify-websockets",
+    "fastify-oauth-2-1-flows",
+    "fastify-route-protection-with-auth0"
   ],
   "feature-sliced-design": [
     "effector-feature-sliced-design"
@@ -775,12 +1320,38 @@
     "figma-design-system-engineering",
     "simota-atelier"
   ],
+  "file": [
+    "salvo-file-handling",
+    "minimal-api-file-upload"
+  ],
   "file-conventions": [
     "next-js-file-conventions"
   ],
+  "files": [
+    "salvo-static-files"
+  ],
+  "firebase": [
+    "firebase-extension-to-cloud-functions-migration",
+    "firebase-auth-basics",
+    "firebase-data-connect",
+    "firebase-security-rules-auditor"
+  ],
+  "flaky": [
+    "node-js-flaky-tests"
+  ],
+  "flash": [
+    "salvo-flash"
+  ],
+  "flask": [
+    "auth0-flask-authentication"
+  ],
+  "flow": [
+    "payment-async-flow"
+  ],
   "flows": [
     "mblode-product-design",
-    "magnus-product-design-and-ux"
+    "magnus-product-design-and-ux",
+    "fastify-oauth-2-1-flows"
   ],
   "focus": [
     "focus-management-review",
@@ -799,6 +1370,20 @@
   "forms-cro": [
     "forms-cro"
   ],
+  "framework": [
+    "django-rest-framework-classy-views",
+    "auth0-asp-dotnet-core-api-authorization",
+    "auth0-express-web-application-authentication",
+    "auth0-express-jwt-api-authorization",
+    "fastapi-jwt-authorization-with-auth0",
+    "fastify-route-protection-with-auth0",
+    "auth0-flask-authentication",
+    "auth0-go-api-authorization",
+    "auth0-java-mvc-authentication",
+    "auth0-laravel-api-authorization",
+    "auth0-php-api-authorization",
+    "auth0-spring-boot-api-authorization"
+  ],
   "freshness": [
     "tanstack-query-staletime-strategy"
   ],
@@ -813,7 +1398,21 @@
     "impeccable-frontend-design"
   ],
   "functions": [
-    "next-js-functions"
+    "next-js-functions",
+    "azure-durable-functions-for-csharp",
+    "azure-functions-for-csharp",
+    "neon-functions",
+    "firebase-extension-to-cloud-functions-migration",
+    "aws-lambda-durable-functions",
+    "aws-step-functions",
+    "aws-s3-upload-routing-with-step-functions"
+  ],
+  "fx": [
+    "go-uber-fx-application-lifecycle"
+  ],
+  "gateway": [
+    "neon-ai-gateway",
+    "aws-lambda-api-gateway-integration"
   ],
   "gestures": [
     "mblode-ui-animation",
@@ -823,17 +1422,99 @@
     "github-pull-request-hygiene"
   ],
   "github": [
-    "github-pull-request-hygiene"
+    "github-pull-request-hygiene",
+    "github-webhook-verification"
+  ],
+  "go": [
+    "go-concurrency",
+    "go-context",
+    "go-database",
+    "go-dependency-injection",
+    "go-design-patterns",
+    "go-error-handling",
+    "go-graphql",
+    "go-grpc",
+    "go-observability",
+    "go-performance",
+    "go-project-layout",
+    "go-refactoring",
+    "go-safety",
+    "go-security",
+    "go-structs-and-interfaces",
+    "go-swagger",
+    "go-testing",
+    "go-troubleshooting",
+    "go-uber-dig-dependency-injection",
+    "go-uber-fx-application-lifecycle",
+    "auth0-go-api-authorization",
+    "dodo-payments-testing-and-go-live"
+  ],
+  "golang": [
+    "go-concurrency",
+    "go-context",
+    "go-database",
+    "go-dependency-injection",
+    "go-design-patterns",
+    "go-error-handling",
+    "go-graphql",
+    "go-grpc",
+    "go-observability",
+    "go-performance",
+    "go-project-layout",
+    "go-refactoring",
+    "go-safety",
+    "go-security",
+    "go-structs-and-interfaces",
+    "go-swagger",
+    "go-testing",
+    "go-troubleshooting",
+    "go-uber-dig-dependency-injection",
+    "go-uber-fx-application-lifecycle"
+  ],
+  "google": [
+    "google-pub-sub-push-verification"
+  ],
+  "graceful": [
+    "node-js-graceful-shutdown",
+    "salvo-graceful-shutdown"
+  ],
+  "granian": [
+    "litestar-granian"
+  ],
+  "graph": [
+    "microsoft-graph-webhook-lifecycle"
+  ],
+  "graphql": [
+    "go-graphql",
+    "rails-graphql"
   ],
   "growth": [
     "marketing-ideas"
+  ],
+  "grpc": [
+    "go-grpc"
   ],
   "gsap": [
     "gsap",
     "gsap"
   ],
   "guards": [
-    "tanstack-router-auth-and-guards"
+    "tanstack-router-auth-and-guards",
+    "litestar-auth-guards"
+  ],
+  "handler": [
+    "idempotent-webhook-handler-patterns"
+  ],
+  "handlers": [
+    "aws-appsync-event-api-handlers"
+  ],
+  "handling": [
+    "node-js-error-handling",
+    "fastify-error-handling",
+    "salvo-error-handling",
+    "salvo-file-handling",
+    "go-error-handling",
+    "auth0-token-handling-and-rotation"
   ],
   "handoff": [
     "website-studio",
@@ -842,6 +1523,13 @@
   "headers": [
     "web-security-header-review"
   ],
+  "headless": [
+    "headless-bff-architecture",
+    "headless-caching-strategy"
+  ],
+  "herd": [
+    "distributed-systems-thundering-herd"
+  ],
   "hero": [
     "wshobson-brand-landing-page",
     "elaya-landing-page-design"
@@ -849,11 +1537,21 @@
   "hierarchy": [
     "wshobson-visual-design-foundations"
   ],
+  "hook": [
+    "marketplace-order-hook"
+  ],
+  "hooks": [
+    "fastify-hooks"
+  ],
+  "hot": [
+    "distributed-systems-hot-partitions"
+  ],
   "html": [
     "huashu-design"
   ],
   "http": [
-    "rest-api-design-review"
+    "rest-api-design-review",
+    "fastify-http-proxy"
   ],
   "hydration": [
     "tanstack-router-ssr-hydration"
@@ -868,6 +1566,13 @@
   ],
   "iconography": [
     "wshobson-visual-design-foundations"
+  ],
+  "idempotency": [
+    "distributed-systems-idempotency",
+    "payment-idempotency"
+  ],
+  "idempotent": [
+    "idempotent-webhook-handler-patterns"
   ],
   "image": [
     "next-js-image"
@@ -893,11 +1598,20 @@
     "impeccable-teach-impeccable",
     "impeccable-typography"
   ],
+  "implement": [
+    "rails-implement-authorization"
+  ],
+  "implementation": [
+    "better-auth-implementation"
+  ],
   "imports": [
     "effector-feature-sliced-design"
   ],
   "infinite-query": [
     "tanstack-query-infinite-page-params"
+  ],
+  "information": [
+    "stripe-connect-kyc-requirements"
   ],
   "information-architecture": [
     "magnus-product-design-and-ux"
@@ -905,11 +1619,30 @@
   "information-hierarchy": [
     "dashboard-design-skill"
   ],
+  "injection": [
+    "go-dependency-injection",
+    "go-uber-dig-dependency-injection",
+    "spring-boot-dependency-injection"
+  ],
   "inp": [
     "github-copilot-web-performance-standards"
   ],
+  "instructions": [
+    "aws-appsync-event-api-handlers",
+    "azure-durable-functions-for-csharp",
+    "azure-functions-for-csharp",
+    "nestjs-development-standards",
+    "symfony-development-standards",
+    "ruby-on-rails-development-standards"
+  ],
   "instrumentation": [
-    "analytics-tracking"
+    "analytics-tracking",
+    "opentelemetry-instrumentation"
+  ],
+  "integration": [
+    "dodo-payments-webhook-integration",
+    "dodo-payments-subscription-integration",
+    "aws-lambda-api-gateway-integration"
   ],
   "interaction": [
     "wshobson-interaction-design",
@@ -918,8 +1651,21 @@
   "interaction-design": [
     "mblode-product-design"
   ],
+  "interfaces": [
+    "go-structs-and-interfaces"
+  ],
   "invalidation": [
-    "tanstack-query-targeted-invalidation"
+    "tanstack-query-targeted-invalidation",
+    "distributed-systems-cache-invalidation"
+  ],
+  "io": [
+    "vtex-io-events-and-workers",
+    "vtex-io-observability-and-operations"
+  ],
+  "java": [
+    "create-spring-boot-java-project",
+    "spring-boot-java-best-practices",
+    "auth0-java-mvc-authentication"
   ],
   "javascript-review": [
     "javascript-code-review"
@@ -927,6 +1673,16 @@
   "jest": [
     "jest",
     "jest"
+  ],
+  "job": [
+    "rails-background-job"
+  ],
+  "jobs": [
+    "render-cron-jobs"
+  ],
+  "jpa": [
+    "kotlin-jpa-entity-mapping",
+    "spring-data-jpa"
   ],
   "js": [
     "js-batch-dom-css",
@@ -941,15 +1697,61 @@
     "js-length-check-first",
     "js-min-max-loop",
     "js-set-map-lookups",
-    "js-tosorted-immutable"
+    "js-tosorted-immutable",
+    "node-js-async-patterns",
+    "node-js-caching",
+    "node-js-environment",
+    "node-js-error-handling",
+    "node-js-flaky-tests",
+    "node-js-graceful-shutdown",
+    "node-js-logging",
+    "node-js-performance",
+    "node-js-profiling",
+    "node-js-streams",
+    "node-js-stuck-processes-and-tests",
+    "node-js-testing"
   ],
   "js-code-review": [
     "javascript-code-review"
+  ],
+  "json": [
+    "dotnet-11-system-text-json"
+  ],
+  "jwt": [
+    "spring-boot-security-jwt",
+    "auth0-express-jwt-api-authorization",
+    "fastapi-jwt-authorization-with-auth0"
+  ],
+  "kafka": [
+    "kafka-perf-review",
+    "kafka-topic-audit",
+    "kafka-security-audit",
+    "kafka-python-client",
+    "kafka-connector-review",
+    "kafka-consumer-lag",
+    "kafka-dlq-review",
+    "kafka-schema-review"
   ],
   "keyboard": [
     "keyboard-interaction-audit",
     "wshobson-accessibility-compliance",
     "github-copilot-web-accessibility-standards"
+  ],
+  "kotlin": [
+    "kotlin-jpa-entity-mapping",
+    "create-spring-boot-kotlin-project",
+    "spring-boot-kotlin-best-practices"
+  ],
+  "kyc": [
+    "stripe-connect-kyc-requirements"
+  ],
+  "lag": [
+    "kafka-consumer-lag"
+  ],
+  "lambda": [
+    "aws-lambda-durable-functions",
+    "aws-lambda-api-gateway-integration",
+    "aws-lambda-timeout-diagnosis"
   ],
   "landing-page": [
     "wshobson-brand-landing-page",
@@ -958,6 +1760,10 @@
     "arvindand-ui-ux-design",
     "elaya-landing-page-design"
   ],
+  "laravel": [
+    "laravel-application-best-practices",
+    "auth0-laravel-api-authorization"
+  ],
   "large-lists": [
     "vue-large-list-virtualization"
   ],
@@ -965,7 +1771,8 @@
     "dashboard-design-skill",
     "wshobson-responsive-design",
     "mengto-design-first-ui-prompting",
-    "github-web-design-reviewer"
+    "github-web-design-reviewer",
+    "go-project-layout"
   ],
   "lazy-loading": [
     "tanstack-router-code-splitting"
@@ -973,17 +1780,50 @@
   "lcp": [
     "github-copilot-web-performance-standards"
   ],
+  "leaks": [
+    "distributed-systems-memory-leaks"
+  ],
   "legacy": [
     "migrate-to-modern-redux"
   ],
   "lifecycle": [
-    "vue-router-best-practices"
+    "vue-router-best-practices",
+    "go-uber-fx-application-lifecycle",
+    "microsoft-graph-webhook-lifecycle"
+  ],
+  "limiter": [
+    "salvo-concurrency-limiter",
+    "salvo-rate-limiter"
+  ],
+  "limiting": [
+    "auth0-authentication-rate-limiting",
+    "marketplace-rate-limiting"
   ],
   "links": [
     "tanstack-router-navigation-preloading"
   ],
   "listener-middleware": [
     "redux-side-effect-orchestration"
+  ],
+  "litestar": [
+    "litestar-auth-guards",
+    "litestar-data-services",
+    "litestar-di",
+    "litestar-dto-openapi",
+    "litestar-email",
+    "litestar-exceptions",
+    "litestar-granian",
+    "litestar-middleware",
+    "litestar-queues",
+    "litestar-realtime",
+    "litestar-routing",
+    "litestar-saq",
+    "litestar-security",
+    "litestar-settings",
+    "litestar-testing"
+  ],
+  "live": [
+    "dodo-payments-testing-and-go-live"
   ],
   "loading-states": [
     "wshobson-interaction-design",
@@ -995,17 +1835,33 @@
   "localization": [
     "internationalization-readiness-audit"
   ],
+  "logging": [
+    "node-js-logging",
+    "fastify-logging",
+    "salvo-logging"
+  ],
+  "manager": [
+    "aws-secrets-manager-best-practices"
+  ],
   "manifest": [
     "pwa-installability-review"
+  ],
+  "mapping": [
+    "kotlin-jpa-entity-mapping"
   ],
   "marketing-ideas": [
     "marketing-ideas"
   ],
   "marketplace": [
-    "marketplace"
+    "marketplace",
+    "marketplace-order-hook",
+    "marketplace-rate-limiting"
   ],
   "material-design": [
     "material-design-3-ui"
+  ],
+  "memory": [
+    "distributed-systems-memory-leaks"
   ],
   "metadata": [
     "next-js-metadata"
@@ -1020,8 +1876,21 @@
     "mblode-ui-animation",
     "wshobson-interaction-design"
   ],
+  "microsoft": [
+    "microsoft-graph-webhook-lifecycle"
+  ],
+  "middleware": [
+    "salvo-middleware",
+    "litestar-middleware"
+  ],
   "migration": [
-    "migrate-to-modern-redux"
+    "migrate-to-modern-redux",
+    "django-safe-migration",
+    "firebase-extension-to-cloud-functions-migration"
+  ],
+  "minimal": [
+    "asp-dotnet-minimal-api-openapi",
+    "minimal-api-file-upload"
   ],
   "mobile-app-testing-testing": [
     "mobile-app-testing"
@@ -1034,6 +1903,9 @@
     "mobile-app-testing",
     "wshobson-responsive-design"
   ],
+  "models": [
+    "distributed-systems-consistency-models"
+  ],
   "motion": [
     "motion",
     "motion",
@@ -1042,10 +1914,16 @@
     "simota-muse",
     "mengto-webgl-landing-steering"
   ],
+  "multi": [
+    "auth0-multi-tenant-authorization-pattern"
+  ],
   "mutations": [
     "tanstack-query-targeted-invalidation",
     "tanstack-query-optimistic-updates",
     "next-safe-action-tanstack-query-adapter"
+  ],
+  "mvc": [
+    "auth0-java-mvc-authentication"
   ],
   "navigation": [
     "nextlevel-ui-styling",
@@ -1057,6 +1935,17 @@
   ],
   "navigation-guards": [
     "vue-router-best-practices"
+  ],
+  "neon": [
+    "neon-ai-gateway",
+    "neon-functions",
+    "neon-object-storage"
+  ],
+  "nestjs": [
+    "nestjs-development-standards"
+  ],
+  "net11": [
+    "dotnet-11-system-text-json"
   ],
   "next-cache-components": [
     "next-cache-components"
@@ -1100,6 +1989,20 @@
   "nextjs-16": [
     "next-js-16"
   ],
+  "node": [
+    "node-js-async-patterns",
+    "node-js-caching",
+    "node-js-environment",
+    "node-js-error-handling",
+    "node-js-flaky-tests",
+    "node-js-graceful-shutdown",
+    "node-js-logging",
+    "node-js-performance",
+    "node-js-profiling",
+    "node-js-streams",
+    "node-js-stuck-processes-and-tests",
+    "node-js-testing"
+  ],
   "normalize": [
     "impeccable-normalize"
   ],
@@ -1130,6 +2033,24 @@
   "nuxthub": [
     "nuxthub"
   ],
+  "oauth": [
+    "fastify-oauth-2-1-flows"
+  ],
+  "object": [
+    "object-storage-as-a-database",
+    "neon-object-storage"
+  ],
+  "objects": [
+    "cloudflare-durable-objects"
+  ],
+  "observability": [
+    "go-observability",
+    "vtex-io-observability-and-operations",
+    "redis-observability"
+  ],
+  "on": [
+    "ruby-on-rails-development-standards"
+  ],
   "onboard": [
     "impeccable-onboard"
   ],
@@ -1139,8 +2060,28 @@
   "onboarding-cro": [
     "onboarding-cro"
   ],
+  "openai": [
+    "openai-webhook-verification"
+  ],
+  "openapi": [
+    "salvo-openapi",
+    "litestar-dto-openapi",
+    "asp-dotnet-minimal-api-openapi",
+    "spring-boot-openapi-documentation"
+  ],
+  "opentelemetry": [
+    "asp-dotnet-core-opentelemetry-configuration",
+    "opentelemetry-instrumentation",
+    "opentelemetry-semantic-conventions"
+  ],
   "opentype": [
     "mblode-typography-audit"
+  ],
+  "operations": [
+    "vtex-io-observability-and-operations"
+  ],
+  "ops": [
+    "vtex-io-observability-and-operations"
   ],
   "optimistic-ui": [
     "adopt-rtk-query",
@@ -1148,7 +2089,24 @@
     "next-safe-action-tanstack-query-adapter"
   ],
   "optimize": [
-    "impeccable-optimize"
+    "impeccable-optimize",
+    "rails-optimize-performance"
+  ],
+  "optimizing": [
+    "optimizing-ef-core-queries"
+  ],
+  "order": [
+    "marketplace-order-hook"
+  ],
+  "organization": [
+    "better-auth-organizations"
+  ],
+  "organizations": [
+    "better-auth-organizations"
+  ],
+  "otel": [
+    "opentelemetry-instrumentation",
+    "opentelemetry-semantic-conventions"
   ],
   "ownership": [
     "effector-feature-sliced-design"
@@ -1165,8 +2123,43 @@
   "parallel-routes": [
     "next-js-parallel-routes"
   ],
+  "partitions": [
+    "distributed-systems-hot-partitions"
+  ],
+  "password": [
+    "better-auth-email-and-password"
+  ],
+  "path": [
+    "salvo-path-syntax"
+  ],
   "path-params": [
     "tanstack-router-path-params"
+  ],
+  "pattern": [
+    "spring-boot-saga-pattern",
+    "auth0-multi-tenant-authorization-pattern",
+    "auth0-authentication-rate-limiting",
+    "auth0-application-security-review",
+    "auth0-token-handling-and-rotation"
+  ],
+  "payment": [
+    "payment-async-flow",
+    "payment-idempotency"
+  ],
+  "payments": [
+    "spree-payments",
+    "dodo-payments-webhook-integration",
+    "dodo-payments-subscription-integration",
+    "dodo-payments-usage-based-billing",
+    "dodo-payments-credit-based-billing",
+    "dodo-payments-refunds-and-disputes",
+    "dodo-payments-testing-and-go-live"
+  ],
+  "paypal": [
+    "paypal-webhook-verification"
+  ],
+  "perf": [
+    "kafka-perf-review"
   ],
   "performance": [
     "advanced-event-handler-refs",
@@ -1235,7 +2228,16 @@
     "server-serialization",
     "mengto-webgl-landing-steering",
     "vue-large-list-virtualization",
-    "github-copilot-web-performance-standards"
+    "github-copilot-web-performance-standards",
+    "node-js-performance",
+    "fastify-performance",
+    "go-performance",
+    "dotnet-performance-analysis",
+    "rails-optimize-performance",
+    "spree-performance"
+  ],
+  "php": [
+    "auth0-php-api-authorization"
   ],
   "pinia": [
     "vue-pinia-best-practices"
@@ -1251,6 +2253,9 @@
   ],
   "playwright-skill": [
     "playwright-skill"
+  ],
+  "plugins": [
+    "fastify-plugins"
   ],
   "polish": [
     "impeccable-polish"
@@ -1278,7 +2283,7 @@
   "prisma": [
     "prisma-client-api",
     "prisma-database-setup",
-    "prisma-migrate-upgrade",
+    "prisma-cli-database-workflows",
     "prisma-postgres",
     "prisma-upgrade-v6-to-v7"
   ],
@@ -1289,13 +2294,19 @@
     "prisma-database-setup"
   ],
   "prisma-migrate-upgrade": [
-    "prisma-migrate-upgrade"
+    "prisma-cli-database-workflows"
   ],
   "prisma-postgres": [
     "prisma-postgres"
   ],
   "prisma-upgrade-v6-v7": [
     "prisma-upgrade-v6-to-v7"
+  ],
+  "processes": [
+    "node-js-stuck-processes-and-tests"
+  ],
+  "processing": [
+    "aws-s3-upload-routing-with-step-functions"
   ],
   "product-design": [
     "mblode-product-design",
@@ -1308,23 +2319,54 @@
   "product-marketing-context": [
     "product-marketing-context"
   ],
+  "production": [
+    "dotnet-production-trace-collection",
+    "cloudflare-workers-production-best-practices"
+  ],
   "production-patterns": [
     "better-frontend-production"
+  ],
+  "profiling": [
+    "node-js-profiling"
   ],
   "programmatic-seo": [
     "programmatic-seo",
     "programmatic-seo"
   ],
+  "project": [
+    "go-project-layout",
+    "create-spring-boot-java-project",
+    "create-spring-boot-kotlin-project"
+  ],
+  "protection": [
+    "fastify-route-protection-with-auth0"
+  ],
   "prototype": [
     "huashu-design",
     "simota-atelier"
   ],
+  "proxy": [
+    "fastify-http-proxy",
+    "salvo-proxy"
+  ],
+  "pub": [
+    "google-pub-sub-push-verification"
+  ],
+  "pubsub": [
+    "google-pub-sub-push-verification"
+  ],
   "pull-request": [
     "github-pull-request-hygiene"
+  ],
+  "push": [
+    "google-pub-sub-push-verification"
   ],
   "pwa": [
     "pwa-installability-review",
     "service-worker-offline-strategy"
+  ],
+  "python": [
+    "kafka-python-client"
   ],
   "quality-gates": [
     "typeui-agentic",
@@ -1395,11 +2437,33 @@
     "typeui-vibrant",
     "typeui-vintage"
   ],
+  "queries": [
+    "optimizing-ef-core-queries"
+  ],
+  "queues": [
+    "litestar-queues"
+  ],
   "quieter": [
     "impeccable-quieter"
   ],
+  "race": [
+    "distributed-systems-race-conditions"
+  ],
   "radius": [
     "simota-muse"
+  ],
+  "rails": [
+    "ruby-on-rails-development-standards",
+    "rails-background-job",
+    "rails-version-api",
+    "rails-implement-authorization",
+    "rails-graphql",
+    "rails-optimize-performance"
+  ],
+  "rate": [
+    "salvo-rate-limiter",
+    "auth0-authentication-rate-limiting",
+    "marketplace-rate-limiting"
   ],
   "rbac": [
     "tanstack-router-auth-and-guards"
@@ -1505,11 +2569,23 @@
   "readability": [
     "mblode-typography-audit"
   ],
+  "realtime": [
+    "litestar-realtime",
+    "trigger-realtime"
+  ],
   "redesign": [
     "hallmark-anti-ai-ui"
   ],
   "redirect": [
     "vue-router-infinite-redirect-guard"
+  ],
+  "redis": [
+    "redis-clustering",
+    "redis-connections",
+    "redis-observability",
+    "redis-search",
+    "redis-security",
+    "redis-semantic-cache"
   ],
   "reducers": [
     "redux-dataflow-modeling"
@@ -1531,6 +2607,17 @@
     "migrate-to-modern-redux",
     "debug-redux-toolkit-apps"
   ],
+  "refactoring": [
+    "go-refactoring"
+  ],
+  "refunds": [
+    "dodo-payments-refunds-and-disputes"
+  ],
+  "render": [
+    "render-background-workers",
+    "render-cron-jobs",
+    "render-workflows"
+  ],
   "rendering": [
     "rendering-activity",
     "rendering-animate-svg-wrapper",
@@ -1544,6 +2631,12 @@
     "rendering-svg-precision",
     "rendering-usetransition-loading",
     "tanstack-router-ssr-hydration"
+  ],
+  "required": [
+    "stripe-connect-kyc-requirements"
+  ],
+  "requirements": [
+    "stripe-connect-kyc-requirements"
   ],
   "rerender": [
     "rerender-defer-reads",
@@ -1565,6 +2658,12 @@
   "resilience": [
     "mblode-product-design"
   ],
+  "resilience4j": [
+    "spring-boot-resilience4j"
+  ],
+  "resource": [
+    "spree-resource"
+  ],
   "responsive": [
     "impeccable-responsive",
     "web-design-guidelines",
@@ -1580,10 +2679,23 @@
     "simota-palette"
   ],
   "rest": [
-    "rest-api-design-review"
+    "rest-api-design-review",
+    "django-rest-framework-classy-views",
+    "spring-boot-rest-api-standards"
   ],
   "retry": [
-    "tanstack-query-error-boundary-reset"
+    "tanstack-query-error-boundary-reset",
+    "distributed-systems-retry-storms"
+  ],
+  "review": [
+    "kafka-perf-review",
+    "kafka-connector-review",
+    "kafka-dlq-review",
+    "kafka-schema-review",
+    "auth0-application-security-review"
+  ],
+  "reviewer": [
+    "django-reviewer"
   ],
   "rls": [
     "supabase-postgres-best-practices"
@@ -1594,11 +2706,20 @@
   "rolldown": [
     "rolldown"
   ],
+  "rotation": [
+    "auth0-token-handling-and-rotation"
+  ],
+  "route": [
+    "fastify-route-protection-with-auth0"
+  ],
   "route-handlers": [
     "next-js-route-handlers"
   ],
   "router-state": [
     "redux-state-ownership-design"
+  ],
+  "routes": [
+    "fastify-routes"
   ],
   "routing": [
     "vue-router-best-practices",
@@ -1607,7 +2728,10 @@
     "tanstack-router-data-loading",
     "tanstack-router-auth-and-guards",
     "tanstack-router-not-found-and-errors",
-    "tanstack-router-type-safety"
+    "tanstack-router-type-safety",
+    "salvo-routing",
+    "litestar-routing",
+    "aws-s3-upload-routing-with-step-functions"
   ],
   "routing-middleware": [
     "routing-middleware"
@@ -1623,8 +2747,42 @@
   "rtl": [
     "rtl-layout-audit"
   ],
+  "ruby": [
+    "ruby-on-rails-development-standards"
+  ],
   "rules": [
-    "openai-figma-create-design-system-rules"
+    "openai-figma-create-design-system-rules",
+    "node-js-async-patterns",
+    "node-js-caching",
+    "node-js-environment",
+    "node-js-error-handling",
+    "node-js-flaky-tests",
+    "node-js-graceful-shutdown",
+    "node-js-logging",
+    "node-js-performance",
+    "node-js-profiling",
+    "node-js-streams",
+    "node-js-stuck-processes-and-tests",
+    "node-js-testing",
+    "fastify-authentication",
+    "fastify-configuration",
+    "fastify-content-type",
+    "fastify-cors-security",
+    "fastify-database",
+    "fastify-decorators",
+    "fastify-deployment",
+    "fastify-error-handling",
+    "fastify-hooks",
+    "fastify-http-proxy",
+    "fastify-logging",
+    "fastify-performance",
+    "fastify-plugins",
+    "fastify-routes",
+    "fastify-schemas",
+    "fastify-serialization",
+    "fastify-testing",
+    "fastify-websockets",
+    "firebase-security-rules-auditor"
   ],
   "runtime-cache": [
     "runtime-cache"
@@ -1632,8 +2790,64 @@
   "runtime-selection": [
     "next-js-runtime-selection"
   ],
+  "s3": [
+    "aws-s3-upload-routing-with-step-functions"
+  ],
+  "safe": [
+    "django-safe-migration"
+  ],
+  "safety": [
+    "go-safety"
+  ],
+  "saga": [
+    "spring-boot-saga-pattern"
+  ],
+  "salvo": [
+    "salvo-auth",
+    "salvo-basic-app",
+    "salvo-caching",
+    "salvo-compression",
+    "salvo-concurrency-limiter",
+    "salvo-cors",
+    "salvo-csrf",
+    "salvo-data-extraction",
+    "salvo-database",
+    "salvo-error-handling",
+    "salvo-file-handling",
+    "salvo-flash",
+    "salvo-graceful-shutdown",
+    "salvo-logging",
+    "salvo-middleware",
+    "salvo-openapi",
+    "salvo-path-syntax",
+    "salvo-proxy",
+    "salvo-rate-limiter",
+    "salvo-routing",
+    "salvo-session",
+    "salvo-sse",
+    "salvo-static-files",
+    "salvo-testing",
+    "salvo-timeout",
+    "salvo-tls-acme",
+    "salvo-websocket"
+  ],
+  "saq": [
+    "litestar-saq"
+  ],
+  "savings": [
+    "trigger-cost-savings"
+  ],
+  "scaffolding": [
+    "data-driven-asp-dotnet-core-scaffolding"
+  ],
+  "schema": [
+    "kafka-schema-review"
+  ],
   "schema-markup": [
     "schema-markup"
+  ],
+  "schemas": [
+    "fastify-schemas"
   ],
   "screen-design": [
     "openai-figma-generate-design"
@@ -1647,11 +2861,31 @@
   "scroll-restoration": [
     "tanstack-router-navigation-preloading"
   ],
+  "sdk": [
+    "cloudflare-agents-sdk-backend",
+    "stripe-api-and-sdk-upgrade"
+  ],
+  "search": [
+    "redis-search"
+  ],
   "search-params": [
     "tanstack-router-search-params"
   ],
+  "secrets": [
+    "aws-secrets-manager-best-practices"
+  ],
   "security": [
-    "web-security-header-review"
+    "web-security-header-review",
+    "fastify-cors-security",
+    "go-security",
+    "kafka-security-audit",
+    "litestar-security",
+    "spring-boot-security-jwt",
+    "spree-security",
+    "better-auth-security-best-practices",
+    "auth0-application-security-review",
+    "redis-security",
+    "firebase-security-rules-auditor"
   ],
   "selectors": [
     "redux-dataflow-modeling",
@@ -1660,6 +2894,10 @@
   ],
   "self-hosting": [
     "next-js-self-hosting"
+  ],
+  "semantic": [
+    "opentelemetry-semantic-conventions",
+    "redis-semantic-cache"
   ],
   "semantic-html": [
     "semantic-html-accessibility-audit",
@@ -1673,6 +2911,9 @@
     "seo-audit",
     "seo-audit"
   ],
+  "serialization": [
+    "fastify-serialization"
+  ],
   "server": [
     "server-after-nonblocking",
     "server-auth-actions",
@@ -1681,7 +2922,8 @@
     "server-dedup-props",
     "server-hoist-static-io",
     "server-parallel-fetching",
-    "server-serialization"
+    "server-serialization",
+    "cloudflare-turnstile-server-verification"
   ],
   "server-actions": [
     "next-safe-action-form-integration",
@@ -1692,8 +2934,26 @@
     "tanstack-query-targeted-invalidation",
     "tanstack-query-staletime-strategy"
   ],
+  "service": [
+    "cloudflare-email-service"
+  ],
   "service-worker": [
     "service-worker-offline-strategy"
+  ],
+  "services": [
+    "litestar-data-services"
+  ],
+  "ses": [
+    "amazon-ses"
+  ],
+  "session": [
+    "salvo-session"
+  ],
+  "settings": [
+    "litestar-settings"
+  ],
+  "setup": [
+    "trigger-setup"
   ],
   "shadcn": [
     "shadcn"
@@ -1705,11 +2965,30 @@
   "shallowRef": [
     "vue-reactivity-core-patterns"
   ],
+  "sharding": [
+    "distributed-systems-sharding"
+  ],
+  "shopify": [
+    "shopify-webhook-verification"
+  ],
+  "shutdown": [
+    "node-js-graceful-shutdown",
+    "salvo-graceful-shutdown"
+  ],
   "side-effects": [
     "redux-side-effect-orchestration"
   ],
   "signup-flow-cro": [
     "signup-flow-cro"
+  ],
+  "skew": [
+    "distributed-systems-clock-skew"
+  ],
+  "slack": [
+    "slack-webhook-verification"
+  ],
+  "sns": [
+    "aws-sns-webhook-verification"
   ],
   "software-testing": [
     "software-testing"
@@ -1720,13 +2999,77 @@
     "simota-muse",
     "elaya-landing-page-design"
   ],
+  "spin": [
+    "cloudflare-turnstile-server-verification"
+  ],
+  "spree": [
+    "spree-api-v3",
+    "spree-checkout",
+    "spree-events-webhooks",
+    "spree-payments",
+    "spree-performance",
+    "spree-resource",
+    "spree-security",
+    "spree-testing"
+  ],
+  "spring": [
+    "create-spring-boot-java-project",
+    "create-spring-boot-kotlin-project",
+    "spring-boot-java-best-practices",
+    "spring-boot-kotlin-best-practices",
+    "spring-boot-actuator",
+    "spring-boot-cache",
+    "spring-boot-crud-patterns",
+    "spring-boot-dependency-injection",
+    "spring-boot-event-driven-patterns",
+    "spring-boot-openapi-documentation",
+    "spring-boot-resilience4j",
+    "spring-boot-rest-api-standards",
+    "spring-boot-saga-pattern",
+    "spring-boot-security-jwt",
+    "spring-boot-test-patterns",
+    "spring-data-jpa",
+    "auth0-spring-boot-api-authorization"
+  ],
+  "springboot": [
+    "spring-boot-java-best-practices",
+    "spring-boot-kotlin-best-practices",
+    "auth0-spring-boot-api-authorization"
+  ],
+  "sse": [
+    "salvo-sse"
+  ],
   "ssr": [
     "modern-redux-app-setup",
     "vue-pinia-best-practices",
     "tanstack-router-ssr-hydration"
   ],
+  "staff": [
+    "distributed-systems-backpressure",
+    "distributed-systems-cache-invalidation",
+    "distributed-systems-cardinality",
+    "distributed-systems-clock-skew",
+    "distributed-systems-consistency-models",
+    "distributed-systems-denormalization",
+    "distributed-systems-fallacies",
+    "distributed-systems-hot-partitions",
+    "distributed-systems-idempotency",
+    "distributed-systems-memory-leaks",
+    "object-storage-as-a-database",
+    "distributed-systems-race-conditions",
+    "distributed-systems-retry-storms",
+    "distributed-systems-sharding",
+    "distributed-systems-streams-vs-batch",
+    "distributed-systems-thundering-herd"
+  ],
   "staleTime": [
     "tanstack-query-staletime-strategy"
+  ],
+  "standards": [
+    "nestjs-development-standards",
+    "symfony-development-standards",
+    "ruby-on-rails-development-standards",
+    "spring-boot-rest-api-standards"
   ],
   "state": [
     "modern-redux-app-setup",
@@ -1743,14 +3086,57 @@
     "mblode-product-design",
     "magnus-product-design-and-ux"
   ],
+  "static": [
+    "salvo-static-files"
+  ],
+  "step": [
+    "aws-step-functions",
+    "aws-s3-upload-routing-with-step-functions"
+  ],
   "stitch": [
     "google-stitch-design-md"
+  ],
+  "storage": [
+    "object-storage-as-a-database",
+    "neon-object-storage"
+  ],
+  "store": [
+    "object-storage-as-a-database"
+  ],
+  "storms": [
+    "distributed-systems-retry-storms"
+  ],
+  "strategy": [
+    "headless-caching-strategy"
   ],
   "streaming": [
     "tanstack-router-ssr-hydration"
   ],
+  "streams": [
+    "node-js-streams",
+    "distributed-systems-streams-vs-batch"
+  ],
+  "stripe": [
+    "stripe-webhook-verification",
+    "stripe-connect-kyc-requirements",
+    "stripe-apps",
+    "stripe-best-practices",
+    "stripe-api-and-sdk-upgrade"
+  ],
+  "structs": [
+    "go-structs-and-interfaces"
+  ],
   "structured-data": [
     "schema-markup"
+  ],
+  "stuck": [
+    "node-js-stuck-processes-and-tests"
+  ],
+  "sub": [
+    "google-pub-sub-push-verification"
+  ],
+  "subscription": [
+    "dodo-payments-subscription-integration"
   ],
   "supabase": [
     "supabase-postgres-best-practices"
@@ -1774,6 +3160,39 @@
   ],
   "sveltekit-best-practices": [
     "sveltekit-best-practices"
+  ],
+  "svix": [
+    "svix-webhook-verification"
+  ],
+  "swagger": [
+    "go-swagger"
+  ],
+  "symfony": [
+    "symfony-development-standards"
+  ],
+  "syntax": [
+    "salvo-path-syntax"
+  ],
+  "system": [
+    "distributed-systems-fallacies",
+    "dotnet-11-system-text-json"
+  ],
+  "systems": [
+    "distributed-systems-backpressure",
+    "distributed-systems-cache-invalidation",
+    "distributed-systems-cardinality",
+    "distributed-systems-clock-skew",
+    "distributed-systems-consistency-models",
+    "distributed-systems-denormalization",
+    "distributed-systems-fallacies",
+    "distributed-systems-hot-partitions",
+    "distributed-systems-idempotency",
+    "distributed-systems-memory-leaks",
+    "distributed-systems-race-conditions",
+    "distributed-systems-retry-storms",
+    "distributed-systems-sharding",
+    "distributed-systems-streams-vs-batch",
+    "distributed-systems-thundering-herd"
   ],
   "tables": [
     "nextlevel-ui-styling"
@@ -1804,21 +3223,64 @@
     "tanstack-router-type-safety",
     "tanstack-router-ssr-hydration"
   ],
+  "tasks": [
+    "trigger-tasks"
+  ],
   "teach-impeccable": [
     "impeccable-teach-impeccable"
   ],
+  "tenant": [
+    "auth0-multi-tenant-authorization-pattern"
+  ],
+  "test": [
+    "spring-boot-test-patterns"
+  ],
   "testing": [
-    "anthropic-webapp-testing"
+    "anthropic-webapp-testing",
+    "node-js-testing",
+    "fastify-testing",
+    "salvo-testing",
+    "go-testing",
+    "litestar-testing",
+    "spree-testing",
+    "dodo-payments-testing-and-go-live"
   ],
   "testing-strategy": [
     "software-testing"
+  ],
+  "tests": [
+    "node-js-flaky-tests",
+    "node-js-stuck-processes-and-tests"
+  ],
+  "text": [
+    "dotnet-11-system-text-json"
   ],
   "theming": [
     "openai-figma-generate-library",
     "wshobson-design-system-patterns"
   ],
+  "thundering": [
+    "distributed-systems-thundering-herd"
+  ],
+  "timeout": [
+    "salvo-timeout",
+    "aws-lambda-timeout-diagnosis"
+  ],
+  "timeouts": [
+    "aws-lambda-timeout-diagnosis"
+  ],
+  "tls": [
+    "salvo-tls-acme"
+  ],
+  "to": [
+    "firebase-extension-to-cloud-functions-migration",
+    "aws-lambda-api-gateway-integration"
+  ],
   "toValue": [
     "create-adaptable-vue-composable"
+  ],
+  "token": [
+    "auth0-token-handling-and-rotation"
   ],
   "tokens": [
     "openai-figma-generate-library",
@@ -1830,11 +3292,43 @@
     "ibelick-create-design-md",
     "terminalskills-design-md"
   ],
+  "topic": [
+    "kafka-topic-audit"
+  ],
+  "trace": [
+    "dotnet-production-trace-collection"
+  ],
+  "trigger": [
+    "trigger-authoring-chat-agent",
+    "trigger-chat-agent-advanced",
+    "trigger-cost-savings",
+    "trigger-realtime",
+    "trigger-setup",
+    "trigger-tasks"
+  ],
+  "troubleshooting": [
+    "go-troubleshooting"
+  ],
   "tsdown": [
     "tsdown"
   ],
   "turbopack": [
     "turbopack"
+  ],
+  "turnstile": [
+    "cloudflare-turnstile-server-verification"
+  ],
+  "twilio": [
+    "twilio-webhook-verification"
+  ],
+  "two": [
+    "better-auth-two-factor-authentication"
+  ],
+  "twofactor": [
+    "better-auth-two-factor-authentication"
+  ],
+  "type": [
+    "fastify-content-type"
   ],
   "type-inference": [
     "tanstack-router-type-safety"
@@ -1873,6 +3367,10 @@
     "elaya-landing-page-design",
     "terminalskills-design-md"
   ],
+  "uber": [
+    "go-uber-dig-dependency-injection",
+    "go-uber-fx-application-lifecycle"
+  ],
   "ui": [
     "anthropic-frontend-design",
     "arvindand-ui-ux-design",
@@ -1900,6 +3398,16 @@
   "ui-ux": [
     "ui-ux-pro-max"
   ],
+  "upgrade": [
+    "stripe-api-and-sdk-upgrade"
+  ],
+  "upload": [
+    "minimal-api-file-upload",
+    "aws-s3-upload-routing-with-step-functions"
+  ],
+  "uploads": [
+    "aws-s3-upload-routing-with-step-functions"
+  ],
   "url-state": [
     "tanstack-router-search-params"
   ],
@@ -1907,8 +3415,14 @@
     "ibelick-improve-ui",
     "simota-palette"
   ],
+  "usage": [
+    "dodo-payments-usage-based-billing"
+  ],
   "useQueries": [
     "tanstack-query-dynamic-parallel-queries"
+  ],
+  "using": [
+    "aws-secrets-manager-best-practices"
   ],
   "ux": [
     "magnus-product-design-and-ux",
@@ -1923,6 +3437,9 @@
   ],
   "ux-audit": [
     "brumley-ui-ux-audit"
+  ],
+  "v3": [
+    "spree-api-v3"
   ],
   "validation": [
     "website-studio",
@@ -1990,7 +3507,25 @@
     "vercel-storage"
   ],
   "verification": [
-    "vercel-verification"
+    "vercel-verification",
+    "cloudflare-turnstile-server-verification",
+    "stripe-webhook-verification",
+    "github-webhook-verification",
+    "shopify-webhook-verification",
+    "openai-webhook-verification",
+    "slack-webhook-verification",
+    "aws-sns-webhook-verification",
+    "google-pub-sub-push-verification",
+    "svix-webhook-verification",
+    "twilio-webhook-verification",
+    "paypal-webhook-verification",
+    "stripe-connect-kyc-requirements"
+  ],
+  "version": [
+    "rails-version-api"
+  ],
+  "views": [
+    "django-rest-framework-classy-views"
   ],
   "virtualization": [
     "vue-large-list-virtualization"
@@ -2095,6 +3630,13 @@
     "vitest",
     "vitest"
   ],
+  "vs": [
+    "distributed-systems-streams-vs-batch"
+  ],
+  "vtex": [
+    "vtex-io-events-and-workers",
+    "vtex-io-observability-and-operations"
+  ],
   "vue": [
     "vue-best-practices",
     "vue-debug-guides",
@@ -2148,6 +3690,10 @@
     "platform-web-design-guidelines",
     "github-copilot-web-accessibility-standards"
   ],
+  "web": [
+    "asp-dotnet-core-web-api-engineering",
+    "auth0-express-web-application-authentication"
+  ],
   "web-animation": [
     "web-animations"
   ],
@@ -2167,14 +3713,44 @@
   "web-quality-audit": [
     "web-quality-audit"
   ],
+  "webapi": [
+    "asp-dotnet-core-web-api-engineering"
+  ],
   "webapp": [
     "anthropic-webapp-testing"
   ],
   "webgl": [
     "mengto-webgl-landing-steering"
   ],
+  "webhook": [
+    "idempotent-webhook-handler-patterns",
+    "webhook-developer-experience-audit",
+    "stripe-webhook-verification",
+    "github-webhook-verification",
+    "shopify-webhook-verification",
+    "openai-webhook-verification",
+    "slack-webhook-verification",
+    "aws-sns-webhook-verification",
+    "svix-webhook-verification",
+    "twilio-webhook-verification",
+    "paypal-webhook-verification",
+    "microsoft-graph-webhook-lifecycle",
+    "dodo-payments-webhook-integration"
+  ],
   "webhooks": [
-    "clerk-webhooks"
+    "clerk-webhooks",
+    "spree-events-webhooks",
+    "stripe-webhook-verification",
+    "github-webhook-verification",
+    "shopify-webhook-verification",
+    "openai-webhook-verification",
+    "slack-webhook-verification",
+    "aws-sns-webhook-verification",
+    "google-pub-sub-push-verification",
+    "svix-webhook-verification",
+    "twilio-webhook-verification",
+    "paypal-webhook-verification",
+    "microsoft-graph-webhook-lifecycle"
   ],
   "webpack": [
     "webpack"
@@ -2185,8 +3761,22 @@
   "website-design": [
     "website-studio"
   ],
+  "websocket": [
+    "salvo-websocket"
+  ],
+  "websockets": [
+    "fastify-websockets"
+  ],
+  "workers": [
+    "cloudflare-workers-production-best-practices",
+    "render-background-workers",
+    "vtex-io-events-and-workers"
+  ],
   "workflow": [
     "vercel-workflow"
+  ],
+  "workflows": [
+    "render-workflows"
   ],
   "zod": [
     "tanstack-router-search-params"

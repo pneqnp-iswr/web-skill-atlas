@@ -1,0 +1,16 @@
+{
+  "candidates_reviewed": 499,
+  "query_variants_generated": 600,
+  "documented_duplicates": 191,
+  "rejected_or_deferred": 26,
+  "derived_opportunities": 12,
+  "accepted_after_dedupe": 259,
+  "duplicates_skipped_at_import": 0,
+  "metadata_corrections": 23,
+  "backend_count_before": 6,
+  "backend_count_after": 98,
+  "verified_new": 259,
+  "partially_verified_new": 0,
+  "unique_canonical_repositories": 31,
+  "unique_new_sources": 30
+}

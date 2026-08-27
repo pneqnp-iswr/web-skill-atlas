@@ -1,6 +1,6 @@
 # Performance
 
-77 indexed skills. [Back to the atlas](../README.md#categories).
+99 indexed skills. [Back to the atlas](../README.md#categories).
 
 | Skill | Subcategory | Status | Score | Source |
 |---|---|---|---:|---|
@@ -10,6 +10,9 @@
 | [Async Parallel](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/async-parallel.md) | Async & Waterfalls | verified | 88 | GitHub |
 | [Async Suspense Boundaries](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/async-suspense-boundaries.md) | Async & Waterfalls | verified | 88 | GitHub |
 | [Next.js Async Patterns](https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/async-patterns.md) | Async & Waterfalls | verified | 84 | GitHub |
+| [Kafka Perf Review](https://github.com/lensesio/agentic-engineering-for-apache-kafka/blob/main/skills/kafka-perf-review/SKILL.md) | Backend Engineering | verified | 84 | GitHub |
+| [Trigger Cost Savings](https://github.com/triggerdotdev/skills/blob/main/trigger-cost-savings/SKILL.md) | Backend Engineering | verified | 85 | GitHub |
+| [Distributed Systems Backpressure](https://github.com/triggerdotdev/staff-engineering-skills/blob/main/skills/staff-engineering-skills-backpressure/SKILL.md) | Backpressure | verified | 92 | GitHub |
 | [Bundle Barrel Imports](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/bundle-barrel-imports.md) | Bundle Optimization | verified | 88 | GitHub |
 | [Bundle Conditional](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/bundle-conditional.md) | Bundle Optimization | verified | 88 | GitHub |
 | [Bundle Defer Third Party](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/bundle-defer-third-party.md) | Bundle Optimization | verified | 88 | GitHub |
@@ -17,11 +20,21 @@
 | [Bundle Preload](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/bundle-preload.md) | Bundle Optimization | verified | 88 | GitHub |
 | [Next.js Bundling](https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/bundling.md) | Bundle Optimization | verified | 84 | GitHub |
 | [Cdn Caching](https://github.com/vercel/vercel-plugin/tree/main/skills/cdn-caching) | Caching | verified | 85 | GitHub |
+| [Distributed Systems Cache Invalidation](https://github.com/triggerdotdev/staff-engineering-skills/blob/main/skills/staff-engineering-skills-cache-invalidation/SKILL.md) | Caching | verified | 90 | GitHub |
+| [Distributed Systems Thundering Herd](https://github.com/triggerdotdev/staff-engineering-skills/blob/main/skills/staff-engineering-skills-thundering-herd/SKILL.md) | Caching | verified | 90 | GitHub |
+| [Headless Caching Strategy](https://github.com/vtex/skills/blob/main/skills/headless-caching-strategy/SKILL.md) | Caching | verified | 84 | GitHub |
+| [Node.js Caching](https://github.com/mcollina/skills/blob/main/skills/node/rules/caching.md) | Caching | verified | 89 | GitHub |
+| [Redis Semantic Cache](https://github.com/redis/agent-skills/blob/main/skills/redis-semantic-cache/SKILL.md) | Caching | verified | 88 | GitHub |
 | [Runtime Cache](https://github.com/vercel/vercel-plugin/tree/main/skills/runtime-cache) | Caching | verified | 85 | GitHub |
+| [Salvo Caching](https://github.com/salvo-rs/salvo-skills/blob/main/salvo-caching/SKILL.md) | Caching | verified | 84 | GitHub |
+| [Spring Boot Cache](https://github.com/giuseppe-trisciuoglio/developer-kit/blob/main/plugins/developer-kit-java/skills/spring-boot-cache/SKILL.md) | Caching | verified | 84 | GitHub |
 | [Client Event Listeners](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/client-event-listeners.md) | Client Performance | verified | 88 | GitHub |
 | [Client Localstorage Schema](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/client-localstorage-schema.md) | Client Performance | verified | 88 | GitHub |
 | [Client Passive Event Listeners](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/client-passive-event-listeners.md) | Client Performance | verified | 88 | GitHub |
 | [Client SWR Dedup](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/client-swr-dedup.md) | Client Performance | verified | 88 | GitHub |
+| [Optimizing EF Core Queries](https://github.com/dotnet/skills/blob/main/plugins/dotnet-data/skills/optimizing-ef-core-queries/SKILL.md) | Data Access | verified | 91 | GitHub |
+| [Distributed Systems Cardinality](https://github.com/triggerdotdev/staff-engineering-skills/blob/main/skills/staff-engineering-skills-cardinality/SKILL.md) | Distributed Systems | verified | 90 | GitHub |
+| [Distributed Systems Memory Leaks](https://github.com/triggerdotdev/staff-engineering-skills/blob/main/skills/staff-engineering-skills-memory-leaks/SKILL.md) | Distributed Systems | verified | 90 | GitHub |
 | [Next.js Font](https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/font.md) | Font Optimization | verified | 84 | GitHub |
 | [Impeccable Optimize](https://github.com/pbakaus/impeccable/blob/main/reference/optimize.md) | Frontend Performance | verified | 86 | GitHub |
 | [Next.js Image](https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/image.md) | Image Optimization | verified | 84 | GitHub |
@@ -39,6 +52,7 @@
 | [JS Set Map Lookups](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-set-map-lookups.md) | JavaScript Performance | verified | 88 | GitHub |
 | [JS Tosorted Immutable](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/js-tosorted-immutable.md) | JavaScript Performance | verified | 88 | GitHub |
 | [Next Cache Components](https://github.com/vercel/vercel-plugin/tree/main/skills/next-cache-components) | Next.js Caching | verified | 85 | GitHub |
+| [Salvo Concurrency Limiter](https://github.com/salvo-rs/salvo-skills/blob/main/salvo-concurrency-limiter/SKILL.md) | Rate Limiting | verified | 84 | GitHub |
 | [Advanced Event Handler Refs](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/advanced-event-handler-refs.md) | React Patterns | verified | 88 | GitHub |
 | [Advanced Init Once](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/advanced-init-once.md) | React Patterns | verified | 88 | GitHub |
 | [Advanced Use Latest](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/advanced-use-latest.md) | React Patterns | verified | 88 | GitHub |
@@ -69,6 +83,13 @@
 | [Rendering Script Defer Async](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-script-defer-async.md) | Rendering & Hydration | verified | 88 | GitHub |
 | [Rendering SVG Precision](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-svg-precision.md) | Rendering & Hydration | verified | 88 | GitHub |
 | [Rendering Usetransition Loading](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/rendering-usetransition-loading.md) | Rendering & Hydration | verified | 88 | GitHub |
+| [.NET Performance Analysis](https://github.com/dotnet/skills/blob/main/plugins/dotnet-diag/skills/analyzing-dotnet-performance/SKILL.md) | Server Performance | verified | 91 | GitHub |
+| [Fastify Performance](https://github.com/mcollina/skills/blob/main/skills/fastify/rules/performance.md) | Server Performance | verified | 89 | GitHub |
+| [Go Performance](https://github.com/samber/cc-skills-golang/blob/main/skills/golang-performance/SKILL.md) | Server Performance | verified | 87 | GitHub |
+| [Node.js Performance](https://github.com/mcollina/skills/blob/main/skills/node/rules/performance.md) | Server Performance | verified | 89 | GitHub |
+| [Node.js Profiling](https://github.com/mcollina/skills/blob/main/skills/node/rules/profiling.md) | Server Performance | verified | 89 | GitHub |
+| [Rails Optimize Performance](https://github.com/igmarin/rails-agent-skills/blob/main/skills/optimize-performance/SKILL.md) | Server Performance | verified | 82 | GitHub |
+| [Salvo Compression](https://github.com/salvo-rs/salvo-skills/blob/main/salvo-compression/SKILL.md) | Server Performance | verified | 84 | GitHub |
 | [Server After Nonblocking](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-after-nonblocking.md) | Server Performance | verified | 88 | GitHub |
 | [Server Auth Actions](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-auth-actions.md) | Server Performance | verified | 88 | GitHub |
 | [Server Cache LRU](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-cache-lru.md) | Server Performance | verified | 88 | GitHub |
@@ -77,6 +98,7 @@
 | [Server Hoist Static Io](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-hoist-static-io.md) | Server Performance | verified | 88 | GitHub |
 | [Server Parallel Fetching](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-parallel-fetching.md) | Server Performance | verified | 88 | GitHub |
 | [Server Serialization](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-serialization.md) | Server Performance | verified | 88 | GitHub |
+| [Spree Performance](https://github.com/spree/agent-skills/blob/main/skills/spree-performance/SKILL.md) | Server Performance | verified | 87 | GitHub |
 | [Next.js Suspense Boundaries](https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/suspense-boundaries.md) | Suspense | verified | 84 | GitHub |
 | [TypeScript Performance](https://github.com/microsoft/typescript) | TypeScript | partially-verified | 74 | GitHub |
 | [Vue Large List Virtualization](https://github.com/vuejs-ai/skills/blob/main/skills/vue-best-practices/references/perf-virtualize-large-lists.md) | Virtualization | verified | 86 | GitHub |
