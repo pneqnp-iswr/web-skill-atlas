@@ -40,16 +40,24 @@
     "subcategories": [
       "Angular",
       "Build Tools",
+      "Bundling",
+      "Data Fetching",
+      "Error Handling",
+      "Forms",
       "Next.js",
       "Next.js Migration",
       "Nuxt",
       "Production Patterns",
       "React",
       "React Router",
+      "Rendering",
+      "Routing",
+      "State Management",
       "Svelte",
       "SvelteKit",
       "TanStack",
       "TypeScript",
+      "URL State",
       "Vue"
     ]
   },
@@ -72,6 +80,7 @@
     "subcategories": [
       "Automated Testing",
       "Focus Management",
+      "Implementation Standards",
       "Keyboard Navigation",
       "Semantic HTML"
     ]
@@ -95,7 +104,9 @@
       "Rendering & Hydration",
       "Server Performance",
       "Suspense",
-      "TypeScript"
+      "TypeScript",
+      "Virtualization",
+      "Web Performance Standards"
     ]
   },
   {
@@ -136,6 +147,7 @@
     "subcategories": [
       "Hydration",
       "Next.js Debugging",
+      "Redux",
       "Vue"
     ]
   },
@@ -208,6 +220,7 @@
     "slug": "architecture",
     "subcategories": [
       "Angular",
+      "Frontend Architecture",
       "Microfrontends",
       "Next.js Architecture",
       "Project Bootstrap",

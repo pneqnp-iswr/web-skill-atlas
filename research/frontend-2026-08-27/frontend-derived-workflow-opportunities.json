@@ -1,0 +1,98 @@
+[
+  {
+    "name": "CSS Specificity Audit",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascade/Specificity",
+    "reason": "Authoritative documentation supports a useful repeatable audit, but no published agent skill was verified in this pass.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "CSS Cascade Layer Integration Review",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@layer",
+    "reason": "Useful granular workflow opportunity; documentation is not a published skill.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Stacking Context and z-index Debugging",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Understanding_CSS_z-index/The_stacking_context",
+    "reason": "High-value long-tail frontend debugging opportunity; kept out of published dataset until a reusable upstream skill exists.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "DOM Event Listener Lifecycle Audit",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener",
+    "reason": "Documentation can ground cleanup/passive/listener review but is not itself a published skill.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "IntersectionObserver Implementation Review",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API",
+    "reason": "Browser API coverage remains sparse in published agent skills.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "localStorage Versioning and Cross-tab Sync",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
+    "reason": "Storage workflow opportunity; no suitable published procedure verified.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "IndexedDB Transaction and Upgrade Audit",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
+    "reason": "Strong browser-platform opportunity but documentation must not masquerade as an agent skill.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Web Worker Offload and Transferables Review",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API",
+    "reason": "Long-tail browser performance capability without a verified published skill in this pass.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Service Worker Update Lifecycle Debugging",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API",
+    "reason": "PWA/browser lifecycle procedure opportunity; keep separate from published skills.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Web Components Lifecycle Review",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_components",
+    "reason": "Custom elements and shadow DOM are a notable coverage gap in published frontend skills.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Safe-area env() Responsive Audit",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/env",
+    "reason": "Mobile browser implementation gap; docs-only opportunity.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Visual Viewport and Virtual Keyboard Handling",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/Visual_Viewport_API",
+    "reason": "Mobile browser quirk workflow opportunity with insufficient published-skill coverage.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "WebSocket Reconnect and Cleanup Review",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSocket",
+    "reason": "Real-time UI connection lifecycle remains underrepresented as published reusable agent guidance.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "View Transition Fallback Review",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API",
+    "reason": "Modern animation implementation opportunity; no high-provenance published skill verified.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "Font Display and Layout Shift Audit",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display",
+    "reason": "Font-loading performance is valuable but current published-skill coverage is weak.",
+    "status": "derived-opportunity"
+  },
+  {
+    "name": "SVG Frontend Engineering Audit",
+    "source_url": "https://developer.mozilla.org/en-US/docs/Web/SVG",
+    "reason": "Responsive, accessible, optimized SVG workflows remain a long-tail gap.",
+    "status": "derived-opportunity"
+  }
+]

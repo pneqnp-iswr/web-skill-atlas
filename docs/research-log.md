@@ -25,3 +25,7 @@ Research is not saturated. The dataset is designed to expand through repeated ga
 - One collection label attributed to `wshobson/agents` did not resolve to a matching upstream skill and was rejected. The repository's actual design skills are indexed separately by their direct files.
 - TikTok cannot be exhaustively crawled in this environment because of robots/indexing restrictions. Instagram and X public indexing is incomplete. YouTube/Shorts and community sources were used only for discovery, never as canonical evidence when an upstream skill existed.
 - Saturation improved substantially for general UI/UX, visual systems, responsive design, motion, accessibility, landing pages, Figma workflows, audits, and anti-generic UI. Long-tail standalone skills for tables, checkout, form micro-UX, borders/radius, and narrow state-specific audits remain comparatively sparse.
+
+## 2026-08-27 Frontend deep research pass
+
+Deep frontend pass completed with a 600-variant query matrix and a conservative 100 concrete candidates/repository artifacts triaged. Imported only opened reusable skill/rule/instruction files, corrected canonical provenance for existing React Router, TanStack Router, Vue Debug, and Vue Testing records, and separated documentation-derived ideas into a dedicated opportunity backlog. Strongest new upstreams: reduxjs/redux-toolkit, sveltejs/ai-tools, vuejs-ai/skills, TanStack/router, github/awesome-copilot, next-safe-action/skills, and demark-pro/skills.

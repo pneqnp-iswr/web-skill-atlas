@@ -7,7 +7,9 @@
     "angular-migration",
     "angular-signals",
     "auth0-angular",
-    "github-web-design-reviewer"
+    "github-web-design-reviewer",
+    "github-copilot-web-accessibility-standards",
+    "github-copilot-web-performance-standards"
   ],
   "Astro": [
     "auth0-astro"
@@ -114,7 +116,11 @@
     "clerk-next-js-patterns",
     "auth0-next-js",
     "mblode-ui-design",
-    "github-web-design-reviewer"
+    "github-web-design-reviewer",
+    "next-safe-action-form-integration",
+    "next-safe-action-tanstack-query-adapter",
+    "effector-ecosystem-architecture-audit",
+    "effector-feature-sliced-design"
   ],
   "Nuxt": [
     "nuxt-auth-utils",
@@ -123,7 +129,8 @@
     "nuxt-ui",
     "nuxthub",
     "auth0-nuxt",
-    "github-web-design-reviewer"
+    "github-web-design-reviewer",
+    "create-adaptable-vue-composable"
   ],
   "Playwright": [
     "brumley-ui-ux-audit"
@@ -206,10 +213,50 @@
     "auth0-react-router",
     "mblode-ui-design",
     "wshobson-web-component-design",
-    "github-web-design-reviewer"
+    "github-web-design-reviewer",
+    "modern-redux-app-setup",
+    "redux-dataflow-modeling",
+    "redux-state-ownership-design",
+    "redux-slices-and-selectors",
+    "redux-side-effect-orchestration",
+    "migrate-to-modern-redux",
+    "adopt-rtk-query",
+    "debug-redux-toolkit-apps",
+    "tanstack-router-search-params",
+    "tanstack-router-path-params",
+    "tanstack-router-navigation-preloading",
+    "tanstack-router-data-loading",
+    "tanstack-router-auth-and-guards",
+    "tanstack-router-code-splitting",
+    "tanstack-router-not-found-and-errors",
+    "tanstack-router-type-safety",
+    "tanstack-router-ssr-hydration",
+    "tanstack-query-targeted-invalidation",
+    "tanstack-query-optimistic-updates",
+    "tanstack-query-staletime-strategy",
+    "tanstack-query-error-boundary-reset",
+    "tanstack-query-infinite-page-params",
+    "tanstack-query-dynamic-parallel-queries",
+    "github-copilot-web-accessibility-standards",
+    "github-copilot-web-performance-standards",
+    "next-safe-action-form-integration",
+    "next-safe-action-tanstack-query-adapter",
+    "effector-ecosystem-architecture-audit",
+    "effector-feature-sliced-design"
   ],
   "Remix": [
     "auth0-remix"
+  ],
+  "Solid": [
+    "tanstack-router-search-params",
+    "tanstack-router-path-params",
+    "tanstack-router-navigation-preloading",
+    "tanstack-router-data-loading",
+    "tanstack-router-auth-and-guards",
+    "tanstack-router-code-splitting",
+    "tanstack-router-not-found-and-errors",
+    "tanstack-router-type-safety",
+    "tanstack-router-ssr-hydration"
   ],
   "Svelte": [
     "svelte-5-best-practices",
@@ -217,11 +264,15 @@
     "auth0-svelte",
     "auth0-sveltekit",
     "wshobson-web-component-design",
-    "github-web-design-reviewer"
+    "github-web-design-reviewer",
+    "svelte-code-writer-validation-workflow",
+    "github-copilot-web-accessibility-standards",
+    "github-copilot-web-performance-standards"
   ],
   "SvelteKit": [
     "sveltekit-best-practices",
-    "auth0-sveltekit"
+    "auth0-sveltekit",
+    "svelte-code-writer-validation-workflow"
   ],
   "Tailwind CSS": [
     "mblode-ui-design",
@@ -239,7 +290,15 @@
     "vue-ui-ux",
     "auth0-vue",
     "wshobson-web-component-design",
-    "github-web-design-reviewer"
+    "github-web-design-reviewer",
+    "create-adaptable-vue-composable",
+    "vue-pinia-best-practices",
+    "vue-router-best-practices",
+    "vue-reactivity-core-patterns",
+    "vue-large-list-virtualization",
+    "vue-router-infinite-redirect-guard",
+    "github-copilot-web-accessibility-standards",
+    "github-copilot-web-performance-standards"
   ],
   "WebGL": [
     "mengto-webgl-landing-steering"

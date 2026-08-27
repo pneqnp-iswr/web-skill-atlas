@@ -1,0 +1,14 @@
+{
+  "candidates_reviewed": 100,
+  "frontend_count_before": 35,
+  "query_variants_generated": 600,
+  "documented_duplicate_or_near_duplicate_candidates": 12,
+  "documented_rejected_or_deferred_candidates": 25,
+  "derived_opportunities": 16,
+  "accepted_after_dedupe": 36,
+  "duplicates_skipped_at_import": 0,
+  "metadata_corrections": 4,
+  "frontend_count_after": 66,
+  "verified_new": 36,
+  "partially_verified_new": 0
+}

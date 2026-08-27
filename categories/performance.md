@@ -1,6 +1,6 @@
 # Performance
 
-75 indexed skills. [Back to the atlas](../README.md#categories).
+77 indexed skills. [Back to the atlas](../README.md#categories).
 
 | Skill | Subcategory | Status | Score | Source |
 |---|---|---|---:|---|
@@ -79,5 +79,7 @@
 | [Server Serialization](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/server-serialization.md) | Server Performance | verified | 88 | GitHub |
 | [Next.js Suspense Boundaries](https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/suspense-boundaries.md) | Suspense | verified | 84 | GitHub |
 | [TypeScript Performance](https://github.com/microsoft/typescript) | TypeScript | partially-verified | 74 | GitHub |
+| [Vue Large List Virtualization](https://github.com/vuejs-ai/skills/blob/main/skills/vue-best-practices/references/perf-virtualize-large-lists.md) | Virtualization | verified | 86 | GitHub |
+| [GitHub Copilot Web Performance Standards](https://github.com/github/awesome-copilot/blob/main/instructions/performance-optimization.instructions.md) | Web Performance Standards | verified | 90 | GitHub |
 
 Generated from `data/skills.json`. Do not edit counts manually.
