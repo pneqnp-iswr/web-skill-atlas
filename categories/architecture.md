@@ -1,10 +1,11 @@
 # Architecture
 
-8 indexed skills. [Back to the atlas](../README.md#categories).
+9 indexed skills. [Back to the atlas](../README.md#categories).
 
 | Skill | Subcategory | Status | Score | Source |
 |---|---|---|---:|---|
 | [Angular Context Engineering](https://github.com/use-skills/angular-skills) | Angular | partially-verified | 74 | GitHub |
+| [Effector Feature-Sliced Design](https://github.com/demark-pro/skills/blob/master/skills/effector-fsd/SKILL.md) | Frontend Architecture | verified | 87 | GitHub |
 | [Microfrontends](https://github.com/vercel/vercel-plugin/tree/main/skills/microfrontends) | Microfrontends | verified | 85 | GitHub |
 | [Next Forge](https://github.com/vercel/vercel-plugin/tree/main/skills/next-forge) | Next.js Architecture | verified | 85 | GitHub |
 | [Bootstrap](https://github.com/vercel/vercel-plugin/tree/main/skills/bootstrap) | Project Bootstrap | verified | 85 | GitHub |

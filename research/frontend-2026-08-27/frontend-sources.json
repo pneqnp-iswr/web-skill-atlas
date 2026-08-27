@@ -1,0 +1,91 @@
+[
+  {
+    "url": "https://github.com/reduxjs/redux-toolkit",
+    "platform": "GitHub",
+    "author": "reduxjs",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 8,
+    "discovered_via": [
+      "official repository search",
+      "GitHub tree inspection"
+    ]
+  },
+  {
+    "url": "https://github.com/sveltejs/ai-tools",
+    "platform": "GitHub",
+    "author": "sveltejs",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "official framework AI tooling search"
+    ]
+  },
+  {
+    "url": "https://github.com/vuejs-ai/skills",
+    "platform": "GitHub",
+    "author": "vuejs-ai",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 8,
+    "discovered_via": [
+      "canonical-upstream tracing",
+      "GitHub tree inspection"
+    ]
+  },
+  {
+    "url": "https://github.com/TanStack/router",
+    "platform": "GitHub",
+    "author": "TanStack",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 10,
+    "discovered_via": [
+      "official repository search",
+      "gap-driven routing search"
+    ]
+  },
+  {
+    "url": "https://github.com/DeckardGer/tanstack-agent-skills",
+    "platform": "GitHub",
+    "author": "DeckardGer",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 6,
+    "discovered_via": [
+      "GitHub code search",
+      "long-tail TanStack Query search"
+    ]
+  },
+  {
+    "url": "https://github.com/next-safe-action/skills",
+    "platform": "GitHub",
+    "author": "next-safe-action",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 2,
+    "discovered_via": [
+      "maintainer skills repository search"
+    ]
+  },
+  {
+    "url": "https://github.com/demark-pro/skills",
+    "platform": "GitHub",
+    "author": "demark-pro",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 2,
+    "discovered_via": [
+      "skills.sh",
+      "long-tail state-management search"
+    ]
+  }
+]

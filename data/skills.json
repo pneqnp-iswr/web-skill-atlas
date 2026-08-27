@@ -5090,12 +5090,12 @@
       "vue-debug-guides"
     ],
     "type": "published-skill",
-    "source_url": "https://github.com/hyf0/vue-skills",
+    "source_url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-debug-guides/SKILL.md",
     "source_platform": "GitHub",
-    "author": "hyf0",
-    "license": "unknown",
-    "quality_score": 74,
-    "status": "partially-verified",
+    "author": "vuejs-ai",
+    "license": "MIT",
+    "quality_score": 87,
+    "status": "verified",
     "last_verified": "2026-08-27",
     "frameworks": [
       "Vue"
@@ -5103,10 +5103,11 @@
     "languages": [],
     "tools": [],
     "discovered_via": [
-      "finfin/awesome-frontend-skills"
+      "canonical vuejs-ai repository",
+      "mirror-to-upstream correction"
     ],
     "canonical": true,
-    "mirror_allowed": false,
+    "mirror_allowed": true,
     "source_detail": "vue-debug-guides"
   },
   {
@@ -5214,12 +5215,12 @@
       "vue-testing-best-practices"
     ],
     "type": "published-skill",
-    "source_url": "https://github.com/hyf0/vue-skills",
+    "source_url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-testing-best-practices/SKILL.md",
     "source_platform": "GitHub",
-    "author": "hyf0",
-    "license": "unknown",
-    "quality_score": 74,
-    "status": "partially-verified",
+    "author": "vuejs-ai",
+    "license": "MIT",
+    "quality_score": 86,
+    "status": "verified",
     "last_verified": "2026-08-27",
     "frameworks": [
       "Vue"
@@ -5227,10 +5228,11 @@
     "languages": [],
     "tools": [],
     "discovered_via": [
-      "finfin/awesome-frontend-skills"
+      "canonical vuejs-ai repository",
+      "mirror-to-upstream correction"
     ],
     "canonical": true,
-    "mirror_allowed": false,
+    "mirror_allowed": true,
     "source_detail": "vue-testing-best-practices"
   },
   {
@@ -5560,21 +5562,22 @@
       "tanstack-router"
     ],
     "type": "published-skill",
-    "source_url": "https://github.com/tarunom89/skills",
+    "source_url": "https://github.com/TanStack/router/blob/main/packages/router-core/skills/router-core/SKILL.md",
     "source_platform": "GitHub",
-    "author": "tarunom89",
-    "license": "unknown",
-    "quality_score": 74,
-    "status": "partially-verified",
+    "author": "TanStack",
+    "license": "MIT",
+    "quality_score": 90,
+    "status": "verified",
     "last_verified": "2026-08-27",
     "frameworks": [],
     "languages": [],
     "tools": [],
     "discovered_via": [
-      "finfin/awesome-frontend-skills"
+      "official TanStack Router skill tree",
+      "canonical-source correction"
     ],
     "canonical": true,
-    "mirror_allowed": false,
+    "mirror_allowed": true,
     "source_detail": "tanstack-router"
   },
   {
@@ -5589,12 +5592,12 @@
       "react-router-framework-mode"
     ],
     "type": "published-skill",
-    "source_url": "https://github.com/remix-run/react-router",
+    "source_url": "https://github.com/remix-run/react-router/blob/main/.agents/skills/react-router/SKILL.md",
     "source_platform": "GitHub",
     "author": "remix-run",
-    "license": "unknown",
-    "quality_score": 74,
-    "status": "partially-verified",
+    "license": "MIT",
+    "quality_score": 88,
+    "status": "verified",
     "last_verified": "2026-08-27",
     "frameworks": [
       "React"
@@ -5605,10 +5608,11 @@
     ],
     "tools": [],
     "discovered_via": [
-      "finfin/awesome-frontend-skills"
+      "official React Router repository",
+      "canonical-source correction"
     ],
     "canonical": true,
-    "mirror_allowed": false,
+    "mirror_allowed": true,
     "source_detail": "react-router-framework-mode"
   },
   {
@@ -11747,5 +11751,1454 @@
       "prototype",
       "visual-qa"
     ]
+  },
+  {
+    "name": "Modern Redux App Setup",
+    "slug": "modern-redux-app-setup",
+    "description": "Set up or modernize React + Redux applications with configureStore, typed hooks, feature folders, Provider wiring, and safe store lifetime across SPA and SSR-heavy environments.",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "tags": [
+      "redux",
+      "redux-toolkit",
+      "react",
+      "state",
+      "ssr"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/reduxjs/redux-toolkit/blob/master/packages/toolkit/skills/build-modern-redux-apps/modern-redux/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "reduxjs",
+    "license": "MIT",
+    "quality_score": 90,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Redux Toolkit",
+      "React Redux"
+    ],
+    "discovered_via": [
+      "official repository tree",
+      "gap-driven state-management search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0366"
+  },
+  {
+    "name": "Redux Dataflow Modeling",
+    "slug": "redux-dataflow-modeling",
+    "description": "Model and debug Redux event-to-reducer-to-selector-to-render dataflow, use event-style actions, keep transitions in reducers, and derive view state with selectors.",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "tags": [
+      "redux",
+      "redux-toolkit",
+      "selectors",
+      "reducers",
+      "dataflow"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/reduxjs/redux-toolkit/blob/master/packages/toolkit/skills/build-modern-redux-apps/redux-dataflow/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "reduxjs",
+    "license": "MIT",
+    "quality_score": 89,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Redux Toolkit"
+    ],
+    "discovered_via": [
+      "official repository tree",
+      "gap-driven state-management search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0367"
+  },
+  {
+    "name": "Redux State Ownership Design",
+    "slug": "redux-state-ownership-design",
+    "description": "Decide whether data belongs in Redux, component state, router state, or an external source and review ownership boundaries and slice sizing as an app evolves.",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "tags": [
+      "redux",
+      "state-ownership",
+      "local-state",
+      "router-state",
+      "architecture"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/reduxjs/redux-toolkit/blob/master/packages/toolkit/skills/model-redux-state/design-state-ownership/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "reduxjs",
+    "license": "MIT",
+    "quality_score": 91,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Redux Toolkit",
+      "React"
+    ],
+    "discovered_via": [
+      "official repository tree",
+      "gap-driven state-management search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0368"
+  },
+  {
+    "name": "Redux Slices and Selectors",
+    "slug": "redux-slices-and-selectors",
+    "description": "Author and refactor modern Redux Toolkit slices, selectors, async thunks, entity adapters, and lazy reducer injection using current RTK 2 patterns.",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "tags": [
+      "redux",
+      "redux-toolkit",
+      "createSlice",
+      "selectors",
+      "entity-adapter"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/reduxjs/redux-toolkit/blob/master/packages/toolkit/skills/model-redux-state/build-slices-and-selectors/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "reduxjs",
+    "license": "MIT",
+    "quality_score": 90,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Redux Toolkit"
+    ],
+    "discovered_via": [
+      "official repository tree",
+      "gap-driven state-management search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0369"
+  },
+  {
+    "name": "Redux Side Effect Orchestration",
+    "slug": "redux-side-effect-orchestration",
+    "description": "Choose between RTK Query, createAsyncThunk, handwritten thunks, and listener middleware while keeping side effects out of reducers and UI components.",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "tags": [
+      "redux",
+      "side-effects",
+      "listener-middleware",
+      "async-thunk",
+      "rtk-query"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/reduxjs/redux-toolkit/blob/master/packages/toolkit/skills/orchestrate-side-effects/handle-side-effects/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "reduxjs",
+    "license": "MIT",
+    "quality_score": 89,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Redux Toolkit",
+      "RTK Query"
+    ],
+    "discovered_via": [
+      "official repository tree",
+      "gap-driven state-management search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0370"
+  },
+  {
+    "name": "Migrate to Modern Redux",
+    "slug": "migrate-to-modern-redux",
+    "description": "Migrate legacy Redux incrementally by replacing createStore, modernizing touched reducers to createSlice, applying RTK 2 codemods, and moving server data to RTK Query where appropriate.",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "tags": [
+      "redux",
+      "migration",
+      "legacy",
+      "redux-toolkit",
+      "codemod"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/reduxjs/redux-toolkit/blob/master/packages/toolkit/skills/evolve-and-diagnose-redux-apps/migrate-to-modern-redux/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "reduxjs",
+    "license": "MIT",
+    "quality_score": 88,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Redux Toolkit",
+      "Redux"
+    ],
+    "discovered_via": [
+      "official repository tree",
+      "migration search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0371"
+  },
+  {
+    "name": "Adopt RTK Query",
+    "slug": "adopt-rtk-query",
+    "description": "Adopt RTK Query as a server-data document cache with createApi, hooks, invalidation, optimistic updates, persistence awareness, and explicit cache-model selection.",
+    "category": "Frontend",
+    "subcategory": "Data Fetching",
+    "tags": [
+      "redux",
+      "rtk-query",
+      "server-state",
+      "cache",
+      "optimistic-ui"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/reduxjs/redux-toolkit/blob/master/packages/toolkit/skills/manage-server-data/adopt-rtk-query/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "reduxjs",
+    "license": "MIT",
+    "quality_score": 90,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "RTK Query",
+      "Redux Toolkit"
+    ],
+    "discovered_via": [
+      "official repository tree",
+      "data-fetching search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0372"
+  },
+  {
+    "name": "Debug Redux Toolkit Apps",
+    "slug": "debug-redux-toolkit-apps",
+    "description": "Debug duplicate requests, stale cache behavior, broad subscriptions, selector churn, serializability warnings, and Redux render problems using an action-to-render tracing workflow.",
+    "category": "Debugging",
+    "subcategory": "Redux",
+    "tags": [
+      "redux",
+      "redux-toolkit",
+      "debugging",
+      "selectors",
+      "rtk-query"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/reduxjs/redux-toolkit/blob/master/packages/toolkit/skills/evolve-and-diagnose-redux-apps/debug-redux-toolkit-apps/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "reduxjs",
+    "license": "MIT",
+    "quality_score": 88,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Redux Toolkit",
+      "RTK Query"
+    ],
+    "discovered_via": [
+      "official repository tree",
+      "frontend-debugging search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0373"
+  },
+  {
+    "name": "Svelte Code Writer Validation Workflow",
+    "slug": "svelte-code-writer-validation-workflow",
+    "description": "Use Svelte's official AI tooling to locate version-relevant Svelte 5/SvelteKit docs, analyze code with svelte-autofixer, and validate Svelte components before finalizing edits.",
+    "category": "Frontend",
+    "subcategory": "Svelte",
+    "tags": [
+      "svelte",
+      "sveltekit",
+      "autofix",
+      "validation",
+      "documentation"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/sveltejs/ai-tools/blob/main/tools/skills/svelte-code-writer/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "sveltejs",
+    "license": "MIT",
+    "quality_score": 92,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "Svelte",
+      "SvelteKit"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Svelte"
+    ],
+    "tools": [
+      "@sveltejs/mcp",
+      "svelte-autofixer"
+    ],
+    "discovered_via": [
+      "official framework AI tools repository",
+      "GitHub code search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0374"
+  },
+  {
+    "name": "Create Adaptable Vue Composable",
+    "slug": "create-adaptable-vue-composable",
+    "description": "Create reusable Vue composables that accept plain or reactive inputs and normalize MaybeRef/MaybeRefOrGetter values correctly inside reactive effects.",
+    "category": "Frontend",
+    "subcategory": "Vue",
+    "tags": [
+      "vue",
+      "composables",
+      "reactivity",
+      "MaybeRef",
+      "toValue"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/vuejs-ai/skills/blob/main/skills/create-adaptable-composable/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "vuejs-ai",
+    "license": "MIT",
+    "quality_score": 87,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "Vue",
+      "Nuxt"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Vue"
+    ],
+    "discovered_via": [
+      "canonical Vue skills repository",
+      "composable search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0375"
+  },
+  {
+    "name": "Vue Pinia Best Practices",
+    "slug": "vue-pinia-best-practices",
+    "description": "Apply Pinia store setup, reactivity, and state-modeling patterns including active-Pinia failures, store destructuring hazards, SSR state return rules, and URL state boundaries.",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "tags": [
+      "vue",
+      "pinia",
+      "state",
+      "reactivity",
+      "ssr"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-pinia-best-practices/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "vuejs-ai",
+    "license": "MIT",
+    "quality_score": 87,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "Vue"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Pinia",
+      "Vue"
+    ],
+    "discovered_via": [
+      "canonical Vue skills repository",
+      "state-management search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0376"
+  },
+  {
+    "name": "Vue Router Best Practices",
+    "slug": "vue-router-best-practices",
+    "description": "Apply Vue Router 4 navigation guard, route-param, lifecycle, cleanup, and production routing patterns with explicit handling for common redirect and stale-data failures.",
+    "category": "Frontend",
+    "subcategory": "Routing",
+    "tags": [
+      "vue",
+      "vue-router",
+      "navigation-guards",
+      "routing",
+      "lifecycle"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-router-best-practices/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "vuejs-ai",
+    "license": "MIT",
+    "quality_score": 87,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "Vue"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Vue Router"
+    ],
+    "discovered_via": [
+      "canonical Vue skills repository",
+      "routing search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0377"
+  },
+  {
+    "name": "Vue Reactivity Core Patterns",
+    "slug": "vue-reactivity-core-patterns",
+    "description": "Choose and audit Vue ref/reactive/shallowRef/computed/watch primitives, avoid reactivity-breaking destructuring, keep computed values pure, and clean up async watcher effects.",
+    "category": "Frontend",
+    "subcategory": "Vue",
+    "tags": [
+      "vue",
+      "reactivity",
+      "computed",
+      "watch",
+      "shallowRef"
+    ],
+    "type": "published-rule",
+    "source_url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-best-practices/references/reactivity.md",
+    "source_platform": "GitHub",
+    "author": "vuejs-ai",
+    "license": "MIT",
+    "quality_score": 88,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "Vue"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Vue"
+    ],
+    "discovered_via": [
+      "verified repository tree",
+      "granular Vue reactivity search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0378"
+  },
+  {
+    "name": "Vue Large List Virtualization",
+    "slug": "vue-large-list-virtualization",
+    "description": "Audit large Vue lists for DOM overload and replace full rendering with virtualized rendering using realistic item counts, stable sizing, and appropriate virtualization libraries.",
+    "category": "Performance",
+    "subcategory": "Virtualization",
+    "tags": [
+      "vue",
+      "virtualization",
+      "large-lists",
+      "dom",
+      "performance"
+    ],
+    "type": "published-rule",
+    "source_url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-best-practices/references/perf-virtualize-large-lists.md",
+    "source_platform": "GitHub",
+    "author": "vuejs-ai",
+    "license": "MIT",
+    "quality_score": 86,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "Vue"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Vue",
+      "TanStack Virtual"
+    ],
+    "discovered_via": [
+      "verified repository tree",
+      "long-tail performance search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0379"
+  },
+  {
+    "name": "Vue Router Infinite Redirect Guard",
+    "slug": "vue-router-infinite-redirect-guard",
+    "description": "Detect and fix infinite Vue Router navigation-guard redirects using target-route exclusions, route metadata, redirect-chain checks, and scenario testing.",
+    "category": "Frontend",
+    "subcategory": "Routing",
+    "tags": [
+      "vue",
+      "vue-router",
+      "redirect",
+      "navigation-guard",
+      "debugging"
+    ],
+    "type": "published-rule",
+    "source_url": "https://github.com/vuejs-ai/skills/blob/main/skills/vue-router-best-practices/reference/router-navigation-guard-infinite-loop.md",
+    "source_platform": "GitHub",
+    "author": "vuejs-ai",
+    "license": "MIT",
+    "quality_score": 86,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "Vue"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Vue Router"
+    ],
+    "discovered_via": [
+      "verified repository tree",
+      "long-tail routing search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0380"
+  },
+  {
+    "name": "TanStack Router Search Params",
+    "slug": "tanstack-router-search-params",
+    "description": "Model URL search state with TanStack Router validation, schema adapters, inheritance, middleware, custom serialization, loader dependencies, and type-safe reading/writing.",
+    "category": "Frontend",
+    "subcategory": "URL State",
+    "tags": [
+      "tanstack-router",
+      "url-state",
+      "search-params",
+      "zod",
+      "routing"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/TanStack/router/blob/main/packages/router-core/skills/router-core/search-params/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "TanStack",
+    "license": "MIT",
+    "quality_score": 92,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Solid"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Router"
+    ],
+    "discovered_via": [
+      "official repository skill tree",
+      "gap-driven URL-state search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0381"
+  },
+  {
+    "name": "TanStack Router Path Params",
+    "slug": "tanstack-router-path-params",
+    "description": "Implement dynamic, splat, optional, prefixed, and localized route parameters with inferred types and correct params-based link construction.",
+    "category": "Frontend",
+    "subcategory": "Routing",
+    "tags": [
+      "tanstack-router",
+      "path-params",
+      "routing",
+      "i18n",
+      "type-safety"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/TanStack/router/blob/main/packages/router-core/skills/router-core/path-params/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "TanStack",
+    "license": "MIT",
+    "quality_score": 89,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Solid"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Router"
+    ],
+    "discovered_via": [
+      "official repository skill tree",
+      "routing search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0382"
+  },
+  {
+    "name": "TanStack Router Navigation and Preloading",
+    "slug": "tanstack-router-navigation-preloading",
+    "description": "Implement type-safe links and navigation, relative routing, active states, intent/viewport/render preloading, navigation blocking, custom links, and scroll restoration.",
+    "category": "Frontend",
+    "subcategory": "Routing",
+    "tags": [
+      "tanstack-router",
+      "navigation",
+      "preloading",
+      "scroll-restoration",
+      "links"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/TanStack/router/blob/main/packages/router-core/skills/router-core/navigation/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "TanStack",
+    "license": "MIT",
+    "quality_score": 90,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Solid"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Router"
+    ],
+    "discovered_via": [
+      "official repository skill tree",
+      "routing search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0383"
+  },
+  {
+    "name": "TanStack Router Data Loading",
+    "slug": "tanstack-router-data-loading",
+    "description": "Build route data-loading flows with loaderDeps cache keys, SWR timing, pending/error states, beforeLoad, router context, invalidation, and deferred loading.",
+    "category": "Frontend",
+    "subcategory": "Data Fetching",
+    "tags": [
+      "tanstack-router",
+      "data-loading",
+      "cache",
+      "deferred",
+      "routing"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/TanStack/router/blob/main/packages/router-core/skills/router-core/data-loading/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "TanStack",
+    "license": "MIT",
+    "quality_score": 90,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Solid"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Router"
+    ],
+    "discovered_via": [
+      "official repository skill tree",
+      "data-fetching search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0384"
+  },
+  {
+    "name": "TanStack Router Auth and Guards",
+    "slug": "tanstack-router-auth-and-guards",
+    "description": "Implement routing-side authentication with beforeLoad, redirects, authenticated layouts, RBAC, auth-provider context, and an explicit boundary between UI guards and server authorization.",
+    "category": "Frontend",
+    "subcategory": "Routing",
+    "tags": [
+      "tanstack-router",
+      "auth",
+      "guards",
+      "rbac",
+      "routing"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/TanStack/router/blob/main/packages/router-core/skills/router-core/auth-and-guards/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "TanStack",
+    "license": "MIT",
+    "quality_score": 89,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Solid"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Router"
+    ],
+    "discovered_via": [
+      "official repository skill tree",
+      "frontend-auth search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0385"
+  },
+  {
+    "name": "TanStack Router Code Splitting",
+    "slug": "tanstack-router-code-splitting",
+    "description": "Configure automatic or manual route code splitting, preserve critical route properties, avoid imports that defeat lazy chunks, and validate split route boundaries.",
+    "category": "Frontend",
+    "subcategory": "Bundling",
+    "tags": [
+      "tanstack-router",
+      "code-splitting",
+      "lazy-loading",
+      "bundling",
+      "vite"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/TanStack/router/blob/main/packages/router-core/skills/router-core/code-splitting/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "TanStack",
+    "license": "MIT",
+    "quality_score": 91,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Solid"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Router",
+      "Vite"
+    ],
+    "discovered_via": [
+      "official repository skill tree",
+      "bundling search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0386"
+  },
+  {
+    "name": "TanStack Router Not Found and Errors",
+    "slug": "tanstack-router-not-found-and-errors",
+    "description": "Implement route-level 404 and error handling with notFound, notFoundComponent, errorComponent, route masking, and migration away from deprecated NotFoundRoute patterns.",
+    "category": "Frontend",
+    "subcategory": "Error Handling",
+    "tags": [
+      "tanstack-router",
+      "404",
+      "error-boundary",
+      "not-found",
+      "routing"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/TanStack/router/blob/main/packages/router-core/skills/router-core/not-found-and-errors/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "TanStack",
+    "license": "MIT",
+    "quality_score": 88,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Solid"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Router"
+    ],
+    "discovered_via": [
+      "official repository skill tree",
+      "error-handling search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0387"
+  },
+  {
+    "name": "TanStack Router Type Safety",
+    "slug": "tanstack-router-type-safety",
+    "description": "Preserve TanStack Router's inference chain, register router types correctly, narrow shared hooks, access split routes safely, and avoid casts or annotations that hide routing type errors.",
+    "category": "Frontend",
+    "subcategory": "TypeScript",
+    "tags": [
+      "tanstack-router",
+      "typescript",
+      "type-inference",
+      "type-safety",
+      "routing"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/TanStack/router/blob/main/packages/router-core/skills/router-core/type-safety/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "TanStack",
+    "license": "MIT",
+    "quality_score": 90,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Solid"
+    ],
+    "languages": [
+      "TypeScript"
+    ],
+    "tools": [
+      "TanStack Router",
+      "TypeScript"
+    ],
+    "discovered_via": [
+      "official repository skill tree",
+      "TypeScript routing search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0388"
+  },
+  {
+    "name": "TanStack Router SSR and Hydration",
+    "slug": "tanstack-router-ssr-hydration",
+    "description": "Implement streaming or non-streaming TanStack Router SSR, shared router factories, loader dehydration/hydration, document head management, and safe client/server behavior boundaries.",
+    "category": "Frontend",
+    "subcategory": "Rendering",
+    "tags": [
+      "tanstack-router",
+      "ssr",
+      "hydration",
+      "streaming",
+      "rendering"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/TanStack/router/blob/main/packages/router-core/skills/router-core/ssr/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "TanStack",
+    "license": "MIT",
+    "quality_score": 89,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Solid"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Router"
+    ],
+    "discovered_via": [
+      "official repository skill tree",
+      "rendering and hydration search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0389"
+  },
+  {
+    "name": "TanStack Query Targeted Invalidation",
+    "slug": "tanstack-query-targeted-invalidation",
+    "description": "Use exact, prefix, or predicate-based TanStack Query invalidation to refresh affected cache entries without broad refetch storms or stale related data.",
+    "category": "Frontend",
+    "subcategory": "Data Fetching",
+    "tags": [
+      "tanstack-query",
+      "cache",
+      "invalidation",
+      "mutations",
+      "server-state"
+    ],
+    "type": "published-rule",
+    "source_url": "https://github.com/DeckardGer/tanstack-agent-skills/blob/main/skills/tanstack-query/rules/cache-invalidation.md",
+    "source_platform": "GitHub",
+    "author": "DeckardGer",
+    "license": "unknown",
+    "quality_score": 84,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Query"
+    ],
+    "discovered_via": [
+      "GitHub code search",
+      "granular data-fetching search"
+    ],
+    "canonical": true,
+    "mirror_allowed": false,
+    "id": "webskill-0390"
+  },
+  {
+    "name": "TanStack Query Optimistic Updates",
+    "slug": "tanstack-query-optimistic-updates",
+    "description": "Implement optimistic mutations with request cancellation, cache snapshots, temporary state, rollback, and settled invalidation while choosing between cache and UI-level optimistic state.",
+    "category": "Frontend",
+    "subcategory": "Data Fetching",
+    "tags": [
+      "tanstack-query",
+      "optimistic-ui",
+      "rollback",
+      "mutations",
+      "cache"
+    ],
+    "type": "published-rule",
+    "source_url": "https://github.com/DeckardGer/tanstack-agent-skills/blob/main/skills/tanstack-query/rules/mut-optimistic-updates.md",
+    "source_platform": "GitHub",
+    "author": "DeckardGer",
+    "license": "unknown",
+    "quality_score": 85,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Query"
+    ],
+    "discovered_via": [
+      "GitHub code search",
+      "optimistic UI search"
+    ],
+    "canonical": true,
+    "mirror_allowed": false,
+    "id": "webskill-0391"
+  },
+  {
+    "name": "TanStack Query staleTime Strategy",
+    "slug": "tanstack-query-staletime-strategy",
+    "description": "Set TanStack Query staleTime according to data volatility, centralize sensible defaults, override per query, and avoid immediate refetch behavior for data that is still fresh.",
+    "category": "Frontend",
+    "subcategory": "Data Fetching",
+    "tags": [
+      "tanstack-query",
+      "staleTime",
+      "cache",
+      "freshness",
+      "server-state"
+    ],
+    "type": "published-rule",
+    "source_url": "https://github.com/DeckardGer/tanstack-agent-skills/blob/main/skills/tanstack-query/rules/cache-stale-time.md",
+    "source_platform": "GitHub",
+    "author": "DeckardGer",
+    "license": "unknown",
+    "quality_score": 82,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Query"
+    ],
+    "discovered_via": [
+      "GitHub code search",
+      "cache-policy search"
+    ],
+    "canonical": true,
+    "mirror_allowed": false,
+    "id": "webskill-0392"
+  },
+  {
+    "name": "TanStack Query Error Boundary Reset",
+    "slug": "tanstack-query-error-boundary-reset",
+    "description": "Integrate Suspense query failures with React error boundaries and useQueryErrorResetBoundary so retry actions reset both the UI boundary and query error state.",
+    "category": "Frontend",
+    "subcategory": "Error Handling",
+    "tags": [
+      "tanstack-query",
+      "error-boundary",
+      "suspense",
+      "retry",
+      "react"
+    ],
+    "type": "published-rule",
+    "source_url": "https://github.com/DeckardGer/tanstack-agent-skills/blob/main/skills/tanstack-query/rules/err-error-boundaries.md",
+    "source_platform": "GitHub",
+    "author": "DeckardGer",
+    "license": "unknown",
+    "quality_score": 83,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Query",
+      "React"
+    ],
+    "discovered_via": [
+      "GitHub code search",
+      "frontend error-handling search"
+    ],
+    "canonical": true,
+    "mirror_allowed": false,
+    "id": "webskill-0393"
+  },
+  {
+    "name": "TanStack Query Infinite Page Params",
+    "slug": "tanstack-query-infinite-page-params",
+    "description": "Implement infinite queries with correct getNextPageParam/getPreviousPageParam logic for offset, cursor, bidirectional, and count-based pagination.",
+    "category": "Frontend",
+    "subcategory": "Data Fetching",
+    "tags": [
+      "tanstack-query",
+      "infinite-query",
+      "pagination",
+      "cursor",
+      "scroll"
+    ],
+    "type": "published-rule",
+    "source_url": "https://github.com/DeckardGer/tanstack-agent-skills/blob/main/skills/tanstack-query/rules/inf-page-params.md",
+    "source_platform": "GitHub",
+    "author": "DeckardGer",
+    "license": "unknown",
+    "quality_score": 81,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Query"
+    ],
+    "discovered_via": [
+      "GitHub code search",
+      "infinite-scroll search"
+    ],
+    "canonical": true,
+    "mirror_allowed": false,
+    "id": "webskill-0394"
+  },
+  {
+    "name": "TanStack Query Dynamic Parallel Queries",
+    "slug": "tanstack-query-dynamic-parallel-queries",
+    "description": "Use useQueries for a dynamic set of independent requests, avoid sequential waterfalls and hook-in-loop violations, and combine query state safely.",
+    "category": "Frontend",
+    "subcategory": "Data Fetching",
+    "tags": [
+      "tanstack-query",
+      "parallel",
+      "waterfall",
+      "useQueries",
+      "async"
+    ],
+    "type": "published-rule",
+    "source_url": "https://github.com/DeckardGer/tanstack-agent-skills/blob/main/skills/tanstack-query/rules/parallel-use-queries.md",
+    "source_platform": "GitHub",
+    "author": "DeckardGer",
+    "license": "unknown",
+    "quality_score": 82,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "TanStack Query"
+    ],
+    "discovered_via": [
+      "GitHub code search",
+      "async-waterfall search"
+    ],
+    "canonical": true,
+    "mirror_allowed": false,
+    "id": "webskill-0395"
+  },
+  {
+    "name": "GitHub Copilot Web Accessibility Standards",
+    "slug": "github-copilot-web-accessibility-standards",
+    "description": "Apply a reusable WCAG 2.2 AA web accessibility ruleset with severity, detection methods, criterion references, framework-specific fixes, and corrective code examples.",
+    "category": "Accessibility",
+    "subcategory": "Implementation Standards",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "aria",
+      "keyboard",
+      "copilot"
+    ],
+    "type": "published-instruction",
+    "source_url": "https://github.com/github/awesome-copilot/blob/main/instructions/a11y.instructions.md",
+    "source_platform": "GitHub",
+    "author": "GitHub",
+    "license": "MIT",
+    "quality_score": 89,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Vue",
+      "Angular",
+      "Svelte"
+    ],
+    "languages": [
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "GitHub Copilot"
+    ],
+    "discovered_via": [
+      "official GitHub instruction repository",
+      "accessibility search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0396"
+  },
+  {
+    "name": "GitHub Copilot Web Performance Standards",
+    "slug": "github-copilot-web-performance-standards",
+    "description": "Apply a reusable web performance ruleset covering LCP, INP, CLS and 50+ anti-patterns with severity, detection criteria, affected metrics, and corrective frontend examples.",
+    "category": "Performance",
+    "subcategory": "Web Performance Standards",
+    "tags": [
+      "performance",
+      "core-web-vitals",
+      "lcp",
+      "inp",
+      "cls",
+      "copilot"
+    ],
+    "type": "published-instruction",
+    "source_url": "https://github.com/github/awesome-copilot/blob/main/instructions/performance-optimization.instructions.md",
+    "source_platform": "GitHub",
+    "author": "GitHub",
+    "license": "MIT",
+    "quality_score": 90,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Vue",
+      "Angular",
+      "Svelte"
+    ],
+    "languages": [
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "GitHub Copilot",
+      "Core Web Vitals"
+    ],
+    "discovered_via": [
+      "official GitHub instruction repository",
+      "performance search"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0397"
+  },
+  {
+    "name": "next-safe-action Form Integration",
+    "slug": "next-safe-action-form-integration",
+    "description": "Integrate next-safe-action with native forms or React Hook Form, choose the appropriate action hook, surface validation/server errors, handle optimistic form state, bind arguments, and upload files.",
+    "category": "Frontend",
+    "subcategory": "Forms",
+    "tags": [
+      "nextjs",
+      "react",
+      "forms",
+      "react-hook-form",
+      "server-actions"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/next-safe-action/skills/blob/main/skills/safe-action-forms/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "next-safe-action",
+    "license": "unknown",
+    "quality_score": 84,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "Next.js",
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "next-safe-action",
+      "React Hook Form"
+    ],
+    "discovered_via": [
+      "maintainer skills repository",
+      "forms gap search"
+    ],
+    "canonical": true,
+    "mirror_allowed": false,
+    "id": "webskill-0398"
+  },
+  {
+    "name": "next-safe-action TanStack Query Adapter",
+    "slug": "next-safe-action-tanstack-query-adapter",
+    "description": "Integrate next-safe-action mutations with TanStack Query, map action-result errors into mutation errors, choose adapter vs built-in hooks, perform optimistic updates, and invalidate client cache after mutations.",
+    "category": "Frontend",
+    "subcategory": "Data Fetching",
+    "tags": [
+      "nextjs",
+      "tanstack-query",
+      "server-actions",
+      "mutations",
+      "optimistic-ui"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/next-safe-action/skills/blob/main/skills/safe-action-tanstack-query/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "next-safe-action",
+    "license": "unknown",
+    "quality_score": 84,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "Next.js",
+      "React"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "next-safe-action",
+      "TanStack Query"
+    ],
+    "discovered_via": [
+      "maintainer skills repository",
+      "data-fetching gap search"
+    ],
+    "canonical": true,
+    "mirror_allowed": false,
+    "id": "webskill-0399"
+  },
+  {
+    "name": "Effector Ecosystem Architecture and Audit",
+    "slug": "effector-ecosystem-architecture-audit",
+    "description": "Design, review, refactor, and deeply audit Effector/Farfetched frontend dataflow, React bindings, remote operations, Scope/SSR, routing, persistence, forms, cleanup, and static reactive graphs.",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "tags": [
+      "effector",
+      "farfetched",
+      "state-management",
+      "react",
+      "audit"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/demark-pro/skills/blob/master/skills/effector-ecosystem/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "demark-pro",
+    "license": "MIT",
+    "quality_score": 88,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Next.js"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Effector",
+      "Farfetched",
+      "Atomic Router"
+    ],
+    "discovered_via": [
+      "skills.sh long-tail discovery",
+      "GitHub repository verification"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0400"
+  },
+  {
+    "name": "Effector Feature-Sliced Design",
+    "slug": "effector-feature-sliced-design",
+    "description": "Place Effector models, queries, routes, forms and UI within Feature-Sliced Design layers, enforce dependency direction and public APIs, and audit ownership of cross-cutting frontend flows.",
+    "category": "Architecture",
+    "subcategory": "Frontend Architecture",
+    "tags": [
+      "effector",
+      "feature-sliced-design",
+      "frontend-architecture",
+      "imports",
+      "ownership"
+    ],
+    "type": "published-skill",
+    "source_url": "https://github.com/demark-pro/skills/blob/master/skills/effector-fsd/SKILL.md",
+    "source_platform": "GitHub",
+    "author": "demark-pro",
+    "license": "MIT",
+    "quality_score": 87,
+    "status": "verified",
+    "last_verified": "2026-08-27",
+    "frameworks": [
+      "React",
+      "Next.js"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "tools": [
+      "Effector",
+      "Feature-Sliced Design",
+      "Steiger"
+    ],
+    "discovered_via": [
+      "skills.sh long-tail discovery",
+      "GitHub repository verification"
+    ],
+    "canonical": true,
+    "mirror_allowed": true,
+    "id": "webskill-0401"
   }
 ]

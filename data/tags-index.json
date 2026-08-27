@@ -1,4 +1,10 @@
 {
+  "404": [
+    "tanstack-router-not-found-and-errors"
+  ],
+  "MaybeRef": [
+    "create-adaptable-vue-composable"
+  ],
   "a11y": [
     "semantic-html-accessibility-audit",
     "keyboard-interaction-audit",
@@ -85,7 +91,8 @@
     "typeui-tetris",
     "typeui-vibrant",
     "typeui-vintage",
-    "simota-palette"
+    "simota-palette",
+    "github-copilot-web-accessibility-standards"
   ],
   "accessibility-testing": [
     "accessibility-testing"
@@ -153,15 +160,25 @@
   "app-router-files": [
     "next-js-app-router-files"
   ],
+  "architecture": [
+    "redux-state-ownership-design"
+  ],
+  "aria": [
+    "github-copilot-web-accessibility-standards"
+  ],
   "async": [
     "async-api-routes",
     "async-defer-await",
     "async-dependencies",
     "async-parallel",
-    "async-suspense-boundaries"
+    "async-suspense-boundaries",
+    "tanstack-query-dynamic-parallel-queries"
   ],
   "async-patterns": [
     "next-js-async-patterns"
+  ],
+  "async-thunk": [
+    "redux-side-effect-orchestration"
   ],
   "audit": [
     "impeccable-audit",
@@ -172,10 +189,12 @@
     "uxuiprinciples-interface-auditor",
     "uxuiprinciples-ai-interface-reviewer",
     "uxuiprinciples-flow-checker",
-    "uxuiprinciples-vibe-coding-advisor"
+    "uxuiprinciples-vibe-coding-advisor",
+    "effector-ecosystem-architecture-audit"
   ],
   "auth": [
-    "vercel-auth"
+    "vercel-auth",
+    "tanstack-router-auth-and-guards"
   ],
   "auth0": [
     "auth0-next-js",
@@ -226,6 +245,9 @@
   "authentication": [
     "clerk-testing",
     "better-auth-best-practices"
+  ],
+  "autofix": [
+    "svelte-code-writer-validation-workflow"
   ],
   "automated-testing": [
     "accessibility-testing"
@@ -278,7 +300,15 @@
     "bundle-preload"
   ],
   "bundling": [
-    "next-js-bundling"
+    "next-js-bundling",
+    "tanstack-router-code-splitting"
+  ],
+  "cache": [
+    "adopt-rtk-query",
+    "tanstack-router-data-loading",
+    "tanstack-query-targeted-invalidation",
+    "tanstack-query-optimistic-updates",
+    "tanstack-query-staletime-strategy"
   ],
   "cdn-caching": [
     "cdn-caching"
@@ -322,8 +352,17 @@
     "client-passive-event-listeners",
     "client-swr-dedup"
   ],
+  "cls": [
+    "github-copilot-web-performance-standards"
+  ],
   "code-cleanup": [
     "code-cleanup"
+  ],
+  "code-splitting": [
+    "tanstack-router-code-splitting"
+  ],
+  "codemod": [
+    "migrate-to-modern-redux"
   ],
   "color": [
     "ui-ux-pro-max",
@@ -418,6 +457,12 @@
     "typeui-vibrant",
     "typeui-vintage"
   ],
+  "composables": [
+    "create-adaptable-vue-composable"
+  ],
+  "computed": [
+    "vue-reactivity-core-patterns"
+  ],
   "consistency": [
     "wshobson-design-system-patterns"
   ],
@@ -442,12 +487,22 @@
     "convex",
     "convex"
   ],
+  "copilot": [
+    "github-copilot-web-accessibility-standards",
+    "github-copilot-web-performance-standards"
+  ],
   "copywriting": [
     "copywriting",
     "copywriting"
   ],
+  "core-web-vitals": [
+    "github-copilot-web-performance-standards"
+  ],
   "create-a-backend": [
     "create-a-backend"
+  ],
+  "createSlice": [
+    "redux-slices-and-selectors"
   ],
   "critique": [
     "impeccable-critique",
@@ -460,6 +515,9 @@
   "cta": [
     "elaya-landing-page-design"
   ],
+  "cursor": [
+    "tanstack-query-infinite-page-params"
+  ],
   "cypress": [
     "cypress",
     "cypress"
@@ -471,6 +529,9 @@
     "dashboard-design-skill",
     "arvindand-ui-ux-design"
   ],
+  "data-loading": [
+    "tanstack-router-data-loading"
+  ],
   "data-patterns": [
     "next-js-data-patterns"
   ],
@@ -481,8 +542,18 @@
   "database": [
     "supabase-postgres-best-practices"
   ],
+  "dataflow": [
+    "redux-dataflow-modeling"
+  ],
   "debug-tricks": [
     "next-js-debug-tricks"
+  ],
+  "debugging": [
+    "debug-redux-toolkit-apps",
+    "vue-router-infinite-redirect-guard"
+  ],
+  "deferred": [
+    "tanstack-router-data-loading"
   ],
   "delight": [
     "impeccable-delight"
@@ -644,17 +715,34 @@
   "distill": [
     "impeccable-distill"
   ],
+  "documentation": [
+    "svelte-code-writer-validation-workflow"
+  ],
+  "dom": [
+    "vue-large-list-virtualization"
+  ],
   "dtcg": [
     "figma-design-system-engineering"
   ],
   "easing": [
     "mblode-ui-animation"
   ],
+  "effector": [
+    "effector-ecosystem-architecture-audit",
+    "effector-feature-sliced-design"
+  ],
   "elevation": [
     "simota-muse"
   ],
+  "entity-adapter": [
+    "redux-slices-and-selectors"
+  ],
   "env-vars": [
     "env-vars"
+  ],
+  "error-boundary": [
+    "tanstack-router-not-found-and-errors",
+    "tanstack-query-error-boundary-reset"
   ],
   "error-handling": [
     "next-js-error-handling"
@@ -673,6 +761,12 @@
   ],
   "extract": [
     "impeccable-extract"
+  ],
+  "farfetched": [
+    "effector-ecosystem-architecture-audit"
+  ],
+  "feature-sliced-design": [
+    "effector-feature-sliced-design"
   ],
   "figma": [
     "openai-figma-generate-library",
@@ -699,14 +793,21 @@
     "nextlevel-ui-styling",
     "material-design-3-ui",
     "arvindand-ui-ux-design",
-    "simota-palette"
+    "simota-palette",
+    "next-safe-action-form-integration"
   ],
   "forms-cro": [
     "forms-cro"
   ],
+  "freshness": [
+    "tanstack-query-staletime-strategy"
+  ],
   "frontend": [
     "impeccable",
     "anthropic-frontend-design"
+  ],
+  "frontend-architecture": [
+    "effector-feature-sliced-design"
   ],
   "frontend-design": [
     "impeccable-frontend-design"
@@ -731,6 +832,9 @@
     "gsap",
     "gsap"
   ],
+  "guards": [
+    "tanstack-router-auth-and-guards"
+  ],
   "handoff": [
     "website-studio",
     "simota-atelier"
@@ -751,12 +855,16 @@
   "http": [
     "rest-api-design-review"
   ],
+  "hydration": [
+    "tanstack-router-ssr-hydration"
+  ],
   "hydration-error": [
     "next-js-hydration-error"
   ],
   "i18n": [
     "internationalization-readiness-audit",
-    "rtl-layout-audit"
+    "rtl-layout-audit",
+    "tanstack-router-path-params"
   ],
   "iconography": [
     "wshobson-visual-design-foundations"
@@ -785,11 +893,20 @@
     "impeccable-teach-impeccable",
     "impeccable-typography"
   ],
+  "imports": [
+    "effector-feature-sliced-design"
+  ],
+  "infinite-query": [
+    "tanstack-query-infinite-page-params"
+  ],
   "information-architecture": [
     "magnus-product-design-and-ux"
   ],
   "information-hierarchy": [
     "dashboard-design-skill"
+  ],
+  "inp": [
+    "github-copilot-web-performance-standards"
   ],
   "instrumentation": [
     "analytics-tracking"
@@ -800,6 +917,9 @@
   ],
   "interaction-design": [
     "mblode-product-design"
+  ],
+  "invalidation": [
+    "tanstack-query-targeted-invalidation"
   ],
   "javascript-review": [
     "javascript-code-review"
@@ -828,7 +948,8 @@
   ],
   "keyboard": [
     "keyboard-interaction-audit",
-    "wshobson-accessibility-compliance"
+    "wshobson-accessibility-compliance",
+    "github-copilot-web-accessibility-standards"
   ],
   "landing-page": [
     "wshobson-brand-landing-page",
@@ -837,15 +958,39 @@
     "arvindand-ui-ux-design",
     "elaya-landing-page-design"
   ],
+  "large-lists": [
+    "vue-large-list-virtualization"
+  ],
   "layout": [
     "dashboard-design-skill",
     "wshobson-responsive-design",
     "mengto-design-first-ui-prompting",
     "github-web-design-reviewer"
   ],
+  "lazy-loading": [
+    "tanstack-router-code-splitting"
+  ],
+  "lcp": [
+    "github-copilot-web-performance-standards"
+  ],
+  "legacy": [
+    "migrate-to-modern-redux"
+  ],
+  "lifecycle": [
+    "vue-router-best-practices"
+  ],
+  "links": [
+    "tanstack-router-navigation-preloading"
+  ],
+  "listener-middleware": [
+    "redux-side-effect-orchestration"
+  ],
   "loading-states": [
     "wshobson-interaction-design",
     "simota-palette"
+  ],
+  "local-state": [
+    "redux-state-ownership-design"
   ],
   "localization": [
     "internationalization-readiness-audit"
@@ -875,6 +1020,9 @@
     "mblode-ui-animation",
     "wshobson-interaction-design"
   ],
+  "migration": [
+    "migrate-to-modern-redux"
+  ],
   "mobile-app-testing-testing": [
     "mobile-app-testing"
   ],
@@ -894,9 +1042,21 @@
     "simota-muse",
     "mengto-webgl-landing-steering"
   ],
+  "mutations": [
+    "tanstack-query-targeted-invalidation",
+    "tanstack-query-optimistic-updates",
+    "next-safe-action-tanstack-query-adapter"
+  ],
   "navigation": [
     "nextlevel-ui-styling",
-    "material-design-3-ui"
+    "material-design-3-ui",
+    "tanstack-router-navigation-preloading"
+  ],
+  "navigation-guard": [
+    "vue-router-infinite-redirect-guard"
+  ],
+  "navigation-guards": [
+    "vue-router-best-practices"
   ],
   "next-cache-components": [
     "next-cache-components"
@@ -933,13 +1093,18 @@
     "next-js-scripts",
     "next-js-self-hosting",
     "next-js-suspense-boundaries",
-    "next-js-official-skill"
+    "next-js-official-skill",
+    "next-safe-action-form-integration",
+    "next-safe-action-tanstack-query-adapter"
   ],
   "nextjs-16": [
     "next-js-16"
   ],
   "normalize": [
     "impeccable-normalize"
+  ],
+  "not-found": [
+    "tanstack-router-not-found-and-errors"
   ],
   "nuxt": [
     "nuxt-modules",
@@ -977,14 +1142,31 @@
   "opentype": [
     "mblode-typography-audit"
   ],
+  "optimistic-ui": [
+    "adopt-rtk-query",
+    "tanstack-query-optimistic-updates",
+    "next-safe-action-tanstack-query-adapter"
+  ],
   "optimize": [
     "impeccable-optimize"
+  ],
+  "ownership": [
+    "effector-feature-sliced-design"
   ],
   "page-cro": [
     "page-cro"
   ],
+  "pagination": [
+    "tanstack-query-infinite-page-params"
+  ],
+  "parallel": [
+    "tanstack-query-dynamic-parallel-queries"
+  ],
   "parallel-routes": [
     "next-js-parallel-routes"
+  ],
+  "path-params": [
+    "tanstack-router-path-params"
   ],
   "performance": [
     "advanced-event-handler-refs",
@@ -1051,7 +1233,12 @@
     "server-hoist-static-io",
     "server-parallel-fetching",
     "server-serialization",
-    "mengto-webgl-landing-steering"
+    "mengto-webgl-landing-steering",
+    "vue-large-list-virtualization",
+    "github-copilot-web-performance-standards"
+  ],
+  "pinia": [
+    "vue-pinia-best-practices"
   ],
   "playwright": [
     "playwright-best-practices",
@@ -1073,6 +1260,9 @@
   ],
   "postgresql": [
     "supabase-postgres-best-practices"
+  ],
+  "preloading": [
+    "tanstack-router-navigation-preloading"
   ],
   "pricing": [
     "pricing-strategy",
@@ -1211,6 +1401,9 @@
   "radius": [
     "simota-muse"
   ],
+  "rbac": [
+    "tanstack-router-auth-and-guards"
+  ],
   "react": [
     "advanced-event-handler-refs",
     "advanced-init-once",
@@ -1277,10 +1470,17 @@
     "server-parallel-fetching",
     "server-serialization",
     "react-hooks",
-    "react-ui-patterns"
+    "react-ui-patterns",
+    "modern-redux-app-setup",
+    "tanstack-query-error-boundary-reset",
+    "next-safe-action-form-integration",
+    "effector-ecosystem-architecture-audit"
   ],
   "react-best-practices": [
     "react-best-practices"
+  ],
+  "react-hook-form": [
+    "next-safe-action-form-integration"
   ],
   "react-hooks": [
     "react-hooks"
@@ -1297,11 +1497,39 @@
   "react-ui-patterns": [
     "react-ui-patterns"
   ],
+  "reactivity": [
+    "create-adaptable-vue-composable",
+    "vue-pinia-best-practices",
+    "vue-reactivity-core-patterns"
+  ],
   "readability": [
     "mblode-typography-audit"
   ],
   "redesign": [
     "hallmark-anti-ai-ui"
+  ],
+  "redirect": [
+    "vue-router-infinite-redirect-guard"
+  ],
+  "reducers": [
+    "redux-dataflow-modeling"
+  ],
+  "redux": [
+    "modern-redux-app-setup",
+    "redux-dataflow-modeling",
+    "redux-state-ownership-design",
+    "redux-slices-and-selectors",
+    "redux-side-effect-orchestration",
+    "migrate-to-modern-redux",
+    "adopt-rtk-query",
+    "debug-redux-toolkit-apps"
+  ],
+  "redux-toolkit": [
+    "modern-redux-app-setup",
+    "redux-dataflow-modeling",
+    "redux-slices-and-selectors",
+    "migrate-to-modern-redux",
+    "debug-redux-toolkit-apps"
   ],
   "rendering": [
     "rendering-activity",
@@ -1314,7 +1542,8 @@
     "rendering-resource-hints",
     "rendering-script-defer-async",
     "rendering-svg-precision",
-    "rendering-usetransition-loading"
+    "rendering-usetransition-loading",
+    "tanstack-router-ssr-hydration"
   ],
   "rerender": [
     "rerender-defer-reads",
@@ -1353,8 +1582,14 @@
   "rest": [
     "rest-api-design-review"
   ],
+  "retry": [
+    "tanstack-query-error-boundary-reset"
+  ],
   "rls": [
     "supabase-postgres-best-practices"
+  ],
+  "rollback": [
+    "tanstack-query-optimistic-updates"
   ],
   "rolldown": [
     "rolldown"
@@ -1362,11 +1597,28 @@
   "route-handlers": [
     "next-js-route-handlers"
   ],
+  "router-state": [
+    "redux-state-ownership-design"
+  ],
+  "routing": [
+    "vue-router-best-practices",
+    "tanstack-router-search-params",
+    "tanstack-router-path-params",
+    "tanstack-router-data-loading",
+    "tanstack-router-auth-and-guards",
+    "tanstack-router-not-found-and-errors",
+    "tanstack-router-type-safety"
+  ],
   "routing-middleware": [
     "routing-middleware"
   ],
   "rsc-boundaries": [
     "next-js-rsc-boundaries"
+  ],
+  "rtk-query": [
+    "redux-side-effect-orchestration",
+    "adopt-rtk-query",
+    "debug-redux-toolkit-apps"
   ],
   "rtl": [
     "rtl-layout-audit"
@@ -1389,8 +1641,22 @@
   "scripts": [
     "next-js-scripts"
   ],
+  "scroll": [
+    "tanstack-query-infinite-page-params"
+  ],
+  "scroll-restoration": [
+    "tanstack-router-navigation-preloading"
+  ],
+  "search-params": [
+    "tanstack-router-search-params"
+  ],
   "security": [
     "web-security-header-review"
+  ],
+  "selectors": [
+    "redux-dataflow-modeling",
+    "redux-slices-and-selectors",
+    "debug-redux-toolkit-apps"
   ],
   "self-hosting": [
     "next-js-self-hosting"
@@ -1417,6 +1683,15 @@
     "server-parallel-fetching",
     "server-serialization"
   ],
+  "server-actions": [
+    "next-safe-action-form-integration",
+    "next-safe-action-tanstack-query-adapter"
+  ],
+  "server-state": [
+    "adopt-rtk-query",
+    "tanstack-query-targeted-invalidation",
+    "tanstack-query-staletime-strategy"
+  ],
   "service-worker": [
     "service-worker-offline-strategy"
   ],
@@ -1426,6 +1701,12 @@
   "shadcn-vue": [
     "shadcn-vue",
     "shadcn-vue"
+  ],
+  "shallowRef": [
+    "vue-reactivity-core-patterns"
+  ],
+  "side-effects": [
+    "redux-side-effect-orchestration"
   ],
   "signup-flow-cro": [
     "signup-flow-cro"
@@ -1439,8 +1720,24 @@
     "simota-muse",
     "elaya-landing-page-design"
   ],
+  "ssr": [
+    "modern-redux-app-setup",
+    "vue-pinia-best-practices",
+    "tanstack-router-ssr-hydration"
+  ],
+  "staleTime": [
+    "tanstack-query-staletime-strategy"
+  ],
+  "state": [
+    "modern-redux-app-setup",
+    "vue-pinia-best-practices"
+  ],
   "state-management": [
-    "react-state-management"
+    "react-state-management",
+    "effector-ecosystem-architecture-audit"
+  ],
+  "state-ownership": [
+    "redux-state-ownership-design"
   ],
   "states": [
     "mblode-product-design",
@@ -1449,23 +1746,31 @@
   "stitch": [
     "google-stitch-design-md"
   ],
+  "streaming": [
+    "tanstack-router-ssr-hydration"
+  ],
   "structured-data": [
     "schema-markup"
   ],
   "supabase": [
     "supabase-postgres-best-practices"
   ],
+  "suspense": [
+    "tanstack-query-error-boundary-reset"
+  ],
   "suspense-boundaries": [
     "next-js-suspense-boundaries"
   ],
   "svelte": [
-    "svelte-5-best-practices"
+    "svelte-5-best-practices",
+    "svelte-code-writer-validation-workflow"
   ],
   "svelte-5-best-practices": [
     "svelte-5-best-practices"
   ],
   "sveltekit": [
-    "sveltekit-best-practices"
+    "sveltekit-best-practices",
+    "svelte-code-writer-validation-workflow"
   ],
   "sveltekit-best-practices": [
     "sveltekit-best-practices"
@@ -1478,10 +1783,26 @@
     "tanstack-router"
   ],
   "tanstack-query": [
-    "tanstack-query"
+    "tanstack-query",
+    "tanstack-query-targeted-invalidation",
+    "tanstack-query-optimistic-updates",
+    "tanstack-query-staletime-strategy",
+    "tanstack-query-error-boundary-reset",
+    "tanstack-query-infinite-page-params",
+    "tanstack-query-dynamic-parallel-queries",
+    "next-safe-action-tanstack-query-adapter"
   ],
   "tanstack-router": [
-    "tanstack-router"
+    "tanstack-router",
+    "tanstack-router-search-params",
+    "tanstack-router-path-params",
+    "tanstack-router-navigation-preloading",
+    "tanstack-router-data-loading",
+    "tanstack-router-auth-and-guards",
+    "tanstack-router-code-splitting",
+    "tanstack-router-not-found-and-errors",
+    "tanstack-router-type-safety",
+    "tanstack-router-ssr-hydration"
   ],
   "teach-impeccable": [
     "impeccable-teach-impeccable"
@@ -1495,6 +1816,9 @@
   "theming": [
     "openai-figma-generate-library",
     "wshobson-design-system-patterns"
+  ],
+  "toValue": [
+    "create-adaptable-vue-composable"
   ],
   "tokens": [
     "openai-figma-generate-library",
@@ -1512,6 +1836,13 @@
   "turbopack": [
     "turbopack"
   ],
+  "type-inference": [
+    "tanstack-router-type-safety"
+  ],
+  "type-safety": [
+    "tanstack-router-path-params",
+    "tanstack-router-type-safety"
+  ],
   "type-scale": [
     "mblode-typography-audit"
   ],
@@ -1519,7 +1850,8 @@
     "typescript-drag-and-drop",
     "typescript-advanced-types",
     "typescript-performance",
-    "typescript-project-setup-reference"
+    "typescript-project-setup-reference",
+    "tanstack-router-type-safety"
   ],
   "typescript-drag-and-drop": [
     "typescript-drag-and-drop"
@@ -1568,9 +1900,15 @@
   "ui-ux": [
     "ui-ux-pro-max"
   ],
+  "url-state": [
+    "tanstack-router-search-params"
+  ],
   "usability": [
     "ibelick-improve-ui",
     "simota-palette"
+  ],
+  "useQueries": [
+    "tanstack-query-dynamic-parallel-queries"
   ],
   "ux": [
     "magnus-product-design-and-ux",
@@ -1587,7 +1925,8 @@
     "brumley-ui-ux-audit"
   ],
   "validation": [
-    "website-studio"
+    "website-studio",
+    "svelte-code-writer-validation-workflow"
   ],
   "variants": [
     "mengto-design-first-ui-prompting"
@@ -1652,6 +1991,9 @@
   ],
   "verification": [
     "vercel-verification"
+  ],
+  "virtualization": [
+    "vue-large-list-virtualization"
   ],
   "visual-design": [
     "huashu-design"
@@ -1746,7 +2088,8 @@
     "typeui-vintage"
   ],
   "vite": [
-    "vite"
+    "vite",
+    "tanstack-router-code-splitting"
   ],
   "vitest": [
     "vitest",
@@ -1758,7 +2101,13 @@
     "vue-development-guides",
     "vue-jsx-best-practices",
     "vue-options-api-best-practices",
-    "vue-testing-best-practices"
+    "vue-testing-best-practices",
+    "create-adaptable-vue-composable",
+    "vue-pinia-best-practices",
+    "vue-router-best-practices",
+    "vue-reactivity-core-patterns",
+    "vue-large-list-virtualization",
+    "vue-router-infinite-redirect-guard"
   ],
   "vue-best-practices": [
     "vue-best-practices"
@@ -1775,6 +2124,10 @@
   "vue-options-api-best-practices": [
     "vue-options-api-best-practices"
   ],
+  "vue-router": [
+    "vue-router-best-practices",
+    "vue-router-infinite-redirect-guard"
+  ],
   "vue-testing-best-practices": [
     "vue-testing-best-practices"
   ],
@@ -1784,9 +2137,16 @@
   "vue-ui-ux": [
     "vue-ui-ux"
   ],
+  "watch": [
+    "vue-reactivity-core-patterns"
+  ],
+  "waterfall": [
+    "tanstack-query-dynamic-parallel-queries"
+  ],
   "wcag": [
     "wshobson-accessibility-compliance",
-    "platform-web-design-guidelines"
+    "platform-web-design-guidelines",
+    "github-copilot-web-accessibility-standards"
   ],
   "web-animation": [
     "web-animations"
@@ -1827,5 +2187,8 @@
   ],
   "workflow": [
     "vercel-workflow"
+  ],
+  "zod": [
+    "tanstack-router-search-params"
   ]
 }

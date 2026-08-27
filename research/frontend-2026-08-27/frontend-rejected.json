@@ -1,41 +1,5 @@
 [
   {
-    "name": "Frontend Design mirror #1",
-    "reason": "duplicate",
-    "canonical": "Anthropic Frontend Design",
-    "status": "rejected"
-  },
-  {
-    "name": "Frontend Design mirror #2",
-    "reason": "duplicate",
-    "canonical": "Anthropic Frontend Design",
-    "status": "rejected"
-  },
-  {
-    "name": "React Best Practices mirror",
-    "reason": "duplicate",
-    "canonical": "Vercel React Best Practices",
-    "status": "rejected"
-  },
-  {
-    "name": "React library listing",
-    "reason": "library-not-skill",
-    "status": "rejected"
-  },
-  {
-    "name": "Sadcn Vue",
-    "source_url": "https://github.com/unovue/shadcn-vue",
-    "reason": "duplicate",
-    "notes": "Duplicate discovery entry for canonical shadcn-vue; retained a single normalized record."
-  },
-  {
-    "name": "UI UX Pro Max (wshobson discovery label)",
-    "source_url": "https://github.com/wshobson/agents",
-    "reason": "unresolved-discovery-label",
-    "notes": "The collection label did not map to a matching upstream skill. The repository publishes separate UI design skills, which are indexed individually instead.",
-    "status": "rejected"
-  },
-  {
     "name": "Astro Developer monorepo skill",
     "source_url": "https://github.com/withastro/astro/blob/main/.agents/skills/astro-developer/SKILL.md",
     "reason": "framework-maintenance-not-app-skill",

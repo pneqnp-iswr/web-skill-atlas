@@ -16,7 +16,8 @@
     "accessibility-testing",
     "semantic-html-accessibility-audit",
     "keyboard-interaction-audit",
-    "focus-management-review"
+    "focus-management-review",
+    "github-copilot-web-accessibility-standards"
   ],
   "Analytics": [
     "analytics-tracking",
@@ -30,7 +31,8 @@
     "next-js-runtime-selection",
     "react-state-management",
     "angular-context-engineering",
-    "typescript-project-setup-reference"
+    "typescript-project-setup-reference",
+    "effector-feature-sliced-design"
   ],
   "Backend": [
     "create-a-backend",
@@ -72,7 +74,8 @@
   "Debugging": [
     "next-js-debug-tricks",
     "next-js-hydration-error",
-    "vue-debug-guides"
+    "vue-debug-guides",
+    "debug-redux-toolkit-apps"
   ],
   "Deployment": [
     "access-protected-vercel-deployment",
@@ -255,7 +258,38 @@
     "rolldown",
     "tsdown",
     "vite",
-    "webpack"
+    "webpack",
+    "modern-redux-app-setup",
+    "redux-dataflow-modeling",
+    "redux-state-ownership-design",
+    "redux-slices-and-selectors",
+    "redux-side-effect-orchestration",
+    "migrate-to-modern-redux",
+    "adopt-rtk-query",
+    "svelte-code-writer-validation-workflow",
+    "create-adaptable-vue-composable",
+    "vue-pinia-best-practices",
+    "vue-router-best-practices",
+    "vue-reactivity-core-patterns",
+    "vue-router-infinite-redirect-guard",
+    "tanstack-router-search-params",
+    "tanstack-router-path-params",
+    "tanstack-router-navigation-preloading",
+    "tanstack-router-data-loading",
+    "tanstack-router-auth-and-guards",
+    "tanstack-router-code-splitting",
+    "tanstack-router-not-found-and-errors",
+    "tanstack-router-type-safety",
+    "tanstack-router-ssr-hydration",
+    "tanstack-query-targeted-invalidation",
+    "tanstack-query-optimistic-updates",
+    "tanstack-query-staletime-strategy",
+    "tanstack-query-error-boundary-reset",
+    "tanstack-query-infinite-page-params",
+    "tanstack-query-dynamic-parallel-queries",
+    "next-safe-action-form-integration",
+    "next-safe-action-tanstack-query-adapter",
+    "effector-ecosystem-architecture-audit"
   ],
   "Git / GitHub": [
     "github-pull-request-hygiene"
@@ -350,7 +384,9 @@
     "next-js-image",
     "next-js-suspense-boundaries",
     "impeccable-optimize",
-    "typescript-performance"
+    "typescript-performance",
+    "vue-large-list-virtualization",
+    "github-copilot-web-performance-standards"
   ],
   "Product": [
     "impeccable-onboard",

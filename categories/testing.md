@@ -17,7 +17,7 @@
 | [Verification](https://github.com/vercel/vercel-plugin/tree/main/skills/verification) | Verification | verified | 85 | GitHub |
 | [Visual Regression Testing](https://github.com/LambdaTest/agent-skills) | Visual Regression | partially-verified | 74 | GitHub |
 | [Vitest](https://github.com/antfu/skills) | Vitest | partially-verified | 74 | GitHub |
-| [Vue Testing Best Practices](https://github.com/hyf0/vue-skills) | Vue | partially-verified | 74 | GitHub |
+| [Vue Testing Best Practices](https://github.com/vuejs-ai/skills/blob/main/skills/vue-testing-best-practices/SKILL.md) | Vue | verified | 86 | GitHub |
 | [Anthropic Webapp Testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) | Web App Testing | verified | 88 | GitHub |
 | [Web Quality Audit](https://github.com/addyosmani/web-quality-skills) | Web Quality | partially-verified | 74 | GitHub |
 | [Website Audit](https://github.com/squirrelscan/skills) | Website Audit | partially-verified | 76 | GitHub |
