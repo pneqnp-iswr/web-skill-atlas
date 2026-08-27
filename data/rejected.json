@@ -407,5 +407,404 @@
     "canonical": "dotnet/skills ASP.NET Core procedures",
     "status": "duplicate",
     "notes": "Retained canonical representation: dotnet/skills ASP.NET Core procedures."
+  },
+  {
+    "name": "Qdrant downstream copies in GitHub Awesome Copilot",
+    "source_url": "https://github.com/github/awesome-copilot",
+    "reason": "mirror",
+    "notes": "Four leaf files resolve to newer canonical files in qdrant/skills; use the official Qdrant source only.",
+    "status": "rejected",
+    "candidate_count": 4
+  },
+  {
+    "name": "Qdrant routing and category hubs",
+    "source_url": "https://github.com/qdrant/skills",
+    "reason": "duplicate",
+    "notes": "Router files dispatch to the independently published leaves and add no separate executable workflow.",
+    "status": "rejected",
+    "candidate_count": 8
+  },
+  {
+    "name": "Redis plugin adapter copies",
+    "source_url": "https://github.com/redis/agent-skills/tree/main/plugins/redis-development/skills",
+    "reason": "mirror",
+    "notes": "Byte-identical plugin packaging of canonical top-level Redis skills.",
+    "status": "rejected",
+    "candidate_count": 8
+  },
+  {
+    "name": "Neon plugin adapter copies",
+    "source_url": "https://github.com/neondatabase/agent-skills/tree/main/plugins",
+    "reason": "mirror",
+    "notes": "Three byte-identical plugin-packaged copies of canonical top-level Neon PostgreSQL skills.",
+    "status": "rejected",
+    "candidate_count": 3
+  },
+  {
+    "name": "MongoDB plugin and .agy adapter copies",
+    "source_url": "https://github.com/mongodb/agent-skills/tree/main/plugins",
+    "reason": "mirror",
+    "notes": "Canonical root skills are repeated across MongoDB and Atlas plugin layouts; only top-level skills are indexed.",
+    "status": "rejected",
+    "candidate_count": 24
+  },
+  {
+    "name": "event4u generated database mirrors",
+    "source_url": "https://github.com/event4u-app/agent-config/tree/main/dist/agent-src/skills",
+    "reason": "mirror",
+    "notes": "Six generated dist files are byte-identical to canonical src/skills files.",
+    "status": "rejected",
+    "candidate_count": 6
+  },
+  {
+    "name": "claude-db command adapters and orchestrator",
+    "source_url": "https://github.com/Hainrixz/claude-db/tree/main/skills",
+    "reason": "duplicate",
+    "notes": "Control-plane wrappers route to the independently published audit modules; migrate and design also semantically duplicate retained modules.",
+    "status": "rejected",
+    "candidate_count": 12
+  },
+  {
+    "name": "Supabase Postgres Best Practices rediscovery",
+    "source_url": "https://github.com/supabase/agent-skills/blob/main/skills/supabase-postgres-best-practices/SKILL.md",
+    "reason": "duplicate",
+    "notes": "Existing webskill-0139 was corrected to this exact canonical locator instead of adding another record.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Firebase SQL Connect rediscovery",
+    "source_url": "https://github.com/firebase/agent-skills/blob/main/skills/firebase-data-connect-basics/SKILL.md",
+    "reason": "duplicate",
+    "notes": "Existing webskill-0648 was updated in place.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Firebase Firestore adapter package",
+    "source_url": "https://github.com/firebase/agent-skills/tree/main/gemini-cli-extensions/firestore-native",
+    "reason": "mirror",
+    "notes": "Adapter packaging points back to the canonical firebase-firestore skill.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Auralshin generic index and pool modules",
+    "source_url": "https://github.com/auralshin/coding-skills/tree/main/skills",
+    "reason": "duplicate",
+    "notes": "Index-design and connection-pooling tasks are more completely represented by the retained claude-db modules; query-plan, keyset, and queue leaves remain distinct.",
+    "status": "rejected",
+    "candidate_count": 2
+  },
+  {
+    "name": "Awesome Copilot PostgreSQL review pair",
+    "source_url": "https://github.com/github/awesome-copilot/tree/main/skills",
+    "reason": "duplicate",
+    "notes": "PostgreSQL code review and optimization overlap the stronger existing Supabase pack and include stale pg_stat_statements guidance.",
+    "status": "rejected",
+    "candidate_count": 2
+  },
+  {
+    "name": "Awesome Copilot EF Core checklist",
+    "source_url": "https://github.com/github/awesome-copilot/blob/main/skills/ef-core/SKILL.md",
+    "reason": "duplicate",
+    "notes": "Short generic checklist is subsumed by existing Optimizing EF Core Queries; the distinct diagram workflow was retained.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Sentry migration generator",
+    "source_url": "https://github.com/getsentry/sentry/blob/master/.agents/skills/generate-migration/SKILL.md",
+    "reason": "duplicate",
+    "notes": "Overlaps existing Django Safe Migration and is coupled to Sentry's two-pull-request process.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Developer Kit Spring Data Neo4j",
+    "source_url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
+    "reason": "duplicate",
+    "notes": "Weaker semantic duplicate of the fully read Neo4j Contrib Spring Data skill.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "MPM database duplicates",
+    "source_url": "https://github.com/bobmatnyc/claude-mpm-skills",
+    "reason": "duplicate",
+    "notes": "Drizzle and Go database files overlap stronger accepted sources and existing Go Database.",
+    "status": "rejected",
+    "candidate_count": 2
+  },
+  {
+    "name": "Timescale defective PostgreSQL leaves",
+    "source_url": "https://github.com/timescale/pg-aiguide",
+    "reason": "unsafe",
+    "notes": "Five files were rejected: inaccurate generic table design, migration and hypertable-migration claims, a drift-prone managed-service workflow, and the parent router.",
+    "status": "rejected",
+    "candidate_count": 5,
+    "source_details": [
+      "skills/design-postgres-tables/SKILL.md",
+      "skills/postgres-database-migration/SKILL.md",
+      "skills/migrate-postgres-tables-to-hypertables/SKILL.md",
+      "skills/ghost-database/SKILL.md",
+      "skills/postgres/SKILL.md"
+    ]
+  },
+  {
+    "name": "Awesome Copilot generic SQL and PostgreSQL workflows",
+    "source_url": "https://github.com/github/awesome-copilot/tree/main/skills",
+    "reason": "low-specificity",
+    "notes": "Four generic cross-engine SQL/PostgreSQL review and optimization files contain dialect leakage or stale statistics examples; stronger engine-specific sources were retained.",
+    "status": "rejected",
+    "candidate_count": 4
+  },
+  {
+    "name": "Qdrant scaling-query-volume stub",
+    "source_url": "https://github.com/qdrant/skills/blob/main/skills/qdrant-scaling/scaling-query-volume/SKILL.md",
+    "reason": "low-specificity",
+    "notes": "The 23-line file describes internal subsampling but does not provide a complete agent workflow.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "SQL Server table reconciliation",
+    "source_url": "https://github.com/github/awesome-copilot/blob/main/skills/sql-server-table-reconciliation/SKILL.md",
+    "reason": "unsafe",
+    "notes": "Bundled implementation ignores chunking, omits claimed hash logic and format support, and interpolates identifiers without the advertised safeguards.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "SSMA Console",
+    "source_url": "https://github.com/github/awesome-copilot/blob/main/skills/ssma-console/SKILL.md",
+    "reason": "unsafe",
+    "notes": "Writes plaintext passwords to XML, exposes resolved configuration, defaults to TrustServerCertificate, and lacks cleanup or secret indirection.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Elastic official skills",
+    "source_url": "https://github.com/elastic/agent-skills/tree/main/skills/elasticsearch",
+    "reason": "deferred-not-fully-reviewed",
+    "notes": "Seven canonical Elasticsearch files were path and frontmatter triaged but not promoted without the full-body verification applied to accepted entries.",
+    "status": "deferred",
+    "candidate_count": 7
+  },
+  {
+    "name": "OpenSearch official leaves",
+    "source_url": "https://github.com/opensearch-project/opensearch-agent-skills",
+    "reason": "deferred-not-fully-reviewed",
+    "notes": "Two strongest leaves remained only partially inspected; router, observability, and provisioning material was outside the core scope.",
+    "status": "deferred",
+    "candidate_count": 2
+  },
+  {
+    "name": "Pinecone skill candidates",
+    "source_url": "https://github.com/pinecone-io/skills",
+    "reason": "deferred-not-fully-reviewed",
+    "notes": "Five CLI, query, full-text, quickstart, and MCP files were triaged but not fully read in this pass.",
+    "status": "deferred",
+    "candidate_count": 5
+  },
+  {
+    "name": "Mass-marketplace database results",
+    "source_url": "https://skills.sh/",
+    "reason": "mass-generated",
+    "notes": "Seven registry and anthology surfaces resolved to generic personas, mirrors, or provenance-ambiguous farms rather than canonical task procedures.",
+    "status": "rejected",
+    "candidate_count": 7
+  },
+  {
+    "name": "Remaining MPM database anthology candidates",
+    "source_url": "https://github.com/bobmatnyc/claude-mpm-skills",
+    "reason": "provenance-ambiguous",
+    "notes": "Four detailed-looking MongoDB, SQLAlchemy, migration, and ORM entries were deferred because the broad anthology did not establish trustworthy upstream provenance.",
+    "status": "deferred",
+    "candidate_count": 4
+  },
+  {
+    "name": "Supabase platform umbrella",
+    "source_url": "https://github.com/supabase/agent-skills/blob/main/skills/supabase/SKILL.md",
+    "reason": "low-specificity",
+    "notes": "Broad Auth, Functions, Storage, Realtime, and CLI router; the granular PostgreSQL pack is already indexed.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Prisma setup and compute extras",
+    "source_url": "https://github.com/prisma/skills",
+    "reason": "duplicate",
+    "notes": "prisma-postgres-setup is subsumed by existing Prisma Postgres; prisma-compute is deployment-primary.",
+    "status": "rejected",
+    "candidate_count": 2
+  },
+  {
+    "name": "Neon product umbrella",
+    "source_url": "https://github.com/neondatabase/agent-skills/blob/main/skills/neon/SKILL.md",
+    "reason": "low-specificity",
+    "notes": "Multi-product router is less precise than retained PostgreSQL leaves.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Firebase basics",
+    "source_url": "https://github.com/firebase/agent-skills/blob/main/skills/firebase-basics/SKILL.md",
+    "reason": "devops-primary",
+    "notes": "Project and CLI setup dominates database mechanics.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "AWS adjacent database workflows",
+    "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+    "reason": "devops-primary",
+    "notes": "Eight router, provisioning, export, Lambda integration, and Redshift analytics workflows were inspected but database engineering was not their central task.",
+    "status": "rejected",
+    "candidate_count": 8
+  },
+  {
+    "name": "Redis Iris Development",
+    "source_url": "https://github.com/redis/agent-skills/blob/main/skills/iris-development/SKILL.md",
+    "reason": "backend-primary",
+    "notes": "Managed AI-agent memory product workflow is not a general web data-layer skill.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Sentry internal database procedures",
+    "source_url": "https://github.com/getsentry/sentry/tree/master/.agents/skills",
+    "reason": "project-internal-procedure",
+    "notes": "Django models and hybrid-cloud outbox procedures are tightly coupled to Sentry silos, managers, and replication infrastructure.",
+    "status": "rejected",
+    "candidate_count": 2
+  },
+  {
+    "name": "MongoDB MCP setup",
+    "source_url": "https://github.com/mongodb/agent-skills/blob/main/skills/mongodb-mcp-setup/SKILL.md",
+    "reason": "tool-only",
+    "notes": "Credential and MCP configuration rather than database engineering.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Convex backend and routing leaves",
+    "source_url": "https://github.com/waynesutton/convexskills/tree/main/skills",
+    "reason": "backend-primary",
+    "notes": "Nine functions, files, realtime, cron, HTTP, agent, component, and quick-check leaves are covered by the existing platform router or belong to backend/security tooling.",
+    "status": "rejected",
+    "candidate_count": 9
+  },
+  {
+    "name": "StarRocks adjacent triage skills",
+    "source_url": "https://github.com/StarRocks/starrocks-debug-skills",
+    "reason": "devops-primary",
+    "notes": "CPU attribution is a router; deployment and external data-lake connectivity are primarily host or infrastructure operations.",
+    "status": "rejected",
+    "candidate_count": 3
+  },
+  {
+    "name": "Hologres adjacent product workflows",
+    "source_url": "https://github.com/aliyun/hologres-ai-plugins/tree/main/agent-skills/skills",
+    "reason": "data-science-primary",
+    "notes": "Advertising analysis and UV computation are analytics workflows; the CLI file is tool setup rather than a DB task.",
+    "status": "rejected",
+    "candidate_count": 3
+  },
+  {
+    "name": "Jezweb D1 migration pair",
+    "source_url": "https://github.com/jezweb/claude-skills",
+    "reason": "unsafe",
+    "notes": "Remote-before-test sequencing, manual migration-ledger editing, and outdated binding-limit claims fail safety and currency review.",
+    "status": "rejected",
+    "candidate_count": 2
+  },
+  {
+    "name": "SQLite Best Practices",
+    "source_url": "https://github.com/erayack/sqlite-best-practices/blob/main/SKILL.md",
+    "reason": "unsafe",
+    "notes": "Contains incorrect journal concurrency framing, unsupported speed claims, outdated extension advice, and ambiguous license evidence.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Standalone N+1 and deadlock pair",
+    "source_url": "https://github.com/yankob/skills",
+    "reason": "unsafe",
+    "notes": "Dogmatic no-query-in-loop rule and technically misleading deadlock behavior make the pair unsuitable.",
+    "status": "rejected",
+    "candidate_count": 2
+  },
+  {
+    "name": "TroyKelly Database Architecture",
+    "source_url": "https://github.com/TroyKelly/claude-skills/blob/main/skills/database-architecture/SKILL.md",
+    "reason": "unsafe",
+    "notes": "Invalid SQL and blanket version and identifier mandates; the separate RLS skill passed review.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Project-specific PgBouncer pair",
+    "source_url": "https://github.com/david-castagnetoa/skills",
+    "reason": "generic-persona",
+    "notes": "Hard-coded KYC and FastAPI topology, credentials, and unsupported latency claims; stronger pooling workflows were retained.",
+    "status": "rejected",
+    "candidate_count": 2
+  },
+  {
+    "name": "Cloudflare D1 reference files",
+    "source_url": "https://github.com/cloudflare/skills/tree/main/skills/cloudflare/references/d1",
+    "reason": "not-a-skill",
+    "notes": "Five internal references belong to the broad Cloudflare skill and cannot be split into invented published skills.",
+    "status": "rejected",
+    "candidate_count": 5
+  },
+  {
+    "name": "MariaDB MCP",
+    "source_url": "https://github.com/MariaDB/skills/blob/main/mariadb-mcp/SKILL.md",
+    "reason": "tool-only",
+    "notes": "MCP connection and setup rather than database engineering.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Turso Cloud umbrella",
+    "source_url": "https://github.com/TursoDatabase/agent-skills/blob/main/skills/turso-cloud/SKILL.md",
+    "reason": "devops-primary",
+    "notes": "Product SDK, authentication, and cloud lifecycle router; turso-db is the concrete engine skill.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "PostgreSQL connection audit",
+    "source_url": "https://github.com/eudresfs/postgres-connection-audit/blob/main/SKILL.md",
+    "reason": "duplicate",
+    "notes": "Strong but overlaps the retained connection-pool audit and contains a side-effecting advisory-lock diagnostic.",
+    "status": "rejected",
+    "candidate_count": 1
+  },
+  {
+    "name": "Database Sentinel",
+    "source_url": "https://github.com/Farenhytee/database-sentinel",
+    "reason": "provenance-ambiguous",
+    "notes": "Published security auditor overstates implemented backend coverage; deferred rather than representing planned phases as complete.",
+    "status": "deferred",
+    "candidate_count": 1
+  },
+  {
+    "name": "Other Azure PostgreSQL CLI leaves",
+    "source_url": "https://github.com/raunakjhawar/skills-for-postgres",
+    "reason": "tool-only",
+    "notes": "Six provisioning, authoring, consumption, extension, troubleshooting, and update-check files substantially overlap one retained performance workflow or are managed-service operations.",
+    "status": "rejected",
+    "candidate_count": 6
+  },
+  {
+    "name": "Alibaba Cloud AIOps database assistants",
+    "source_url": "https://github.com/aliyun/alibabacloud-aiops-skills",
+    "reason": "deferred-license-and-scope",
+    "notes": "Twelve database assistants were triaged from Git objects after Windows long-path checkout failure; most are managed operations and root license evidence is absent.",
+    "status": "deferred",
+    "candidate_count": 12
   }
 ]

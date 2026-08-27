@@ -1,0 +1,177 @@
+[
+  {
+    "proposed_name": "Provider-Neutral Database Deadlock Diagnosis",
+    "reason": "No technically reliable standalone published skill survived review; accepted engine packs discuss deadlocks only as a subsection.",
+    "authoritative_sources": [
+      "https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-DEADLOCKS",
+      "https://dev.mysql.com/doc/refman/8.4/en/innodb-deadlocks.html"
+    ],
+    "searches_attempted": [
+      "database deadlock SKILL.md",
+      "deadlock pg_locks SKILL.md",
+      "SQL Server deadlock agent skill",
+      "MySQL deadlock skill"
+    ],
+    "potential_value": "High: a wait-for-graph, victim, retry, and lock-order workflow would prevent misleading permanent-hang diagnoses.",
+    "notes": "Keep engine-specific detection and victim semantics explicit; do not invent a published skill from documentation."
+  },
+  {
+    "proposed_name": "Optimistic Concurrency Token Audit",
+    "reason": "Broad concurrency skills were found, but no focused cross-ORM procedure covers version columns, SQL Server rowversion, HTTP ETags, JPA @Version, EF tokens, and DynamoDB conditional writes.",
+    "authoritative_sources": [
+      "https://learn.microsoft.com/en-us/ef/core/saving/concurrency",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.ConditionExpressions.html"
+    ],
+    "searches_attempted": [
+      "optimistic lock SKILL.md",
+      "rowversion agent skill",
+      "JPA @Version skill",
+      "Prisma optimistic concurrency skill"
+    ],
+    "potential_value": "High: catches silent lost updates across APIs and ORM layers.",
+    "notes": "The accepted Database Concurrency Audit gives partial coverage, so this opportunity is for a narrower implementation-and-test workflow."
+  },
+  {
+    "proposed_name": "Distributed Lock Fencing Audit",
+    "reason": "Redis and general database sources discuss locks, but no qualifying published skill validates monotonically increasing fencing tokens and stale-holder rejection.",
+    "authoritative_sources": [
+      "https://redis.io/docs/latest/develop/use/patterns/distributed-locks/"
+    ],
+    "searches_attempted": [
+      "fencing token SKILL.md database",
+      "distributed lock fencing agent skill",
+      "Redis fencing workflow"
+    ],
+    "potential_value": "High: prevents stale lock holders from mutating protected resources after lease expiry.",
+    "notes": "Do not reduce the workflow to Redlock acquisition; downstream resource enforcement is the missing core."
+  },
+  {
+    "proposed_name": "Advisory Lock Correctness Review",
+    "reason": "Published PostgreSQL skills mention advisory locks, but no standalone workflow covers key design, session versus transaction scope, leak prevention, pooling, and observability.",
+    "authoritative_sources": [
+      "https://www.postgresql.org/docs/current/explicit-locking.html#ADVISORY-LOCKS"
+    ],
+    "searches_attempted": [
+      "PostgreSQL advisory locks SKILL.md",
+      "MySQL GET_LOCK agent skill",
+      "advisory lock pooling skill"
+    ],
+    "potential_value": "Medium-high: advisory-lock misuse can serialize unrelated tenants or leak locks through pooled sessions.",
+    "notes": "Engine semantics differ; a future workflow should branch explicitly."
+  },
+  {
+    "proposed_name": "Firebase Realtime Database Data Modeling",
+    "reason": "Official Firebase agent skills cover Firestore and SQL Connect, but no dedicated Realtime Database skill was verified.",
+    "authoritative_sources": [
+      "https://firebase.google.com/docs/database"
+    ],
+    "searches_attempted": [
+      "Firebase Realtime Database SKILL.md",
+      "firebase realtime data modeling agent skill",
+      "site:github.com firebase database SKILL.md"
+    ],
+    "potential_value": "Medium: denormalized fan-out writes, rules, offline behavior, and query limits differ materially from Firestore.",
+    "notes": "Ordinary Firebase documentation is not a published skill and remains only source material."
+  },
+  {
+    "proposed_name": "Cloudflare D1 Production Migration Safety",
+    "reason": "Official D1 guidance is nested reference material, while the two standalone community candidates failed safety and currency review.",
+    "authoritative_sources": [
+      "https://developers.cloudflare.com/d1/reference/migrations/"
+    ],
+    "searches_attempted": [
+      "Cloudflare D1 migration SKILL.md",
+      "D1 Drizzle schema skill",
+      "D1 production migration agent skill"
+    ],
+    "potential_value": "High: remote migration ordering, partial failure, bindings, backups, and rollback need a safe executable contract.",
+    "notes": "Do not split Cloudflare reference pages into invented catalog entries."
+  },
+  {
+    "proposed_name": "SQLite WAL and Busy-Timeout Operations",
+    "reason": "Turso and SQLite/D1 audit skills provide partial coverage, but no accurate standalone SQLite concurrency and recovery workflow passed review.",
+    "authoritative_sources": [
+      "https://www.sqlite.org/wal.html",
+      "https://www.sqlite.org/c3ref/busy_timeout.html"
+    ],
+    "searches_attempted": [
+      "SQLite WAL SKILL.md",
+      "SQLite busy timeout agent skill",
+      "SQLite checkpoint recovery skill"
+    ],
+    "potential_value": "High for embedded and edge applications that mis-handle writer contention and checkpoint growth.",
+    "notes": "Reject unqualified throughput multipliers and obsolete sqlite-vss recommendations."
+  },
+  {
+    "proposed_name": "Provider-Neutral Cassandra Data Modeling",
+    "reason": "Amazon Keyspaces supplies strong Cassandra-compatible guidance, but no provider-neutral Cassandra skill was verified.",
+    "authoritative_sources": [
+      "https://cassandra.apache.org/doc/latest/cassandra/developing/data-modeling/index.html"
+    ],
+    "searches_attempted": [
+      "Cassandra data modeling SKILL.md",
+      "CQL access pattern agent skill",
+      "DataStax agent skills Cassandra"
+    ],
+    "potential_value": "Medium-high: query-first modeling, partition sizing, tombstones, and consistency levels are easy to misapply.",
+    "notes": "Keep Keyspaces-specific compatibility separate from portable Cassandra semantics."
+  },
+  {
+    "proposed_name": "ScyllaDB Web Data-Layer Review",
+    "reason": "No credible ScyllaDB-specific published skill survived organization, registry, code, and gap searches.",
+    "authoritative_sources": [
+      "https://opensource.docs.scylladb.com/stable/"
+    ],
+    "searches_attempted": [
+      "ScyllaDB SKILL.md",
+      "Scylla agent skill CQL",
+      "site:github.com scylla filename:SKILL.md"
+    ],
+    "potential_value": "Medium: shard-aware drivers, partition sizing, and workload-specific differences deserve explicit treatment.",
+    "notes": "scylla-cluster-tests results are project testing infrastructure, not reusable application skills."
+  },
+  {
+    "proposed_name": "Mongoose Schema and Query Review",
+    "reason": "Official MongoDB skills are driver and database focused; no credible Mongoose-specific reusable skill was verified.",
+    "authoritative_sources": [
+      "https://mongoosejs.com/docs/guide.html",
+      "https://mongoosejs.com/docs/populate.html"
+    ],
+    "searches_attempted": [
+      "Mongoose SKILL.md",
+      "Mongoose N+1 populate agent skill",
+      "Mongoose schema review skill"
+    ],
+    "potential_value": "Medium-high: populate behavior, lean reads, middleware, discriminators, and transaction sessions create ORM-specific risks.",
+    "notes": "Do not relabel generic MongoDB guidance as Mongoose expertise."
+  },
+  {
+    "proposed_name": "KeyDB Compatibility and Migration Review",
+    "reason": "Redis coverage is deep, but no trustworthy KeyDB-specific published skill was found.",
+    "authoritative_sources": [
+      "https://docs.keydb.dev/"
+    ],
+    "searches_attempted": [
+      "KeyDB SKILL.md",
+      "KeyDB Redis migration agent skill",
+      "site:github.com keydb filename:SKILL.md"
+    ],
+    "potential_value": "Medium: compatibility, active replication, and multi-threaded behavior should not be inferred from Redis alone.",
+    "notes": "A future published workflow should clearly scope supported KeyDB versions."
+  },
+  {
+    "proposed_name": "Cross-Engine Restore Verification",
+    "reason": "Engine and provider skills discuss backup and restore, but no provider-neutral skill verifies logical correctness, constraints, sequences, permissions, RPO, and application smoke after restore.",
+    "authoritative_sources": [
+      "https://www.postgresql.org/docs/current/backup-dump.html",
+      "https://dev.mysql.com/doc/refman/8.4/en/backup-and-recovery.html"
+    ],
+    "searches_attempted": [
+      "database restore verification SKILL.md",
+      "backup correctness agent skill",
+      "PostgreSQL MySQL restore audit"
+    ],
+    "potential_value": "High: backup success without restore correctness is a common false assurance.",
+    "notes": "The accepted MariaDB and Neon/PostgreSQL sources are engine-specific, not this cross-engine audit."
+  }
+]

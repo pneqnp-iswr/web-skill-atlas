@@ -3,11 +3,11 @@
 **Source-backed, reusable AI skills for designing, building, testing, debugging, and shipping modern web applications.**
 
 <!-- GENERATED:BADGES:START -->
-[![Skills](https://img.shields.io/badge/skills-658-181717?style=flat-square)](data/skills.json) [![Verified](https://img.shields.io/badge/verified-512-181717?style=flat-square)](docs/methodology.md) [![Categories](https://img.shields.io/badge/categories-24-181717?style=flat-square)](#browse) [![Validation](https://github.com/pneqnp-iswr/web-skill-atlas/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/pneqnp-iswr/web-skill-atlas/actions/workflows/validate.yml) [![License](https://img.shields.io/badge/license-MIT-181717?style=flat-square)](LICENSE)
+[![Skills](https://img.shields.io/badge/skills-819-181717?style=flat-square)](data/skills.json) [![Verified](https://img.shields.io/badge/verified-674-181717?style=flat-square)](docs/methodology.md) [![Categories](https://img.shields.io/badge/categories-24-181717?style=flat-square)](#browse) [![Validation](https://github.com/pneqnp-iswr/web-skill-atlas/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/pneqnp-iswr/web-skill-atlas/actions/workflows/validate.yml) [![License](https://img.shields.io/badge/license-MIT-181717?style=flat-square)](LICENSE)
 <!-- GENERATED:BADGES:END -->
 
 <!-- GENERATED:STATS:START -->
-**658** skills · **512** verified · **24/25** categories populated · **257** subcategories · **238** sources · updated **2026-08-27**
+**819** skills · **674** verified · **24/25** categories populated · **354** subcategories · **267** sources · updated **2026-08-27**
 <!-- GENERATED:STATS:END -->
 
 Web Skill Atlas indexes reusable AI skills and agent workflows across public repositories, registries, tool ecosystems, and official documentation, then normalizes them around canonical sources.
@@ -27,15 +27,15 @@ Browse the generated category pages or search the full dataset directly.
 <!-- GENERATED:BROWSE:START -->
 | Category | Skills | Category | Skills |
 |---|---:|---|---:|
-| [Design](categories/design.md) | 132 | [Performance](categories/performance.md) | 99 |
-| [Backend](categories/backend.md) | 98 | [Frontend](categories/frontend.md) | 66 |
-| [Security](categories/security.md) | 62 | [APIs](categories/apis.md) | 45 |
-| [Architecture](categories/architecture.md) | 38 | [Testing](categories/testing.md) | 26 |
-| [Databases](categories/databases.md) | 20 | [Debugging](categories/debugging.md) | 9 |
+| [Databases](categories/databases.md) | 166 | [Design](categories/design.md) | 132 |
+| [Performance](categories/performance.md) | 99 | [Backend](categories/backend.md) | 98 |
+| [Security](categories/security.md) | 68 | [Frontend](categories/frontend.md) | 66 |
+| [APIs](categories/apis.md) | 45 | [Architecture](categories/architecture.md) | 42 |
+| [Testing](categories/testing.md) | 32 | [Debugging](categories/debugging.md) | 9 |
 | [Product](categories/product.md) | 8 | [Components](categories/components.md) | 7 |
-| [Deployment](categories/deployment.md) | 6 | [DevOps](categories/devops.md) | 6 |
-| [Accessibility](categories/accessibility.md) | 5 | [AI Web Development](categories/ai-web-development.md) | 5 |
-| [Code Quality](categories/code-quality.md) | 5 | [Interaction](categories/interaction.md) | 5 |
+| [Deployment](categories/deployment.md) | 6 | [Accessibility](categories/accessibility.md) | 5 |
+| [AI Web Development](categories/ai-web-development.md) | 5 | [Code Quality](categories/code-quality.md) | 5 |
+| [DevOps](categories/devops.md) | 5 | [Interaction](categories/interaction.md) | 5 |
 | [SEO](categories/seo.md) | 5 | [Content](categories/content.md) | 4 |
 | [Analytics](categories/analytics.md) | 2 | [Internationalization](categories/internationalization.md) | 2 |
 | [PWA](categories/pwa.md) | 2 | [Git / GitHub](categories/git-github.md) | 1 |
@@ -55,7 +55,7 @@ A small cross-section of high-quality entries already in the dataset:
 | [Anthropic Webapp Testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) | Testing | Test local web applications with browser automation and inspect UI behavior. |
 | [Auth](https://github.com/vercel/vercel-plugin/tree/main/skills/auth) | Security | Implement authentication patterns in Vercel applications. |
 | [REST API Design Review](https://www.rfc-editor.org/rfc/rfc9110) | APIs | Review resource modeling, HTTP semantics, errors, idempotency, pagination, and versioning. |
-| [Supabase Postgres Best Practices](https://github.com/supabase/agent-skills/tree/main/skills/supabase-postgres-best-practices) | Databases | Apply Supabase PostgreSQL guidance for query performance, indexing, RLS, schema design, and locking. |
+| [Supabase Postgres Best Practices](https://github.com/supabase/agent-skills/blob/main/skills/supabase-postgres-best-practices/SKILL.md) | Databases | Apply 31 Supabase PostgreSQL rules across query and index performance, connection management, RLS and privileges, schema design, locking, data access, diagnostics, and advanced features. |
 | [Access Protected Vercel Deployment](https://github.com/vercel/vercel-plugin/tree/main/skills/access-protected-vercel-deployment) | Deployment | Work with access-protected Vercel deployments. |
 <!-- GENERATED:EXAMPLES:END -->
 

@@ -33,3 +33,7 @@ Deep frontend pass completed with a 600-variant query matrix and a conservative 
 ## 2026-08-27 Backend deep research pass
 
 Deep backend pass completed with a 600-variant generated query matrix and 499 concrete candidates, duplicate adapter files, repository packs, and existing records triaged. Imported 259 exact verified skill/rule/instruction/reference files, corrected 23 canonical metadata records, and kept documentation-derived opportunities separate. Strongest source families include mcollina/skills, salvo-rs/salvo-skills, samber/cc-skills-golang, triggerdotdev/staff-engineering-skills, FastAPI, Litestar, .NET, AWS, Auth0, Hookdeck, Stripe, Redis, Cloudflare, Spring, Rails/Spree, Clerk, and Better Auth.
+
+## 2026-08-27 Database deep research pass
+
+Database and data-access research executed all 16 waves with a 1,024-variant generated query matrix, file-level canonical verification, multilingual discovery, and strict duplicate/rejection accounting. Exact metrics and source snapshots are in `research/database-2026-08-27/`.

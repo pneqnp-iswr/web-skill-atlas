@@ -5,8 +5,14 @@
   "11": [
     "dotnet-11-system-text-json"
   ],
+  "1nf": [
+    "database-normalization-audit"
+  ],
   "2": [
     "fastify-oauth-2-1-flows"
+  ],
+  "3nf": [
+    "database-normalization-audit"
   ],
   "404": [
     "tanstack-router-not-found-and-errors"
@@ -24,6 +30,12 @@
   ],
   "ab-test-setup": [
     "a-b-test-setup"
+  ],
+  "abac": [
+    "neo4j-database-security"
+  ],
+  "access-patterns": [
+    "amazon-dynamodb-data-layer-design"
   ],
   "access-protected-vercel-deployment": [
     "access-protected-vercel-deployment"
@@ -134,6 +146,9 @@
   "agents": [
     "cloudflare-agents-sdk-backend"
   ],
+  "aggregation": [
+    "mongodb-read-only-query-generation"
+  ],
   "ai": [
     "neon-ai-gateway"
   ],
@@ -148,6 +163,9 @@
   ],
   "analysis": [
     "dotnet-performance-analysis"
+  ],
+  "analytics": [
+    "snowflake-semantic-views"
   ],
   "analytics-tracking": [
     "analytics-tracking"
@@ -195,6 +213,10 @@
   "anti-patterns": [
     "hallmark-anti-ai-ui"
   ],
+  "antipatterns": [
+    "database-modeling-antipattern-audit",
+    "relational-schema-antipattern-review"
+  ],
   "api": [
     "asp-dotnet-minimal-api-openapi",
     "aws-appsync-event-api-handlers",
@@ -236,7 +258,9 @@
   ],
   "architecture": [
     "redux-state-ownership-design",
-    "headless-bff-architecture"
+    "headless-bff-architecture",
+    "database-engine-selection-audit",
+    "database-partitioning-and-sharding-audit"
   ],
   "aria": [
     "github-copilot-web-accessibility-standards"
@@ -257,6 +281,9 @@
   "aspnetcore": [
     "auth0-asp-dotnet-core-api-authorization"
   ],
+  "assessment": [
+    "find-timescaledb-hypertable-candidates"
+  ],
   "async": [
     "async-api-routes",
     "async-defer-await",
@@ -273,6 +300,9 @@
   "async-thunk": [
     "redux-side-effect-orchestration"
   ],
+  "atlas-search": [
+    "mongodb-search-and-ai"
+  ],
   "audit": [
     "impeccable-audit",
     "website-audit",
@@ -286,10 +316,14 @@
     "effector-ecosystem-architecture-audit",
     "kafka-topic-audit",
     "kafka-security-audit",
-    "webhook-developer-experience-audit"
+    "webhook-developer-experience-audit",
+    "database-temporal-history-audit"
   ],
   "auditor": [
     "firebase-security-rules-auditor"
+  ],
+  "aurora-dsql": [
+    "aurora-dsql-safe-data-engineering"
   ],
   "auth": [
     "vercel-auth",
@@ -386,7 +420,8 @@
     "auth0-laravel-api-authorization",
     "auth0-php-api-authorization",
     "auth0-spring-boot-api-authorization",
-    "auth0-multi-tenant-authorization-pattern"
+    "auth0-multi-tenant-authorization-pattern",
+    "convex-database-security-audit"
   ],
   "autofix": [
     "svelte-code-writer-validation-workflow"
@@ -404,9 +439,16 @@
     "aws-s3-upload-routing-with-step-functions",
     "aws-secrets-manager-best-practices"
   ],
+  "aws-sdk": [
+    "aws-sdk-java-dynamodb-data-access"
+  ],
   "azure": [
     "azure-durable-functions-for-csharp",
-    "azure-functions-for-csharp"
+    "azure-functions-for-csharp",
+    "azure-postgresql-performance-cli"
+  ],
+  "backfill": [
+    "convex-data-migrations"
   ],
   "background": [
     "rails-background-job",
@@ -414,6 +456,14 @@
   ],
   "backpressure": [
     "distributed-systems-backpressure"
+  ],
+  "backup": [
+    "mariadb-backup-to-object-storage",
+    "qdrant-version-upgrade",
+    "neon-postgresql-best-practices"
+  ],
+  "balance": [
+    "starrocks-replica-balance-diagnosis"
   ],
   "based": [
     "dodo-payments-usage-based-billing",
@@ -428,6 +478,12 @@
   ],
   "batch": [
     "distributed-systems-streams-vs-batch"
+  ],
+  "batching": [
+    "convex-data-migrations"
+  ],
+  "best-practices": [
+    "neon-postgresql-best-practices"
   ],
   "better": [
     "better-auth-implementation",
@@ -445,10 +501,20 @@
   "bff": [
     "headless-bff-architecture"
   ],
+  "bigquery": [
+    "bigquery-pipeline-audit"
+  ],
   "billing": [
     "clerk-billing",
     "dodo-payments-usage-based-billing",
     "dodo-payments-credit-based-billing"
+  ],
+  "bloat": [
+    "database-storage-and-bloat-audit"
+  ],
+  "bm25": [
+    "postgresql-hybrid-text-search",
+    "qdrant-hybrid-search-prefetch-design"
   ],
   "bolder": [
     "impeccable-bolder"
@@ -474,6 +540,9 @@
   "bootstrap": [
     "bootstrap"
   ],
+  "branching": [
+    "neon-postgresql-branching"
+  ],
   "brand": [
     "wshobson-brand-landing-page"
   ],
@@ -491,6 +560,12 @@
   ],
   "browser-use": [
     "browser-use"
+  ],
+  "bsi": [
+    "hologres-bsi-profile-analysis"
+  ],
+  "bug-report": [
+    "oracle-to-postgresql-migration-bug-report"
   ],
   "build-agents": [
     "build-agents"
@@ -521,15 +596,30 @@
     "tanstack-query-staletime-strategy",
     "distributed-systems-cache-invalidation",
     "spring-boot-cache",
-    "redis-semantic-cache"
+    "redis-semantic-cache",
+    "starrocks-shared-data-diagnosis"
   ],
   "caching": [
     "node-js-caching",
     "salvo-caching",
-    "headless-caching-strategy"
+    "headless-caching-strategy",
+    "amazon-elasticache-data-engineering"
+  ],
+  "capacity": [
+    "qdrant-capacity-sizing"
   ],
   "cardinality": [
-    "distributed-systems-cardinality"
+    "distributed-systems-cardinality",
+    "amazon-timestream-for-influxdb-modeling"
+  ],
+  "cascade": [
+    "referential-integrity-audit"
+  ],
+  "cassandra": [
+    "amazon-keyspaces-compatibility-and-migration"
+  ],
+  "cdc": [
+    "mongodb-atlas-stream-processing"
   ],
   "cdn-caching": [
     "cdn-caching"
@@ -546,6 +636,9 @@
   ],
   "chat-sdk": [
     "chat-sdk"
+  ],
+  "check": [
+    "database-constraint-audit"
   ],
   "checkout": [
     "spree-checkout"
@@ -585,6 +678,9 @@
   "clerk-webhooks": [
     "clerk-webhooks"
   ],
+  "cli": [
+    "azure-postgresql-performance-cli"
+  ],
   "client": [
     "client-event-listeners",
     "client-localstorage-schema",
@@ -608,11 +704,18 @@
   "cls": [
     "github-copilot-web-performance-standards"
   ],
+  "cluster": [
+    "starrocks-node-health-diagnosis"
+  ],
   "clustering": [
     "redis-clustering"
   ],
   "code-cleanup": [
     "code-cleanup"
+  ],
+  "code-generation": [
+    "sqlc-moonbit-generation-safety",
+    "nestjs-drizzle-crud-generation"
   ],
   "code-splitting": [
     "tanstack-router-code-splitting"
@@ -638,8 +741,14 @@
   "colorize": [
     "impeccable-colorize"
   ],
+  "compaction": [
+    "starrocks-compaction-diagnosis"
+  ],
   "comparison": [
     "mengto-pricing-page"
+  ],
+  "compatibility": [
+    "mysql-to-mariadb-migration"
   ],
   "component-api": [
     "wshobson-web-component-design"
@@ -733,14 +842,17 @@
   ],
   "concurrency": [
     "salvo-concurrency-limiter",
-    "go-concurrency"
+    "go-concurrency",
+    "database-concurrency-audit",
+    "starrocks-high-concurrency-tuning"
   ],
   "conditions": [
     "distributed-systems-race-conditions"
   ],
   "configuration": [
     "fastify-configuration",
-    "asp-dotnet-core-opentelemetry-configuration"
+    "asp-dotnet-core-opentelemetry-configuration",
+    "langchain4j-vector-store-configuration"
   ],
   "configuring": [
     "asp-dotnet-core-opentelemetry-configuration"
@@ -752,15 +864,27 @@
   "connecting": [
     "aws-lambda-api-gateway-integration"
   ],
+  "connection-pooling": [
+    "amazon-rds-for-oracle-connectivity",
+    "amazon-rds-for-sql-server-connectivity",
+    "mongodb-connection-management"
+  ],
   "connections": [
-    "redis-connections"
+    "redis-connections",
+    "database-connection-pool-audit"
   ],
   "connector": [
     "kafka-connector-review"
   ],
   "consistency": [
     "wshobson-design-system-patterns",
-    "distributed-systems-consistency-models"
+    "distributed-systems-consistency-models",
+    "database-replicas-and-materialized-views-audit",
+    "starrocks-tablet-diagnosis"
+  ],
+  "constraints": [
+    "database-constraint-audit",
+    "neo4j-graph-modeling"
   ],
   "consumer": [
     "kafka-consumer-lag"
@@ -779,7 +903,8 @@
     "wshobson-accessibility-compliance"
   ],
   "conventions": [
-    "opentelemetry-semantic-conventions"
+    "opentelemetry-semantic-conventions",
+    "database-naming-audit"
   ],
   "conversion": [
     "page-cro",
@@ -793,7 +918,11 @@
   ],
   "convex": [
     "convex",
-    "convex"
+    "convex",
+    "convex-database-best-practices",
+    "convex-data-migrations",
+    "convex-schema-validation",
+    "convex-database-security-audit"
   ],
   "copilot": [
     "github-copilot-web-accessibility-standards",
@@ -817,8 +946,21 @@
     "fastify-cors-security",
     "salvo-cors"
   ],
+  "cosmosdb": [
+    "azure-cosmos-db-nosql-data-modeling"
+  ],
   "cost": [
-    "trigger-cost-savings"
+    "trigger-cost-savings",
+    "bigquery-pipeline-audit"
+  ],
+  "covering-index": [
+    "database-indexing-audit"
+  ],
+  "cpu": [
+    "hologres-cpu-diagnosis"
+  ],
+  "cql": [
+    "amazon-keyspaces-compatibility-and-migration"
   ],
   "create": [
     "create-spring-boot-java-project",
@@ -850,7 +992,8 @@
     "browser-compatibility"
   ],
   "crud": [
-    "spring-boot-crud-patterns"
+    "spring-boot-crud-patterns",
+    "nestjs-drizzle-crud-generation"
   ],
   "csharp": [
     "azure-durable-functions-for-csharp",
@@ -863,11 +1006,27 @@
     "elaya-landing-page-design"
   ],
   "cursor": [
-    "tanstack-query-infinite-page-params"
+    "tanstack-query-infinite-page-params",
+    "keyset-pagination"
+  ],
+  "cutover": [
+    "multi-deploy-migration-architecture"
+  ],
+  "cypher": [
+    "neo4j-cypher-engineering",
+    "neo4j-query-tuning",
+    "neo4j-cypher-and-driver-migration"
   ],
   "cypress": [
     "cypress",
     "cypress"
+  ],
+  "d1": [
+    "sqlite-and-d1-plan-audit",
+    "sqlite-and-d1-schema-audit"
+  ],
+  "d2": [
+    "ef-core-d2-database-diagram"
   ],
   "dark-mode": [
     "nextlevel-ui-styling"
@@ -883,11 +1042,25 @@
     "spring-data-jpa",
     "firebase-data-connect"
   ],
+  "data-access": [
+    "migrate-net-oracle-data-access-to-postgresql"
+  ],
   "data-loading": [
     "tanstack-router-data-loading"
   ],
+  "data-modeling": [
+    "database-modeling-antipattern-audit",
+    "redis-core-data-modeling",
+    "azure-cosmos-db-nosql-data-modeling"
+  ],
   "data-patterns": [
     "next-js-data-patterns"
+  ],
+  "data-structures": [
+    "redis-core-data-modeling"
+  ],
+  "data-types": [
+    "database-types-and-precision-audit"
   ],
   "data-visualization": [
     "ui-ux-pro-max",
@@ -898,13 +1071,29 @@
     "fastify-database",
     "salvo-database",
     "go-database",
-    "object-storage-as-a-database"
+    "object-storage-as-a-database",
+    "grafana-database-observability",
+    "database-engine-selection-audit",
+    "database-security-and-access-audit"
+  ],
+  "database-diagram": [
+    "ef-core-d2-database-diagram"
+  ],
+  "database-queue": [
+    "database-queues-and-outbox"
   ],
   "datadriven": [
     "data-driven-asp-dotnet-core-scaffolding"
   ],
   "dataflow": [
     "redux-dataflow-modeling"
+  ],
+  "dbml": [
+    "sql-to-er-diagram-workflow"
+  ],
+  "ddl": [
+    "snowflake-semantic-views",
+    "safe-sql-migrations"
   ],
   "debug-tricks": [
     "next-js-debug-tricks"
@@ -916,6 +1105,9 @@
   ],
   "decorators": [
     "fastify-decorators"
+  ],
+  "defaults": [
+    "database-defaults-and-generated-columns-audit"
   ],
   "deferred": [
     "tanstack-router-data-loading"
@@ -1086,6 +1278,9 @@
   "design-workflow": [
     "simota-atelier"
   ],
+  "deterministic": [
+    "database-seed-data-design"
+  ],
   "developer": [
     "webhook-developer-experience-audit"
   ],
@@ -1098,7 +1293,10 @@
     "litestar-di"
   ],
   "diagnosis": [
-    "aws-lambda-timeout-diagnosis"
+    "aws-lambda-timeout-diagnosis",
+    "hologres-cpu-diagnosis",
+    "hologres-memory-diagnosis",
+    "hologres-instance-health-analysis"
   ],
   "dig": [
     "go-uber-dig-dependency-injection"
@@ -1129,19 +1327,33 @@
     "distributed-systems-streams-vs-batch",
     "distributed-systems-thundering-herd"
   ],
+  "distributed-sql": [
+    "yugabytedb-ysql-engineering",
+    "aurora-dsql-safe-data-engineering"
+  ],
+  "distribution": [
+    "hologres-schema-generation"
+  ],
   "django": [
     "django-rest-framework-classy-views",
     "django-celery-expert",
     "django-expert",
     "django-reviewer",
-    "django-safe-migration"
+    "django-safe-migration",
+    "django-data-access-performance-review"
   ],
   "dlq": [
     "kafka-dlq-review"
   ],
+  "document-database": [
+    "cloud-firestore-database-operations"
+  ],
   "documentation": [
     "svelte-code-writer-validation-workflow",
     "spring-boot-openapi-documentation"
+  ],
+  "documentdb": [
+    "amazon-documentdb-engineering-toolkit"
   ],
   "dodo": [
     "dodo-payments-webhook-integration",
@@ -1162,17 +1374,34 @@
     "dotnet-performance-analysis",
     "dotnet-production-trace-collection",
     "dotnet-11-system-text-json",
-    "auth0-asp-dotnet-core-api-authorization"
+    "auth0-asp-dotnet-core-api-authorization",
+    "oracle-to-postgresql-master-migration-plan",
+    "migrate-net-oracle-data-access-to-postgresql"
   ],
   "driven": [
     "data-driven-asp-dotnet-core-scaffolding",
     "spring-boot-event-driven-patterns"
+  ],
+  "driver": [
+    "neo4j-cypher-and-driver-migration"
+  ],
+  "driver-adapter": [
+    "prisma-sql-driver-adapter-implementation"
+  ],
+  "drizzle": [
+    "neon-drizzle-data-access",
+    "drizzle-orm-patterns",
+    "nestjs-drizzle-crud-generation",
+    "postgresql-with-drizzle"
   ],
   "dtcg": [
     "figma-design-system-engineering"
   ],
   "dto": [
     "litestar-dto-openapi"
+  ],
+  "dual-write": [
+    "multi-deploy-migration-architecture"
   ],
   "durable": [
     "azure-durable-functions-for-csharp",
@@ -1182,18 +1411,38 @@
   "dx": [
     "webhook-developer-experience-audit"
   ],
+  "dynamodb": [
+    "amazon-dynamodb-data-layer-design",
+    "dynamodb-toolbox-patterns",
+    "aws-sdk-java-dynamodb-data-access"
+  ],
   "easing": [
     "mblode-ui-animation"
   ],
+  "eav": [
+    "database-modeling-antipattern-audit"
+  ],
   "ef": [
     "optimizing-ef-core-queries"
+  ],
+  "ef-core": [
+    "ef-core-d2-database-diagram"
   ],
   "effector": [
     "effector-ecosystem-architecture-audit",
     "effector-feature-sliced-design"
   ],
+  "egress": [
+    "neon-postgresql-egress-optimization"
+  ],
+  "elasticache": [
+    "amazon-elasticache-data-engineering"
+  ],
   "elevation": [
     "simota-muse"
+  ],
+  "eloquent": [
+    "eloquent-models-and-queries"
   ],
   "elysia": [
     "elysia-backend-engineering"
@@ -1206,6 +1455,17 @@
   "emailandpassword": [
     "better-auth-email-and-password"
   ],
+  "embedded-database": [
+    "turso-database-engineering"
+  ],
+  "embedding": [
+    "mongodb-schema-design"
+  ],
+  "embeddings": [
+    "mariadb-vector-search",
+    "neo4j-vector-index-engineering",
+    "amazon-s3-vector-storage"
+  ],
   "entity": [
     "kotlin-jpa-entity-mapping"
   ],
@@ -1217,6 +1477,9 @@
   ],
   "environment": [
     "node-js-environment"
+  ],
+  "erd": [
+    "sql-to-er-diagram-workflow"
   ],
   "error": [
     "node-js-error-handling",
@@ -1237,6 +1500,10 @@
   "esbuild": [
     "esbuild"
   ],
+  "evaluation": [
+    "qdrant-search-quality-diagnosis",
+    "qdrant-relevance-feedback"
+  ],
   "event": [
     "aws-appsync-event-api-handlers",
     "spring-boot-event-driven-patterns"
@@ -1251,6 +1518,9 @@
   "exceptions": [
     "litestar-exceptions"
   ],
+  "expand-contract": [
+    "multi-deploy-migration-architecture"
+  ],
   "experience": [
     "webhook-developer-experience-audit"
   ],
@@ -1261,6 +1531,15 @@
     "django-rest-framework-classy-views",
     "django-celery-expert",
     "django-expert"
+  ],
+  "explain": [
+    "mariadb-query-optimization",
+    "postgresql-query-plan-analysis",
+    "mongodb-query-optimization",
+    "mysql-and-mariadb-query-optimization",
+    "laravel-raw-sql-writing",
+    "sql-explain-interpreter",
+    "hologres-query-optimization"
   ],
   "express": [
     "auth0-express-web-application-authentication",
@@ -1313,6 +1592,9 @@
   "feature-sliced-design": [
     "effector-feature-sliced-design"
   ],
+  "features": [
+    "mariadb-feature-engineering"
+  ],
   "figma": [
     "openai-figma-generate-library",
     "openai-figma-create-design-system-rules",
@@ -1330,17 +1612,30 @@
   "files": [
     "salvo-static-files"
   ],
+  "filtering": [
+    "langchain4j-vector-store-configuration"
+  ],
   "firebase": [
     "firebase-extension-to-cloud-functions-migration",
     "firebase-auth-basics",
     "firebase-data-connect",
-    "firebase-security-rules-auditor"
+    "firebase-security-rules-auditor",
+    "cloud-firestore-database-operations"
+  ],
+  "firestore": [
+    "cloud-firestore-database-operations"
+  ],
+  "fixtures": [
+    "database-seed-data-design"
   ],
   "flaky": [
     "node-js-flaky-tests"
   ],
   "flash": [
     "salvo-flash"
+  ],
+  "flashback": [
+    "mariadb-feature-engineering"
   ],
   "flask": [
     "auth0-flask-authentication"
@@ -1353,12 +1648,18 @@
     "magnus-product-design-and-ux",
     "fastify-oauth-2-1-flows"
   ],
+  "flyway": [
+    "spring-boot-amazon-rds-integration"
+  ],
   "focus": [
     "focus-management-review",
     "wshobson-accessibility-compliance"
   ],
   "font": [
     "next-js-font"
+  ],
+  "foreign-key": [
+    "referential-integrity-audit"
   ],
   "forms": [
     "nextlevel-ui-styling",
@@ -1407,12 +1708,21 @@
     "aws-step-functions",
     "aws-s3-upload-routing-with-step-functions"
   ],
+  "fusion": [
+    "qdrant-hybrid-search-fusion"
+  ],
   "fx": [
     "go-uber-fx-application-lifecycle"
+  ],
+  "galera": [
+    "mariadb-replication-and-high-availability"
   ],
   "gateway": [
     "neon-ai-gateway",
     "aws-lambda-api-gateway-integration"
+  ],
+  "generated-columns": [
+    "database-defaults-and-generated-columns-audit"
   ],
   "gestures": [
     "mblode-ui-animation",
@@ -1482,7 +1792,10 @@
     "litestar-granian"
   ],
   "graph": [
-    "microsoft-graph-webhook-lifecycle"
+    "microsoft-graph-webhook-lifecycle",
+    "specialized-database-fit-audit",
+    "neo4j-cypher-engineering",
+    "neo4j-graph-modeling"
   ],
   "graphql": [
     "go-graphql",
@@ -1497,6 +1810,9 @@
   "gsap": [
     "gsap",
     "gsap"
+  ],
+  "gtid": [
+    "mariadb-replication-and-high-availability"
   ],
   "guards": [
     "tanstack-router-auth-and-guards",
@@ -1527,6 +1843,11 @@
     "headless-bff-architecture",
     "headless-caching-strategy"
   ],
+  "health": [
+    "starrocks-node-health-diagnosis",
+    "hologres-daily-database-report",
+    "hologres-instance-health-analysis"
+  ],
   "herd": [
     "distributed-systems-thundering-herd"
   ],
@@ -1537,6 +1858,29 @@
   "hierarchy": [
     "wshobson-visual-design-foundations"
   ],
+  "hikaricp": [
+    "spring-boot-amazon-rds-integration"
+  ],
+  "history": [
+    "mariadb-system-versioned-tables"
+  ],
+  "hnsw": [
+    "pgvector-semantic-search",
+    "qdrant-indexing-performance-optimization",
+    "qdrant-search-speed-optimization"
+  ],
+  "hologres": [
+    "hologres-bsi-profile-analysis",
+    "hologres-daily-database-report",
+    "hologres-cpu-diagnosis",
+    "hologres-memory-diagnosis",
+    "hologres-instance-health-analysis",
+    "hologres-knowledge-base-search",
+    "hologres-privilege-management",
+    "hologres-query-optimization",
+    "hologres-schema-generation",
+    "hologres-slow-query-analysis"
+  ],
   "hook": [
     "marketplace-order-hook"
   ],
@@ -1546,6 +1890,9 @@
   "hot": [
     "distributed-systems-hot-partitions"
   ],
+  "hot-key": [
+    "database-partitioning-and-sharding-audit"
+  ],
   "html": [
     "huashu-design"
   ],
@@ -1553,11 +1900,22 @@
     "rest-api-design-review",
     "fastify-http-proxy"
   ],
+  "hybrid-search": [
+    "postgresql-hybrid-text-search",
+    "qdrant-hybrid-search-fusion",
+    "qdrant-hybrid-search-prefetch-design",
+    "neo4j-vector-index-engineering",
+    "mongodb-search-and-ai",
+    "milvus-vector-database-engineering"
+  ],
   "hydration": [
     "tanstack-router-ssr-hydration"
   ],
   "hydration-error": [
     "next-js-hydration-error"
+  ],
+  "hypertable": [
+    "timescaledb-hypertable-setup"
   ],
   "i18n": [
     "internationalization-readiness-audit",
@@ -1569,10 +1927,18 @@
   ],
   "idempotency": [
     "distributed-systems-idempotency",
-    "payment-idempotency"
+    "payment-idempotency",
+    "database-queues-and-outbox",
+    "bigquery-pipeline-audit"
   ],
   "idempotent": [
     "idempotent-webhook-handler-patterns"
+  ],
+  "identifiers": [
+    "database-naming-audit"
+  ],
+  "identity": [
+    "database-defaults-and-generated-columns-audit"
   ],
   "image": [
     "next-js-image"
@@ -1604,11 +1970,36 @@
   "implementation": [
     "better-auth-implementation"
   ],
+  "import": [
+    "starrocks-import-diagnosis"
+  ],
   "imports": [
     "effector-feature-sliced-design"
   ],
+  "indexes": [
+    "mariadb-query-optimization",
+    "sqlite-and-d1-schema-audit",
+    "database-indexing-audit",
+    "database-index-hygiene-audit",
+    "mongodb-query-optimization",
+    "cloud-firestore-database-operations",
+    "persistence-schema-review",
+    "convex-database-best-practices",
+    "hologres-query-optimization"
+  ],
+  "indexing": [
+    "planetscale-mysql-engineering",
+    "design-postgis-tables",
+    "qdrant-indexing-performance-optimization",
+    "postgresql-with-drizzle",
+    "hologres-bsi-profile-analysis",
+    "hologres-schema-generation"
+  ],
   "infinite-query": [
     "tanstack-query-infinite-page-params"
+  ],
+  "influxdb": [
+    "amazon-timestream-for-influxdb-modeling"
   ],
   "information": [
     "stripe-connect-kyc-requirements"
@@ -1619,10 +2010,20 @@
   "information-hierarchy": [
     "dashboard-design-skill"
   ],
+  "ingest": [
+    "amazon-opensearch-service-engineering"
+  ],
+  "ingestion": [
+    "starrocks-import-diagnosis"
+  ],
   "injection": [
     "go-dependency-injection",
     "go-uber-dig-dependency-injection",
-    "spring-boot-dependency-injection"
+    "spring-boot-dependency-injection",
+    "sql-injection-source-scan"
+  ],
+  "innodb": [
+    "planetscale-mysql-engineering"
   ],
   "inp": [
     "github-copilot-web-performance-standards"
@@ -1644,6 +2045,13 @@
     "dodo-payments-subscription-integration",
     "aws-lambda-api-gateway-integration"
   ],
+  "integration-testing": [
+    "oracle-baseline-integration-tests"
+  ],
+  "integrity": [
+    "database-key-design-audit",
+    "referential-integrity-audit"
+  ],
   "interaction": [
     "wshobson-interaction-design",
     "platform-web-design-guidelines"
@@ -1662,10 +2070,17 @@
     "vtex-io-events-and-workers",
     "vtex-io-observability-and-operations"
   ],
+  "isolation": [
+    "database-multi-tenancy-isolation-audit",
+    "database-concurrency-audit",
+    "qdrant-multi-tenancy"
+  ],
   "java": [
     "create-spring-boot-java-project",
     "spring-boot-java-best-practices",
-    "auth0-java-mvc-authentication"
+    "auth0-java-mvc-authentication",
+    "qdrant-java-vector-store-integration",
+    "aws-sdk-java-dynamodb-data-access"
   ],
   "javascript-review": [
     "javascript-code-review"
@@ -1715,7 +2130,8 @@
     "javascript-code-review"
   ],
   "json": [
-    "dotnet-11-system-text-json"
+    "dotnet-11-system-text-json",
+    "database-types-and-precision-audit"
   ],
   "jwt": [
     "spring-boot-security-jwt",
@@ -1730,12 +2146,28 @@
     "kafka-connector-review",
     "kafka-consumer-lag",
     "kafka-dlq-review",
-    "kafka-schema-review"
+    "kafka-schema-review",
+    "mongodb-atlas-stream-processing"
+  ],
+  "kerberos": [
+    "amazon-rds-for-sql-server-connectivity"
   ],
   "keyboard": [
     "keyboard-interaction-audit",
     "wshobson-accessibility-compliance",
     "github-copilot-web-accessibility-standards"
+  ],
+  "keys": [
+    "redis-core-data-modeling"
+  ],
+  "keyset-pagination": [
+    "keyset-pagination"
+  ],
+  "keyspaces": [
+    "amazon-keyspaces-compatibility-and-migration"
+  ],
+  "knowledge-base": [
+    "hologres-knowledge-base-search"
   ],
   "kotlin": [
     "kotlin-jpa-entity-mapping",
@@ -1760,12 +2192,22 @@
     "arvindand-ui-ux-design",
     "elaya-landing-page-design"
   ],
+  "langchain4j": [
+    "qdrant-java-vector-store-integration",
+    "langchain4j-vector-store-configuration"
+  ],
   "laravel": [
     "laravel-application-best-practices",
-    "auth0-laravel-api-authorization"
+    "auth0-laravel-api-authorization",
+    "laravel-raw-sql-writing",
+    "laravel-safe-migration",
+    "eloquent-models-and-queries"
   ],
   "large-lists": [
     "vue-large-list-virtualization"
+  ],
+  "latency": [
+    "qdrant-search-speed-optimization"
   ],
   "layout": [
     "dashboard-design-skill",
@@ -1783,8 +2225,15 @@
   "leaks": [
     "distributed-systems-memory-leaks"
   ],
+  "least-privilege": [
+    "create-a-read-only-postgresql-role",
+    "hologres-privilege-management"
+  ],
   "legacy": [
     "migrate-to-modern-redux"
+  ],
+  "libsql": [
+    "turso-database-engineering"
   ],
   "lifecycle": [
     "vue-router-best-practices",
@@ -1801,6 +2250,9 @@
   ],
   "links": [
     "tanstack-router-navigation-preloading"
+  ],
+  "lint": [
+    "sql-catalog-lint"
   ],
   "listener-middleware": [
     "redux-side-effect-orchestration"
@@ -1835,10 +2287,22 @@
   "localization": [
     "internationalization-readiness-audit"
   ],
+  "locking": [
+    "database-concurrency-audit"
+  ],
+  "locks": [
+    "database-migration-safety-audit"
+  ],
   "logging": [
     "node-js-logging",
     "fastify-logging",
     "salvo-logging"
+  ],
+  "maintenance": [
+    "database-index-hygiene-audit"
+  ],
+  "managed-database": [
+    "managed-database-platform-fit-audit"
   ],
   "manager": [
     "aws-secrets-manager-best-practices"
@@ -1848,6 +2312,17 @@
   ],
   "mapping": [
     "kotlin-jpa-entity-mapping"
+  ],
+  "mariadb": [
+    "mariadb-query-optimization",
+    "mariadb-replication-and-high-availability",
+    "mariadb-system-versioned-tables",
+    "mariadb-vector-search",
+    "mysql-to-mariadb-migration",
+    "oracle-to-mariadb-migration",
+    "mariadb-feature-engineering",
+    "mariadb-backup-to-object-storage",
+    "mysql-and-mariadb-query-optimization"
   ],
   "marketing-ideas": [
     "marketing-ideas"
@@ -1860,8 +2335,15 @@
   "material-design": [
     "material-design-3-ui"
   ],
+  "materialized-view": [
+    "database-replicas-and-materialized-views-audit",
+    "starrocks-materialized-view-diagnosis"
+  ],
   "memory": [
-    "distributed-systems-memory-leaks"
+    "distributed-systems-memory-leaks",
+    "qdrant-memory-usage-optimization",
+    "qdrant-capacity-sizing",
+    "hologres-memory-diagnosis"
   ],
   "metadata": [
     "next-js-metadata"
@@ -1886,7 +2368,37 @@
   "migration": [
     "migrate-to-modern-redux",
     "django-safe-migration",
-    "firebase-extension-to-cloud-functions-migration"
+    "firebase-extension-to-cloud-functions-migration",
+    "mysql-to-mariadb-migration",
+    "oracle-to-mariadb-migration",
+    "find-timescaledb-hypertable-candidates",
+    "database-migration-safety-audit",
+    "qdrant-model-migration",
+    "neo4j-cypher-and-driver-migration",
+    "amazon-documentdb-engineering-toolkit",
+    "amazon-keyspaces-compatibility-and-migration",
+    "aurora-dsql-safe-data-engineering",
+    "neon-postgresql-branching",
+    "prisma-mongodb-upgrade-path",
+    "oracle-to-postgresql-master-migration-plan",
+    "oracle-to-postgresql-migration-bug-report",
+    "oracle-baseline-integration-tests",
+    "migrate-oracle-stored-procedures-to-postgresql",
+    "plan-oracle-to-postgresql-integration-testing",
+    "review-oracle-to-postgresql-migration",
+    "scaffold-oracle-migration-test-project",
+    "persistence-schema-review",
+    "multi-deploy-migration-architecture",
+    "laravel-safe-migration",
+    "safe-sql-migrations",
+    "convex-data-migrations"
+  ],
+  "migrations": [
+    "planetscale-mysql-engineering",
+    "drizzle-orm-patterns"
+  ],
+  "milvus": [
+    "milvus-vector-database-engineering"
   ],
   "minimal": [
     "asp-dotnet-minimal-api-openapi",
@@ -1903,8 +2415,24 @@
     "mobile-app-testing",
     "wshobson-responsive-design"
   ],
+  "modeling": [
+    "neo4j-graph-modeling"
+  ],
   "models": [
     "distributed-systems-consistency-models"
+  ],
+  "mongodb": [
+    "amazon-documentdb-engineering-toolkit",
+    "mongodb-connection-management",
+    "mongodb-read-only-query-generation",
+    "mongodb-query-optimization",
+    "mongodb-schema-design",
+    "mongodb-search-and-ai",
+    "mongodb-atlas-stream-processing",
+    "prisma-mongodb-upgrade-path"
+  ],
+  "moonbit": [
+    "sqlc-moonbit-generation-safety"
   ],
   "motion": [
     "motion",
@@ -1917,6 +2445,13 @@
   "multi": [
     "auth0-multi-tenant-authorization-pattern"
   ],
+  "multi-tenancy": [
+    "postgresql-row-level-security-audit",
+    "database-multi-tenancy-isolation-audit",
+    "qdrant-multi-tenancy",
+    "convex-database-security-audit",
+    "starrocks-resource-isolation"
+  ],
   "mutations": [
     "tanstack-query-targeted-invalidation",
     "tanstack-query-optimistic-updates",
@@ -1924,6 +2459,27 @@
   ],
   "mvc": [
     "auth0-java-mvc-authentication"
+  ],
+  "mvcc": [
+    "planetscale-postgresql-engineering"
+  ],
+  "mysql": [
+    "planetscale-mysql-engineering",
+    "planetscale-vitess-engineering",
+    "mysql-to-mariadb-migration",
+    "grafana-database-observability",
+    "mysql-and-mariadb-query-optimization",
+    "sql-explain-interpreter",
+    "read-only-mysql-querying"
+  ],
+  "n-plus-one": [
+    "django-data-access-performance-review",
+    "database-query-pattern-audit",
+    "eloquent-models-and-queries",
+    "relational-schema-antipattern-review"
+  ],
+  "naming": [
+    "database-naming-audit"
   ],
   "navigation": [
     "nextlevel-ui-styling",
@@ -1936,13 +2492,27 @@
   "navigation-guards": [
     "vue-router-best-practices"
   ],
+  "neo4j": [
+    "neo4j-cypher-engineering",
+    "neo4j-graph-modeling",
+    "neo4j-query-tuning",
+    "neo4j-vector-index-engineering",
+    "neo4j-cypher-and-driver-migration",
+    "neo4j-database-security",
+    "spring-data-neo4j"
+  ],
   "neon": [
     "neon-ai-gateway",
     "neon-functions",
-    "neon-object-storage"
+    "neon-object-storage",
+    "neon-postgresql-data-access-and-operations",
+    "neon-postgresql-branching",
+    "neon-postgresql-egress-optimization",
+    "neon-drizzle-data-access"
   ],
   "nestjs": [
-    "nestjs-development-standards"
+    "nestjs-development-standards",
+    "nestjs-drizzle-crud-generation"
   ],
   "net11": [
     "dotnet-11-system-text-json"
@@ -2001,13 +2571,28 @@
     "node-js-profiling",
     "node-js-streams",
     "node-js-stuck-processes-and-tests",
-    "node-js-testing"
+    "node-js-testing",
+    "starrocks-node-health-diagnosis"
+  ],
+  "nodejs": [
+    "sqlite-vector-extension-integration"
+  ],
+  "normalization": [
+    "database-normalization-audit"
   ],
   "normalize": [
     "impeccable-normalize"
   ],
+  "nosql": [
+    "amazon-dynamodb-data-layer-design",
+    "dynamodb-toolbox-patterns",
+    "azure-cosmos-db-nosql-data-modeling"
+  ],
   "not-found": [
     "tanstack-router-not-found-and-errors"
+  ],
+  "not-null": [
+    "database-constraint-audit"
   ],
   "nuxt": [
     "nuxt-modules",
@@ -2040,13 +2625,22 @@
     "object-storage-as-a-database",
     "neon-object-storage"
   ],
+  "object-storage": [
+    "starrocks-shared-data-diagnosis"
+  ],
   "objects": [
     "cloudflare-durable-objects"
   ],
   "observability": [
     "go-observability",
     "vtex-io-observability-and-operations",
-    "redis-observability"
+    "redis-observability",
+    "grafana-database-observability",
+    "hologres-daily-database-report",
+    "hologres-instance-health-analysis"
+  ],
+  "olap": [
+    "specialized-database-fit-audit"
   ],
   "on": [
     "ruby-on-rails-development-standards"
@@ -2060,6 +2654,10 @@
   "onboarding-cro": [
     "onboarding-cro"
   ],
+  "online-ddl": [
+    "planetscale-vitess-engineering",
+    "mariadb-feature-engineering"
+  ],
   "openai": [
     "openai-webhook-verification"
   ],
@@ -2068,6 +2666,9 @@
     "litestar-dto-openapi",
     "asp-dotnet-minimal-api-openapi",
     "spring-boot-openapi-documentation"
+  ],
+  "opensearch": [
+    "amazon-opensearch-service-engineering"
   ],
   "opentelemetry": [
     "asp-dotnet-core-opentelemetry-configuration",
@@ -2092,11 +2693,30 @@
     "impeccable-optimize",
     "rails-optimize-performance"
   ],
+  "optimizer": [
+    "mariadb-query-optimization",
+    "starrocks-query-diagnosis"
+  ],
   "optimizing": [
     "optimizing-ef-core-queries"
   ],
+  "oracle": [
+    "oracle-to-mariadb-migration",
+    "amazon-rds-for-oracle-connectivity",
+    "oracle-to-postgresql-master-migration-plan",
+    "oracle-to-postgresql-migration-bug-report",
+    "oracle-baseline-integration-tests",
+    "migrate-net-oracle-data-access-to-postgresql",
+    "migrate-oracle-stored-procedures-to-postgresql",
+    "plan-oracle-to-postgresql-integration-testing",
+    "review-oracle-to-postgresql-migration",
+    "scaffold-oracle-migration-test-project"
+  ],
   "order": [
     "marketplace-order-hook"
+  ],
+  "ordering": [
+    "keyset-pagination"
   ],
   "organization": [
     "better-auth-organizations"
@@ -2104,9 +2724,20 @@
   "organizations": [
     "better-auth-organizations"
   ],
+  "orm": [
+    "django-data-access-performance-review",
+    "spring-data-neo4j",
+    "prisma-sql-driver-adapter-implementation",
+    "drizzle-orm-patterns",
+    "eloquent-models-and-queries",
+    "relational-schema-antipattern-review"
+  ],
   "otel": [
     "opentelemetry-instrumentation",
     "opentelemetry-semantic-conventions"
+  ],
+  "outbox": [
+    "database-queues-and-outbox"
   ],
   "ownership": [
     "effector-feature-sliced-design"
@@ -2115,13 +2746,27 @@
     "page-cro"
   ],
   "pagination": [
-    "tanstack-query-infinite-page-params"
+    "tanstack-query-infinite-page-params",
+    "database-query-pattern-audit"
   ],
   "parallel": [
     "tanstack-query-dynamic-parallel-queries"
   ],
   "parallel-routes": [
     "next-js-parallel-routes"
+  ],
+  "parameterization": [
+    "laravel-raw-sql-writing"
+  ],
+  "partial-index": [
+    "database-indexing-audit"
+  ],
+  "partition-key": [
+    "amazon-dynamodb-data-layer-design",
+    "azure-cosmos-db-nosql-data-modeling"
+  ],
+  "partitioning": [
+    "database-partitioning-and-sharding-audit"
   ],
   "partitions": [
     "distributed-systems-hot-partitions"
@@ -2234,13 +2879,37 @@
     "go-performance",
     "dotnet-performance-analysis",
     "rails-optimize-performance",
-    "spree-performance"
+    "spree-performance",
+    "django-data-access-performance-review",
+    "qdrant-indexing-performance-optimization",
+    "qdrant-memory-usage-optimization",
+    "hologres-cpu-diagnosis",
+    "hologres-memory-diagnosis",
+    "hologres-slow-query-analysis",
+    "azure-postgresql-performance-cli"
+  ],
+  "pgbouncer": [
+    "troubleshoot-pgbouncer",
+    "database-connection-pool-audit"
+  ],
+  "pgvector": [
+    "pgvector-semantic-search",
+    "postgresql-hybrid-text-search"
   ],
   "php": [
     "auth0-php-api-authorization"
   ],
+  "pii": [
+    "database-security-and-access-audit"
+  ],
   "pinia": [
     "vue-pinia-best-practices"
+  ],
+  "pipeline": [
+    "bigquery-pipeline-audit"
+  ],
+  "platform": [
+    "managed-database-platform-fit-audit"
   ],
   "playwright": [
     "playwright-best-practices",
@@ -2260,11 +2929,49 @@
   "polish": [
     "impeccable-polish"
   ],
+  "pooling": [
+    "troubleshoot-pgbouncer",
+    "database-connection-pool-audit",
+    "neon-postgresql-data-access-and-operations"
+  ],
   "popup-cro": [
     "popup-cro"
   ],
+  "postgis": [
+    "design-postgis-tables"
+  ],
   "postgresql": [
-    "supabase-postgres-best-practices"
+    "supabase-postgres-best-practices",
+    "planetscale-postgresql-engineering",
+    "grafana-database-observability",
+    "troubleshoot-pgbouncer",
+    "pgvector-semantic-search",
+    "postgresql-hybrid-text-search",
+    "find-timescaledb-hypertable-candidates",
+    "design-postgis-tables",
+    "postgresql-query-plan-analysis",
+    "postgresql-row-level-security-audit",
+    "create-a-read-only-postgresql-role",
+    "neon-postgresql-data-access-and-operations",
+    "neon-postgresql-branching",
+    "neon-postgresql-egress-optimization",
+    "neon-postgresql-best-practices",
+    "neon-drizzle-data-access",
+    "postgresql-with-drizzle",
+    "oracle-to-postgresql-master-migration-plan",
+    "oracle-to-postgresql-migration-bug-report",
+    "oracle-baseline-integration-tests",
+    "migrate-net-oracle-data-access-to-postgresql",
+    "migrate-oracle-stored-procedures-to-postgresql",
+    "plan-oracle-to-postgresql-integration-testing",
+    "review-oracle-to-postgresql-migration",
+    "scaffold-oracle-migration-test-project",
+    "sql-explain-interpreter",
+    "azure-postgresql-performance-cli",
+    "read-only-postgresql-querying"
+  ],
+  "precision": [
+    "database-types-and-precision-audit"
   ],
   "preloading": [
     "tanstack-router-navigation-preloading"
@@ -2276,6 +2983,9 @@
   "pricing-strategy": [
     "pricing-strategy"
   ],
+  "primary-key": [
+    "database-key-design-audit"
+  ],
   "primevue": [
     "primevue",
     "primevue"
@@ -2285,7 +2995,9 @@
     "prisma-database-setup",
     "prisma-cli-database-workflows",
     "prisma-postgres",
-    "prisma-upgrade-v6-to-v7"
+    "prisma-upgrade-v6-to-v7",
+    "prisma-sql-driver-adapter-implementation",
+    "prisma-mongodb-upgrade-path"
   ],
   "prisma-client-api": [
     "prisma-client-api"
@@ -2301,6 +3013,9 @@
   ],
   "prisma-upgrade-v6-v7": [
     "prisma-upgrade-v6-to-v7"
+  ],
+  "privileges": [
+    "hologres-privilege-management"
   ],
   "processes": [
     "node-js-stuck-processes-and-tests"
@@ -2325,6 +3040,11 @@
   ],
   "production-patterns": [
     "better-frontend-production"
+  ],
+  "profile": [
+    "neo4j-query-tuning",
+    "starrocks-query-diagnosis",
+    "hologres-bsi-profile-analysis"
   ],
   "profiling": [
     "node-js-profiling"
@@ -2367,6 +3087,25 @@
   ],
   "python": [
     "kafka-python-client"
+  ],
+  "qdrant": [
+    "qdrant-model-migration",
+    "qdrant-multi-tenancy",
+    "qdrant-indexing-performance-optimization",
+    "qdrant-memory-usage-optimization",
+    "qdrant-search-speed-optimization",
+    "qdrant-search-quality-diagnosis",
+    "qdrant-hybrid-search-fusion",
+    "qdrant-hybrid-search-prefetch-design",
+    "qdrant-relevance-feedback",
+    "qdrant-horizontal-scaling",
+    "qdrant-sliding-time-window-retention",
+    "qdrant-capacity-sizing",
+    "qdrant-version-upgrade",
+    "qdrant-java-vector-store-integration"
+  ],
+  "quality": [
+    "sql-catalog-lint"
   ],
   "quality-gates": [
     "typeui-agentic",
@@ -2437,8 +3176,41 @@
     "typeui-vibrant",
     "typeui-vintage"
   ],
+  "quantization": [
+    "qdrant-memory-usage-optimization"
+  ],
   "queries": [
-    "optimizing-ef-core-queries"
+    "optimizing-ef-core-queries",
+    "convex-database-best-practices"
+  ],
+  "query": [
+    "database-indexing-audit",
+    "database-query-pattern-audit",
+    "neo4j-cypher-engineering",
+    "amazon-documentdb-engineering-toolkit",
+    "mongodb-read-only-query-generation",
+    "starrocks-high-concurrency-tuning",
+    "starrocks-query-diagnosis",
+    "read-only-sql-server-querying",
+    "read-only-mysql-querying",
+    "read-only-postgresql-querying"
+  ],
+  "query-optimization": [
+    "mongodb-query-optimization",
+    "neon-postgresql-egress-optimization",
+    "mysql-and-mariadb-query-optimization",
+    "hologres-query-optimization"
+  ],
+  "query-plan": [
+    "postgresql-query-plan-analysis",
+    "sqlite-and-d1-plan-audit",
+    "hologres-slow-query-analysis"
+  ],
+  "query-rewrite": [
+    "starrocks-materialized-view-diagnosis"
+  ],
+  "query-tuning": [
+    "neo4j-query-tuning"
   ],
   "queues": [
     "litestar-queues"
@@ -2452,6 +3224,9 @@
   "radius": [
     "simota-muse"
   ],
+  "rag": [
+    "mariadb-vector-search"
+  ],
   "rails": [
     "ruby-on-rails-development-standards",
     "rails-background-job",
@@ -2460,13 +3235,23 @@
     "rails-graphql",
     "rails-optimize-performance"
   ],
+  "ranking": [
+    "qdrant-relevance-feedback"
+  ],
   "rate": [
     "salvo-rate-limiter",
     "auth0-authentication-rate-limiting",
     "marketplace-rate-limiting"
   ],
   "rbac": [
-    "tanstack-router-auth-and-guards"
+    "tanstack-router-auth-and-guards",
+    "neo4j-database-security",
+    "milvus-vector-database-engineering"
+  ],
+  "rds": [
+    "amazon-rds-for-oracle-connectivity",
+    "amazon-rds-for-sql-server-connectivity",
+    "spring-boot-amazon-rds-integration"
   ],
   "react": [
     "advanced-event-handler-refs",
@@ -2561,10 +3346,20 @@
   "react-ui-patterns": [
     "react-ui-patterns"
   ],
+  "reactive": [
+    "spring-data-neo4j"
+  ],
   "reactivity": [
     "create-adaptable-vue-composable",
     "vue-pinia-best-practices",
     "vue-reactivity-core-patterns"
+  ],
+  "read-only": [
+    "create-a-read-only-postgresql-role",
+    "mongodb-read-only-query-generation",
+    "read-only-sql-server-querying",
+    "read-only-mysql-querying",
+    "read-only-postgresql-querying"
   ],
   "readability": [
     "mblode-typography-audit"
@@ -2572,6 +3367,9 @@
   "realtime": [
     "litestar-realtime",
     "trigger-realtime"
+  ],
+  "recall": [
+    "qdrant-search-quality-diagnosis"
   ],
   "redesign": [
     "hallmark-anti-ai-ui"
@@ -2585,10 +3383,16 @@
     "redis-observability",
     "redis-search",
     "redis-security",
-    "redis-semantic-cache"
+    "redis-semantic-cache",
+    "amazon-elasticache-data-engineering",
+    "redis-core-data-modeling",
+    "upstash-redis-javascript-data-access"
   ],
   "reducers": [
     "redux-dataflow-modeling"
+  ],
+  "redundancy": [
+    "database-index-hygiene-audit"
   ],
   "redux": [
     "modern-redux-app-setup",
@@ -2610,8 +3414,14 @@
   "refactoring": [
     "go-refactoring"
   ],
+  "refresh": [
+    "starrocks-materialized-view-diagnosis"
+  ],
   "refunds": [
     "dodo-payments-refunds-and-disputes"
+  ],
+  "relevance-feedback": [
+    "qdrant-relevance-feedback"
   ],
   "render": [
     "render-background-workers",
@@ -2631,6 +3441,23 @@
     "rendering-svg-precision",
     "rendering-usetransition-loading",
     "tanstack-router-ssr-hydration"
+  ],
+  "replica-lag": [
+    "database-replicas-and-materialized-views-audit"
+  ],
+  "replicas": [
+    "starrocks-replica-balance-diagnosis"
+  ],
+  "replication": [
+    "planetscale-postgresql-engineering",
+    "mariadb-replication-and-high-availability",
+    "database-replicas-and-materialized-views-audit",
+    "qdrant-horizontal-scaling",
+    "neon-postgresql-best-practices",
+    "starrocks-tablet-diagnosis"
+  ],
+  "report": [
+    "hologres-daily-database-report"
   ],
   "required": [
     "stripe-connect-kyc-requirements"
@@ -2664,6 +3491,12 @@
   "resource": [
     "spree-resource"
   ],
+  "resource-groups": [
+    "starrocks-high-concurrency-tuning"
+  ],
+  "resource-isolation": [
+    "starrocks-resource-isolation"
+  ],
   "responsive": [
     "impeccable-responsive",
     "web-design-guidelines",
@@ -2683,6 +3516,14 @@
     "django-rest-framework-classy-views",
     "spring-boot-rest-api-standards"
   ],
+  "restore": [
+    "mariadb-backup-to-object-storage"
+  ],
+  "retention": [
+    "timescaledb-hypertable-setup",
+    "database-temporal-history-audit",
+    "qdrant-sliding-time-window-retention"
+  ],
   "retry": [
     "tanstack-query-error-boundary-reset",
     "distributed-systems-retry-storms"
@@ -2692,19 +3533,33 @@
     "kafka-connector-review",
     "kafka-dlq-review",
     "kafka-schema-review",
-    "auth0-application-security-review"
+    "auth0-application-security-review",
+    "review-oracle-to-postgresql-migration",
+    "persistence-schema-review"
   ],
   "reviewer": [
     "django-reviewer"
   ],
   "rls": [
-    "supabase-postgres-best-practices"
+    "supabase-postgres-best-practices",
+    "postgresql-row-level-security-audit",
+    "database-security-and-access-audit",
+    "postgresql-with-drizzle"
+  ],
+  "roles": [
+    "create-a-read-only-postgresql-role",
+    "aurora-dsql-safe-data-engineering",
+    "hologres-privilege-management"
   ],
   "rollback": [
-    "tanstack-query-optimistic-updates"
+    "tanstack-query-optimistic-updates",
+    "laravel-safe-migration"
   ],
   "rolldown": [
     "rolldown"
+  ],
+  "rolling-update": [
+    "qdrant-version-upgrade"
   ],
   "rotation": [
     "auth0-token-handling-and-rotation"
@@ -2735,6 +3590,9 @@
   ],
   "routing-middleware": [
     "routing-middleware"
+  ],
+  "rrf": [
+    "qdrant-hybrid-search-fusion"
   ],
   "rsc-boundaries": [
     "next-js-rsc-boundaries"
@@ -2791,13 +3649,21 @@
     "next-js-runtime-selection"
   ],
   "s3": [
-    "aws-s3-upload-routing-with-step-functions"
+    "aws-s3-upload-routing-with-step-functions",
+    "mariadb-backup-to-object-storage"
+  ],
+  "s3-vectors": [
+    "amazon-s3-vector-storage"
   ],
   "safe": [
     "django-safe-migration"
   ],
   "safety": [
-    "go-safety"
+    "go-safety",
+    "sqlc-moonbit-generation-safety",
+    "read-only-sql-server-querying",
+    "read-only-mysql-querying",
+    "read-only-postgresql-querying"
   ],
   "saga": [
     "spring-boot-saga-pattern"
@@ -2834,14 +3700,38 @@
   "saq": [
     "litestar-saq"
   ],
+  "sargability": [
+    "database-query-pattern-audit"
+  ],
   "savings": [
     "trigger-cost-savings"
   ],
   "scaffolding": [
     "data-driven-asp-dotnet-core-scaffolding"
   ],
+  "scaling": [
+    "qdrant-horizontal-scaling"
+  ],
   "schema": [
-    "kafka-schema-review"
+    "kafka-schema-review",
+    "sqlite-and-d1-schema-audit",
+    "database-normalization-audit",
+    "database-key-design-audit",
+    "referential-integrity-audit",
+    "database-defaults-and-generated-columns-audit",
+    "database-naming-audit",
+    "database-modeling-antipattern-audit",
+    "mongodb-schema-design",
+    "ef-core-d2-database-diagram",
+    "persistence-schema-review",
+    "laravel-safe-migration",
+    "relational-schema-antipattern-review",
+    "convex-database-best-practices",
+    "convex-schema-validation",
+    "hologres-schema-generation"
+  ],
+  "schema-drift": [
+    "database-migration-safety-audit"
   ],
   "schema-markup": [
     "schema-markup"
@@ -2866,10 +3756,16 @@
     "stripe-api-and-sdk-upgrade"
   ],
   "search": [
-    "redis-search"
+    "redis-search",
+    "qdrant-search-speed-optimization",
+    "amazon-opensearch-service-engineering",
+    "hologres-knowledge-base-search"
   ],
   "search-params": [
     "tanstack-router-search-params"
+  ],
+  "search-quality": [
+    "qdrant-search-quality-diagnosis"
   ],
   "secrets": [
     "aws-secrets-manager-best-practices"
@@ -2885,7 +3781,20 @@
     "better-auth-security-best-practices",
     "auth0-application-security-review",
     "redis-security",
-    "firebase-security-rules-auditor"
+    "firebase-security-rules-auditor",
+    "sql-injection-source-scan",
+    "postgresql-row-level-security-audit",
+    "database-multi-tenancy-isolation-audit",
+    "database-security-and-access-audit",
+    "neo4j-database-security",
+    "convex-database-security-audit"
+  ],
+  "seed-data": [
+    "database-seed-data-design"
+  ],
+  "selection": [
+    "database-engine-selection-audit",
+    "managed-database-platform-fit-audit"
   ],
   "selectors": [
     "redux-dataflow-modeling",
@@ -2902,6 +3811,12 @@
   "semantic-html": [
     "semantic-html-accessibility-audit",
     "platform-web-design-guidelines"
+  ],
+  "semantic-search": [
+    "pgvector-semantic-search"
+  ],
+  "semantic-view": [
+    "snowflake-semantic-views"
   ],
   "seo": [
     "seo",
@@ -2933,6 +3848,14 @@
     "adopt-rtk-query",
     "tanstack-query-targeted-invalidation",
     "tanstack-query-staletime-strategy"
+  ],
+  "serverless": [
+    "database-connection-pool-audit",
+    "managed-database-platform-fit-audit",
+    "mongodb-connection-management",
+    "neon-postgresql-data-access-and-operations",
+    "neon-drizzle-data-access",
+    "upstash-redis-javascript-data-access"
   ],
   "service": [
     "cloudflare-email-service"
@@ -2966,7 +3889,15 @@
     "vue-reactivity-core-patterns"
   ],
   "sharding": [
-    "distributed-systems-sharding"
+    "distributed-systems-sharding",
+    "planetscale-vitess-engineering",
+    "database-partitioning-and-sharding-audit",
+    "qdrant-multi-tenancy",
+    "qdrant-horizontal-scaling",
+    "qdrant-sliding-time-window-retention"
+  ],
+  "shared-data": [
+    "starrocks-shared-data-diagnosis"
   ],
   "shopify": [
     "shopify-webhook-verification"
@@ -2981,14 +3912,29 @@
   "signup-flow-cro": [
     "signup-flow-cro"
   ],
+  "sizing": [
+    "qdrant-capacity-sizing"
+  ],
   "skew": [
     "distributed-systems-clock-skew"
+  ],
+  "skip-locked": [
+    "database-queues-and-outbox"
   ],
   "slack": [
     "slack-webhook-verification"
   ],
+  "slow-query": [
+    "hologres-slow-query-analysis"
+  ],
+  "snowflake": [
+    "snowflake-semantic-views"
+  ],
   "sns": [
     "aws-sns-webhook-verification"
+  ],
+  "soft-delete": [
+    "database-temporal-history-audit"
   ],
   "software-testing": [
     "software-testing"
@@ -2999,8 +3945,14 @@
     "simota-muse",
     "elaya-landing-page-design"
   ],
+  "spatial": [
+    "design-postgis-tables"
+  ],
   "spin": [
     "cloudflare-turnstile-server-verification"
+  ],
+  "splade": [
+    "qdrant-hybrid-search-prefetch-design"
   ],
   "spree": [
     "spree-api-v3",
@@ -3031,10 +3983,45 @@
     "spring-data-jpa",
     "auth0-spring-boot-api-authorization"
   ],
+  "spring-boot": [
+    "spring-boot-amazon-rds-integration"
+  ],
+  "spring-data": [
+    "spring-data-neo4j"
+  ],
   "springboot": [
     "spring-boot-java-best-practices",
     "spring-boot-kotlin-best-practices",
     "auth0-spring-boot-api-authorization"
+  ],
+  "sql": [
+    "keyset-pagination",
+    "sql-catalog-lint",
+    "sql-injection-source-scan",
+    "laravel-raw-sql-writing",
+    "sql-explain-interpreter",
+    "safe-sql-migrations",
+    "sql-to-er-diagram-workflow"
+  ],
+  "sql-server": [
+    "amazon-rds-for-sql-server-connectivity",
+    "read-only-sql-server-querying"
+  ],
+  "sql-translation": [
+    "oracle-to-mariadb-migration"
+  ],
+  "sqlc": [
+    "sql-catalog-lint",
+    "sqlc-moonbit-generation-safety"
+  ],
+  "sqlite": [
+    "turso-database-engineering",
+    "sqlite-and-d1-plan-audit",
+    "sqlite-and-d1-schema-audit",
+    "sqlite-vector-extension-integration"
+  ],
+  "sqlite-vec": [
+    "sqlite-vector-extension-integration"
   ],
   "sse": [
     "salvo-sse"
@@ -3071,6 +4058,18 @@
     "ruby-on-rails-development-standards",
     "spring-boot-rest-api-standards"
   ],
+  "starrocks": [
+    "starrocks-replica-balance-diagnosis",
+    "starrocks-compaction-diagnosis",
+    "starrocks-high-concurrency-tuning",
+    "starrocks-import-diagnosis",
+    "starrocks-materialized-view-diagnosis",
+    "starrocks-node-health-diagnosis",
+    "starrocks-query-diagnosis",
+    "starrocks-resource-isolation",
+    "starrocks-shared-data-diagnosis",
+    "starrocks-tablet-diagnosis"
+  ],
   "state": [
     "modern-redux-app-setup",
     "vue-pinia-best-practices"
@@ -3089,6 +4088,12 @@
   "static": [
     "salvo-static-files"
   ],
+  "static-analysis": [
+    "sql-injection-source-scan"
+  ],
+  "statistics": [
+    "postgresql-query-plan-analysis"
+  ],
   "step": [
     "aws-step-functions",
     "aws-s3-upload-routing-with-step-functions"
@@ -3098,16 +4103,27 @@
   ],
   "storage": [
     "object-storage-as-a-database",
-    "neon-object-storage"
+    "neon-object-storage",
+    "amazon-s3-vector-storage",
+    "starrocks-compaction-diagnosis"
   ],
   "store": [
     "object-storage-as-a-database"
+  ],
+  "stored-procedure": [
+    "migrate-oracle-stored-procedures-to-postgresql"
   ],
   "storms": [
     "distributed-systems-retry-storms"
   ],
   "strategy": [
     "headless-caching-strategy"
+  ],
+  "stream-load": [
+    "starrocks-import-diagnosis"
+  ],
+  "stream-processing": [
+    "mongodb-atlas-stream-processing"
   ],
   "streaming": [
     "tanstack-router-ssr-hydration"
@@ -3177,6 +4193,9 @@
     "distributed-systems-fallacies",
     "dotnet-11-system-text-json"
   ],
+  "system-versioning": [
+    "mariadb-system-versioned-tables"
+  ],
   "systems": [
     "distributed-systems-backpressure",
     "distributed-systems-cache-invalidation",
@@ -3196,6 +4215,10 @@
   ],
   "tables": [
     "nextlevel-ui-styling"
+  ],
+  "tablet": [
+    "starrocks-replica-balance-diagnosis",
+    "starrocks-tablet-diagnosis"
   ],
   "tanstack": [
     "tanstack-query",
@@ -3229,11 +4252,19 @@
   "teach-impeccable": [
     "impeccable-teach-impeccable"
   ],
+  "temporal": [
+    "mariadb-system-versioned-tables",
+    "database-temporal-history-audit"
+  ],
   "tenant": [
-    "auth0-multi-tenant-authorization-pattern"
+    "auth0-multi-tenant-authorization-pattern",
+    "database-multi-tenancy-isolation-audit"
   ],
   "test": [
     "spring-boot-test-patterns"
+  ],
+  "test-scaffold": [
+    "scaffold-oracle-migration-test-project"
   ],
   "testing": [
     "anthropic-webapp-testing",
@@ -3243,10 +4274,13 @@
     "go-testing",
     "litestar-testing",
     "spree-testing",
-    "dodo-payments-testing-and-go-live"
+    "dodo-payments-testing-and-go-live",
+    "sqlite-and-d1-plan-audit",
+    "database-seed-data-design"
   ],
   "testing-strategy": [
-    "software-testing"
+    "software-testing",
+    "plan-oracle-to-postgresql-integration-testing"
   ],
   "tests": [
     "node-js-flaky-tests",
@@ -3262,15 +4296,35 @@
   "thundering": [
     "distributed-systems-thundering-herd"
   ],
+  "time-series": [
+    "timescaledb-hypertable-setup",
+    "specialized-database-fit-audit",
+    "amazon-timestream-for-influxdb-modeling"
+  ],
+  "time-window": [
+    "qdrant-sliding-time-window-retention"
+  ],
   "timeout": [
     "salvo-timeout",
     "aws-lambda-timeout-diagnosis"
   ],
   "timeouts": [
-    "aws-lambda-timeout-diagnosis"
+    "aws-lambda-timeout-diagnosis",
+    "mongodb-connection-management"
+  ],
+  "timescaledb": [
+    "timescaledb-hypertable-setup",
+    "find-timescaledb-hypertable-candidates"
+  ],
+  "timestamp": [
+    "database-types-and-precision-audit"
+  ],
+  "timestream": [
+    "amazon-timestream-for-influxdb-modeling"
   ],
   "tls": [
-    "salvo-tls-acme"
+    "salvo-tls-acme",
+    "amazon-rds-for-oracle-connectivity"
   ],
   "to": [
     "firebase-extension-to-cloud-functions-migration",
@@ -3292,11 +4346,28 @@
     "ibelick-create-design-md",
     "terminalskills-design-md"
   ],
+  "tombstones": [
+    "database-storage-and-bloat-audit"
+  ],
+  "toolbox": [
+    "dynamodb-toolbox-patterns"
+  ],
   "topic": [
     "kafka-topic-audit"
   ],
   "trace": [
     "dotnet-production-trace-collection"
+  ],
+  "trade-offs": [
+    "database-engine-selection-audit"
+  ],
+  "transactions": [
+    "yugabytedb-ysql-engineering",
+    "database-concurrency-audit",
+    "prisma-sql-driver-adapter-implementation",
+    "drizzle-orm-patterns",
+    "dynamodb-toolbox-patterns",
+    "aws-sdk-java-dynamodb-data-access"
   ],
   "trigger": [
     "trigger-authoring-chat-agent",
@@ -3307,7 +4378,8 @@
     "trigger-tasks"
   ],
   "troubleshooting": [
-    "go-troubleshooting"
+    "go-troubleshooting",
+    "troubleshoot-pgbouncer"
   ],
   "tsdown": [
     "tsdown"
@@ -3317,6 +4389,9 @@
   ],
   "turnstile": [
     "cloudflare-turnstile-server-verification"
+  ],
+  "turso": [
+    "turso-database-engineering"
   ],
   "twilio": [
     "twilio-webhook-verification"
@@ -3340,12 +4415,16 @@
   "type-scale": [
     "mblode-typography-audit"
   ],
+  "types": [
+    "convex-schema-validation"
+  ],
   "typescript": [
     "typescript-drag-and-drop",
     "typescript-advanced-types",
     "typescript-performance",
     "typescript-project-setup-reference",
-    "tanstack-router-type-safety"
+    "tanstack-router-type-safety",
+    "upstash-redis-javascript-data-access"
   ],
   "typescript-drag-and-drop": [
     "typescript-drag-and-drop"
@@ -3398,8 +4477,16 @@
   "ui-ux": [
     "ui-ux-pro-max"
   ],
+  "unique": [
+    "database-constraint-audit"
+  ],
+  "unused-index": [
+    "database-index-hygiene-audit"
+  ],
   "upgrade": [
-    "stripe-api-and-sdk-upgrade"
+    "stripe-api-and-sdk-upgrade",
+    "qdrant-version-upgrade",
+    "prisma-mongodb-upgrade-path"
   ],
   "upload": [
     "minimal-api-file-upload",
@@ -3407,6 +4494,9 @@
   ],
   "uploads": [
     "aws-s3-upload-routing-with-step-functions"
+  ],
+  "upstash": [
+    "upstash-redis-javascript-data-access"
   ],
   "url-state": [
     "tanstack-router-search-params"
@@ -3423,6 +4513,9 @@
   ],
   "using": [
     "aws-secrets-manager-best-practices"
+  ],
+  "uuid": [
+    "database-key-design-audit"
   ],
   "ux": [
     "magnus-product-design-and-ux",
@@ -3441,12 +4534,39 @@
   "v3": [
     "spree-api-v3"
   ],
+  "vacuum": [
+    "planetscale-postgresql-engineering",
+    "database-storage-and-bloat-audit"
+  ],
   "validation": [
     "website-studio",
-    "svelte-code-writer-validation-workflow"
+    "svelte-code-writer-validation-workflow",
+    "mongodb-schema-design",
+    "convex-schema-validation"
+  ],
+  "valkey": [
+    "amazon-elasticache-data-engineering"
   ],
   "variants": [
     "mengto-design-first-ui-prompting"
+  ],
+  "vector": [
+    "mariadb-vector-search",
+    "sqlite-vector-extension-integration",
+    "specialized-database-fit-audit",
+    "qdrant-model-migration",
+    "neo4j-vector-index-engineering",
+    "amazon-opensearch-service-engineering",
+    "amazon-s3-vector-storage",
+    "milvus-vector-database-engineering",
+    "qdrant-java-vector-store-integration",
+    "hologres-knowledge-base-search"
+  ],
+  "vector-search": [
+    "mongodb-search-and-ai"
+  ],
+  "vector-store": [
+    "langchain4j-vector-store-configuration"
   ],
   "vercel": [
     "access-protected-vercel-deployment",
@@ -3523,6 +4643,9 @@
   ],
   "version": [
     "rails-version-api"
+  ],
+  "versions": [
+    "starrocks-compaction-diagnosis"
   ],
   "views": [
     "django-rest-framework-classy-views"
@@ -3622,9 +4745,15 @@
     "typeui-vibrant",
     "typeui-vintage"
   ],
+  "visualization": [
+    "sql-to-er-diagram-workflow"
+  ],
   "vite": [
     "vite",
     "tanstack-router-code-splitting"
+  ],
+  "vitess": [
+    "planetscale-vitess-engineering"
   ],
   "vitest": [
     "vitest",
@@ -3777,6 +4906,23 @@
   ],
   "workflows": [
     "render-workflows"
+  ],
+  "workload": [
+    "starrocks-resource-isolation"
+  ],
+  "wraparound": [
+    "database-storage-and-bloat-audit"
+  ],
+  "ysql": [
+    "yugabytedb-ysql-engineering"
+  ],
+  "yugabytedb": [
+    "yugabytedb-ysql-engineering"
+  ],
+  "zero-downtime": [
+    "database-migration-safety-audit",
+    "qdrant-model-migration",
+    "safe-sql-migrations"
   ],
   "zod": [
     "tanstack-router-search-params"

@@ -24,7 +24,7 @@
 | [Distributed Systems Thundering Herd](https://github.com/triggerdotdev/staff-engineering-skills/blob/main/skills/staff-engineering-skills-thundering-herd/SKILL.md) | Caching | verified | 90 | GitHub |
 | [Headless Caching Strategy](https://github.com/vtex/skills/blob/main/skills/headless-caching-strategy/SKILL.md) | Caching | verified | 84 | GitHub |
 | [Node.js Caching](https://github.com/mcollina/skills/blob/main/skills/node/rules/caching.md) | Caching | verified | 89 | GitHub |
-| [Redis Semantic Cache](https://github.com/redis/agent-skills/blob/main/skills/redis-semantic-cache/SKILL.md) | Caching | verified | 88 | GitHub |
+| [Redis Semantic Cache](https://github.com/redis/agent-skills/blob/main/skills/redis-semantic-cache/SKILL.md) | Caching | verified | 84 | GitHub |
 | [Runtime Cache](https://github.com/vercel/vercel-plugin/tree/main/skills/runtime-cache) | Caching | verified | 85 | GitHub |
 | [Salvo Caching](https://github.com/salvo-rs/salvo-skills/blob/main/salvo-caching/SKILL.md) | Caching | verified | 84 | GitHub |
 | [Spring Boot Cache](https://github.com/giuseppe-trisciuoglio/developer-kit/blob/main/plugins/developer-kit-java/skills/spring-boot-cache/SKILL.md) | Caching | verified | 84 | GitHub |

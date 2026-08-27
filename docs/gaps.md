@@ -34,3 +34,7 @@ Frontend coverage improved substantially in state management, routing, URL state
 ## 2026-08-27 Backend deep research pass
 
 Backend coverage now spans major server frameworks plus idempotency, retries, DLQs, backpressure, caching, graceful shutdown, structured logging, authentication, realtime, files, payments, and serverless workflows. The largest remaining gaps are general transactional outbox, RabbitMQ retry/DLX, cursor pagination, optimistic locking, distributed-lock fencing, request deadline propagation, provider-neutral circuit breakers, request-ID propagation, and broader official Flask/Django/Go/Rust/Spring application-skill provenance. See `research/backend-2026-08-27/backend-gaps.md`.
+
+## 2026-08-27 Database deep research pass
+
+Database coverage now spans major relational, document, key-value, graph, vector, time-series, distributed SQL, ORM, migration, indexing, and observability tasks. Remaining focused gaps include provider-neutral deadlock diagnosis, optimistic concurrency tokens, lock fencing, D1 migration safety, SQLite WAL operations, Firebase Realtime Database, Mongoose, ScyllaDB, KeyDB, and cross-engine restore verification. See `research/database-2026-08-27/database-gaps.md`.

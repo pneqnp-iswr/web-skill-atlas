@@ -7,7 +7,14 @@
     "optimizing-ef-core-queries",
     "dotnet-performance-analysis",
     "dotnet-production-trace-collection",
-    "dotnet-11-system-text-json"
+    "dotnet-11-system-text-json",
+    "oracle-to-postgresql-master-migration-plan",
+    "oracle-baseline-integration-tests",
+    "migrate-net-oracle-data-access-to-postgresql",
+    "plan-oracle-to-postgresql-integration-testing",
+    "review-oracle-to-postgresql-migration",
+    "scaffold-oracle-migration-test-project",
+    "ef-core-d2-database-diagram"
   ],
   "ASP.NET Core": [
     "asp-dotnet-minimal-api-openapi",
@@ -34,6 +41,59 @@
     "amazon-ses",
     "aws-secrets-manager-best-practices"
   ],
+  "ActiveRecord": [
+    "relational-schema-antipattern-review"
+  ],
+  "Alembic": [
+    "safe-sql-migrations"
+  ],
+  "Alibaba Cloud Hologres": [
+    "hologres-bsi-profile-analysis",
+    "hologres-daily-database-report",
+    "hologres-cpu-diagnosis",
+    "hologres-memory-diagnosis",
+    "hologres-instance-health-analysis",
+    "hologres-knowledge-base-search",
+    "hologres-privilege-management",
+    "hologres-query-optimization",
+    "hologres-schema-generation",
+    "hologres-slow-query-analysis"
+  ],
+  "Amazon DocumentDB": [
+    "amazon-documentdb-engineering-toolkit"
+  ],
+  "Amazon DynamoDB": [
+    "amazon-dynamodb-data-layer-design",
+    "dynamodb-toolbox-patterns",
+    "aws-sdk-java-dynamodb-data-access"
+  ],
+  "Amazon ElastiCache": [
+    "amazon-elasticache-data-engineering"
+  ],
+  "Amazon Keyspaces": [
+    "amazon-keyspaces-compatibility-and-migration"
+  ],
+  "Amazon OpenSearch Service": [
+    "amazon-opensearch-service-engineering"
+  ],
+  "Amazon RDS": [
+    "spring-boot-amazon-rds-integration"
+  ],
+  "Amazon RDS for Oracle": [
+    "amazon-rds-for-oracle-connectivity"
+  ],
+  "Amazon RDS for SQL Server": [
+    "amazon-rds-for-sql-server-connectivity"
+  ],
+  "Amazon S3": [
+    "mariadb-backup-to-object-storage"
+  ],
+  "Amazon S3 Vectors": [
+    "amazon-s3-vector-storage"
+  ],
+  "Amazon Timestream for InfluxDB": [
+    "amazon-timestream-for-influxdb-modeling"
+  ],
   "Angular": [
     "angular-best-practices",
     "angular-component",
@@ -45,6 +105,9 @@
     "github-web-design-reviewer",
     "github-copilot-web-accessibility-standards",
     "github-copilot-web-performance-standards"
+  ],
+  "Apache Cassandra": [
+    "amazon-keyspaces-compatibility-and-migration"
   ],
   "Apache Kafka": [
     "kafka-perf-review",
@@ -59,11 +122,20 @@
   "Astro": [
     "auth0-astro"
   ],
+  "Aurora DSQL": [
+    "aurora-dsql-safe-data-engineering"
+  ],
   "Auth0": [
     "auth0-multi-tenant-authorization-pattern",
     "auth0-authentication-rate-limiting",
     "auth0-application-security-review",
     "auth0-token-handling-and-rotation"
+  ],
+  "Azure Cosmos DB": [
+    "azure-cosmos-db-nosql-data-modeling"
+  ],
+  "Azure Database for PostgreSQL": [
+    "azure-postgresql-performance-cli"
   ],
   "Azure Functions": [
     "asp-dotnet-minimal-api-openapi",
@@ -79,9 +151,20 @@
   "Bun": [
     "elysia-backend-engineering"
   ],
+  "Cassandra": [
+    "database-storage-and-bloat-audit"
+  ],
   "Clerk": [
     "clerk-backend-api",
     "clerk-billing"
+  ],
+  "Cloud Firestore": [
+    "cloud-firestore-database-operations"
+  ],
+  "Cloudflare D1": [
+    "sqlite-and-d1-plan-audit",
+    "sqlite-and-d1-schema-audit",
+    "managed-database-platform-fit-audit"
   ],
   "Cloudflare Workers": [
     "cloudflare-agents-sdk-backend",
@@ -90,19 +173,38 @@
     "cloudflare-turnstile-server-verification",
     "cloudflare-workers-production-best-practices"
   ],
+  "Convex": [
+    "convex",
+    "convex-database-best-practices",
+    "convex-data-migrations",
+    "convex-schema-validation",
+    "convex-database-security-audit"
+  ],
+  "Distributed SQL": [
+    "database-partitioning-and-sharding-audit"
+  ],
   "Django": [
     "django-rest-framework-classy-views",
     "django-celery-expert",
     "django-expert",
     "django-reviewer",
-    "django-safe-migration"
+    "django-safe-migration",
+    "django-data-access-performance-review",
+    "safe-sql-migrations"
+  ],
+  "Django ORM": [
+    "relational-schema-antipattern-review"
   ],
   "Django REST Framework": [
     "django-rest-framework-classy-views",
     "django-celery-expert",
     "django-expert",
     "django-reviewer",
-    "django-safe-migration"
+    "django-safe-migration",
+    "django-data-access-performance-review"
+  ],
+  "Doctrine": [
+    "mysql-and-mariadb-query-optimization"
   ],
   "Dodo Payments": [
     "dodo-payments-webhook-integration",
@@ -111,6 +213,29 @@
     "dodo-payments-credit-based-billing",
     "dodo-payments-refunds-and-disputes",
     "dodo-payments-testing-and-go-live"
+  ],
+  "Drizzle": [
+    "neon-postgresql-data-access-and-operations",
+    "neon-drizzle-data-access"
+  ],
+  "Drizzle Kit": [
+    "drizzle-orm-patterns"
+  ],
+  "Drizzle ORM": [
+    "drizzle-orm-patterns",
+    "nestjs-drizzle-crud-generation",
+    "postgresql-with-drizzle"
+  ],
+  "DynamoDB Toolbox": [
+    "dynamodb-toolbox-patterns"
+  ],
+  "EF Core": [
+    "migrate-net-oracle-data-access-to-postgresql",
+    "ef-core-d2-database-diagram",
+    "relational-schema-antipattern-review"
+  ],
+  "Eloquent": [
+    "eloquent-models-and-queries"
   ],
   "Elysia": [
     "elysia-backend-engineering"
@@ -148,15 +273,31 @@
   "Firebase": [
     "firebase-extension-to-cloud-functions-migration",
     "firebase-auth-basics",
-    "firebase-data-connect",
-    "firebase-security-rules-auditor"
+    "firebase-security-rules-auditor",
+    "cloud-firestore-database-operations"
+  ],
+  "Firebase SQL Connect": [
+    "firebase-data-connect"
   ],
   "Flask": [
     "auth0-flask-authentication"
   ],
+  "Flyway": [
+    "spring-boot-amazon-rds-integration",
+    "safe-sql-migrations"
+  ],
   "Framer Motion": [
     "mblode-ui-animation",
     "wshobson-interaction-design"
+  ],
+  "Framework-neutral": [
+    "multi-deploy-migration-architecture"
+  ],
+  "GORM": [
+    "relational-schema-antipattern-review"
+  ],
+  "Galera": [
+    "mariadb-replication-and-high-availability"
   ],
   "Go HTTP": [
     "auth0-go-api-authorization"
@@ -183,8 +324,32 @@
     "go-uber-dig-dependency-injection",
     "go-uber-fx-application-lifecycle"
   ],
+  "Google BigQuery": [
+    "bigquery-pipeline-audit"
+  ],
+  "Grafana Cloud": [
+    "grafana-database-observability"
+  ],
+  "Graph databases": [
+    "specialized-database-fit-audit"
+  ],
+  "GraphQL": [
+    "firebase-data-connect"
+  ],
   "HTML": [
     "huashu-design"
+  ],
+  "Hibernate": [
+    "relational-schema-antipattern-review"
+  ],
+  "HikariCP": [
+    "spring-boot-amazon-rds-integration"
+  ],
+  "InfluxDB": [
+    "amazon-timestream-for-influxdb-modeling"
+  ],
+  "InnoDB": [
+    "planetscale-mysql-engineering"
   ],
   "JPA": [
     "kotlin-jpa-entity-mapping"
@@ -192,12 +357,30 @@
   "Java MVC": [
     "auth0-java-mvc-authentication"
   ],
+  "Knex": [
+    "safe-sql-migrations"
+  ],
   "Kotlin": [
     "kotlin-jpa-entity-mapping"
   ],
+  "LangChain": [
+    "mariadb-vector-search"
+  ],
+  "LangChain4j": [
+    "qdrant-java-vector-store-integration",
+    "langchain4j-vector-store-configuration"
+  ],
   "Laravel": [
     "laravel-application-best-practices",
-    "auth0-laravel-api-authorization"
+    "auth0-laravel-api-authorization",
+    "mysql-and-mariadb-query-optimization",
+    "persistence-schema-review",
+    "laravel-raw-sql-writing",
+    "laravel-safe-migration",
+    "eloquent-models-and-queries"
+  ],
+  "Liquibase": [
+    "safe-sql-migrations"
   ],
   "Litestar": [
     "litestar-auth-guards",
@@ -216,13 +399,103 @@
     "litestar-settings",
     "litestar-testing"
   ],
+  "LlamaIndex": [
+    "mariadb-vector-search"
+  ],
+  "MariaDB": [
+    "mariadb-query-optimization",
+    "mariadb-replication-and-high-availability",
+    "mariadb-system-versioned-tables",
+    "mariadb-vector-search",
+    "mysql-to-mariadb-migration",
+    "oracle-to-mariadb-migration",
+    "mariadb-feature-engineering",
+    "mariadb-backup-to-object-storage",
+    "mysql-and-mariadb-query-optimization",
+    "laravel-raw-sql-writing"
+  ],
+  "Memcached": [
+    "amazon-elasticache-data-engineering"
+  ],
+  "Microsoft SQL Server": [
+    "read-only-sql-server-querying"
+  ],
+  "Milvus": [
+    "milvus-vector-database-engineering",
+    "langchain4j-vector-store-configuration"
+  ],
+  "MongoDB": [
+    "database-engine-selection-audit",
+    "database-multi-tenancy-isolation-audit",
+    "database-modeling-antipattern-audit",
+    "amazon-documentdb-engineering-toolkit",
+    "mongodb-connection-management",
+    "mongodb-read-only-query-generation",
+    "mongodb-query-optimization",
+    "mongodb-schema-design",
+    "prisma-mongodb-upgrade-path",
+    "langchain4j-vector-store-configuration"
+  ],
+  "MongoDB Atlas": [
+    "mongodb-search-and-ai"
+  ],
+  "MongoDB Atlas Stream Processing": [
+    "mongodb-atlas-stream-processing"
+  ],
+  "MoonBit": [
+    "sqlc-moonbit-generation-safety"
+  ],
+  "MySQL": [
+    "planetscale-mysql-engineering",
+    "planetscale-vitess-engineering",
+    "mysql-to-mariadb-migration",
+    "grafana-database-observability",
+    "keyset-pagination",
+    "sql-catalog-lint",
+    "sql-injection-source-scan",
+    "database-engine-selection-audit",
+    "database-key-design-audit",
+    "database-types-and-precision-audit",
+    "database-defaults-and-generated-columns-audit",
+    "database-temporal-history-audit",
+    "database-multi-tenancy-isolation-audit",
+    "database-security-and-access-audit",
+    "database-indexing-audit",
+    "database-index-hygiene-audit",
+    "database-query-pattern-audit",
+    "database-concurrency-audit",
+    "database-partitioning-and-sharding-audit",
+    "database-replicas-and-materialized-views-audit",
+    "database-migration-safety-audit",
+    "mysql-and-mariadb-query-optimization",
+    "laravel-raw-sql-writing",
+    "sql-explain-interpreter",
+    "read-only-mysql-querying"
+  ],
+  "Neo4j": [
+    "database-engine-selection-audit",
+    "neo4j-cypher-engineering",
+    "neo4j-graph-modeling",
+    "neo4j-query-tuning",
+    "neo4j-vector-index-engineering",
+    "neo4j-cypher-and-driver-migration",
+    "neo4j-database-security",
+    "langchain4j-vector-store-configuration"
+  ],
   "Neon": [
+    "vercel-storage",
     "neon-ai-gateway",
     "neon-functions",
-    "neon-object-storage"
+    "neon-object-storage",
+    "managed-database-platform-fit-audit",
+    "neon-postgresql-data-access-and-operations",
+    "neon-postgresql-branching",
+    "neon-postgresql-egress-optimization",
+    "neon-drizzle-data-access"
   ],
   "NestJS": [
-    "nestjs-development-standards"
+    "nestjs-development-standards",
+    "nestjs-drizzle-crud-generation"
   ],
   "Next.js": [
     "advanced-event-handler-refs",
@@ -356,7 +629,8 @@
     "fastify-serialization",
     "fastify-testing",
     "fastify-websockets",
-    "fastify-oauth-2-1-flows"
+    "fastify-oauth-2-1-flows",
+    "sqlite-vector-extension-integration"
   ],
   "Nuxt": [
     "nuxt-auth-utils",
@@ -368,18 +642,135 @@
     "github-web-design-reviewer",
     "create-adaptable-vue-composable"
   ],
+  "OpenSearch Serverless": [
+    "amazon-opensearch-service-engineering"
+  ],
   "OpenTelemetry": [
     "opentelemetry-instrumentation",
     "opentelemetry-semantic-conventions"
   ],
+  "Oracle Database": [
+    "oracle-to-mariadb-migration",
+    "oracle-to-postgresql-master-migration-plan",
+    "oracle-to-postgresql-migration-bug-report",
+    "oracle-baseline-integration-tests",
+    "migrate-net-oracle-data-access-to-postgresql",
+    "migrate-oracle-stored-procedures-to-postgresql",
+    "plan-oracle-to-postgresql-integration-testing",
+    "review-oracle-to-postgresql-migration",
+    "scaffold-oracle-migration-test-project"
+  ],
   "PHP": [
     "auth0-php-api-authorization"
+  ],
+  "PgBouncer": [
+    "troubleshoot-pgbouncer",
+    "database-connection-pool-audit",
+    "postgresql-with-drizzle"
+  ],
+  "Pinecone": [
+    "langchain4j-vector-store-configuration"
+  ],
+  "PlanetScale": [
+    "managed-database-platform-fit-audit"
   ],
   "Playwright": [
     "brumley-ui-ux-audit"
   ],
+  "PostGIS": [
+    "design-postgis-tables"
+  ],
+  "PostgreSQL": [
+    "supabase-postgres-best-practices",
+    "firebase-data-connect",
+    "planetscale-postgresql-engineering",
+    "yugabytedb-ysql-engineering",
+    "grafana-database-observability",
+    "troubleshoot-pgbouncer",
+    "pgvector-semantic-search",
+    "postgresql-hybrid-text-search",
+    "timescaledb-hypertable-setup",
+    "find-timescaledb-hypertable-candidates",
+    "design-postgis-tables",
+    "postgresql-query-plan-analysis",
+    "keyset-pagination",
+    "database-queues-and-outbox",
+    "sql-catalog-lint",
+    "sql-injection-source-scan",
+    "postgresql-row-level-security-audit",
+    "create-a-read-only-postgresql-role",
+    "database-engine-selection-audit",
+    "database-key-design-audit",
+    "database-types-and-precision-audit",
+    "database-defaults-and-generated-columns-audit",
+    "database-temporal-history-audit",
+    "database-multi-tenancy-isolation-audit",
+    "database-security-and-access-audit",
+    "database-indexing-audit",
+    "database-index-hygiene-audit",
+    "database-query-pattern-audit",
+    "database-concurrency-audit",
+    "database-connection-pool-audit",
+    "database-partitioning-and-sharding-audit",
+    "database-replicas-and-materialized-views-audit",
+    "database-storage-and-bloat-audit",
+    "database-migration-safety-audit",
+    "aurora-dsql-safe-data-engineering",
+    "neon-postgresql-data-access-and-operations",
+    "neon-postgresql-branching",
+    "neon-postgresql-egress-optimization",
+    "neon-postgresql-best-practices",
+    "postgresql-with-drizzle",
+    "oracle-to-postgresql-master-migration-plan",
+    "oracle-to-postgresql-migration-bug-report",
+    "migrate-net-oracle-data-access-to-postgresql",
+    "migrate-oracle-stored-procedures-to-postgresql",
+    "plan-oracle-to-postgresql-integration-testing",
+    "review-oracle-to-postgresql-migration",
+    "sql-explain-interpreter",
+    "read-only-postgresql-querying"
+  ],
+  "Prisma": [
+    "neon-postgresql-data-access-and-operations",
+    "mysql-and-mariadb-query-optimization",
+    "persistence-schema-review",
+    "safe-sql-migrations",
+    "relational-schema-antipattern-review"
+  ],
+  "Prisma ORM": [
+    "prisma-client-api",
+    "prisma-database-setup",
+    "prisma-cli-database-workflows",
+    "prisma-postgres",
+    "prisma-upgrade-v6-to-v7",
+    "prisma-sql-driver-adapter-implementation",
+    "prisma-mongodb-upgrade-path"
+  ],
+  "Prisma Postgres": [
+    "prisma-postgres"
+  ],
+  "Qdrant": [
+    "qdrant-model-migration",
+    "qdrant-multi-tenancy",
+    "qdrant-indexing-performance-optimization",
+    "qdrant-memory-usage-optimization",
+    "qdrant-search-speed-optimization",
+    "qdrant-search-quality-diagnosis",
+    "qdrant-hybrid-search-fusion",
+    "qdrant-hybrid-search-prefetch-design",
+    "qdrant-relevance-feedback",
+    "qdrant-horizontal-scaling",
+    "qdrant-sliding-time-window-retention",
+    "qdrant-capacity-sizing",
+    "qdrant-version-upgrade",
+    "qdrant-java-vector-store-integration"
+  ],
   "Radix UI": [
     "nextlevel-ui-styling"
+  ],
+  "Rails": [
+    "mysql-and-mariadb-query-optimization",
+    "safe-sql-migrations"
   ],
   "React": [
     "advanced-event-handler-refs",
@@ -493,7 +884,21 @@
     "redis-observability",
     "redis-search",
     "redis-security",
-    "redis-semantic-cache"
+    "redis-semantic-cache",
+    "database-engine-selection-audit",
+    "database-modeling-antipattern-audit",
+    "amazon-elasticache-data-engineering",
+    "redis-core-data-modeling",
+    "upstash-redis-javascript-data-access"
+  ],
+  "Relational databases": [
+    "database-normalization-audit",
+    "referential-integrity-audit",
+    "database-constraint-audit",
+    "database-naming-audit",
+    "database-modeling-antipattern-audit",
+    "database-seed-data-design",
+    "sql-to-er-diagram-workflow"
   ],
   "Remix": [
     "auth0-remix"
@@ -518,6 +923,27 @@
     "spree-resource",
     "spree-security",
     "spree-testing"
+  ],
+  "SQL Server": [
+    "database-defaults-and-generated-columns-audit",
+    "database-temporal-history-audit",
+    "database-security-and-access-audit",
+    "database-concurrency-audit",
+    "database-migration-safety-audit"
+  ],
+  "SQLAlchemy": [
+    "relational-schema-antipattern-review"
+  ],
+  "SQLite": [
+    "turso-database-engineering",
+    "sqlite-and-d1-plan-audit",
+    "sqlite-and-d1-schema-audit",
+    "sql-catalog-lint",
+    "sql-injection-source-scan",
+    "sqlite-vector-extension-integration",
+    "database-key-design-audit",
+    "database-types-and-precision-audit",
+    "database-query-pattern-audit"
   ],
   "Salvo": [
     "salvo-auth",
@@ -548,6 +974,13 @@
     "salvo-tls-acme",
     "salvo-websocket"
   ],
+  "Sequelize": [
+    "safe-sql-migrations",
+    "relational-schema-antipattern-review"
+  ],
+  "Snowflake": [
+    "snowflake-semantic-views"
+  ],
   "Solid": [
     "tanstack-router-search-params",
     "tanstack-router-path-params",
@@ -569,6 +1002,10 @@
     "spree-security",
     "spree-testing"
   ],
+  "Spring AI": [
+    "mariadb-vector-search",
+    "spring-data-neo4j"
+  ],
   "Spring Boot": [
     "create-spring-boot-java-project",
     "create-spring-boot-kotlin-project",
@@ -586,13 +1023,37 @@
     "spring-boot-security-jwt",
     "spring-boot-test-patterns",
     "spring-data-jpa",
-    "auth0-spring-boot-api-authorization"
+    "auth0-spring-boot-api-authorization",
+    "spring-data-neo4j",
+    "aws-sdk-java-dynamodb-data-access",
+    "spring-boot-amazon-rds-integration"
+  ],
+  "Spring Data Neo4j": [
+    "spring-data-neo4j"
+  ],
+  "StarRocks": [
+    "starrocks-replica-balance-diagnosis",
+    "starrocks-compaction-diagnosis",
+    "starrocks-high-concurrency-tuning",
+    "starrocks-import-diagnosis",
+    "starrocks-materialized-view-diagnosis",
+    "starrocks-node-health-diagnosis",
+    "starrocks-query-diagnosis",
+    "starrocks-resource-isolation",
+    "starrocks-shared-data-diagnosis",
+    "starrocks-tablet-diagnosis"
   ],
   "Stripe": [
     "stripe-connect-kyc-requirements",
     "stripe-apps",
     "stripe-best-practices",
     "stripe-api-and-sdk-upgrade"
+  ],
+  "Supabase": [
+    "supabase-postgres-best-practices",
+    "postgresql-row-level-security-audit",
+    "create-a-read-only-postgresql-role",
+    "managed-database-platform-fit-audit"
   ],
   "Svelte": [
     "svelte-5-best-practices",
@@ -617,6 +1078,13 @@
     "mblode-ui-design",
     "nextlevel-ui-styling"
   ],
+  "Time-series databases": [
+    "specialized-database-fit-audit"
+  ],
+  "TimescaleDB": [
+    "timescaledb-hypertable-setup",
+    "find-timescaledb-hypertable-candidates"
+  ],
   "Trigger.dev": [
     "trigger-authoring-chat-agent",
     "trigger-chat-agent-advanced",
@@ -624,6 +1092,18 @@
     "trigger-realtime",
     "trigger-setup",
     "trigger-tasks"
+  ],
+  "Turso": [
+    "turso-database-engineering",
+    "managed-database-platform-fit-audit"
+  ],
+  "TypeORM": [
+    "safe-sql-migrations",
+    "relational-schema-antipattern-review"
+  ],
+  "Upstash Redis": [
+    "vercel-storage",
+    "upstash-redis-javascript-data-access"
   ],
   "VTEX IO": [
     "headless-bff-architecture",
@@ -634,6 +1114,18 @@
     "payment-idempotency",
     "vtex-io-events-and-workers",
     "vtex-io-observability-and-operations"
+  ],
+  "Valkey": [
+    "amazon-elasticache-data-engineering"
+  ],
+  "Vector databases": [
+    "specialized-database-fit-audit"
+  ],
+  "Vercel": [
+    "vercel-storage"
+  ],
+  "Vitess": [
+    "planetscale-vitess-engineering"
   ],
   "Vue": [
     "vue-best-practices",
@@ -660,7 +1152,31 @@
   "WebGL": [
     "mengto-webgl-landing-steering"
   ],
+  "YugabyteDB": [
+    "yugabytedb-ysql-engineering"
+  ],
+  "Zod": [
+    "nestjs-drizzle-crud-generation"
+  ],
+  "libSQL": [
+    "turso-database-engineering"
+  ],
+  "pgvector": [
+    "pgvector-semantic-search",
+    "postgresql-hybrid-text-search",
+    "langchain4j-vector-store-configuration"
+  ],
   "shadcn/ui": [
     "nextlevel-ui-styling"
+  ],
+  "sqlc": [
+    "sqlc-moonbit-generation-safety"
+  ],
+  "sqlite-vec": [
+    "sqlite-vector-extension-integration"
+  ],
+  "xUnit": [
+    "oracle-baseline-integration-tests",
+    "scaffold-oracle-migration-test-project"
   ]
 }

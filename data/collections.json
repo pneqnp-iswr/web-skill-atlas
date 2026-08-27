@@ -79,5 +79,77 @@
     "status": "verified",
     "checked_at": "2026-08-27",
     "notes": "Official Cloudflare skill collection; backend and application-security procedures were inspected directly."
+  },
+  {
+    "name": "PlanetScale Database Skills",
+    "url": "https://github.com/planetscale/database-skills",
+    "platform": "GitHub collection",
+    "author": "PlanetScale",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Official MySQL, PostgreSQL, and Vitess engineering collection; canonical leaves inspected."
+  },
+  {
+    "name": "MariaDB Skills",
+    "url": "https://github.com/MariaDB/skills",
+    "platform": "GitHub collection",
+    "author": "MariaDB",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Official MariaDB query, replication, temporal, vector, feature, and migration skills; canonical leaves inspected."
+  },
+  {
+    "name": "MongoDB Agent Skills",
+    "url": "https://github.com/mongodb/agent-skills",
+    "platform": "GitHub collection",
+    "author": "MongoDB",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Official MongoDB connection, query, optimization, schema, search, and stream-processing collection; adapter copies deduplicated."
+  },
+  {
+    "name": "Qdrant Skills",
+    "url": "https://github.com/qdrant/skills",
+    "platform": "GitHub collection",
+    "author": "Qdrant",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Official Qdrant skill hierarchy; canonical leaf workflows retained and routers/downstream copies rejected."
+  },
+  {
+    "name": "Neo4j Contrib Skills",
+    "url": "https://github.com/neo4j-contrib/neo4j-skills",
+    "platform": "GitHub collection",
+    "author": "Neo4j Contrib",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Maintainer ecosystem collection for Cypher, modeling, tuning, vectors, migrations, security, and Spring Data Neo4j."
+  },
+  {
+    "name": "TigerData Postgres AI Guide",
+    "url": "https://github.com/timescale/pg-aiguide",
+    "platform": "GitHub collection",
+    "author": "TigerData / Timescale",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "PostGIS, pgvector, hybrid search, and TimescaleDB leaves inspected; inaccurate migration leaves rejected."
+  },
+  {
+    "name": "StarRocks Debug Skills",
+    "url": "https://github.com/StarRocks/starrocks-debug-skills",
+    "platform": "GitHub collection",
+    "author": "StarRocks",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Official database diagnostics for queries, tablets, compaction, ingestion, replicas, views, and shared-data deployments."
+  },
+  {
+    "name": "Hologres AI Plugins",
+    "url": "https://github.com/aliyun/hologres-ai-plugins",
+    "platform": "GitHub collection",
+    "author": "Alibaba Cloud Hologres",
+    "status": "verified",
+    "checked_at": "2026-08-27",
+    "notes": "Official multilingual Hologres database diagnosis, schema, privilege, search, and optimization skills."
   }
 ]

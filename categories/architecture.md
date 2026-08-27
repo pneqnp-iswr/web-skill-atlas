@@ -1,6 +1,6 @@
 # Architecture
 
-38 indexed skills. [Back to the atlas](../README.md#categories).
+42 indexed skills. [Back to the atlas](../README.md#categories).
 
 | Skill | Subcategory | Status | Score | Source |
 |---|---|---|---:|---|
@@ -23,8 +23,10 @@
 | [Effector Feature-Sliced Design](https://github.com/demark-pro/skills/blob/master/skills/effector-fsd/SKILL.md) | Frontend Architecture | verified | 87 | GitHub |
 | [Distributed Systems Idempotency](https://github.com/triggerdotdev/staff-engineering-skills/blob/main/skills/staff-engineering-skills-idempotency/SKILL.md) | Idempotency | verified | 92 | GitHub |
 | [Payment Idempotency](https://github.com/vtex/skills/blob/main/skills/payment-idempotency/SKILL.md) | Idempotency | verified | 86 | GitHub |
+| [Managed Database Platform Fit Audit](https://github.com/Hainrixz/claude-db/blob/main/skills/db-platform-fit/SKILL.md) | Managed Databases | verified | 81 | GitHub |
 | [Microfrontends](https://github.com/vercel/vercel-plugin/tree/main/skills/microfrontends) | Microfrontends | verified | 85 | GitHub |
 | [Next Forge](https://github.com/vercel/vercel-plugin/tree/main/skills/next-forge) | Next.js Architecture | verified | 85 | GitHub |
+| [Database Partitioning and Sharding Audit](https://github.com/Hainrixz/claude-db/blob/main/skills/db-partitioning-sharding/SKILL.md) | Partitioning & Sharding | verified | 88 | GitHub |
 | [Distributed Systems Hot Partitions](https://github.com/triggerdotdev/staff-engineering-skills/blob/main/skills/staff-engineering-skills-hot-partitions/SKILL.md) | Partitioning & Sharding | verified | 90 | GitHub |
 | [Distributed Systems Sharding](https://github.com/triggerdotdev/staff-engineering-skills/blob/main/skills/staff-engineering-skills-sharding/SKILL.md) | Partitioning & Sharding | verified | 90 | GitHub |
 | [Bootstrap](https://github.com/vercel/vercel-plugin/tree/main/skills/bootstrap) | Project Bootstrap | verified | 85 | GitHub |
@@ -36,10 +38,12 @@
 | [Next.js Rsc Boundaries](https://github.com/vercel/vercel-plugin/blob/main/skills/nextjs/references/rsc-boundaries.md) | Server Components | verified | 84 | GitHub |
 | [React State Management](https://github.com/wshobson/agents) | State Management | partially-verified | 74 | GitHub |
 | [Cloudflare Durable Objects](https://github.com/cloudflare/skills/blob/main/skills/durable-objects/SKILL.md) | Stateful Serverless | verified | 91 | GitHub |
+| [Database Engine Selection Audit](https://github.com/Hainrixz/claude-db/blob/main/skills/db-engine-selection/SKILL.md) | Storage Selection | verified | 84 | GitHub |
 | [TypeScript Project Setup Reference](https://github.com/microsoft/typescript) | TypeScript | partially-verified | 74 | GitHub |
 | [AWS Lambda Durable Functions](https://github.com/aws/agent-toolkit-for-aws/blob/main/skills/specialized-skills/serverless-skills/aws-lambda-durable-functions/SKILL.md) | Workflow Orchestration | verified | 93 | GitHub |
 | [AWS Step Functions](https://github.com/aws/agent-toolkit-for-aws/blob/main/skills/specialized-skills/serverless-skills/aws-step-functions/SKILL.md) | Workflow Orchestration | verified | 91 | GitHub |
 | [Azure Durable Functions for C#](https://github.com/github/awesome-copilot/blob/main/instructions/azure-durable-functions-csharp.instructions.md) | Workflow Orchestration | verified | 88 | GitHub |
+| [Multi-Deploy Migration Architecture](https://github.com/event4u-app/agent-config/blob/main/src/skills/migration-architect/SKILL.md) | Workflow Orchestration | verified | 91 | GitHub |
 | [Render Workflows](https://github.com/render-oss/skills/blob/main/skills/render-workflows/SKILL.md) | Workflow Orchestration | verified | 85 | GitHub |
 | [Spring Boot Saga Pattern](https://github.com/giuseppe-trisciuoglio/developer-kit/blob/main/plugins/developer-kit-java/skills/spring-boot-saga-pattern/SKILL.md) | Workflow Orchestration | verified | 84 | GitHub |
 

@@ -523,15 +523,16 @@
   {
     "url": "https://github.com/prisma/skills",
     "platform": "GitHub",
-    "author": "prisma",
+    "author": "Prisma",
     "discovered_at": "2026-08-27",
     "last_checked": "2026-08-27",
     "status": "checked",
-    "skills_discovered": 5,
+    "skills_discovered": 7,
     "discovered_via": [
-      "canonical URL correction",
-      "repository tree inspection"
-    ]
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "808913c1dac11dc425631c2454f7fcb2d5ade5ca"
   },
   {
     "url": "https://github.com/remix-run/react-router",
@@ -591,19 +592,6 @@
     "skills_discovered": 4,
     "discovered_via": [
       "finfin/awesome-frontend-skills"
-    ]
-  },
-  {
-    "url": "https://github.com/supabase/agent-skills/tree/main/skills/supabase-postgres-best-practices",
-    "platform": "GitHub",
-    "author": "supabase",
-    "discovered_at": "2026-08-27",
-    "last_checked": "2026-08-27",
-    "status": "checked",
-    "skills_discovered": 1,
-    "discovered_via": [
-      "official GitHub",
-      "skills.sh"
     ]
   },
   {
@@ -2078,10 +2066,12 @@
     "discovered_at": "2026-08-27",
     "last_checked": "2026-08-27",
     "status": "checked",
-    "skills_discovered": 1,
+    "skills_discovered": 5,
     "discovered_via": [
-      "finfin/awesome-frontend-skills"
-    ]
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "8ef49c96675f760dd5569c0588c1abb04cd989dd"
   },
   {
     "url": "https://github.com/wshobson/agents",
@@ -2341,16 +2331,16 @@
   {
     "url": "https://github.com/github/awesome-copilot",
     "platform": "GitHub",
-    "author": "github",
+    "author": "GitHub community",
     "discovered_at": "2026-08-27",
     "last_checked": "2026-08-27",
     "status": "checked",
-    "skills_discovered": 11,
+    "skills_discovered": 26,
     "discovered_via": [
-      "official GitHub collection",
-      "framework gap search",
-      "repository tree inspection"
-    ]
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "634b92f887487fc61cddc2f61d77830e09e8f589"
   },
   {
     "url": "https://github.com/ehmo/platform-design-skills",
@@ -2529,15 +2519,16 @@
   {
     "url": "https://github.com/aws/agent-toolkit-for-aws",
     "platform": "GitHub",
-    "author": "aws",
+    "author": "AWS",
     "discovered_at": "2026-08-27",
     "last_checked": "2026-08-27",
     "status": "checked",
-    "skills_discovered": 7,
+    "skills_discovered": 17,
     "discovered_via": [
-      "official cloud organization",
-      "serverless and resilience gap search"
-    ]
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "53a736826aa511004609478b03a9d00e11ee4991"
   },
   {
     "url": "https://github.com/clerk/skills",
@@ -2632,28 +2623,30 @@
   {
     "url": "https://github.com/firebase/agent-skills",
     "platform": "GitHub",
-    "author": "firebase",
+    "author": "Firebase",
     "discovered_at": "2026-08-27",
     "last_checked": "2026-08-27",
     "status": "checked",
-    "skills_discovered": 4,
+    "skills_discovered": 5,
     "discovered_via": [
-      "official platform repository",
-      "backend auth and functions search"
-    ]
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "a0b4e143f40c1ebe05fe5f9a4787fecd4da8f478"
   },
   {
     "url": "https://github.com/giuseppe-trisciuoglio/developer-kit",
     "platform": "GitHub",
-    "author": "giuseppe-trisciuoglio",
+    "author": "Giuseppe Trisciuoglio",
     "discovered_at": "2026-08-27",
     "last_checked": "2026-08-27",
     "status": "checked",
-    "skills_discovered": 12,
+    "skills_discovered": 19,
     "discovered_via": [
-      "Spring Boot gap search",
-      "repository tree inspection"
-    ]
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "50f0b945bd81ee1dac377f609871e63b732347fa"
   },
   {
     "url": "https://github.com/hookdeck/webhook-skills",
@@ -2749,28 +2742,30 @@
   {
     "url": "https://github.com/neondatabase/agent-skills",
     "platform": "GitHub",
-    "author": "neondatabase",
-    "discovered_at": "2026-08-27",
-    "last_checked": "2026-08-27",
-    "status": "checked",
-    "skills_discovered": 3,
-    "discovered_via": [
-      "official database platform repository",
-      "serverless backend search"
-    ]
-  },
-  {
-    "url": "https://github.com/redis/agent-skills",
-    "platform": "GitHub",
-    "author": "redis",
+    "author": "Neon",
     "discovered_at": "2026-08-27",
     "last_checked": "2026-08-27",
     "status": "checked",
     "skills_discovered": 6,
     "discovered_via": [
-      "official database organization",
-      "cache and connection search"
-    ]
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "46498bcde91c2d293bfe5e23614594991e46211e"
+  },
+  {
+    "url": "https://github.com/redis/agent-skills",
+    "platform": "GitHub",
+    "author": "Redis",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 7,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "172fb9effa139cd7432ac29a9ee81c45943e5a28"
   },
   {
     "url": "https://github.com/render-oss/skills",
@@ -2868,15 +2863,16 @@
   {
     "url": "https://github.com/vercel/vercel-plugin",
     "platform": "GitHub",
-    "author": "vercel",
+    "author": "Vercel",
     "discovered_at": "2026-08-27",
     "last_checked": "2026-08-27",
     "status": "checked",
-    "skills_discovered": 5,
+    "skills_discovered": 90,
     "discovered_via": [
-      "canonical URL correction",
-      "repository tree inspection"
-    ]
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "c4a1c4e2e16feefb1d9f2ad2a4a451abd0ae91c6"
   },
   {
     "url": "https://github.com/vintasoftware/django-ai-plugins",
@@ -2903,5 +2899,425 @@
       "official commerce organization",
       "idempotency and backend-worker search"
     ]
+  },
+  {
+    "url": "https://github.com/aliyun/hologres-ai-plugins",
+    "platform": "GitHub",
+    "author": "Alibaba Cloud Hologres",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 10,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "b635e6afb091b342a3f7a05692acfba339d9086a"
+  },
+  {
+    "url": "https://github.com/auralshin/coding-skills",
+    "platform": "GitHub",
+    "author": "auralshin",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 3,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "35766f5523b532a7d4dbfaa951fd74451abda7f0"
+  },
+  {
+    "url": "https://github.com/capcom6/mariadb-backup-s3",
+    "platform": "GitHub",
+    "author": "Aleksandr Soloshenko",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "aededbc352fb4f324fdbd36fcb5f562453d4b80d"
+  },
+  {
+    "url": "https://github.com/ccheney/robust-skills",
+    "platform": "GitHub",
+    "author": "ccheney",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "23df06465a698aa4571da041da21fd4c5f58e618"
+  },
+  {
+    "url": "https://github.com/davidondrej/skills",
+    "platform": "GitHub",
+    "author": "David Ondrej",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "3fd9bf6e1365389fa8f6c6844b614eac6a85c31e"
+  },
+  {
+    "url": "https://github.com/event4u-app/agent-config",
+    "platform": "GitHub",
+    "author": "event4u-app",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 6,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "460b6200786e8c544a53416631b34d78ab730667"
+  },
+  {
+    "url": "https://github.com/getsentry/skills",
+    "platform": "GitHub",
+    "author": "Sentry",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "c2f99a5b04b4cd992ec3022d7c2c3e23e938d241"
+  },
+  {
+    "url": "https://github.com/grafana/skills",
+    "platform": "GitHub",
+    "author": "Grafana",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "51d33e71e191b409bbd25fc7be2684c610d18166"
+  },
+  {
+    "url": "https://github.com/Hainrixz/claude-db",
+    "platform": "GitHub",
+    "author": "Enrique Rocha",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 24,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "b50e44f131f00215aa14c4cd20d9506cefba65d6"
+  },
+  {
+    "url": "https://github.com/MariaDB/skills",
+    "platform": "GitHub",
+    "author": "MariaDB",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 7,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "86623494f8051e766c973d35c1f07368c3b4c267"
+  },
+  {
+    "url": "https://github.com/mizchi/skills",
+    "platform": "GitHub",
+    "author": "mizchi",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 6,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "7a0d72866a0bb3e9ac3e2768c328b09ba2bc40c4"
+  },
+  {
+    "url": "https://github.com/mongodb/agent-skills",
+    "platform": "GitHub",
+    "author": "MongoDB",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 6,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "6ebabd86ebdbe85f37082e9a7d37e18ebf6ebba0"
+  },
+  {
+    "url": "https://github.com/neo4j-contrib/neo4j-skills",
+    "platform": "GitHub",
+    "author": "Neo4j Contrib",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 7,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "a9a5e783c506bcb17e7f415f24685b4f0df04069"
+  },
+  {
+    "url": "https://github.com/neondatabase/ai-rules",
+    "platform": "GitHub",
+    "author": "Neon",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "1ceaf89a4e0acfbaf152ac2e85d45afd55f49c0f"
+  },
+  {
+    "url": "https://github.com/neondatabase/postgres-skills",
+    "platform": "GitHub",
+    "author": "Neon",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "27fe45e0f71ea89a6eaf9ea4d2e4068957c81c26"
+  },
+  {
+    "url": "https://github.com/netdata/skills",
+    "platform": "GitHub",
+    "author": "Netdata",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "ae650fc3766642f14e29892ab4fed607ac29d263"
+  },
+  {
+    "url": "https://github.com/planetscale/database-skills",
+    "platform": "GitHub",
+    "author": "PlanetScale",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 3,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "af0ce0cfb65cca4cc21d18ca0d9cf270ca99d488"
+  },
+  {
+    "url": "https://github.com/qdrant/skills",
+    "platform": "GitHub",
+    "author": "Qdrant",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 13,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "bcca2c2da1c00992038e83038e01791d468f943d"
+  },
+  {
+    "url": "https://github.com/raunakjhawar/skills-for-postgres",
+    "platform": "GitHub",
+    "author": "raunakjhawar",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "29d5e5c02ecb6d31f2e53a4556b09559b95da56e"
+  },
+  {
+    "url": "https://github.com/sanjay3290/ai-skills",
+    "platform": "GitHub",
+    "author": "sanjay3290",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 3,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "361969210b1002034be70de60a041a25732b098a"
+  },
+  {
+    "url": "https://github.com/sigistry/marketplace",
+    "platform": "GitHub",
+    "author": "sigistry",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 3,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "571bc2f550d72ae4a1fd5201710c5e7cccb66b2d"
+  },
+  {
+    "url": "https://github.com/StarRocks/starrocks-debug-skills",
+    "platform": "GitHub",
+    "author": "StarRocks",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 10,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "6237680f6798e2d6c90b94f4b5ba15e3f469cd93"
+  },
+  {
+    "url": "https://github.com/supabase/agent-skills",
+    "platform": "GitHub",
+    "author": "Supabase",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "8331f910845103c08d51f6ca1d86ebb7d1f745e3"
+  },
+  {
+    "url": "https://github.com/timescale/pg-aiguide",
+    "platform": "GitHub",
+    "author": "TigerData / Timescale",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 5,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "b4f11a45907af3abda0f79e784aff9a6d5eef468"
+  },
+  {
+    "url": "https://github.com/TroyKelly/claude-skills",
+    "platform": "GitHub",
+    "author": "Troy Kelly",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "38a2ecc528a0289b1027d31c96ea171811bb993c"
+  },
+  {
+    "url": "https://github.com/TursoDatabase/agent-skills",
+    "platform": "GitHub",
+    "author": "Turso",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "34ced52fd1bd32e802622126e299cfa886d68441"
+  },
+  {
+    "url": "https://github.com/upstash/redis-js",
+    "platform": "GitHub",
+    "author": "Upstash",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "1bec5669e36efbe88579c267f9dd287a4c63572a"
+  },
+  {
+    "url": "https://github.com/ystemsrx/sql_to_ER",
+    "platform": "GitHub",
+    "author": "ystemsrx",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "92bd4478f83dab1b02a99dfd6cf6bea8a98ef1aa"
+  },
+  {
+    "url": "https://github.com/yugabyte/yugabytedb-skills",
+    "platform": "GitHub",
+    "author": "YugabyteDB",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "72e1c4e4a514835ab49bf6d6f8498faed06cc6c4"
+  },
+  {
+    "url": "https://github.com/zilliztech/milvus-skill",
+    "platform": "GitHub",
+    "author": "Zilliz",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "database deep-research pass",
+      "canonical repository inspection"
+    ],
+    "source_revision": "7553e6c2b5940aef0f4a1aacc40d956745af0ac5"
   }
 ]

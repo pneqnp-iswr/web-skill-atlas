@@ -1,6 +1,6 @@
 # Security
 
-62 indexed skills. [Back to the atlas](../README.md#categories).
+68 indexed skills. [Back to the atlas](../README.md#categories).
 
 | Skill | Subcategory | Status | Score | Source |
 |---|---|---|---:|---|
@@ -58,11 +58,17 @@
 | [Clerk Next.js Patterns](https://github.com/clerk/skills/blob/main/skills/frameworks/clerk-nextjs-patterns/SKILL.md) | Clerk | verified | 84 | GitHub |
 | [Clerk Organizations](https://github.com/clerk/skills/blob/main/skills/features/clerk-orgs/SKILL.md) | Clerk | verified | 84 | GitHub |
 | [Clerk Setup](https://github.com/clerk/skills/blob/main/skills/core/clerk-setup/SKILL.md) | Clerk | verified | 84 | GitHub |
+| [Create a Read-Only PostgreSQL Role](https://github.com/davidondrej/skills/blob/main/skills/ops-and-setup/create-readonly-db-role/SKILL.md) | Database Access | verified | 83 | GitHub |
+| [Convex Database Security Audit](https://github.com/waynesutton/convexskills/blob/main/skills/convex-security-audit/SKILL.md) | Database Security | verified | 88 | GitHub |
+| [Database Security and Access Audit](https://github.com/Hainrixz/claude-db/blob/main/skills/db-security-access/SKILL.md) | Database Security | verified | 91 | GitHub |
 | [Web Security Header Review](https://owasp.org/www-project-secure-headers/) | Headers | verified | 82 | Web |
 | [Stripe Connect KYC Requirements](https://github.com/stripe/ai/blob/main/skills/connect-required-verification-information/SKILL.md) | Identity Verification | verified | 91 | GitHub |
+| [Database Multi-Tenancy Isolation Audit](https://github.com/Hainrixz/claude-db/blob/main/skills/db-multitenancy/SKILL.md) | Multi-tenancy | verified | 91 | GitHub |
 | [Nuxt Auth Utils](https://github.com/nuxt-content/nuxt-skills) | Nuxt Auth | partially-verified | 74 | GitHub |
 | [Marketplace Rate Limiting](https://github.com/vtex/skills/blob/main/skills/marketplace-rate-limiting/SKILL.md) | Rate Limiting | verified | 84 | GitHub |
 | [Salvo Rate Limiter](https://github.com/salvo-rs/salvo-skills/blob/main/salvo-rate-limiter/SKILL.md) | Rate Limiting | verified | 84 | GitHub |
+| [PostgreSQL Row-Level Security Audit](https://github.com/TroyKelly/claude-skills/blob/main/skills/postgres-rls/SKILL.md) | Row-Level Security | verified | 88 | GitHub |
+| [SQL Injection Source Scan](https://github.com/mizchi/skills/blob/main/sql/security/SKILL.md) | SQL Injection | verified | 82 | GitHub |
 | [Salvo TLS Acme](https://github.com/salvo-rs/salvo-skills/blob/main/salvo-tls-acme/SKILL.md) | TLS & Certificates | verified | 84 | GitHub |
 | [Auth0 Token Handling and Rotation](https://github.com/auth0/agent-skills/blob/main/plugins/auth0/skills/auth0/references/pattern-token-handling/index.md) | Token Lifecycle | verified | 87 | GitHub |
 | [Vercel Firewall](https://github.com/vercel/vercel-plugin/tree/main/skills/vercel-firewall) | Web Firewall | verified | 85 | GitHub |
