@@ -3,7 +3,7 @@
 Priority is categories with low verified coverage and ecosystems represented mainly through discovery indexes.
 
 - E-commerce: 0 entries
-- Git / GitHub: 1 entries
+- Git / GitHub: 1 entry
 - Analytics: 2 entries
 - Code Quality: 2 entries
 - Internationalization: 2 entries
@@ -15,4 +15,10 @@ Priority is categories with low verified coverage and ecosystems represented mai
 - Content: 4 entries
 - AI Web Development: 5 entries
 
-Next passes should target WCAG subskills, GraphQL/tRPC/webhooks, backend frameworks, technical SEO long-tail, Git/GitHub workflows, i18n/RTL, PWA, e-commerce, deployment, and non-React framework-specific guidance.
+## Design long-tail
+
+Design now has broad coverage across UI/UX, product design, design systems, responsive design, typography, motion, accessibility, Figma workflows, landing pages, dashboards, visual QA, and anti-generic-interface review.
+
+The weakest design areas are standalone procedures for narrow component and state problems: advanced data-table UX, checkout flow audits, form micro-UX, navigation variants, border/radius/elevation consistency, empty/loading/error states, and highly specific spacing or density audits. These should be targeted in later gap-driven passes instead of inventing entries from general design guidance.
+
+Next non-design passes should target e-commerce, Git/GitHub workflows, i18n/RTL, PWA, backend/API coverage, deployment, and additional framework-specific guidance.

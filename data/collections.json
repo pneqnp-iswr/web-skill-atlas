@@ -34,5 +34,14 @@
     "status": "verified",
     "checked_at": "2026-08-27",
     "notes": "Reference workflow tree inspected directly."
+  },
+  {
+    "name": "Awesome Design Skills / TypeUI",
+    "url": "https://github.com/bergside/awesome-design-skills",
+    "platform": "GitHub collection",
+    "author": "Bergside / TypeUI",
+    "status": "researched",
+    "checked_at": "2026-08-27",
+    "notes": "Registry of 67 directly addressable design-system SKILL.md files. Individual records point to their direct upstream files; representative bodies were inspected and the remaining entries are conservatively partially verified."
   }
 ]

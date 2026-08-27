@@ -13,3 +13,15 @@
 - YouTube/Shorts: searchable public results can be used for discovery, but comments/transcripts cannot be exhaustively enumerated in this environment.
 
 Research is not saturated. The dataset is designed to expand through repeated gap-focused passes rather than blind imports.
+
+## 2026-08-27 — design deep-research pass
+
+- Scope: design only. No backend, infrastructure, or generic framework material was added in this pass.
+- Discovery waves: skills.sh, GitHub repository/code search, curated registries, design-specific repositories, community discovery, multilingual search, and gap-driven long-tail queries.
+- Multilingual queries were run in English, Chinese, Japanese, Korean, Russian, Spanish, Portuguese, French, and German.
+- Canonicalization rule: direct upstream skill files are preferred. Mirrors and curated lists are retained only as discovery trails.
+- Strong additions include direct UI/product design workflows, typography and motion audits, Figma design-system skills, browser-based visual QA, dashboard design, pricing/landing-page design, accessibility rules, design-system extraction, and anti-generic-interface review.
+- `bergside/awesome-design-skills` publishes 67 directly addressable design-system skill folders. Representative skill bodies and the registry structure were inspected; the remaining registry entries stay `partially-verified` rather than being promoted without per-file review.
+- One collection label attributed to `wshobson/agents` did not resolve to a matching upstream skill and was rejected. The repository's actual design skills are indexed separately by their direct files.
+- TikTok cannot be exhaustively crawled in this environment because of robots/indexing restrictions. Instagram and X public indexing is incomplete. YouTube/Shorts and community sources were used only for discovery, never as canonical evidence when an upstream skill existed.
+- Saturation improved substantially for general UI/UX, visual systems, responsive design, motion, accessibility, landing pages, Figma workflows, audits, and anti-generic UI. Long-tail standalone skills for tables, checkout, form micro-UX, borders/radius, and narrow state-specific audits remain comparatively sparse.

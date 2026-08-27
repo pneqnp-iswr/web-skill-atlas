@@ -10,6 +10,83 @@
   "access-protected-vercel-deployment": [
     "access-protected-vercel-deployment"
   ],
+  "accessibility": [
+    "web-design-guidelines",
+    "brumley-ui-ux-audit",
+    "wshobson-web-component-design",
+    "wshobson-accessibility-compliance",
+    "material-design-3-ui",
+    "github-web-design-reviewer",
+    "uxcraft",
+    "typeui-agentic",
+    "typeui-ant",
+    "typeui-roku",
+    "typeui-artistic",
+    "typeui-bento",
+    "typeui-bold",
+    "typeui-brutalism",
+    "typeui-cafe",
+    "typeui-claymorphism",
+    "typeui-claude",
+    "typeui-clean",
+    "typeui-codex",
+    "typeui-colorful",
+    "typeui-contemporary",
+    "typeui-corporate",
+    "typeui-cosmic",
+    "typeui-creative",
+    "typeui-enterprise",
+    "typeui-dithered",
+    "typeui-doodle",
+    "typeui-dramatic",
+    "typeui-editorial",
+    "typeui-square",
+    "typeui-pulse",
+    "typeui-stitch",
+    "typeui-expressive",
+    "typeui-fantasy",
+    "typeui-fiction",
+    "typeui-flat",
+    "typeui-friendly",
+    "typeui-futuristic",
+    "typeui-glassmorphism",
+    "typeui-gradient",
+    "typeui-immersive",
+    "typeui-impeccable",
+    "typeui-levels",
+    "typeui-lingo",
+    "typeui-power",
+    "typeui-material",
+    "typeui-matrix",
+    "typeui-minimal",
+    "typeui-modern",
+    "typeui-mono",
+    "typeui-neon",
+    "typeui-neobrutalism",
+    "typeui-neumorphism",
+    "typeui-pacman",
+    "typeui-paper",
+    "typeui-perspective",
+    "typeui-premium",
+    "typeui-professional",
+    "typeui-basic",
+    "typeui-refined",
+    "typeui-retro",
+    "typeui-riso",
+    "typeui-sega",
+    "typeui-shadcn",
+    "typeui-geometric",
+    "typeui-sketch",
+    "typeui-skeumorphism",
+    "typeui-sleek",
+    "typeui-spacious",
+    "typeui-storytelling",
+    "typeui-terracotta",
+    "typeui-tetris",
+    "typeui-vibrant",
+    "typeui-vintage",
+    "simota-palette"
+  ],
   "accessibility-testing": [
     "accessibility-testing"
   ],
@@ -62,6 +139,17 @@
   "animate": [
     "impeccable-animate"
   ],
+  "animation": [
+    "mblode-ui-animation",
+    "huashu-design"
+  ],
+  "anti-generic-ui": [
+    "mblode-ui-design",
+    "hallmark-anti-ai-ui"
+  ],
+  "anti-patterns": [
+    "hallmark-anti-ai-ui"
+  ],
   "app-router-files": [
     "next-js-app-router-files"
   ],
@@ -77,7 +165,14 @@
   ],
   "audit": [
     "impeccable-audit",
-    "website-audit"
+    "website-audit",
+    "mblode-typography-audit",
+    "figma-design-system-engineering",
+    "uxuiprinciples-uxui-evaluator",
+    "uxuiprinciples-interface-auditor",
+    "uxuiprinciples-ai-interface-reviewer",
+    "uxuiprinciples-flow-checker",
+    "uxuiprinciples-vibe-coding-advisor"
   ],
   "auth": [
     "vercel-auth"
@@ -146,6 +241,12 @@
   ],
   "bootstrap": [
     "bootstrap"
+  ],
+  "brand": [
+    "wshobson-brand-landing-page"
+  ],
+  "breakpoints": [
+    "wshobson-responsive-design"
   ],
   "browser": [
     "anthropic-webapp-testing"
@@ -224,18 +325,118 @@
   "code-cleanup": [
     "code-cleanup"
   ],
+  "color": [
+    "ui-ux-pro-max",
+    "wshobson-visual-design-foundations",
+    "simota-muse",
+    "mengto-design-first-ui-prompting"
+  ],
   "colorize": [
     "impeccable-colorize"
+  ],
+  "comparison": [
+    "mengto-pricing-page"
+  ],
+  "component-api": [
+    "wshobson-web-component-design"
+  ],
+  "components": [
+    "openai-figma-generate-library",
+    "openai-figma-create-design-system-rules",
+    "openai-figma-generate-design",
+    "wshobson-design-system-patterns",
+    "wshobson-web-component-design",
+    "nextlevel-design-system",
+    "figma-design-system-engineering",
+    "arvindand-ui-ux-design",
+    "terminalskills-design-md",
+    "typeui-agentic",
+    "typeui-ant",
+    "typeui-roku",
+    "typeui-artistic",
+    "typeui-bento",
+    "typeui-bold",
+    "typeui-brutalism",
+    "typeui-cafe",
+    "typeui-claymorphism",
+    "typeui-claude",
+    "typeui-clean",
+    "typeui-codex",
+    "typeui-colorful",
+    "typeui-contemporary",
+    "typeui-corporate",
+    "typeui-cosmic",
+    "typeui-creative",
+    "typeui-enterprise",
+    "typeui-dithered",
+    "typeui-doodle",
+    "typeui-dramatic",
+    "typeui-editorial",
+    "typeui-square",
+    "typeui-pulse",
+    "typeui-stitch",
+    "typeui-expressive",
+    "typeui-fantasy",
+    "typeui-fiction",
+    "typeui-flat",
+    "typeui-friendly",
+    "typeui-futuristic",
+    "typeui-glassmorphism",
+    "typeui-gradient",
+    "typeui-immersive",
+    "typeui-impeccable",
+    "typeui-levels",
+    "typeui-lingo",
+    "typeui-power",
+    "typeui-material",
+    "typeui-matrix",
+    "typeui-minimal",
+    "typeui-modern",
+    "typeui-mono",
+    "typeui-neon",
+    "typeui-neobrutalism",
+    "typeui-neumorphism",
+    "typeui-pacman",
+    "typeui-paper",
+    "typeui-perspective",
+    "typeui-premium",
+    "typeui-professional",
+    "typeui-basic",
+    "typeui-refined",
+    "typeui-retro",
+    "typeui-riso",
+    "typeui-sega",
+    "typeui-shadcn",
+    "typeui-geometric",
+    "typeui-sketch",
+    "typeui-skeumorphism",
+    "typeui-sleek",
+    "typeui-spacious",
+    "typeui-storytelling",
+    "typeui-terracotta",
+    "typeui-tetris",
+    "typeui-vibrant",
+    "typeui-vintage"
+  ],
+  "consistency": [
+    "wshobson-design-system-patterns"
   ],
   "content-strategy": [
     "content-strategy",
     "content-strategy"
   ],
+  "contrast": [
+    "wshobson-accessibility-compliance"
+  ],
   "conversion": [
     "page-cro",
     "forms-cro",
     "signup-flow-cro",
-    "popup-cro"
+    "popup-cro",
+    "wshobson-brand-landing-page",
+    "mengto-pricing-page",
+    "mengto-webgl-landing-steering",
+    "elaya-landing-page-design"
   ],
   "convex": [
     "convex",
@@ -249,17 +450,33 @@
     "create-a-backend"
   ],
   "critique": [
-    "impeccable-critique"
+    "impeccable-critique",
+    "huashu-design",
+    "uxcraft"
   ],
   "cross-browser": [
     "browser-compatibility"
+  ],
+  "cta": [
+    "elaya-landing-page-design"
   ],
   "cypress": [
     "cypress",
     "cypress"
   ],
+  "dark-mode": [
+    "nextlevel-ui-styling"
+  ],
+  "dashboard": [
+    "dashboard-design-skill",
+    "arvindand-ui-ux-design"
+  ],
   "data-patterns": [
     "next-js-data-patterns"
+  ],
+  "data-visualization": [
+    "ui-ux-pro-max",
+    "dashboard-design-skill"
   ],
   "database": [
     "supabase-postgres-best-practices"
@@ -275,6 +492,31 @@
   ],
   "design": [
     "anthropic-frontend-design"
+  ],
+  "design-audit": [
+    "mblode-ui-design",
+    "hallmark-anti-ai-ui"
+  ],
+  "design-critique": [
+    "ibelick-improve-ui"
+  ],
+  "design-direction": [
+    "mengto-design-first-ui-prompting"
+  ],
+  "design-extraction": [
+    "ibelick-create-design-md",
+    "google-stitch-design-md"
+  ],
+  "design-intelligence": [
+    "ui-ux-pro-max"
+  ],
+  "design-language": [
+    "ibelick-create-design-md"
+  ],
+  "design-md": [
+    "ibelick-create-design-md",
+    "google-stitch-design-md",
+    "terminalskills-design-md"
   ],
   "design-quality": [
     "impeccable-adapt",
@@ -298,11 +540,118 @@
     "impeccable-typography",
     "impeccable"
   ],
+  "design-review": [
+    "web-design-guidelines",
+    "github-web-design-reviewer",
+    "uxuiprinciples-uxui-evaluator",
+    "uxuiprinciples-interface-auditor",
+    "uxuiprinciples-ai-interface-reviewer",
+    "uxuiprinciples-flow-checker",
+    "uxuiprinciples-vibe-coding-advisor"
+  ],
+  "design-system": [
+    "ui-ux-pro-max",
+    "openai-figma-generate-library",
+    "openai-figma-create-design-system-rules",
+    "openai-figma-generate-design",
+    "wshobson-design-system-patterns",
+    "wshobson-web-component-design",
+    "nextlevel-design-system",
+    "figma-design-system-engineering",
+    "material-design-3-ui",
+    "ibelick-create-design-md",
+    "google-stitch-design-md",
+    "uxcraft",
+    "terminalskills-design-md",
+    "typeui-agentic",
+    "typeui-ant",
+    "typeui-roku",
+    "typeui-artistic",
+    "typeui-bento",
+    "typeui-bold",
+    "typeui-brutalism",
+    "typeui-cafe",
+    "typeui-claymorphism",
+    "typeui-claude",
+    "typeui-clean",
+    "typeui-codex",
+    "typeui-colorful",
+    "typeui-contemporary",
+    "typeui-corporate",
+    "typeui-cosmic",
+    "typeui-creative",
+    "typeui-enterprise",
+    "typeui-dithered",
+    "typeui-doodle",
+    "typeui-dramatic",
+    "typeui-editorial",
+    "typeui-square",
+    "typeui-pulse",
+    "typeui-stitch",
+    "typeui-expressive",
+    "typeui-fantasy",
+    "typeui-fiction",
+    "typeui-flat",
+    "typeui-friendly",
+    "typeui-futuristic",
+    "typeui-glassmorphism",
+    "typeui-gradient",
+    "typeui-immersive",
+    "typeui-impeccable",
+    "typeui-levels",
+    "typeui-lingo",
+    "typeui-power",
+    "typeui-material",
+    "typeui-matrix",
+    "typeui-minimal",
+    "typeui-modern",
+    "typeui-mono",
+    "typeui-neon",
+    "typeui-neobrutalism",
+    "typeui-neumorphism",
+    "typeui-pacman",
+    "typeui-paper",
+    "typeui-perspective",
+    "typeui-premium",
+    "typeui-professional",
+    "typeui-basic",
+    "typeui-refined",
+    "typeui-retro",
+    "typeui-riso",
+    "typeui-sega",
+    "typeui-shadcn",
+    "typeui-geometric",
+    "typeui-sketch",
+    "typeui-skeumorphism",
+    "typeui-sleek",
+    "typeui-spacious",
+    "typeui-storytelling",
+    "typeui-terracotta",
+    "typeui-tetris",
+    "typeui-vibrant",
+    "typeui-vintage",
+    "simota-atelier"
+  ],
+  "design-tokens": [
+    "simota-muse"
+  ],
+  "design-workflow": [
+    "simota-atelier"
+  ],
   "directives": [
     "next-js-directives"
   ],
   "distill": [
     "impeccable-distill"
+  ],
+  "dtcg": [
+    "figma-design-system-engineering"
+  ],
+  "easing": [
+    "mblode-ui-animation"
+  ],
+  "elevation": [
+    "simota-muse"
   ],
   "env-vars": [
     "env-vars"
@@ -310,8 +659,14 @@
   "error-handling": [
     "next-js-error-handling"
   ],
+  "error-states": [
+    "simota-palette"
+  ],
   "esbuild": [
     "esbuild"
+  ],
+  "evidence": [
+    "ibelick-improve-ui"
   ],
   "experiments": [
     "a-b-test-setup"
@@ -319,14 +674,32 @@
   "extract": [
     "impeccable-extract"
   ],
+  "figma": [
+    "openai-figma-generate-library",
+    "openai-figma-create-design-system-rules",
+    "openai-figma-generate-design",
+    "figma-design-system-engineering",
+    "simota-atelier"
+  ],
   "file-conventions": [
     "next-js-file-conventions"
   ],
+  "flows": [
+    "mblode-product-design",
+    "magnus-product-design-and-ux"
+  ],
   "focus": [
-    "focus-management-review"
+    "focus-management-review",
+    "wshobson-accessibility-compliance"
   ],
   "font": [
     "next-js-font"
+  ],
+  "forms": [
+    "nextlevel-ui-styling",
+    "material-design-3-ui",
+    "arvindand-ui-ux-design",
+    "simota-palette"
   ],
   "forms-cro": [
     "forms-cro"
@@ -341,6 +714,10 @@
   "functions": [
     "next-js-functions"
   ],
+  "gestures": [
+    "mblode-ui-animation",
+    "wshobson-interaction-design"
+  ],
   "git": [
     "github-pull-request-hygiene"
   ],
@@ -354,8 +731,22 @@
     "gsap",
     "gsap"
   ],
+  "handoff": [
+    "website-studio",
+    "simota-atelier"
+  ],
   "headers": [
     "web-security-header-review"
+  ],
+  "hero": [
+    "wshobson-brand-landing-page",
+    "elaya-landing-page-design"
+  ],
+  "hierarchy": [
+    "wshobson-visual-design-foundations"
+  ],
+  "html": [
+    "huashu-design"
   ],
   "http": [
     "rest-api-design-review"
@@ -366,6 +757,9 @@
   "i18n": [
     "internationalization-readiness-audit",
     "rtl-layout-audit"
+  ],
+  "iconography": [
+    "wshobson-visual-design-foundations"
   ],
   "image": [
     "next-js-image"
@@ -391,8 +785,21 @@
     "impeccable-teach-impeccable",
     "impeccable-typography"
   ],
+  "information-architecture": [
+    "magnus-product-design-and-ux"
+  ],
+  "information-hierarchy": [
+    "dashboard-design-skill"
+  ],
   "instrumentation": [
     "analytics-tracking"
+  ],
+  "interaction": [
+    "wshobson-interaction-design",
+    "platform-web-design-guidelines"
+  ],
+  "interaction-design": [
+    "mblode-product-design"
   ],
   "javascript-review": [
     "javascript-code-review"
@@ -420,7 +827,25 @@
     "javascript-code-review"
   ],
   "keyboard": [
-    "keyboard-interaction-audit"
+    "keyboard-interaction-audit",
+    "wshobson-accessibility-compliance"
+  ],
+  "landing-page": [
+    "wshobson-brand-landing-page",
+    "mengto-pricing-page",
+    "mengto-webgl-landing-steering",
+    "arvindand-ui-ux-design",
+    "elaya-landing-page-design"
+  ],
+  "layout": [
+    "dashboard-design-skill",
+    "wshobson-responsive-design",
+    "mengto-design-first-ui-prompting",
+    "github-web-design-reviewer"
+  ],
+  "loading-states": [
+    "wshobson-interaction-design",
+    "simota-palette"
   ],
   "localization": [
     "internationalization-readiness-audit"
@@ -434,11 +859,21 @@
   "marketplace": [
     "marketplace"
   ],
+  "material-design": [
+    "material-design-3-ui"
+  ],
   "metadata": [
     "next-js-metadata"
   ],
+  "metrics": [
+    "dashboard-design-skill"
+  ],
   "microfrontends": [
     "microfrontends"
+  ],
+  "microinteractions": [
+    "mblode-ui-animation",
+    "wshobson-interaction-design"
   ],
   "mobile-app-testing-testing": [
     "mobile-app-testing"
@@ -448,11 +883,20 @@
     "mobile-design"
   ],
   "mobile-web": [
-    "mobile-app-testing"
+    "mobile-app-testing",
+    "wshobson-responsive-design"
   ],
   "motion": [
     "motion",
-    "motion"
+    "motion",
+    "mblode-ui-animation",
+    "wshobson-interaction-design",
+    "simota-muse",
+    "mengto-webgl-landing-steering"
+  ],
+  "navigation": [
+    "nextlevel-ui-styling",
+    "material-design-3-ui"
   ],
   "next-cache-components": [
     "next-cache-components"
@@ -530,6 +974,9 @@
   "onboarding-cro": [
     "onboarding-cro"
   ],
+  "opentype": [
+    "mblode-typography-audit"
+  ],
   "optimize": [
     "impeccable-optimize"
   ],
@@ -603,7 +1050,8 @@
     "server-dedup-props",
     "server-hoist-static-io",
     "server-parallel-fetching",
-    "server-serialization"
+    "server-serialization",
+    "mengto-webgl-landing-steering"
   ],
   "playwright": [
     "playwright-best-practices",
@@ -627,7 +1075,8 @@
     "supabase-postgres-best-practices"
   ],
   "pricing": [
-    "pricing-strategy"
+    "pricing-strategy",
+    "mengto-pricing-page"
   ],
   "pricing-strategy": [
     "pricing-strategy"
@@ -658,6 +1107,11 @@
   "prisma-upgrade-v6-v7": [
     "prisma-upgrade-v6-to-v7"
   ],
+  "product-design": [
+    "mblode-product-design",
+    "magnus-product-design-and-ux",
+    "uxcraft"
+  ],
   "product-marketing": [
     "product-marketing-context"
   ],
@@ -671,6 +1125,10 @@
     "programmatic-seo",
     "programmatic-seo"
   ],
+  "prototype": [
+    "huashu-design",
+    "simota-atelier"
+  ],
   "pull-request": [
     "github-pull-request-hygiene"
   ],
@@ -678,8 +1136,80 @@
     "pwa-installability-review",
     "service-worker-offline-strategy"
   ],
+  "quality-gates": [
+    "typeui-agentic",
+    "typeui-ant",
+    "typeui-roku",
+    "typeui-artistic",
+    "typeui-bento",
+    "typeui-bold",
+    "typeui-brutalism",
+    "typeui-cafe",
+    "typeui-claymorphism",
+    "typeui-claude",
+    "typeui-clean",
+    "typeui-codex",
+    "typeui-colorful",
+    "typeui-contemporary",
+    "typeui-corporate",
+    "typeui-cosmic",
+    "typeui-creative",
+    "typeui-enterprise",
+    "typeui-dithered",
+    "typeui-doodle",
+    "typeui-dramatic",
+    "typeui-editorial",
+    "typeui-square",
+    "typeui-pulse",
+    "typeui-stitch",
+    "typeui-expressive",
+    "typeui-fantasy",
+    "typeui-fiction",
+    "typeui-flat",
+    "typeui-friendly",
+    "typeui-futuristic",
+    "typeui-glassmorphism",
+    "typeui-gradient",
+    "typeui-immersive",
+    "typeui-impeccable",
+    "typeui-levels",
+    "typeui-lingo",
+    "typeui-power",
+    "typeui-material",
+    "typeui-matrix",
+    "typeui-minimal",
+    "typeui-modern",
+    "typeui-mono",
+    "typeui-neon",
+    "typeui-neobrutalism",
+    "typeui-neumorphism",
+    "typeui-pacman",
+    "typeui-paper",
+    "typeui-perspective",
+    "typeui-premium",
+    "typeui-professional",
+    "typeui-basic",
+    "typeui-refined",
+    "typeui-retro",
+    "typeui-riso",
+    "typeui-sega",
+    "typeui-shadcn",
+    "typeui-geometric",
+    "typeui-sketch",
+    "typeui-skeumorphism",
+    "typeui-sleek",
+    "typeui-spacious",
+    "typeui-storytelling",
+    "typeui-terracotta",
+    "typeui-tetris",
+    "typeui-vibrant",
+    "typeui-vintage"
+  ],
   "quieter": [
     "impeccable-quieter"
+  ],
+  "radius": [
+    "simota-muse"
   ],
   "react": [
     "advanced-event-handler-refs",
@@ -767,6 +1297,12 @@
   "react-ui-patterns": [
     "react-ui-patterns"
   ],
+  "readability": [
+    "mblode-typography-audit"
+  ],
+  "redesign": [
+    "hallmark-anti-ai-ui"
+  ],
   "rendering": [
     "rendering-activity",
     "rendering-animate-svg-wrapper",
@@ -797,8 +1333,22 @@
     "rerender-use-deferred-value",
     "rerender-use-ref-transient-values"
   ],
+  "resilience": [
+    "mblode-product-design"
+  ],
   "responsive": [
-    "impeccable-responsive"
+    "impeccable-responsive",
+    "web-design-guidelines",
+    "mblode-ui-design",
+    "brumley-ui-ux-audit",
+    "wshobson-responsive-design",
+    "nextlevel-ui-styling",
+    "material-design-3-ui",
+    "mengto-pricing-page",
+    "github-web-design-reviewer",
+    "platform-web-design-guidelines",
+    "website-studio",
+    "simota-palette"
   ],
   "rest": [
     "rest-api-design-review"
@@ -821,6 +1371,9 @@
   "rtl": [
     "rtl-layout-audit"
   ],
+  "rules": [
+    "openai-figma-create-design-system-rules"
+  ],
   "runtime-cache": [
     "runtime-cache"
   ],
@@ -829,6 +1382,9 @@
   ],
   "schema-markup": [
     "schema-markup"
+  ],
+  "screen-design": [
+    "openai-figma-generate-design"
   ],
   "scripts": [
     "next-js-scripts"
@@ -840,7 +1396,8 @@
     "next-js-self-hosting"
   ],
   "semantic-html": [
-    "semantic-html-accessibility-audit"
+    "semantic-html-accessibility-audit",
+    "platform-web-design-guidelines"
   ],
   "seo": [
     "seo",
@@ -876,8 +1433,21 @@
   "software-testing": [
     "software-testing"
   ],
+  "spacing": [
+    "wshobson-visual-design-foundations",
+    "nextlevel-design-system",
+    "simota-muse",
+    "elaya-landing-page-design"
+  ],
   "state-management": [
     "react-state-management"
+  ],
+  "states": [
+    "mblode-product-design",
+    "magnus-product-design-and-ux"
+  ],
+  "stitch": [
+    "google-stitch-design-md"
   ],
   "structured-data": [
     "schema-markup"
@@ -900,6 +1470,9 @@
   "sveltekit-best-practices": [
     "sveltekit-best-practices"
   ],
+  "tables": [
+    "nextlevel-ui-styling"
+  ],
   "tanstack": [
     "tanstack-query",
     "tanstack-router"
@@ -919,11 +1492,28 @@
   "testing-strategy": [
     "software-testing"
   ],
+  "theming": [
+    "openai-figma-generate-library",
+    "wshobson-design-system-patterns"
+  ],
+  "tokens": [
+    "openai-figma-generate-library",
+    "openai-figma-create-design-system-rules",
+    "wshobson-design-system-patterns",
+    "wshobson-visual-design-foundations",
+    "nextlevel-design-system",
+    "figma-design-system-engineering",
+    "ibelick-create-design-md",
+    "terminalskills-design-md"
+  ],
   "tsdown": [
     "tsdown"
   ],
   "turbopack": [
     "turbopack"
+  ],
+  "type-scale": [
+    "mblode-typography-audit"
   ],
   "typescript": [
     "typescript-drag-and-drop",
@@ -941,10 +1531,30 @@
     "typescript-project-setup-reference"
   ],
   "typography": [
-    "impeccable-typography"
+    "impeccable-typography",
+    "ui-ux-pro-max",
+    "mblode-typography-audit",
+    "wshobson-visual-design-foundations",
+    "nextlevel-design-system",
+    "simota-muse",
+    "mengto-design-first-ui-prompting",
+    "elaya-landing-page-design",
+    "terminalskills-design-md"
   ],
   "ui": [
-    "anthropic-frontend-design"
+    "anthropic-frontend-design",
+    "arvindand-ui-ux-design",
+    "uxcraft"
+  ],
+  "ui-audit": [
+    "brumley-ui-ux-audit",
+    "ibelick-improve-ui"
+  ],
+  "ui-brief": [
+    "mengto-design-first-ui-prompting"
+  ],
+  "ui-design": [
+    "mblode-ui-design"
   ],
   "ui-patterns": [
     "ui-skills"
@@ -952,13 +1562,35 @@
   "ui-skills": [
     "ui-skills"
   ],
+  "ui-styling": [
+    "nextlevel-ui-styling"
+  ],
   "ui-ux": [
-    "ui-ux-premium",
     "ui-ux-pro-max"
   ],
-  "ui-ux-pro-max": [
-    "ui-ux-premium",
-    "ui-ux-pro-max"
+  "usability": [
+    "ibelick-improve-ui",
+    "simota-palette"
+  ],
+  "ux": [
+    "magnus-product-design-and-ux",
+    "arvindand-ui-ux-design",
+    "uxcraft",
+    "uxuiprinciples-uxui-evaluator",
+    "uxuiprinciples-interface-auditor",
+    "uxuiprinciples-ai-interface-reviewer",
+    "uxuiprinciples-flow-checker",
+    "uxuiprinciples-vibe-coding-advisor",
+    "simota-palette"
+  ],
+  "ux-audit": [
+    "brumley-ui-ux-audit"
+  ],
+  "validation": [
+    "website-studio"
+  ],
+  "variants": [
+    "mengto-design-first-ui-prompting"
   ],
   "vercel": [
     "access-protected-vercel-deployment",
@@ -1021,11 +1653,97 @@
   "verification": [
     "vercel-verification"
   ],
+  "visual-design": [
+    "huashu-design"
+  ],
+  "visual-direction": [
+    "mblode-ui-design",
+    "wshobson-brand-landing-page"
+  ],
+  "visual-qa": [
+    "web-design-guidelines",
+    "brumley-ui-ux-audit",
+    "ibelick-improve-ui",
+    "github-web-design-reviewer",
+    "simota-atelier"
+  ],
+  "visual-quality": [
+    "hallmark-anti-ai-ui"
+  ],
   "visual-regression": [
     "visual-regression-testing"
   ],
   "visual-regression-testing": [
     "visual-regression-testing"
+  ],
+  "visual-style": [
+    "typeui-agentic",
+    "typeui-ant",
+    "typeui-roku",
+    "typeui-artistic",
+    "typeui-bento",
+    "typeui-bold",
+    "typeui-brutalism",
+    "typeui-cafe",
+    "typeui-claymorphism",
+    "typeui-claude",
+    "typeui-clean",
+    "typeui-codex",
+    "typeui-colorful",
+    "typeui-contemporary",
+    "typeui-corporate",
+    "typeui-cosmic",
+    "typeui-creative",
+    "typeui-enterprise",
+    "typeui-dithered",
+    "typeui-doodle",
+    "typeui-dramatic",
+    "typeui-editorial",
+    "typeui-square",
+    "typeui-pulse",
+    "typeui-stitch",
+    "typeui-expressive",
+    "typeui-fantasy",
+    "typeui-fiction",
+    "typeui-flat",
+    "typeui-friendly",
+    "typeui-futuristic",
+    "typeui-glassmorphism",
+    "typeui-gradient",
+    "typeui-immersive",
+    "typeui-impeccable",
+    "typeui-levels",
+    "typeui-lingo",
+    "typeui-power",
+    "typeui-material",
+    "typeui-matrix",
+    "typeui-minimal",
+    "typeui-modern",
+    "typeui-mono",
+    "typeui-neon",
+    "typeui-neobrutalism",
+    "typeui-neumorphism",
+    "typeui-pacman",
+    "typeui-paper",
+    "typeui-perspective",
+    "typeui-premium",
+    "typeui-professional",
+    "typeui-basic",
+    "typeui-refined",
+    "typeui-retro",
+    "typeui-riso",
+    "typeui-sega",
+    "typeui-shadcn",
+    "typeui-geometric",
+    "typeui-sketch",
+    "typeui-skeumorphism",
+    "typeui-sleek",
+    "typeui-spacious",
+    "typeui-storytelling",
+    "typeui-terracotta",
+    "typeui-tetris",
+    "typeui-vibrant",
+    "typeui-vintage"
   ],
   "vite": [
     "vite"
@@ -1066,17 +1784,22 @@
   "vue-ui-ux": [
     "vue-ui-ux"
   ],
+  "wcag": [
+    "wshobson-accessibility-compliance",
+    "platform-web-design-guidelines"
+  ],
   "web-animation": [
     "web-animations"
   ],
   "web-animations": [
     "web-animations"
   ],
-  "web-design-guidelines": [
-    "web-design-guidelines"
+  "web-app": [
+    "website-studio"
   ],
-  "web-guidelines": [
-    "web-design-guidelines"
+  "web-design": [
+    "web-design-guidelines",
+    "platform-web-design-guidelines"
   ],
   "web-quality": [
     "web-quality-audit"
@@ -1087,6 +1810,9 @@
   "webapp": [
     "anthropic-webapp-testing"
   ],
+  "webgl": [
+    "mengto-webgl-landing-steering"
+  ],
   "webhooks": [
     "clerk-webhooks"
   ],
@@ -1095,6 +1821,9 @@
   ],
   "website": [
     "website-audit"
+  ],
+  "website-design": [
+    "website-studio"
   ],
   "workflow": [
     "vercel-workflow"

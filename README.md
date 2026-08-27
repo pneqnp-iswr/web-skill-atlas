@@ -2,9 +2,9 @@
 
 **The open-source atlas of AI skills, agent workflows, coding prompts, and reusable instructions for building modern web apps.**
 
-![Skills](https://img.shields.io/badge/skills-253-181717?style=flat-square) ![Verified](https://img.shields.io/badge/verified-149-181717?style=flat-square) ![Categories](https://img.shields.io/badge/categories-24-181717?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-181717?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-363-181717?style=flat-square) ![Verified](https://img.shields.io/badge/verified-195-181717?style=flat-square) ![Categories](https://img.shields.io/badge/categories-24-181717?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-181717?style=flat-square)
 
-253 indexed skills across 24 populated categories and 143 subcategories, traced to 181 upstream sources. The dataset is built for humans browsing GitHub and for agents consuming structured metadata.
+363 indexed skills across 24 populated categories and 174 subcategories, traced to 202 upstream sources. The dataset is built for humans browsing GitHub and for agents consuming structured metadata.
 
 Use the atlas to find focused guidance for UI quality, React and Next.js performance, accessibility, testing, security, APIs, databases, SEO, deployment, debugging, and the rest of the web-development lifecycle.
 
@@ -22,7 +22,7 @@ Use the atlas to find focused guidance for UI quality, React and Next.js perform
 
 | Skill | Category | What it covers | Score |
 |---|---|---|---:|
-| [Anthropic Frontend Design](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) | Design | Create distinctive, production-grade frontend interfaces while avoiding generic generated aesthetics. | 91 |
+| [UI Design](https://github.com/mblode/agent-skills/blob/main/skills/ui-design/SKILL.md) | Design | Design, build, and audit web UI through explicit direction, build, audit, options, scaffold, and retrofit modes. | 94 |
 | [Advanced Event Handler Refs](https://github.com/vercel/vercel-plugin/blob/main/skills/react-best-practices/rules/advanced-event-handler-refs.md) | Performance | Apply the Vercel React performance rule for event handler refs. | 88 |
 | [Anthropic Webapp Testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) | Testing | Test local web applications with browser automation and inspect UI behavior. | 88 |
 | [Auth](https://github.com/vercel/vercel-plugin/tree/main/skills/auth) | Security | Implement authentication patterns in Vercel applications. | 85 |
@@ -35,8 +35,8 @@ Use the atlas to find focused guidance for UI quality, React and Next.js perform
 
 | Category | Skills | Category | Skills |
 |---|---:|---|---:|
-| [Performance](categories/performance.md) | 75 | [Frontend](categories/frontend.md) | 35 |
-| [Design](categories/design.md) | 22 | [Security](categories/security.md) | 20 |
+| [Design](categories/design.md) | 132 | [Performance](categories/performance.md) | 75 |
+| [Frontend](categories/frontend.md) | 35 | [Security](categories/security.md) | 20 |
 | [Testing](categories/testing.md) | 17 | [Architecture](categories/architecture.md) | 8 |
 | [Databases](categories/databases.md) | 8 | [Product](categories/product.md) | 8 |
 | [Components](categories/components.md) | 7 | [Backend](categories/backend.md) | 6 |

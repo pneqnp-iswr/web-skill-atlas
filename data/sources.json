@@ -212,9 +212,10 @@
     "discovered_at": "2026-08-27",
     "last_checked": "2026-08-27",
     "status": "checked",
-    "skills_discovered": 1,
+    "skills_discovered": 2,
     "discovered_via": [
-      "finfin/awesome-frontend-skills"
+      "finfin/awesome-frontend-skills",
+      "design deep-research pass"
     ]
   },
   {
@@ -260,9 +261,10 @@
     "discovered_at": "2026-08-27",
     "last_checked": "2026-08-27",
     "status": "checked",
-    "skills_discovered": 1,
+    "skills_discovered": 3,
     "discovered_via": [
-      "finfin/awesome-frontend-skills"
+      "finfin/awesome-frontend-skills",
+      "design deep-research pass"
     ]
   },
   {
@@ -659,7 +661,8 @@
     "status": "checked",
     "skills_discovered": 1,
     "discovered_via": [
-      "finfin/awesome-frontend-skills"
+      "finfin/awesome-frontend-skills",
+      "design deep-research pass"
     ]
   },
   {
@@ -2097,9 +2100,10 @@
     "discovered_at": "2026-08-27",
     "last_checked": "2026-08-27",
     "status": "checked",
-    "skills_discovered": 6,
+    "skills_discovered": 12,
     "discovered_via": [
-      "finfin/awesome-frontend-skills"
+      "finfin/awesome-frontend-skills",
+      "design deep-research pass"
     ]
   },
   {
@@ -2172,6 +2176,261 @@
     "skills_discovered": 1,
     "discovered_via": [
       "official documentation"
+    ]
+  },
+  {
+    "url": "https://github.com/mblode/agent-skills",
+    "platform": "GitHub",
+    "author": "mblode",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 4,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/openai/skills",
+    "platform": "GitHub",
+    "author": "openai",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 3,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/brumley-agents/claude-ui-ux-audit-skill",
+    "platform": "GitHub",
+    "author": "brumley-agents",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/mares29/dashboard-design-skill",
+    "platform": "GitHub",
+    "author": "mares29",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/magnus919/agent-skills",
+    "platform": "GitHub",
+    "author": "magnus919",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/simota/agent-skills",
+    "platform": "GitHub",
+    "author": "simota",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 3,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/michaelwnau/figma-design-system-engineering",
+    "platform": "GitHub",
+    "author": "michaelwnau",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/skydashnet/material-design-3-ui-skill",
+    "platform": "GitHub",
+    "author": "skydashnet",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/Nutlope/hallmark",
+    "platform": "GitHub",
+    "author": "Nutlope",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/alchaincyf/huashu-design",
+    "platform": "GitHub",
+    "author": "alchaincyf",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "multilingual discovery",
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "platform": "GitHub",
+    "author": "google-labs-code",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/MengTo/Skills",
+    "platform": "GitHub",
+    "author": "MengTo",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 3,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/uxuiprinciples/agent-skills",
+    "platform": "GitHub",
+    "author": "uxuiprinciples",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 5,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/bergside/awesome-design-skills",
+    "platform": "GitHub",
+    "author": "Bergside / TypeUI",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 67,
+    "discovered_via": [
+      "design registry research",
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/github/awesome-copilot",
+    "platform": "GitHub",
+    "author": "github",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "finfin/awesome-frontend-skills",
+      "direct upstream verification"
+    ]
+  },
+  {
+    "url": "https://github.com/ehmo/platform-design-skills",
+    "platform": "GitHub",
+    "author": "ehmo",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/arvindand/agent-skills",
+    "platform": "GitHub",
+    "author": "arvindand",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/elayadesign/ai-design-skills",
+    "platform": "GitHub",
+    "author": "elayadesign",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/Seance1723/UXCraft",
+    "platform": "GitHub",
+    "author": "Seance1723",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/Do-fei/website-studio-skill",
+    "platform": "GitHub",
+    "author": "Do-fei",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
+    ]
+  },
+  {
+    "url": "https://github.com/TerminalSkills/skills",
+    "platform": "GitHub",
+    "author": "TerminalSkills",
+    "discovered_at": "2026-08-27",
+    "last_checked": "2026-08-27",
+    "status": "checked",
+    "skills_discovered": 1,
+    "discovered_via": [
+      "design deep-research pass"
     ]
   }
 ]
