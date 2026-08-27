@@ -1,7 +1,6 @@
 name: Report a data problem
-about: Report a broken source, duplicate, metadata error, taxonomy issue, or license concern.
+description: Report a broken source, duplicate, metadata error, taxonomy issue, or license concern.
 title: "[data] "
-labels: ["metadata"]
 body:
   - type: dropdown
     id: type

@@ -6,7 +6,7 @@ Recommended GitHub configuration for `web-skill-atlas`.
 
 Description:
 
-> Source-backed AI skills and agent workflows for modern web development — classified, deduplicated, and machine-readable.
+> The open-source atlas of AI skills, agent workflows, coding prompts, and reusable instructions for building modern web apps.
 
 Website: leave empty until the project has a dedicated site or GitHub Pages interface.
 
@@ -38,7 +38,7 @@ Topics:
 - Releases: no for now. Add dataset snapshot releases once versioned releases are maintained intentionally.
 - Packages: no. The repository does not publish a package.
 - Deployments: no until a website exists.
-- Wiki: disable; project documentation lives in the repository.
+- Wiki: currently enabled on GitHub; disable it manually if repository files should remain the only documentation surface.
 - Issues: keep enabled.
 
 ## Social preview
@@ -48,6 +48,10 @@ Upload [`assets/social-preview.png`](../assets/social-preview.png) in GitHub: **
 The preview avoids dataset counts so it does not become stale after every refresh.
 
 ## Suggested issue labels
+
+The issue forms do not depend on custom labels, so they remain usable before these labels are created.
+
+Suggested labels:
 
 - `new-skill`
 - `broken-link`

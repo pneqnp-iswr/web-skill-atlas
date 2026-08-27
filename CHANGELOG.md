@@ -5,6 +5,9 @@
 - Reworked repository presentation, browse flow, contribution UX, and generated README sections.
 - Consolidated duplicate validation and link-check workflows.
 - Added the repository social preview asset and exact GitHub About settings.
+- Repaired YAML issue-form metadata and added a CI guard for issue-form schema regressions.
+- Kept empty taxonomy pages available while hiding zero-count categories from the README browse table.
+- Expanded secret-pattern scanning to all repository text files instead of excluding Markdown and YAML.
 
 ## 0.1.0 — 2026-08-27
 

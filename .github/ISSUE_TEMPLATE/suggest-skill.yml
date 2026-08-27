@@ -1,7 +1,6 @@
 name: Suggest a skill
-about: Propose a reusable web-development skill or workflow for the atlas.
+description: Propose a reusable web-development skill or workflow for the atlas.
 title: "[skill] "
-labels: ["new-skill"]
 body:
   - type: input
     id: name

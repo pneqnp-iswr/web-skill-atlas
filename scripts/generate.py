@@ -144,8 +144,14 @@ if missing_featured:
     raise RuntimeError(f"README featured skills are missing from the dataset: {missing_featured}")
 featured = [by_slug[slug] for slug in featured_slugs]
 
+# Keep empty taxonomy slots available as generated category pages, but do not surface
+# zero-count categories on the repository landing page.
 all_category_pairs = sorted(
-    ((c["name"], category_counts[c["name"]]) for c in cats),
+    (
+        (c["name"], category_counts[c["name"]])
+        for c in cats
+        if category_counts[c["name"]] > 0
+    ),
     key=lambda kv: (-kv[1], kv[0].lower()),
 )
 category_rows = []

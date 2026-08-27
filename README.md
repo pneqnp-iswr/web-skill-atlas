@@ -39,7 +39,6 @@ Browse the generated category pages or search the full dataset directly.
 | [DevOps](categories/devops.md) | 3 | [Analytics](categories/analytics.md) | 2 |
 | [Code Quality](categories/code-quality.md) | 2 | [Internationalization](categories/internationalization.md) | 2 |
 | [PWA](categories/pwa.md) | 2 | [Git / GitHub](categories/git-github.md) | 1 |
-| [E-commerce](categories/e-commerce.md) | 0 |  |  |
 <!-- GENERATED:BROWSE:END -->
 
 ## Example skills
@@ -107,6 +106,8 @@ Before opening a PR:
 python scripts/validate.py
 python scripts/deduplicate.py
 python scripts/generate.py
+python scripts/validate_issue_forms.py
+python scripts/scan_secrets.py
 git diff --exit-code
 ```
 

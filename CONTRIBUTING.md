@@ -56,6 +56,8 @@ Run these before opening a pull request:
 python scripts/validate.py
 python scripts/deduplicate.py
 python scripts/generate.py
+python scripts/validate_issue_forms.py
+python scripts/scan_secrets.py
 git diff --exit-code
 ```
 

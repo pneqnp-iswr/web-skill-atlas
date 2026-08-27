@@ -20,6 +20,5 @@ jobs:
       - run: python scripts/deduplicate.py
       - run: python scripts/generate.py
       - run: git diff --exit-code
-      - name: Basic secret pattern check
-        run: |
-          ! git grep -nE '(sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16})' -- ':!*.yml' ':!*.md'
+      - run: python scripts/validate_issue_forms.py
+      - run: python scripts/scan_secrets.py
