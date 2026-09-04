@@ -1,0 +1,618 @@
+From 5314248e319eca368e68c2a019ca75ed6a25ddbc Mon Sep 17 00:00:00 2001
+From: Rafig <rafig12332@gmail.com>
+Date: Fri, 4 Sep 2026 12:01:20 +0000
+Subject: [PATCH] test(desktop): make ADR-0191's XAML audits executable, and
+ fix the six defects they find
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+ADR-0191 recorded that "where a class of defect can be caught statically, it
+now is: a StaticResource audit over the views, and a scan for DataContext
+overrides that shadow a sibling binding, both run clean over every view in the
+repository." Neither existed as a script, a test or a gate. It had been one
+person reading files once, and the decision expired the day it was written.
+
+XamlContractTests is that audit, executable: six tests over every .xaml in the
+shell project. File scanning, not WPF — no PresentationCore, no dispatcher, no
+window — so it runs in the headless suite on any platform in about a tenth of a
+second. XML comments are blanked before scanning, so a file that explains a
+defect is not read as having one. A sixth test asserts the audit actually read
+the views, because the other five pass trivially over an empty list.
+
+Run against the released markup it failed with six findings.
+
+The tab-strip idiom the handoff carried forward was in four workspaces, not
+two. Tag is typed object, so <Trigger Property="Tag" Value="True"> compares a
+boxed bool against the string "True" and never matches: CustomersView,
+FinanceView, PurchasingView and WarehouseView, twenty-seven buttons in total,
+rendered with nothing selected in every theme.
+
+Two instances of the shadowing class had never been recorded at all.
+StocktakesView and TransfersView bind a detail card's Visibility to
+IsDetailOpen on the element that also sets DataContext="{Binding Detail}".
+IsDetailOpen belongs to WarehouseCountsViewModel and
+WarehouseTransfersViewModel, not to the detail view models, so the binding
+resolved against the child, failed silently, and left the card permanently
+visible over a register with nothing selected — the Finance defect exactly,
+inside a Functional Alpha already claimed.
+
+All six are fixed: the four strips use the DataTrigger form Employees
+introduced, and the two cards are rooted through their UserControl.
+
+ADR-0208 records the audit and the structural rule it enforces — a binding
+beside a DataContext override states its own source — chosen over "bind to a
+property the child has" because only the structural form is enforceable.
+Fifteen of the repository's seventeen DataContext overrides already complied;
+the two that did not were the two defects.
+
+Verified on Linux: solution build and desktop/src/Qrafig.Desktop build 0
+warnings / 0 errors with EnableWindowsTargeting; Qrafig.UnitTests 59/59;
+Qrafig.Desktop.Tests 1068 total, 1059 passing, the 9 failures being the
+documented DPAPI platform baseline and the identical set that failed before
+this change; has-pending-model-changes reports no changes; no vulnerable
+packages across all 14 projects. Not run: Qrafig.IntegrationTests and
+Qrafig.Desktop.EndToEndTests (no Docker daemon) and the live QRAFIG.exe smoke
+(no Windows host). Neither covers this change, and the ledger says so.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_017cG8xXYcTfLe1zJoZu742x
+---
+ .../Qrafig.Desktop/Views/CustomersView.xaml   |  10 +-
+ .../src/Qrafig.Desktop/Views/FinanceView.xaml |  10 +-
+ .../Qrafig.Desktop/Views/PurchasingView.xaml  |  10 +-
+ .../Qrafig.Desktop/Views/StocktakesView.xaml  |   9 +-
+ .../Qrafig.Desktop/Views/TransfersView.xaml   |   9 +-
+ .../Qrafig.Desktop/Views/WarehouseView.xaml   |  10 +-
+ .../Qrafig.Desktop.Tests/XamlContractTests.cs | 279 ++++++++++++++++++
+ docs/architecture-decisions.md                |  56 ++++
+ docs/implementation-status.md                 |  19 +-
+ 9 files changed, 394 insertions(+), 18 deletions(-)
+ create mode 100644 desktop/tests/Qrafig.Desktop.Tests/XamlContractTests.cs
+
+diff --git a/desktop/src/Qrafig.Desktop/Views/CustomersView.xaml b/desktop/src/Qrafig.Desktop/Views/CustomersView.xaml
+index 013f6ed..5a45513 100644
+--- a/desktop/src/Qrafig.Desktop/Views/CustomersView.xaml
++++ b/desktop/src/Qrafig.Desktop/Views/CustomersView.xaml
+@@ -8,11 +8,17 @@
+ 
+         <Style x:Key="Customers.Tab" TargetType="Button" BasedOn="{StaticResource Button.Subtle}">
+             <Style.Triggers>
+-                <Trigger Property="Tag" Value="True">
++                <!--
++                    A DataTrigger, not a property Trigger. Tag is typed object, so a property
++                    Trigger with Value="True" compares a boxed bool against the string "True" and
++                    never matches: the strip renders with nothing selected, in every theme, and
++                    only a live run shows it (ADR-0191). XamlContractTests enforces this now.
++                -->
++                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Tag}" Value="True">
+                     <Setter Property="Background" Value="{DynamicResource State.Selected}" />
+                     <Setter Property="Foreground" Value="{DynamicResource Accent.Default}" />
+                     <Setter Property="FontWeight" Value="SemiBold" />
+-                </Trigger>
++                </DataTrigger>
+             </Style.Triggers>
+         </Style>
+ 
+diff --git a/desktop/src/Qrafig.Desktop/Views/FinanceView.xaml b/desktop/src/Qrafig.Desktop/Views/FinanceView.xaml
+index 3a5da9b..3ba81cd 100644
+--- a/desktop/src/Qrafig.Desktop/Views/FinanceView.xaml
++++ b/desktop/src/Qrafig.Desktop/Views/FinanceView.xaml
+@@ -8,11 +8,17 @@
+ 
+         <Style x:Key="Finance.Tab" TargetType="Button" BasedOn="{StaticResource Button.Subtle}">
+             <Style.Triggers>
+-                <Trigger Property="Tag" Value="True">
++                <!--
++                    A DataTrigger, not a property Trigger. Tag is typed object, so a property
++                    Trigger with Value="True" compares a boxed bool against the string "True" and
++                    never matches: the strip renders with nothing selected, in every theme, and
++                    only a live run shows it (ADR-0191). XamlContractTests enforces this now.
++                -->
++                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Tag}" Value="True">
+                     <Setter Property="Background" Value="{DynamicResource State.Selected}" />
+                     <Setter Property="Foreground" Value="{DynamicResource Accent.Default}" />
+                     <Setter Property="FontWeight" Value="SemiBold" />
+-                </Trigger>
++                </DataTrigger>
+             </Style.Triggers>
+         </Style>
+ 
+diff --git a/desktop/src/Qrafig.Desktop/Views/PurchasingView.xaml b/desktop/src/Qrafig.Desktop/Views/PurchasingView.xaml
+index 23269ba..9f74a49 100644
+--- a/desktop/src/Qrafig.Desktop/Views/PurchasingView.xaml
++++ b/desktop/src/Qrafig.Desktop/Views/PurchasingView.xaml
+@@ -9,11 +9,17 @@
+ 
+         <Style x:Key="Purchasing.Tab" TargetType="Button" BasedOn="{StaticResource Button.Subtle}">
+             <Style.Triggers>
+-                <Trigger Property="Tag" Value="True">
++                <!--
++                    A DataTrigger, not a property Trigger. Tag is typed object, so a property
++                    Trigger with Value="True" compares a boxed bool against the string "True" and
++                    never matches: the strip renders with nothing selected, in every theme, and
++                    only a live run shows it (ADR-0191). XamlContractTests enforces this now.
++                -->
++                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Tag}" Value="True">
+                     <Setter Property="Background" Value="{DynamicResource State.Selected}" />
+                     <Setter Property="Foreground" Value="{DynamicResource Accent.Default}" />
+                     <Setter Property="FontWeight" Value="SemiBold" />
+-                </Trigger>
++                </DataTrigger>
+             </Style.Triggers>
+         </Style>
+ 
+diff --git a/desktop/src/Qrafig.Desktop/Views/StocktakesView.xaml b/desktop/src/Qrafig.Desktop/Views/StocktakesView.xaml
+index 168533c..060c947 100644
+--- a/desktop/src/Qrafig.Desktop/Views/StocktakesView.xaml
++++ b/desktop/src/Qrafig.Desktop/Views/StocktakesView.xaml
+@@ -265,8 +265,15 @@
+             </Grid>
+ 
+             <!-- ======================================================= Detail ===================== -->
++            <!--
++                The Visibility binding is rooted through the UserControl deliberately. DataContext on
++                this element re-points every *un-rooted* binding on it at the child view model, and
++                IsDetailOpen belongs to WarehouseCountsViewModel, not to StocktakeDetailViewModel —
++                so the shorter form resolved against the child, failed silently, and left the card
++                permanently visible (ADR-0191). XamlContractTests enforces this now.
++            -->
+             <Border Grid.Column="1" Style="{StaticResource Card}" Width="520" Margin="14,0,0,0"
+-                    Visibility="{Binding IsDetailOpen, Converter={StaticResource Visible}}"
++                    Visibility="{Binding DataContext.IsDetailOpen, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}, Converter={StaticResource Visible}}"
+                     DataContext="{Binding Detail}">
+                 <Grid>
+                     <Grid.RowDefinitions>
+diff --git a/desktop/src/Qrafig.Desktop/Views/TransfersView.xaml b/desktop/src/Qrafig.Desktop/Views/TransfersView.xaml
+index c1c69d8..ab9a600 100644
+--- a/desktop/src/Qrafig.Desktop/Views/TransfersView.xaml
++++ b/desktop/src/Qrafig.Desktop/Views/TransfersView.xaml
+@@ -265,8 +265,15 @@
+             </Grid>
+ 
+             <!-- ======================================================= Detail ===================== -->
++            <!--
++                The Visibility binding is rooted through the UserControl deliberately. DataContext on
++                this element re-points every *un-rooted* binding on it at the child view model, and
++                IsDetailOpen belongs to WarehouseTransfersViewModel, not to TransferDetailViewModel —
++                so the shorter form resolved against the child, failed silently, and left the card
++                permanently visible (ADR-0191). XamlContractTests enforces this now.
++            -->
+             <Border Grid.Column="1" Style="{StaticResource Card}" Width="460" Margin="14,0,0,0"
+-                    Visibility="{Binding IsDetailOpen, Converter={StaticResource Visible}}"
++                    Visibility="{Binding DataContext.IsDetailOpen, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}, Converter={StaticResource Visible}}"
+                     DataContext="{Binding Detail}">
+                 <Grid>
+                     <Grid.RowDefinitions>
+diff --git a/desktop/src/Qrafig.Desktop/Views/WarehouseView.xaml b/desktop/src/Qrafig.Desktop/Views/WarehouseView.xaml
+index 81e96b8..8bcc612 100644
+--- a/desktop/src/Qrafig.Desktop/Views/WarehouseView.xaml
++++ b/desktop/src/Qrafig.Desktop/Views/WarehouseView.xaml
+@@ -35,11 +35,17 @@
+              styles, so the four tabs stay one thing with one appearance to maintain. -->
+         <Style x:Key="Warehouse.Tab" TargetType="Button" BasedOn="{StaticResource Button.Subtle}">
+             <Style.Triggers>
+-                <Trigger Property="Tag" Value="True">
++                <!--
++                    A DataTrigger, not a property Trigger. Tag is typed object, so a property
++                    Trigger with Value="True" compares a boxed bool against the string "True" and
++                    never matches: the strip renders with nothing selected, in every theme, and
++                    only a live run shows it (ADR-0191). XamlContractTests enforces this now.
++                -->
++                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Tag}" Value="True">
+                     <Setter Property="Background" Value="{DynamicResource State.Selected}" />
+                     <Setter Property="Foreground" Value="{DynamicResource Accent.Default}" />
+                     <Setter Property="FontWeight" Value="SemiBold" />
+-                </Trigger>
++                </DataTrigger>
+             </Style.Triggers>
+         </Style>
+     </UserControl.Resources>
+diff --git a/desktop/tests/Qrafig.Desktop.Tests/XamlContractTests.cs b/desktop/tests/Qrafig.Desktop.Tests/XamlContractTests.cs
+new file mode 100644
+index 0000000..acb0439
+--- /dev/null
++++ b/desktop/tests/Qrafig.Desktop.Tests/XamlContractTests.cs
+@@ -0,0 +1,279 @@
++using System.Text;
++using System.Text.RegularExpressions;
++
++namespace Qrafig.Desktop.Tests;
++
++/// <summary>
++/// The static half of ADR-0191, made executable.
++///
++/// ADR-0191 recorded that compiling markup is evidence about names and not about rendering, and that
++/// "where a class of defect can be caught statically, it now is". That pass was run by hand and left
++/// nothing behind, so the same defects came back: the tab-strip idiom it named as fixed in Employees
++/// was still wrong in Customers and Finance a slice later, and still wrong in Purchasing and
++/// Warehouse, which nobody had noticed at all.
++///
++/// These tests are that pass, written down. They are deliberately **file scanning, not WPF**: no
++/// PresentationCore reference, no dispatcher, no window, so they run in this headless suite on any
++/// platform. They cannot see layout, focus, clipping, virtualization or whether a command ever
++/// re-asks, which is why the live QRAFIG.exe smoke stays a gate rather than being replaced by them.
++/// What they can do is make a whole class of silent, run-time-only failure impossible to reintroduce.
++/// </summary>
++public sealed class XamlContractTests
++{
++    /// <summary>
++    /// Every `.xaml` in the shell project, read once, with XML comments blanked.
++    ///
++    /// Comments are blanked rather than removed so a reported line number still points at the right
++    /// line — and blanked at all because these files explain their own defects, and a comment quoting
++    /// the wrong idiom must not be read as the wrong idiom.
++    /// </summary>
++    private static readonly IReadOnlyList<XamlFile> Files = Load();
++
++    private sealed record XamlFile(string RelativePath, string Text)
++    {
++        public int LineOf(int offset) => Text.Take(offset).Count(c => c == '\n') + 1;
++        public string At(int offset) => $"{RelativePath}:{LineOf(offset)}";
++    }
++
++    private static IReadOnlyList<XamlFile> Load()
++    {
++        var root = RepositoryRoot();
++        var views = Path.Combine(root, "desktop", "src", "Qrafig.Desktop");
++
++        return [.. Directory
++            .EnumerateFiles(views, "*.xaml", SearchOption.AllDirectories)
++            .OrderBy(path => path, StringComparer.Ordinal)
++            .Select(path => new XamlFile(
++                Path.GetRelativePath(root, path).Replace('\\', '/'),
++                BlankComments(File.ReadAllText(path))))];
++    }
++
++    private static string RepositoryRoot()
++    {
++        var directory = new DirectoryInfo(AppContext.BaseDirectory);
++
++        while (directory is not null && !File.Exists(Path.Combine(directory.FullName, "Qrafig.sln")))
++            directory = directory.Parent;
++
++        return directory?.FullName
++            ?? throw new InvalidOperationException(
++                "Qrafig.sln was not found above the test assembly, so the XAML audit has nothing to read.");
++    }
++
++    /// <summary>Replaces the body of every XML comment with spaces and newlines of the same shape.</summary>
++    private static string BlankComments(string text)
++    {
++        var builder = new StringBuilder(text);
++
++        foreach (Match match in Regex.Matches(text, "<!--.*?-->", RegexOptions.Singleline))
++            for (var i = match.Index; i < match.Index + match.Length; i++)
++                if (builder[i] != '\n') builder[i] = ' ';
++
++        return builder.ToString();
++    }
++
++    private static string Report(string what, IEnumerable<string> findings)
++    {
++        var list = findings.ToArray();
++        return $"{what}{Environment.NewLine}  {string.Join(Environment.NewLine + "  ", list)}";
++    }
++
++    /// <summary>
++    /// The audit reads the views it is supposed to read.
++    ///
++    /// Every other test here passes trivially over an empty list, so a wrong path or a renamed folder
++    /// would turn the whole file green while auditing nothing. This is the test that fails instead.
++    /// </summary>
++    [Fact]
++    public void TheAuditReadsEveryViewAndDictionaryInTheShellProject()
++    {
++        Assert.NotEmpty(Files);
++
++        foreach (var expected in new[]
++                 {
++                     "desktop/src/Qrafig.Desktop/Views/ShellWindow.xaml",
++                     "desktop/src/Qrafig.Desktop/Views/EmployeesView.xaml",
++                     "desktop/src/Qrafig.Desktop/Theme/Controls.xaml",
++                     "desktop/src/Qrafig.Desktop/Theme/Tokens.Dark.xaml"
++                 })
++            Assert.Contains(expected, Files.Select(file => file.RelativePath));
++    }
++
++    /// <summary>
++    /// Every `StaticResource` key a view names is defined somewhere.
++    ///
++    /// BAML compiles without resolving the key. At run time the first missing one throws inside
++    /// `InitializeComponent()`, so the view's constructor never returns — and because navigation runs
++    /// through a `TwoWay` binding's source setter, the binding engine swallows the exception. The
++    /// sidebar highlights the workspace, the breadcrumb names it, and the previous one stays on
++    /// screen: no log line, no dialog, no crash. Three such keys shipped at once, each a
++    /// plausible-sounding neighbour of a real one.
++    /// </summary>
++    [Fact]
++    public void EveryStaticResourceKeyIsDefinedSomewhere()
++    {
++        var defined = Files
++            .SelectMany(file => Regex.Matches(file.Text, @"x:Key=""([^""]+)""")
++                .Select(match => match.Groups[1].Value))
++            .ToHashSet(StringComparer.Ordinal);
++
++        var missing = new List<string>();
++
++        foreach (var file in Files)
++            foreach (Match match in Regex.Matches(file.Text, @"\{StaticResource\s+([^}\s]+)\s*\}"))
++            {
++                var key = match.Groups[1].Value;
++
++                // A key coming from WPF's own dictionaries is not this repository's to define.
++                if (key.StartsWith("{x:", StringComparison.Ordinal) ||
++                    key.StartsWith("System", StringComparison.Ordinal)) continue;
++
++                if (!defined.Contains(key)) missing.Add($"{file.At(match.Index)}  {key}");
++            }
++
++        Assert.True(missing.Count == 0, Report("StaticResource keys that are defined nowhere:", missing));
++    }
++
++    /// <summary>
++    /// No control carries a keyed style whose `TargetType` names a different control.
++    ///
++    /// This throws at XAML load, with the same swallowed-exception consequence as a missing key:
++    /// `Placeholder.Panel` applied to a `Border` when it targets `StackPanel` left the shell showing
++    /// the previous workspace while the sidebar said Employees.
++    ///
++    /// `ElementStyle`, `HeaderStyle` and the other `…Style` properties on a `DataGrid` column target
++    /// the generated element rather than the column, so only a bare `Style=` is checked.
++    /// </summary>
++    [Fact]
++    public void NoControlCarriesAStyleWhoseTargetTypeNamesADifferentControl()
++    {
++        var keyed = new Dictionary<string, string>(StringComparer.Ordinal);
++
++        foreach (var file in Files)
++            foreach (Match match in Regex.Matches(file.Text, @"<Style\s+x:Key=""([^""]+)""\s+TargetType=""([^""]+)"""))
++                keyed[match.Groups[1].Value] = ShortTypeName(match.Groups[2].Value);
++
++        var wrong = new List<string>();
++
++        foreach (var file in Files)
++            foreach (Match match in Regex.Matches(
++                         file.Text, @"<([A-Za-z]\w*)\b[^<>]*?(?<![\w.])Style=""\{StaticResource\s+([^}\s]+)\s*\}"""))
++            {
++                var element = match.Groups[1].Value;
++                var key = match.Groups[2].Value;
++
++                if (keyed.TryGetValue(key, out var target) && target != element)
++                    wrong.Add($"{file.At(match.Index)}  <{element}> uses '{key}', whose TargetType is {target}");
++            }
++
++        Assert.True(wrong.Count == 0, Report("Styles applied to a control their TargetType does not name:", wrong));
++    }
++
++    /// <summary>
++    /// No property `Trigger` compares `Tag` against a boolean.
++    ///
++    /// `Tag` is typed `object`, so a bound `bool` arrives boxed and a property `Trigger` with
++    /// `Value="True"` compares it against the *string* `"True"`. It never matches, in every theme,
++    /// silently: the strip renders with nothing selected and only a live run shows it. Four
++    /// workspaces and twenty-seven buttons were wrong this way at once.
++    ///
++    /// A `Tag` genuinely holding a string — the native hover and press states `ShellWindow` mirrors
++    /// into it for Snap Layouts — is a different thing and is left alone.
++    /// </summary>
++    [Fact]
++    public void NoPropertyTriggerComparesTagAgainstABoolean()
++    {
++        var found = new List<string>();
++
++        foreach (var file in Files)
++            foreach (Match match in Regex.Matches(file.Text, @"<Trigger\s+Property=""Tag""\s+Value=""(True|False)"""))
++                found.Add($"{file.At(match.Index)}  Value=\"{match.Groups[1].Value}\"");
++
++        Assert.True(found.Count == 0, Report(
++            "Property Triggers on Tag that can never match — use "
++            + "<DataTrigger Binding=\"{Binding RelativeSource={RelativeSource Self}, Path=Tag}\">:", found));
++    }
++
++    /// <summary>
++    /// Every binding sharing an element with a `DataContext` override states its own source.
++    ///
++    /// `DataContext` re-points the element's other bindings at the child view model, silently. Five
++    /// Finance sections bound their `Visibility` to a property of the *workspace* on the same element
++    /// that handed the section to a child, so every one of them resolved against the child, failed,
++    /// and stayed visible: the sections rendered at once, stacked.
++    ///
++    /// The rule is structural on purpose. "Bind to a property the child happens to have" would be
++    /// correct in some cases and unenforceable in all of them; requiring an explicit
++    /// `RelativeSource`, `ElementName` or `Source` makes the intent readable and the audit exact.
++    /// </summary>
++    [Fact]
++    public void EveryBindingBesideADataContextOverrideStatesItsSource()
++    {
++        var shadowed = new List<string>();
++
++        foreach (var file in Files)
++            foreach (Match element in Regex.Matches(file.Text, @"<[A-Za-z][\w:.]*\s[^<>]*?/?>"))
++            {
++                if (!element.Value.Contains("DataContext=", StringComparison.Ordinal)) continue;
++
++                var unrooted = Regex.Matches(element.Value, @"(\w[\w.:]*)=""(\{Binding[^""]*)""")
++                    .Where(binding => binding.Groups[1].Value != "DataContext")
++                    .Where(binding => !StatesItsSource(binding.Groups[2].Value))
++                    .Select(binding => binding.Groups[1].Value)
++                    .Distinct(StringComparer.Ordinal)
++                    .ToArray();
++
++                if (unrooted.Length > 0)
++                    shadowed.Add($"{file.At(element.Index)}  DataContext set beside {string.Join(", ", unrooted)}");
++            }
++
++        Assert.True(shadowed.Count == 0, Report(
++            "Bindings shadowed by a DataContext override on the same element:", shadowed));
++    }
++
++    private static bool StatesItsSource(string binding) =>
++        binding.Contains("RelativeSource", StringComparison.Ordinal) ||
++        binding.Contains("ElementName", StringComparison.Ordinal) ||
++        binding.Contains("Source=", StringComparison.Ordinal);
++
++    /// <summary>
++    /// Every list control has a style, its own or an implicit one.
++    ///
++    /// A control the design system never styles renders in WPF's white default inside a dark window.
++    /// `ListView` and `ListBox` had no style at all once, so six Customers lists and the till's
++    /// customer results did exactly that.
++    /// </summary>
++    [Fact]
++    public void EveryListControlHasAStyleOrAnImplicitOne()
++    {
++        var implicitly_styled = Files
++            .SelectMany(file => Regex.Matches(file.Text, @"<Style\s+TargetType=""([^""]+)""")
++                .Select(match => ShortTypeName(match.Groups[1].Value)))
++            .ToHashSet(StringComparer.Ordinal);
++
++        var bare = new List<string>();
++
++        foreach (var file in Files)
++            foreach (Match match in Regex.Matches(
++                         file.Text, @"<(ListView|ListBox|DataGrid|TreeView|ComboBox)\b([^<>]*)>"))
++            {
++                var control = match.Groups[1].Value;
++
++                if (match.Groups[2].Value.Contains("Style=", StringComparison.Ordinal)) continue;
++                if (implicitly_styled.Contains(control)) continue;
++
++                bare.Add($"{file.At(match.Index)}  <{control}>");
++            }
++
++        Assert.True(bare.Count == 0, Report(
++            "List controls with neither a Style nor an implicit style, which render in WPF's default:", bare));
++    }
++
++    /// <summary>Turns `{x:Type ns:Thing}` or `ns:Thing` into `Thing`.</summary>
++    private static string ShortTypeName(string declared)
++    {
++        var trimmed = declared.Replace("{x:Type", string.Empty).Trim('{', '}', ' ');
++        var colon = trimmed.LastIndexOf(':');
++        return colon >= 0 ? trimmed[(colon + 1)..] : trimmed;
++    }
++}
+diff --git a/docs/architecture-decisions.md b/docs/architecture-decisions.md
+index 31229e1..af9aeb0 100644
+--- a/docs/architecture-decisions.md
++++ b/docs/architecture-decisions.md
+@@ -7751,3 +7751,59 @@ the server re-reads on every command: `employees.view` to read, `employees.manag
+ says which of them the operator holds in one sentence at the top rather than as a surprise on each
+ button, and hides the audit surface entirely rather than offering an entry that could only ever
+ refuse.
++
++---
++
++## ADR-0208 — The XAML audits ADR-0191 promised are tests, and a binding beside a `DataContext` states its source
++
++**Status.** Accepted, 2026-09-04.
++
++**Context.** ADR-0191 ended with "where a class of defect can be caught statically, it now is: a
++`StaticResource` audit over the views, and a scan for `DataContext` overrides that shadow a sibling
++binding, both run clean over every view in the repository." That was true on the day and left nothing
++behind. There was no script, no test and no gate — the pass was somebody reading files once.
++
++The consequence arrived immediately and is recorded in this repository's own handoff: the tab-strip
++idiom ADR-0191 named as fixed in Employees was still wrong in Customers and Finance a slice later,
++carried forward as a known defect. It was also wrong in **Purchasing** and **Warehouse**, which
++nobody had noticed at all, because nothing was looking. Across the four, twenty-seven buttons in
++four workspaces rendered with nothing selected, in every theme, silently.
++
++A second instance of the shadowing class was found the same way and had never been recorded:
++`StocktakesView` and `TransfersView` each bind a detail card's `Visibility` to `IsDetailOpen` on the
++element that also sets `DataContext="{Binding Detail}"`. `IsDetailOpen` belongs to
++`WarehouseCountsViewModel` and `WarehouseTransfersViewModel`; the detail view models do not have it.
++The binding resolved against the child, failed, and left `Visibility` at its default — a detail card
++permanently open over a register with nothing selected. Exactly the Finance defect, in a workspace
++whose Functional Alpha had already been claimed.
++
++An audit nobody can run is a decision that expires.
++
++**Decision.** `XamlContractTests` in `Qrafig.Desktop.Tests` is that audit, executable. It reads every
++`.xaml` under `desktop/src/Qrafig.Desktop`, blanks XML comments so a file that *explains* a defect is
++not read as *having* one, and asserts five things: every `StaticResource` key is defined somewhere;
++no control carries a keyed style whose `TargetType` names a different control; no property `Trigger`
++compares `Tag` against a boolean; every binding beside a `DataContext` override states its own source;
++and every list control has a style or an implicit one. A sixth test asserts that the audit actually
++found the views, because the other five pass trivially over an empty list and a renamed folder would
++otherwise turn the file green while auditing nothing.
++
++It is **file scanning, not WPF**. No `PresentationCore` reference, no dispatcher, no window — so it
++runs in the headless suite, on any platform, in about a tenth of a second.
++
++**The `DataContext` rule is structural, and that is the decision.** The narrow alternative — "bind to
++a property the child actually has" — is correct in any single case and unenforceable across all of
++them, because it requires the audit to know every view model. Requiring an explicit `RelativeSource`,
++`ElementName` or `Source` on any binding sharing an element with a `DataContext` override makes the
++intent readable at the point of use and the audit exact. Fifteen of the repository's seventeen
++`DataContext` overrides already complied; the two that did not were the two defects.
++
++**Consequences.** The Desktop suite gains six tests and the repository gains a gate that cannot be
++forgotten, because it fails a build rather than depending on somebody remembering ADR-0191. All four
++tab strips now use the `DataTrigger` form Employees introduced, and the two detail cards are rooted
++through their `UserControl`.
++
++This does **not** replace the live `QRAFIG.exe` smoke and must not be read as doing so. The audit sees
++names and shapes. It cannot see layout, clipping, focus, virtualization, a command that never re-asks
++whether it may execute, or a control bound to nothing — which is most of what the live run is for.
++ADR-0191's gate stands unchanged; this is the part of it that no longer needs a person.
+diff --git a/docs/implementation-status.md b/docs/implementation-status.md
+index 129f9d8..b417a7c 100644
+--- a/docs/implementation-status.md
++++ b/docs/implementation-status.md
+@@ -3,8 +3,9 @@
+ This is the authoritative record of what is actually implemented. It is updated at the end of
+ every phase and whenever a session ends mid-phase.
+ 
+-**Last updated:** 2026-09-03 (Finance Functional Alpha)
+-**Verification at last update:** run on Windows 11, on the machine that can execute `QRAFIG.exe`.
++**Last updated:** 2026-09-04 (the ADR-0191 static audits made executable, ADR-0208)
++**Verification of the 2026-09-04 pass:** run on **Linux**, which is what that pass could reach. `dotnet build` of the solution and of `desktop/src/Qrafig.Desktop` — the project that compiles the changed XAML — **0 warnings / 0 errors** with `-p:EnableWindowsTargeting=true`; `Qrafig.UnitTests` **59 of 59**; `Qrafig.Desktop.Tests` **1068 total, 1059 passing**, the 9 failures being the documented DPAPI platform baseline and the identical set that failed before the change; `dotnet ef migrations has-pending-model-changes` no changes; `dotnet list package --vulnerable --include-transitive` none across all 14 projects. **`Qrafig.IntegrationTests`, `Qrafig.Desktop.EndToEndTests` and the live `QRAFIG.exe` smoke did not run** — no Docker daemon and no Windows host — so the Windows totals below are the 2026-09-03 figures and are not re-verified.
++**Verification at the last Windows run (2026-09-03):** run on Windows 11, on the machine that can execute `QRAFIG.exe`.
+ `dotnet restore --force-evaluate`, `dotnet build` (**0 warnings / 0 errors**) and `dotnet test`
+ (**2092 of 2092 passing, 0 failed, 0 skipped**) against real PostgreSQL 18 and Redis 8 via
+ Testcontainers, by suite: **59** backend unit, **940** backend integration, **1001** Desktop
+@@ -63,12 +64,12 @@ Status legend: `done` · `partial` · `not started` · `blocked`
+ 
+ | Field | Value |
+ | --- | --- |
+-| Last completed task | **Employees Functional Alpha — built, driven and complete (2026-09-03).** The Desktop Employees workspace is real: three surfaces inside one sidebar entry over a repaired Phase 3 backend, recorded by three decisions (ADR-0205 – ADR-0207). The backend half repaired what an authority module must not get wrong: **five silent last-write-wins** — the card, role assignment, shop scope, a role's policy and a role's permission set — where two managers with the same thing open meant the second Save discarded the first one's work with no refusal and nothing in the audit saying so; **three unhandled 500s** where claiming an employee number, creating a role code or deleting a role raced a unique index; a **delete-versus-assign race** whose two sections were keyed differently (code on one side, id on the other) so they never contended, and `employee_roles` cascades — an assignment committing in the gap was taken with the role, silently; and a **plan ceiling checked before the insert**, so simultaneous hires all found room and a plan sold as ten could hold eleven. Thirteen integration tests fire six simultaneous clients at these endpoints. The live `QRAFIG.exe` run then found **fourteen defects no test could see**: a tab strip that highlighted nothing because `Tag` is typed `object` and a property `Trigger` compares a boxed bool against the string `"True"` (the same idiom is still in Customers and Finance, still highlighting nothing); `Placeholder.Panel` applied to a `Border` when it targets `StackPanel`, which throws at XAML load and left the shell showing the previous workspace while the sidebar said Employees; a card column bound to "is a card open" that also hid the hire form, so a business with nobody selected could not add its first employee; a hire form whose ticks were wired to nothing; a clipped `SELLER, STOCKTAKE`; a `Tag` used as a search placeholder that no style in this theme draws; an unexplained empty half-screen; "1 person still hold this role"; a stale audit under "this is the whole history"; a PIN rule stated as four-to-eight when the server requires exactly six; `canLoginAtPos` read as the role flag when it is the conjunction of PIN, status and role, so a suspended cashier was told no role of theirs may sign in; an `OWNER` role assumed unable to sign in at a till when it can; Suspend and Record-leaving offered on your own card, which the server refuses outright; and the shell's, affecting **all four** online-only workspaces — the rebuild ADR-0204 added went through each workspace's own re-selection guard, so a cleared lock *revealed* the stale workspace rather than replacing it and the module came back with its offline notice over an empty register until somebody pressed Refresh. |
++| Last completed task | **The ADR-0191 static audits, made executable — and the six defects they found (2026-09-04).** ADR-0191 said a `StaticResource` audit and a `DataContext`-shadowing scan "now" ran clean over every view. Neither existed as a script, a test or a gate: it had been one person reading files once, and the decision expired the day it was written. `XamlContractTests` in `Qrafig.Desktop.Tests` is that audit as six tests over every `.xaml` in the shell project — undefined `StaticResource` keys, a keyed style applied to a control its `TargetType` does not name, a property `Trigger` comparing the object-typed `Tag` against a boolean, a binding shadowed by a `DataContext` override on the same element, an unstyled list control, and a sixth asserting the audit actually read the views, because the other five pass trivially over an empty list. It is **file scanning, not WPF** — no `PresentationCore`, no dispatcher, no window — so it runs headless in about a tenth of a second on any platform. Run against the released markup it failed with **six findings**. The tab-strip idiom the handoff carried forward was in **four** workspaces, not two: `CustomersView`, `FinanceView`, **`PurchasingView`** and **`WarehouseView`**, together **twenty-seven buttons** rendering with nothing selected. And two instances of the shadowing class had never been recorded at all — `StocktakesView.xaml:268` and `TransfersView.xaml:268` bind a detail card's `Visibility` to `IsDetailOpen` on the element that also sets `DataContext="{Binding Detail}"`, and `IsDetailOpen` belongs to `WarehouseCountsViewModel` and `WarehouseTransfersViewModel`, not to the detail view models, so the binding resolved against the child, failed silently, and left the card **permanently visible** over a register with nothing selected. That is the Finance defect exactly, inside a Functional Alpha already claimed. All six are fixed: the four strips use the `DataTrigger` form Employees introduced, and the two cards are rooted through their `UserControl`. ADR-0208 records the audit and the structural rule it enforces — **a binding beside a `DataContext` override states its own source** — chosen over "bind to a property the child has" because only the structural form is enforceable; fifteen of the repository's seventeen `DataContext` overrides already complied and the two that did not were the two defects. **Verified on Linux, not on Windows** — see the row below for exactly which gates ran. |
++| Previous completed task | **Employees Functional Alpha — built, driven and complete (2026-09-03).** The Desktop Employees workspace is real: three surfaces inside one sidebar entry over a repaired Phase 3 backend, recorded by three decisions (ADR-0205 – ADR-0207). The backend half repaired what an authority module must not get wrong: **five silent last-write-wins** — the card, role assignment, shop scope, a role's policy and a role's permission set — where two managers with the same thing open meant the second Save discarded the first one's work with no refusal and nothing in the audit saying so; **three unhandled 500s** where claiming an employee number, creating a role code or deleting a role raced a unique index; a **delete-versus-assign race** whose two sections were keyed differently (code on one side, id on the other) so they never contended, and `employee_roles` cascades — an assignment committing in the gap was taken with the role, silently; and a **plan ceiling checked before the insert**, so simultaneous hires all found room and a plan sold as ten could hold eleven. Thirteen integration tests fire six simultaneous clients at these endpoints. The live `QRAFIG.exe` run then found **fourteen defects no test could see**: a tab strip that highlighted nothing because `Tag` is typed `object` and a property `Trigger` compares a boxed bool against the string `"True"` (the same idiom is still in Customers and Finance, still highlighting nothing); `Placeholder.Panel` applied to a `Border` when it targets `StackPanel`, which throws at XAML load and left the shell showing the previous workspace while the sidebar said Employees; a card column bound to "is a card open" that also hid the hire form, so a business with nobody selected could not add its first employee; a hire form whose ticks were wired to nothing; a clipped `SELLER, STOCKTAKE`; a `Tag` used as a search placeholder that no style in this theme draws; an unexplained empty half-screen; "1 person still hold this role"; a stale audit under "this is the whole history"; a PIN rule stated as four-to-eight when the server requires exactly six; `canLoginAtPos` read as the role flag when it is the conjunction of PIN, status and role, so a suspended cashier was told no role of theirs may sign in; an `OWNER` role assumed unable to sign in at a till when it can; Suspend and Record-leaving offered on your own card, which the server refuses outright; and the shell's, affecting **all four** online-only workspaces — the rebuild ADR-0204 added went through each workspace's own re-selection guard, so a cleared lock *revealed* the stale workspace rather than replacing it and the module came back with its offline notice over an empty register until somebody pressed Refresh. |
+ | Previous completed task | **Finance Functional Alpha — built, driven and complete (2026-09-03).** Six surfaces inside one sidebar entry over a hardened backend, recorded by eleven decisions (ADR-0193 – ADR-0203): money arithmetic that wrapped silently, two currencies summed into one figure, balances not serialized by their account, four read-then-insert 500s, three last-write-wins saves, two approvers both posting one expense, and an unresolved-difference queue capped like history. The live run found four defects no test could see, one of them the shell's blank workspace on an in-place outage. **This claim is closed and must not be reopened.** |
+-| Previous completed task | **The Phase 12 customer data export (2026-09-03).** The last named Phase 12 remainder. `GET /organizations/{id}/customers/{id}/export` answers a data-subject request with one complete document, bounded by a released ceiling of 25 000 records counted before any row loads and enforced by refusal rather than truncation. Deliberately not routed through the organization-wide `data-requests/export`, whose Phase 19 worker does not exist. Takes `customers.manage`. ADR-0192 supersedes ADR-0188. **Phase 12 is complete.** |
+-| Current failing command | **none.** On Windows: `dotnet build` 0 warnings / 0 errors; `dotnet test` **2166 of 2166** passing, 0 failed, 0 skipped (59 + 953 + 1062 + 92); `dotnet ef migrations has-pending-model-changes` reports no changes; `dotnet list package --vulnerable --include-transitive` reports none across all 14 projects. **Run the four test projects separately** — one whole-solution run starts ~50 containers at this machine's default parallelism and takes the Docker daemon down mid-run, which looks like 887 code failures and is not. |
++| Current failing command | **none among the gates that ran.** This pass ran on **Linux**, and the honest statement is which gates that allows. **Ran and green:** `dotnet build` of the whole solution and of `desktop/src/Qrafig.Desktop` — the project that actually compiles the changed XAML — **0 warnings / 0 errors** with `-p:EnableWindowsTargeting=true`; `Qrafig.UnitTests` **59 of 59**; `Qrafig.Desktop.Tests` **1068 total, 1059 passing, 9 failing**, and the 9 are the documented Linux platform baseline — every one a `PlatformNotSupportedException` from DPAPI `ProtectedData` in `OfflineColdStartTests` (8) and `PosOfflineAuthFreshnessTests` (1), the identical set that failed before this change; `dotnet ef migrations has-pending-model-changes` reports no changes; `dotnet list package --vulnerable --include-transitive` reports none across all 14 projects. **Not run, and therefore unproven by this pass:** `Qrafig.IntegrationTests` and `Qrafig.Desktop.EndToEndTests` — no Docker daemon in this environment; and the live `QRAFIG.exe` smoke — no Windows host. Neither covers this change, which is markup and a file-scanning test, but the headline Windows total below is **not** re-verified and still reads from the 2026-09-03 run. **Run the four test projects separately** — one whole-solution run starts ~50 containers at a developer machine's default parallelism and takes the Docker daemon down mid-run, which looks like 887 code failures and is not. |
+ | Next concrete task | **REPORTS — the next Desktop workspace.** Employees is finished on both axes: the Phase 3 backend is repaired and versioned, and the Desktop workspace is Functional Alpha. Do not reopen it. Deliberately outside the Employees claim and unbuilt, because none of it is modelled anywhere in QRAFIG: **payroll and salaries**, **attendance and timesheets**, **clock-in and clock-out**, **rota and scheduling**, **leave and holiday**, **commissions**, **recruitment** and **performance reviews**. **Time restrictions** on when somebody may sign in stay designed-with-Phase-10 and unclaimed. Reports is feature-gated (`reports`) and is not part of the trial plan, so the first honest question that slice must answer is what a locked module shows. **Do not start another backend phase.** Phase 19 remains partial and its production-hardening half — retention across the nine append-only tables, the complete tenant-side audit log, backup and restore drills, large-scale load testing — is for the public SaaS release rather than for the alpha. |
+-| Planned next Desktop slice | **REPORTS.** Nothing in it has been started. Two decisions already made will have to be honoured: Finance computes gross profit and labels it as saying nothing about overheads (ADR-0193), and the Customers and Finance overviews describe the page that is loaded rather than the business — the sentence they use is "Reports computes business-wide figures from the documents themselves", which is a promise Reports has to keep. **A defect carried forward:** the `<Trigger Property="Tag" Value="True">` tab-strip idiom in `CustomersView.xaml` and `FinanceView.xaml` never matches, so neither workspace highlights its selected section. `EmployeesView.xaml` uses a `DataTrigger` and does. Fixing the other two is a one-line change in each and was left alone only because this slice was told not to reopen them. |
++| Planned next Desktop slice | **REPORTS.** Nothing in it has been started. Two decisions already made will have to be honoured: Finance computes gross profit and labels it as saying nothing about overheads (ADR-0193), and the Customers and Finance overviews describe the page that is loaded rather than the business — the sentence they use is "Reports computes business-wide figures from the documents themselves", which is a promise Reports has to keep. **The defect this row used to carry forward is fixed**, and was larger than it was recorded as: the `Trigger Property="Tag"` tab strip was wrong in Purchasing and Warehouse as well as Customers and Finance. `XamlContractTests` now fails the build if it comes back, so Reports inherits a gate rather than a warning (ADR-0208). A new workspace's markup should be copied from `EmployeesView.xaml`, which carries the corrected idioms and says why each is what it is. |
+ 
+ ### Environment note — superseded on Windows
+ 
+@@ -100,18 +101,20 @@ dotnet ef migrations has-pending-model-changes \
+ dotnet list package --vulnerable --include-transitive   # none
+ ```
+ 
+-The 2166, all passing on Windows:
++The last full Windows run, 2026-09-03, and what this Linux pass moved. The Desktop count is the one this pass changed and re-ran; the other three are the Windows figures and were not re-run here:
+ 
+ | Suite | Count | Was | Needs Docker |
+ | --- | --- | --- | --- |
+ | `Qrafig.UnitTests` | 59 | 59 | no |
+ | `Qrafig.IntegrationTests` | 953 | 940 | yes |
+-| `Qrafig.Desktop.Tests` | 1062 | 1001 | no |
++| `Qrafig.Desktop.Tests` | **1068** | 1062 | no |
+ | `Qrafig.Desktop.EndToEndTests` | 92 | 92 | yes |
+ 
+ Docker-backed suites start their own PostgreSQL 18 and Redis 8 through Testcontainers and never touch
+ a developer's Compose database.
+ 
++**The six new tests for the 2026-09-04 pass** are all `XamlContractTests` (Desktop view-model), and they are the static half of ADR-0191 written down: every `StaticResource` key is defined somewhere; no control carries a keyed style whose `TargetType` names a different control; no property `Trigger` compares the object-typed `Tag` against a boolean; every binding sharing an element with a `DataContext` override states its own source; every list control has a style or an implicit one; and the audit read the views it is supposed to read — that last one because the other five pass trivially over an empty list, so a renamed folder would otherwise turn the file green while auditing nothing. They are file scanning rather than WPF, so they run headless in about a tenth of a second and add nothing to the suite's platform requirements. Against the released markup they failed with six findings and named each by file and line; against the fixed markup they pass. **They do not replace the live smoke** — they see names and shapes, not layout, focus, clipping, virtualization or a command that never re-asks (ADR-0208).
++
+ **The 92 new tests for the 2026-09-03 Finance pass** are 19 `MoneyArithmeticTests` (backend unit);
+ 44 `FinanceConcurrencyTests` and 25 `FinanceInvariantTests`, plus additions to `FinanceTests`,
+ `NotificationTests` and `ReportingTests` (backend integration); and 23 `FinanceWorkspaceTests` plus
+-- 
+2.43.0
+

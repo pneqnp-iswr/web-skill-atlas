@@ -163,6 +163,8 @@ if REPO:
         existing_adrs = set(re.findall(r"^## (ADR-\d{4}) ", adr_file.read_text(encoding="utf-8"), re.M))
         cited: set[str] = set()
         for md in sorted(PACK.rglob("*.md")):
+            if "patches" in md.relative_to(PACK).parts:
+                continue  # pending work for another repository, not part of the pack
             for ref in re.findall(r"ADR-\d{4}", md.read_text(encoding="utf-8")):
                 cited.add(ref)
                 if ref not in existing_adrs:
