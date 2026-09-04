@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Added `qrafig/`: a drop-in Claude Code skill pack for the QRAFIG repository — 29 project skills, a task
+  router, a compact `CLAUDE.md` bootstrap, a source manifest, a 96-prompt routing evaluation set, a pack
+  validator and a static XAML audit. Referenced external skills by canonical URL rather than vendoring them;
+  the atlas dataset in `data/` is unchanged.
 - Reworked repository presentation, browse flow, contribution UX, and generated README sections.
 - Consolidated duplicate validation and link-check workflows.
 - Added the repository social preview asset and exact GitHub About settings.
